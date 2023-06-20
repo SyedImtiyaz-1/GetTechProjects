@@ -8,6 +8,7 @@
     text-transform: capitalize;
     transition: all .2s linear;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -1354,4 +1355,16 @@ body{
         .faq .row .accordion-container{
             width: 100%;
         }
+}
+
+#soon{
+    cursor:wait;
+}
+
+#netflix{
+    cursor: pointer;
+}
+
+#talentin{
+    cursor: pointer;
 }
