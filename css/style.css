@@ -715,7 +715,11 @@ body{
 }
 
 .contact .heading{
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contact h2{
+    margin-bottom: 1.5rem;
 }
 
 .contact-in
