@@ -19,8 +19,10 @@ function sendMail() {
 }
 
 let subscribe = document.getElementById("subs");
+let tval = document.getElementById("tval")
 subscribe.addEventListener("click", () => {
   if (subscribe) {
     alert("Thank You, We'll give you updates on time");
+    tval.value = " ";
   }
 });
