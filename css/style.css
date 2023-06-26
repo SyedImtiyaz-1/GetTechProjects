@@ -808,7 +808,7 @@ body{
 
 		.contact-form-btn
 		{
-            margin-left: 2rem;
+            margin-left: 59rem;
             outline: none;
             border: none;
             border-radius: 5rem;
@@ -881,7 +881,58 @@ body{
             background: #00bfff;
             color: #ffffff;
         }
-        
+        /* Centering the section content */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styling the heading */
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling the row */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling the content */
+.content {
+  text-align: center;
+}
+
+/* Styling the card */
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+
+/* Styling the card title */
+.card-title {
+  font-size: 18px;
+}
+
+/* Styling the card text */
+.card-text {
+  font-size: 14px;
+}
+
+/* Styling the button */
+.btn {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+
         .footer .footer-top h4 {
             font-size: 16px;
             font-weight: 700;
@@ -1360,6 +1411,9 @@ body{
             width: 100%;
         }
 }
+.pointerBtn{
+    cursor: pointer;
+}
 
 #soon{
     cursor:wait;
@@ -1372,3 +1426,5 @@ body{
 #talentin{
     cursor: pointer;
 }
+
+  

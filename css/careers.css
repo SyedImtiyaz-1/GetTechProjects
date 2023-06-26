@@ -84,7 +84,9 @@ body{
     position: relative;
     overflow: hidden !important;
 }
-
+.home h1{
+    font-size: larger;
+}
 .home h2{
     color: #fff;
     font-size: 5.5rem;
