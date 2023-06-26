@@ -123,6 +123,22 @@ body{
     justify-content: space-around;
 }
 
+.header .navbar ul button{
+    width: 4vw;
+    height: 3.5vh;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border: 0.5px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.header .navbar ul button:hover{
+    background-color: #56a4bdbc;
+    transition: 0.2s;
+}
+
 .header .navbar ul li{
     margin: 0 1.5rem;
 }
