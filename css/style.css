@@ -110,8 +110,8 @@ body{
 }
 
 .header .logo img{
-    width: 130%;
-    height: 3rem;
+    width: 100%;
+    height: 3.5rem;
     top: 0;
     left: 0;
 }
@@ -137,6 +137,28 @@ body{
 .header .navbar ul button:hover{
     background-color: #56a4bdbc;
     transition: 0.2s;
+}
+
+/* name of the user */
+.nameCSS{
+    color: white;
+    margin: 0 1em;
+    border: 0.5px solid white;
+    padding: .2em;
+    font-weight: 550;
+}
+
+/* image for user */
+#image{
+    width: 5em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* logout btn */
+#logout{
+    margin: 0 1em;
+    display: none;
 }
 
 .header .navbar ul li{
