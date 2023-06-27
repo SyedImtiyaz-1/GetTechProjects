@@ -29,17 +29,17 @@ h1 {
 .card {
   border: 1px solid #ccc;
   padding: 20px;
-  width: 350px;
+  width: 300px;
   text-align: center;
   margin-bottom: 75px;
   
 }
 
 .card img {
-  margin-left: 72px;
+  margin-left: 58px;
   margin-top: -91px;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
