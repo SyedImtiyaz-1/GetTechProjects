@@ -63,7 +63,6 @@ fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
     document.getElementById("name").classList.add("nameCSS");
     document.getElementById("image").setAttribute("src", info.picture);
 });
-if()
 function logout() {
   fetch("https://oauth2.googleapis.com/revoke?token=" + info["access_token"], {
     method: "POST",
@@ -84,4 +83,4 @@ if (info && info.hasOwnProperty("access_token")) {
 }
 if (info && info.hasOwnProperty("access_token")) {
   logoutBtn.style.display = "block";
-}
+}z
