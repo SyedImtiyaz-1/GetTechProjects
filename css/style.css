@@ -875,7 +875,7 @@ body{
 
 		.contact-form-btn
 		{
-            margin-left: 2rem;
+            margin-left: 59rem;
             outline: none;
             border: none;
             border-radius: 5rem;
@@ -1466,7 +1466,9 @@ body{
             width: 100%;
         }
 }
-
+.pointerBtn{
+cursor: pointer;
+}
 #soon{
     cursor:wait;
 }

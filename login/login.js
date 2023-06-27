@@ -62,11 +62,8 @@ fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
     document.getElementById("name").innerHTML += info.name;
     document.getElementById("name").classList.add("nameCSS");
     document.getElementById("image").setAttribute("src", info.picture);
-
-    // Show logout text
-    document.getElementById("login").textContent = "Logout";
-  });
-
+});
+if()
 function logout() {
   fetch("https://oauth2.googleapis.com/revoke?token=" + info["access_token"], {
     method: "POST",
