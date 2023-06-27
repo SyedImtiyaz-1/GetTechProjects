@@ -22,21 +22,11 @@
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-     <!-- Link Swiper's CSS -->
-     <link
-     rel="stylesheet"
-     href="https://unpkg.com/swiper/swiper-bundle.min.css"
-   />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-   <!-- Demo styles -->
-   <style>
-    .swiper-cards .swiper-slide{
- overflow:visible;
-}
-   </style>
-    <script src="./js/main.js"></script>
+    <!-- Demo styles -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="./js/team.js">
     </script>
     <script type="text/javascript">
         (function () {
@@ -46,7 +36,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" style="background-color: #002e5f;">
         <a href="#" class="logo"><img src="./images/pngwing.com(5).png" style="width: 100%;" alt=""></a>
         <div class="fas fa-bars"></div>
         <nav class="navbar">
@@ -58,42 +48,44 @@
                 <li><a href="Team.html">Our team</a></li>
                 <button id="login">Login</button>
                 <h3 id="name"></h3>
-                <img id="image" onclick="ProfileClicked()"/>
+                <img id="image" onclick="ProfileClicked()" />
                 <button onclick="logout()" id="logout">Logout</button>
             </ul>
         </nav>
     </header>
 
-    
-      <h1>Our Developers Team</h1>
-    
-      <div class="card-container">
-        <div class="card ">
-          <img src="/images/founder.jpeg" href="https://www.linkedin.com/in/imtiyaz-sde/" alt="Founder & Team Head">
-          <h2>Syed Imtiyaz Ali</h2>
-          <h4>Founder & Team Head </h4>
-          <p>Be a Doer, not just a Dreamer.
 
-            Small minds are concerned with the extraordinary, great minds with the ordinary. Every great developer you know got there by solving problems they were unqualified to solve until they actually did it
-          </p>
-          <a href="https://www.linkedin.com/in/imtiyaz-sde/">linkedin</a>
+    <h1>Our Developers Team</h1>
+
+    <div class="card-container">
+        <div class="card">
+            <img  id="founder" src="/images/founder.jpeg" alt="Founder & Team Head">
+            <h2>Syed Imtiyaz Ali</h2>
+            <h4>Founder & Team Head </h4>
+            <p>Be a Doer, not just a Dreamer.
+
+                Small minds are concerned with the extraordinary, great minds with the ordinary. Every great developer
+                you know got there by solving problems they were unqualified to solve until they actually did it
+            </p>
+            <a href="https://www.linkedin.com/in/imtiyaz-sde/">linkedin</a>
         </div>
         <div class="card">
-          <img src="/images/Profile.jpeg" href="https://www.linkedin.com/in/nayan-hore-a6391823b/" alt="Founder">
-          <h2>Nayan Hore</h2>
-          <h4>Co-Founder </h4>
-          <p>As You Need The Way You Treat The Process..
-            Hey, I am Co-Founder of This Platform this Platform Will Help In Your Upcaming Limited Time Projects Submission Or Your Tryout Study Meta You Can Also get Online Internships Projects too.
-          </p>
-          <a href="https://www.linkedin.com/in/nayan-hore-a6391823b/">linkedin</a>
+            <img src="/images/Profile.jpeg" id="co-founder" alt="Founder">
+            <h2>Nayan Hore</h2>
+            <h4>Co-Founder </h4>
+            <p>As You Need The Way You Treat The Process..
+                Hey, I am Co-Founder of This Platform this Platform Will Help In Your Upcaming Limited Time Projects
+                Submission Or Your Tryout Study Meta You Can Also get Online Internships Projects too.
+            </p>
+            <a href="https://www.linkedin.com/in/nayan-hore-a6391823b/">linkedin</a>
         </div>
         <!-- Add more card elements as needed -->
-      </div>
-    
-      
-    
-      <div class="footer">
-        <div class="footer-top"> 
+    </div>
+
+
+
+    <div class="footer">
+        <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 footer-links">
@@ -138,7 +130,8 @@
                         <h4>Subscription</h4>
                         <p>We Provide best solution and projects that will gain your knowledge. Subscribe and get Latest
                             Updates</p>
-                        <input type="email" placeholder="Email"  pname="email"><input id="subs" type="submit" value="Subscribe">
+                        <input type="email" placeholder="Email" pname="email"><input id="subs" type="submit"
+                            value="Subscribe">
                     </div>
 
                 </div>
@@ -155,11 +148,8 @@
     </div>
 
     <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-    <script src="./js/contact.js"></script>
-    <script src="./login/login.js"></script>
 
-    
+    <script src="./js/team.js"></script>
+</body>
 
-
-  </body>
-  </html>
+</html>
