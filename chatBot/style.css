@@ -180,6 +180,7 @@
   }
   .chatbot__box {
     height: 100%;
+    padding: .5em;
   }
   .chatbot__chat p{
     font-size: 1.8em;
