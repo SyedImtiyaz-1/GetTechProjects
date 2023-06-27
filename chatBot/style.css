@@ -147,6 +147,28 @@
 }
 
 @media (max-width: 490px) {
+  .chatbot__button{
+    width: 55px;
+    height: 55px;
+  }
+
+  .chatbot__button {
+    position: fixed;
+    bottom: 13px;
+    right:10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #227ebb;
+    color: #f3f7f8;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
   .chatbot {
     right: 0;
     bottom: 0;
