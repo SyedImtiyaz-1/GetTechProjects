@@ -161,7 +161,7 @@ body{
 
 /* logout btn */
 #logout{
-    margin: 0 1em;
+    margin: .8em 1em;
     display: none;
 }
 
@@ -612,6 +612,9 @@ body{
 @media (max-width: 575px) {
     .testimonials .testimonial-text {
         padding: 25px;
+    }
+    .header .navbar ul button{
+        margin: .8em 0 !important;
     }
 }
 
@@ -1487,6 +1490,8 @@ cursor: pointer;
     .header .navbar ul button{
         width: fit-content;
         height: 100%;
-        padding: 0 .3em;
+        padding:0 .3em;
     }
+
+
 }
