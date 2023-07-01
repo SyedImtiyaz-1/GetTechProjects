@@ -161,7 +161,7 @@ body{
 
 /* logout btn */
 #logout{
-    margin: .8em 1em;
+    margin: .2em 1em .1em 1em;
     display: none;
 }
 
@@ -431,6 +431,9 @@ body{
         padding: .2em;
         font-weight: 550;
         text-decoration: underline;
+    }
+    #image{
+        padding: .2em 0;
     }
 }
 
