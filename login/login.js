@@ -84,4 +84,4 @@ if (info && info.hasOwnProperty("access_token")) {
 }
 if (info && info.hasOwnProperty("access_token")) {
   logoutBtn.style.display = "block";
-}z
+}
