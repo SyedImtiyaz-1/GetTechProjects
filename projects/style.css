@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    transition: .1s;
+}
+
+.headingProjects{
+    background-image: url("../images/projects.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headingProjects h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: auto;
+    align-items: center;
+    font-size: 3em;
+}
+
+.headingProjects h2 span{
+    background-color: rgba(74, 70, 70, 0.684);
+    padding: .6em;
+}
+
+section{
+    height: 100vh;
+    width: 60%;
+    margin: 5vh auto;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+}
+
+/* Courses Style */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px; 
+}
+.course{
+    text-align: center;
+    box-shadow: 10px 10px 30px lightgray;
+    padding: 20px;
+    /* width: 15vw;
+    height: 30vh; */
+    border-radius: 14px;
+    transition: border 0.1s linear 0s;
+}
+.course:hover{
+    border: 3px solid black;
+}
+.course .course-banner img{
+    width: 150px;
+    height: 150px;
+}
+.course-title:hover{
+    color: #562EFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.course-author:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+.course-info span{
+    color: #A2A2A2;
+}
+.course-detail h3{
+    font-size: 1.5em;
+}
+.course button{
+    background-color: rgba(153, 178, 202, 0.838);
+    padding: .4em;
+    color: black;
+    border: .5px solid grey;
+    cursor: pointer;
+}
+.course button:hover{
+    background: rgb(53, 101, 188);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .headingProjects h2 {
+        font-size: 2em;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 16px;
+    }
+
+    .course {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .course-banner img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .headingProjects h2 {
+        font-size: 2.5em;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
