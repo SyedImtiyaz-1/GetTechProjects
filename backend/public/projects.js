@@ -1,75 +1,9 @@
-// Inside your script tag in the HTML
-
 const coursesContainer = document.querySelector(".courses");
 
-document.addEventListener('DOMContentLoaded', async () => {
-    // Fetch purchased projects from the backend
-    const response = await fetch('/api/purchased-projects');
-    const purchasedProjects = await response.json();
-  
-    // Add purchased projects to the HTML
-    // purchasedProjects.forEach((project) => {
-    //   addProjectToUI(project);
-    // });
-
-  // Add new projects to the UI
-  const newProjectsData = [
-    {
-      id: "amazon",
-      name: "Amazon Clone",
-      image: "img/amazon.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "netflix",
-      name: "Netflix Clone",
-      image: "img/netflix.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "amazon",
-      name: "Amazon Clone",
-      image: "img/amazon.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "netflix",
-      name: "Netflix Clone",
-      image: "img/netflix.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "amazon",
-      name: "Amazon Clone",
-      image: "img/amazon.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "netflix",
-      name: "Netflix Clone",
-      image: "img/netflix.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "amazon",
-      name: "Amazon Clone",
-      image: "img/amazon.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "netflix",
-      name: "Netflix Clone",
-      image: "img/netflix.png",
-      downloadLink: "netflix-project.zip",
-    },
-    {
-      id: "netflix",
-      name: "Netflix Clone",
-      image: "img/netflix.png",
-      downloadLink: "netflix-project.zip",
-    },
-    // Add more projects here
-  ];
+document.addEventListener("DOMContentLoaded", async () => {
+  // Fetch new projects data from the JSON file
+  const response = await fetch("./projects.json");
+  const newProjectsData = await response.json();
 
   newProjectsData.forEach((project) => {
     addProjectToUI(project);
@@ -77,14 +11,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function addProjectToUI(project) {
-    const projectElement = document.createElement("div");
-    projectElement.classList.add("course");
-    projectElement.setAttribute("data-course-id", project.id);
-  
-    projectElement.innerHTML = `
+  const projectElement = document.createElement("div");
+  projectElement.classList.add("course");
+  projectElement.setAttribute("data-course-id", project.id);
+
+  projectElement.innerHTML = `
       <div class="course-banner">
         <!-- Project image -->
-        <img src="/${project.image}" alt="${project.name}">
+        <img src="${project.image}" alt="${project.name}">
       </div>
       <div class="course-detail">
         <h3 class="course-title">${project.name}</h3>
@@ -94,23 +28,23 @@ function addProjectToUI(project) {
         </div>
       </div>
     `;
-  
-    coursesContainer.appendChild(projectElement);
-  
-    const buyButton = projectElement.querySelector(".buy-button");
-    const downloadLink = projectElement.querySelector(".download-link");
-  
-    buyButton.addEventListener("click", async function () {
-      const courseId = this.getAttribute("data-course-id");
-      const paid = this.getAttribute("data-paid");
-  
-      if (paid === "false") {
-        await handlePayment(courseId, downloadLink, buyButton);
-      } else {
-        alert(`You've already purchased the ${courseId} project.`);
-      }
-    });
-  }
+
+  coursesContainer.appendChild(projectElement);
+
+  const buyButton = projectElement.querySelector(".buy-button");
+  const downloadLink = projectElement.querySelector(".download-link");
+
+  buyButton.addEventListener("click", async function () {
+    const courseId = this.getAttribute("data-course-id");
+    const paid = this.getAttribute("data-paid");
+
+    if (paid === "false") {
+      await handlePayment(courseId, downloadLink, buyButton);
+    } else {
+      alert(`You've already purchased the ${courseId} project.`);
+    }
+  });
+}
 
 async function handlePayment(courseId, downloadLink, buyButton) {
   // Simulate payment process using Razorpay
