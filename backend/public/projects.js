@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 function addProjectToUI(project) {
   const projectElement = document.createElement("div");
   projectElement.classList.add("course");
-  projectElement.setAttribute("data-course-id", project.id);
+  projectElement.setAttribute("data-course-id", project.courseId);
 
   projectElement.innerHTML = `
       <div class="course-banner">
