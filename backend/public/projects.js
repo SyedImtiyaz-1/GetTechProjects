@@ -35,10 +35,10 @@ function addProjectToUI(project) {
   const buyButton = projectElement.querySelector(".buy-button");
   const downloadLink = projectElement.querySelector(".download-link");
 
-  buyButton.addEventListener("click", async function () {
+  buyButton.addEventListener("click", async function (event) {
     const courseId = this.getAttribute("data-course-id");
     const paid = this.getAttribute("data-paid");
-
+  
     if (paid === "false") {
       await handlePayment(courseId, downloadLink, buyButton);
     } else {
@@ -52,7 +52,7 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const options = {
     // Replace with your actual Razorpay API key
     key: "rzp_test_rmVf1ufuOltuLZ",
-    amount: 10000, // Replace with the actual amount
+    amount: 100000, // Replace with the actual amount
     currency: "INR", // Replace with the desired currency
     name: "Project Store",
     description: `Purchase of ${courseId} project`,
