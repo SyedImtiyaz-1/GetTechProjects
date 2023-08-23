@@ -1,17 +1,31 @@
 [
     {
-      "courseId": "amazon",
+      "courseId": "Amazon",
       "name": "Amazon Clone",
       "image": "img/amazon.png",
       "downloadLink": "you-are-nub.zip",
-      "techstack": "HTML, CSS"
+      "techstack": "HTML, CSS, JS"
     },
     {
-      "courseId": "netflix",
+      "courseId": "Netflix",
       "name": "Netflix Clone",
       "image": "img/netflix.png",
       "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
       "techstack": "HTML, CSS, JS, rapidAPI"
+    },
+    {
+      "courseId": "Telegram Bot",
+      "name": "Telegram Bot",
+      "image": "img/hero-logo.png",
+      "downloadLink": "https://drive.google.com/uc?export=download&id=1hXcfG3UUPEwT0MClAFwc872eIbofYm7E",
+      "techstack": "Python"
+    },
+    {
+      "courseId": "E-Commerce Cloths Shopping",
+      "name": "E-Commerce (CodeShop)",
+      "image": "img/e-commerce.png",
+      "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
+      "techstack": "HTML, CSS, JS, Swipper.JS"
     }
 ]
   

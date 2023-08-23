@@ -36,7 +36,7 @@ function addProjectToUI(project) {
   const downloadLink = projectElement.querySelector(".download-link");
 
   buyButton.addEventListener("click", async function (event) {
-    const courseId = this.getAttribute("data-course-id");
+    const courseId = project.courseId;
     const paid = this.getAttribute("data-paid");
   
     if (paid === "false") {
@@ -44,7 +44,7 @@ function addProjectToUI(project) {
     } else {
       alert(`You've already purchased the ${courseId} project.`);
     }
-  });
+  });  
 }
 
 async function handlePayment(courseId, downloadLink, buyButton) {
