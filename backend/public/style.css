@@ -54,21 +54,23 @@ section{
     padding: 20px;
     /* width: 15vw;
     height: 30vh; */
-    border-radius: 14px;
+    border-radius: 8px;
     transition: border 0.1s linear 0s;
 }
-.course:hover{
+/* .course:hover{
     border: 3px solid black;
+} */
+
+.course[data-paid="false"]:hover {
+    /* Your hover effect styles */
+    border: .7px solid grey;
 }
+
 .course .course-banner img{
     width: 150px;
     height: 150px;
 }
-.course-title:hover{
-    color: #562EFF;
-    text-decoration: underline;
-    cursor: pointer;
-}
+
 .course-author:hover{
     text-decoration: underline;
     color: tomato;
@@ -80,15 +82,33 @@ section{
     text-align: center; /* Center text inside container */
     margin-top: 1em;
 }
-
-.buy-button {
-    background-color: rgba(153, 178, 202, 0.838);
-    padding: 0.4em 1em;
-    color: black;
-    border: 0.5px solid grey;
-    cursor: pointer;
-    margin-top: 1em;
+.btn-7c {
+	overflow: hidden;
 }
+.btn-7c:before {
+	color: #fff;
+	z-index: 1;
+}
+.btn-7c:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 0;
+	width: 0;
+	background: #61a2f6e4;
+	transition: none;
+}
+.btn-7c:focus:after {
+	animation: fillToRight 0.7s forwards;
+}
+@keyframes fillToRight {
+	to {
+		width: 100%;
+	}
+}
+
+
 .fa-star{
     font-size: 12px;
 }
@@ -105,38 +125,69 @@ section{
 .course-detail h3{
     font-size: 1.5em;
 }
-.course button{
-    background-color: rgba(153, 178, 202, 0.838);
-    padding: .4em;
-    color: black;
-    border: .5px solid grey;
-    cursor: pointer;
-}
-.course button:hover{
-    background: rgb(53, 101, 188);
-    color: white;
+.course-detail p{
+    font-size: 1.3em;
+    background-color: rgba(255, 0, 0, 0.357);
+    width: fit-content;
+    padding: .1em .5em;
+    margin: .8vh auto;
 }
 
-.download-link{
-    background-color: rgba(153, 178, 202, 0.838);
+.btn:hover{
+    background: rgba(153, 187, 241, 0.419);
+}
+
+.btn {
+	border: none;
+    border-radius: 8px;
+	font-family: inherit;
+	font-size: 1.3em;
+	color: inherit;
+    border: .5px solid grey;
+	background: none;
+	cursor: pointer;
+	padding: 8px 15px;
+	display: inline-block;
+	margin: 1vh auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+.buy-button{
     padding: .7em;
+    width: 10em;
     color: black;
     font-size: 1.2em;
     border: .5px solid grey;
     cursor: pointer;
     margin: .7em 0;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: inherit;
 }
-.download-link:hover{
+.buy-button:hover{
     background: rgb(53, 101, 188);
     color: white;
 }
 
-.buy-button[data-paid="true"]:hover {
-    cursor: default;
-    background-color: rgba(153, 178, 202, 0.838);
-    color: black;
+#buyButton[data-paid="true"]:hover {
+    /* Reset any styles that create the hover effect */
+    /* For example, you can reset the background color and text color */
+    background-color: initial; /* or background-color: transparent; */
+    color: initial;
+    /* Add more properties as needed */
 }
-
 
 @media (max-width: 600px) {
     .headingProjects h2 {

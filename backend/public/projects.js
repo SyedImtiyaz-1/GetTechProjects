@@ -22,9 +22,10 @@ function addProjectToUI(project) {
       </div>
       <div class="course-detail">
         <h3 class="course-title">${project.name}</h3>
+        <p>${project.techstack}</p>
         <div class="course-info">
-          <button class="buy-button" data-course-id="${project.id}" data-paid="false">Buy Project</button>
-          <a class="download-link" href="${project.downloadLink}" download style="display: none;">Download Project</a>
+        <button id="buyButton" class="buy-button course" data-paid="false">Buy Course</button>
+          <a class="download-link btn btn-7 btn-7c btn-icon-only zmdi-arrow-right" href="${project.downloadLink}" download style="display: none;">Download Project</a>
         </div>
       </div>
     `;
@@ -59,12 +60,13 @@ async function handlePayment(courseId, downloadLink, buyButton) {
       // Simulate successful payment
       buyButton.textContent = "Purchased";
       buyButton.setAttribute("data-paid", "true");
+      buyButton.classList.remove("course"); // Remove the course class
       downloadLink.style.display = "block";
       alert(`Payment successful! You've purchased the ${courseId} project.`);
     },
     prefill: {
-      email: "user@example.com",
-      contact: "1234567890",
+      email: "syedimtiyazali141@gmail.com",
+      contact: "7249545778",
     },
   };
 
