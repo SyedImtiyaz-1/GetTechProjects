@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 function addProjectToUI(project) {
   const projectElement = document.createElement("div");
   projectElement.classList.add("course");
-  projectElement.setAttribute("data-course-id", project.courseId);
+  projectElement.setAttribute("data-course-id", project.courseId); // Use project.courseId instead of project.id
 
   projectElement.innerHTML = `
       <div class="course-banner">
@@ -24,7 +24,7 @@ function addProjectToUI(project) {
         <h3 class="course-title">${project.name}</h3>
         <p>${project.techstack}</p>
         <div class="course-info">
-        <button id="buyButton" class="buy-button course" data-paid="false">Buy Course</button>
+          <button id="buyButton" class="buy-button course" data-paid="false">Buy Course</button>
           <a class="download-link btn btn-7 btn-7c btn-icon-only zmdi-arrow-right" href="${project.downloadLink}" download style="display: none;">Download Project</a>
         </div>
       </div>
