@@ -1,17 +1,17 @@
 [
     {
-      "id": "amazon",
+      "courseId": "amazon",
       "name": "Amazon Clone",
       "image": "img/amazon.png",
       "downloadLink": "you-are-nub.zip",
       "techstack": "HTML, CSS"
     },
     {
-      "id": "netflix",
+      "courseId": "netflix",
       "name": "Netflix Clone",
       "image": "img/netflix.png",
       "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
-      "techstack": "HTML, CSS"
+      "techstack": "HTML, CSS, JS, rapidAPI"
     }
 ]
   
