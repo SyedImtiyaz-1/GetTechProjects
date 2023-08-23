@@ -7,9 +7,6 @@ const purchasedProjects = [
   // ... other projects ...
 ];
 
-// Serve static files from the "public" directory
-app.use(express.static('public'));
-
 // Define API routes
 app.get('/api/purchased-projects', (req, res) => {
   res.json(purchasedProjects);
@@ -17,6 +14,9 @@ app.get('/api/purchased-projects', (req, res) => {
 
 // Serve the default home page from the "home" directory
 app.use(express.static('home'));
+
+// Serve static files from the "public" directory
+app.use(express.static('public'));
 
 // Handle root URL
 app.get('/', (req, res) => {
