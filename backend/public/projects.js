@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const purchasedProjects = await response.json();
   
     // Add purchased projects to the HTML
-    purchasedProjects.forEach((project) => {
-      addProjectToUI(project);
-    });
+    // purchasedProjects.forEach((project) => {
+    //   addProjectToUI(project);
+    // });
 
   // Add new projects to the UI
   const newProjectsData = [
