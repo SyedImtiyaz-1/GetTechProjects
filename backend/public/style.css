@@ -34,7 +34,7 @@ body{
 section{
     height: 100vh;
     width: 60%;
-    margin: 5vh auto;
+    margin: 8vh auto;
 }
 
 .section-title{
@@ -227,5 +227,39 @@ section{
 
     .courses {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.headingProjects input{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin: 1vh auto;
+    align-items: center;
+    font-size: 2em;
+}
+
+.headingProjects input::placeholder{
+    padding-left: .3em;
+    font-weight: 600;
+}
+#searchProjects {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (max-width: 480px) {
+    #searchProjects {
+        font-size: 14px;
+        width: 70vw;
+    }
+    #searchProjects::placeholder{
+        font-size: .9em;
     }
 }
