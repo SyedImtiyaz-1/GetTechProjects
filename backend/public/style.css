@@ -8,15 +8,6 @@ body{
     transition: .1s;
 }
 
-.navbar {
-    display: none;
-}
-
-/* Add styles for the active state */
-.navbar.active {
-    display: block;
-}
-
 .headingProjects{
     background-image: url("./img/projects.jpg");
     height: 50vh;

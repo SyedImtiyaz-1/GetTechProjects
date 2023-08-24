@@ -19,23 +19,6 @@ $(document).ready(function(){
         }
     });
 
-//     const counters = document.querySelectorAll('.counter');
-//     const speed = 120;
-//     counters.forEach(counter => {
-// 	const updateCount = () => {
-// 		const target = +counter.getAttribute('data-target');
-// 		const count = +counter.innerText;
-// 		const inc = target / speed;
-// 		if (count < target) {
-// 			counter.innerText = count + inc;
-// 			setTimeout(updateCount, 1);
-// 		} else {
-// 			counter.innerText = target;
-// 		}
-// 	};
-// 	  updateCount();
-//    });
-
    (function ($) {
     "use strict";
     
@@ -54,24 +37,4 @@ $(document).ready(function(){
     // });
     
 })(jQuery);
-
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-        $('.back-to-top').fadeIn('slow');
-    } else {
-        $('.back-to-top').fadeOut('slow');
-    }
-});
-$('.back-to-top').click(function () {
-    $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-    return false;
-});
-
-$('.accordion-header').click(function(){
-    $('.accordion .accordion-body').slideUp(500);
-    $(this).next('.accordion-body').slideDown(500);
-    $('.accordion .accordion-header span').text('+');
-    $(this).children('span').text('-');
-});
-
-});
+})
