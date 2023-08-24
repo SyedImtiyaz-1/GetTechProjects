@@ -181,13 +181,12 @@ section{
     color: white;
 }
 
-#buyButton[data-paid="true"]:hover {
-    /* Reset any styles that create the hover effect */
-    /* For example, you can reset the background color and text color */
-    background-color: initial; /* or background-color: transparent; */
-    color: initial;
-    /* Add more properties as needed */
-}
+.buy-button[data-paid="true"] {
+    /* Button styles when purchased */
+    background-color: none;
+    pointer-events: none; /* Disable pointer events after purchase */
+  }
+
 
 @media (max-width: 600px) {
     .headingProjects h2 {

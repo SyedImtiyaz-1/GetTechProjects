@@ -73,7 +73,7 @@ async function handlePayment(courseId, downloadLink, buyButton) {
     description: `Purchase of ${courseId} project`,
     handler: async function (response) {
       // Simulate successful payment
-      buyButton.textContent = "Purchased";
+      buyButton.textContent = "Purchased ✔️";
       buyButton.setAttribute("data-paid", "true");
       buyButton.classList.remove("course"); // Remove the course class
       downloadLink.style.display = "block";
