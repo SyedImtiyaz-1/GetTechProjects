@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     projectData.forEach(({ element, data }) => {
       const projectName = data.name.toLowerCase();
-      
+
       const matchesSearch = projectName.includes(searchTerm);
 
       element.style.display = matchesSearch ? "block" : "none";
@@ -35,18 +35,71 @@ document.addEventListener("DOMContentLoaded", async () => {
       </div>
       <div class="course-detail">
         <h3 class="course-title">${project.name}</h3>
+        <button class="eye-button" style="cursor:pointer"><i class="fas fa-eye"></i></button>
         <p>${project.techstack}</p>
         <div class="course-info">
           <button class="buy-button course" data-paid="false">Buy Course</button>
           <a class="download-link btn btn-7 btn-7c btn-icon-only zmdi-arrow-right" href="${project.downloadLink}" download style="display: none;">Download Project</a>
         </div>
       </div>
-    `;
+      <div class="popup" style="display: none;">
+      <div class="popup-content">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="${project["slide-img-1"]}" alt="${project.name}"></div>
+            <div class="swiper-slide"><img src="${project["slide-img-2"]}" alt="${project.name}"></div>
+            <!-- Add more images for the slider -->
+          </div>
+          <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+          <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+        </div>
+        <button class="close-button"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+  `;
 
     coursesContainer.appendChild(projectElement);
 
     const buyButton = projectElement.querySelector(".buy-button");
     const downloadLink = projectElement.querySelector(".download-link");
+    const eyeButton = projectElement.querySelector(".eye-button");
+    const popup = projectElement.querySelector(".popup");
+    const closeButton = projectElement.querySelector(".close-button");
+
+    eyeButton.addEventListener("click", () => {
+      popup.style.display = "block";
+      // Initialize the Swiper instance when the popup is displayed
+      const swiper = new Swiper(".swiper-container", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        initialSlide: 0, // Show the first image initially
+      });
+    });
+
+    const closeButtons = document.querySelectorAll(".close-button");
+
+    closeButtons.forEach((closeButton) => {
+      closeButton.addEventListener("click", () => {
+        closeButton.closest(".popup").style.display = "none";
+      });
+    });
+
+    eyeButton.addEventListener("click", () => {
+      popup.style.display = "block";
+      // Initialize the Swiper instance when the popup is displayed
+      const swiper = new Swiper(".swiper-container", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    });
+
+    closeButton.addEventListener("click", () => {
+      popup.style.display = "none";
+    });
 
     buyButton.addEventListener("click", async function (event) {
       const courseId = project.courseId;
@@ -58,8 +111,21 @@ document.addEventListener("DOMContentLoaded", async () => {
         alert(`You've already purchased the ${courseId} project.`);
       }
     });
+
     return projectElement;
   }
+});
+
+const eyeButton = projectElement.querySelector(".eye-button");
+const closeButton = projectElement.querySelector(".close-button");
+const popup = projectElement.querySelector(".popup");
+
+eyeButton.addEventListener("click", () => {
+  popup.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+  popup.style.display = "none";
 });
 
 async function handlePayment(courseId, downloadLink, buyButton) {
