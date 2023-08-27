@@ -23,13 +23,17 @@
       "name": "Telegram Bot",
       "image": "img/hero-logo.png",
       "downloadLink": "https://drive.google.com/uc?export=download&id=1hXcfG3UUPEwT0MClAFwc872eIbofYm7E",
-      "techstack": "Python"
+      "techstack": "Python",
+      "slide-img-1":"img/telegram-1.png",
+      "slide-img-2":"img/telegram-2.jpg"
     },
     {
       "courseId": "E-Commerce Cloths Shopping",
       "name": "E-Commerce (CodeShop)",
       "image": "img/e-commerce.png",
       "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
-      "techstack": "HTML, CSS, JS, Swipper.JS"
+      "techstack": "HTML, CSS, JS, Swipper.JS",
+      "slide-img-1":"img/codeshop1.png",
+      "slide-img-2":"img/codeshop2.jpg"
     }
 ]

@@ -65,9 +65,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const eyeButton = projectElement.querySelector(".eye-button");
     const popup = projectElement.querySelector(".popup");
     const closeButton = projectElement.querySelector(".close-button");
+    const body = document.body;
 
     eyeButton.addEventListener("click", () => {
       popup.style.display = "block";
+
       // Initialize the Swiper instance when the popup is displayed
       const swiper = new Swiper(".swiper-container", {
         navigation: {
@@ -76,6 +78,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         },
         initialSlide: 0, // Show the first image initially
       });
+
+      // Hide the body content when the popup is displayed
+      body.style.overflow = "hidden";
+    });
+
+    // Add an event listener to close the popup when clicking outside
+    document.addEventListener("click", (event) => {
+      if (event.target === popup) {
+        popup.style.display = "none";
+        body.style.overflow = "auto"; // Restore body overflow
+      }
     });
 
     const closeButtons = document.querySelectorAll(".close-button");
