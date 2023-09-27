@@ -7,17 +7,24 @@ assignees: ''
 
 ---
 
-## Related Issue
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-<!-- If there is no issue number, the PR will not be merged. Therefore, please ensure that the issue number is added -->
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## Description
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-<!-- Please provide more context or information for us to properly rewrite your statement  -->
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-## Screenshots
-
-<!-- Add screenshots to preview the changes  -->
+**Additional context**
+Add any other context about the problem here.
 
 
 🌟 **Note**: Please make sure to complete all the required tasks before submitting your contribution.
@@ -27,5 +34,5 @@ assignees: ''
 - [ ] Have you added your name in [CONTRIBUTING.md](https://github.com/SyedImtiyaz-1/PreciousServices/blob/main/CONTRIBUTING.md)
 - [ ] I want to work on this issue
 
-Follow me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
+Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
 Let's Connect 1:1 - [Click Here]https://topmate.io/syedimtiyazali

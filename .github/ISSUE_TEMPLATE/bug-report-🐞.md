@@ -2,7 +2,7 @@
 name: "Bug report \U0001F41E"
 about: Create a report to help us improve
 title: "[BUG]: "
-labels: bug, hacktoberfest
+labels: bug, hacktoberfest, UI
 assignees: ''
 
 ---
@@ -34,5 +34,5 @@ Add any other context about the problem here.
 - [ ] Have you added your name in [CONTRIBUTING.md](https://github.com/SyedImtiyaz-1/PreciousServices/blob/main/CONTRIBUTING.md)
 - [ ] I want to work on this issue
 
-Follow me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
+Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
 Let's Connect 1:1 - [Click Here]https://topmate.io/syedimtiyazali

@@ -7,17 +7,25 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Add any other context about the problem here.
+
 
 🌟 **Note**: Please make sure to complete all the required tasks before submitting your contribution.
 
@@ -26,5 +34,5 @@ Add any other context or screenshots about the feature request here.
 - [ ] Have you added your name in [CONTRIBUTING.md](https://github.com/SyedImtiyaz-1/PreciousServices/blob/main/CONTRIBUTING.md)
 - [ ] I want to work on this issue
 
-Follow me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
+Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
 Let's Connect 1:1 - [Click Here]https://topmate.io/syedimtiyazali
