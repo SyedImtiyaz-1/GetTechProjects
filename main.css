@@ -1070,18 +1070,23 @@ body{
             text-align: center;
             line-height: 1;
             font-size: 44px;
-            right: 15px;
+            left: 15px;
             bottom: 15px;
-            transition: background 0.3s;
+            transition: background-color 0.3s; /* Change 'background' to 'background-color' */
             z-index: 9;
         }
         
         .back-to-top i {
             color: #ffffff;
         }
-
+        
+        /* Add hover effect to the background color */
+        .back-to-top:hover {
+            background-color: black;
+        }
+        
         .back-to-top i:hover {
-            color: black;
+            color: #ffffff;
         }
 
         .faq{
@@ -1490,8 +1495,9 @@ cursor: pointer;
 
 /* login media query */
 @media (max-width: 1080px) {
+    
     .chatbot {
-      right: 1em !important;
+      left: 1em !important;
       bottom: 5em;
       width: 80% !important;
       height: 65%;

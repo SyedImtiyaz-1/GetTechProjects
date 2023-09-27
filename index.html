@@ -105,6 +105,8 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
 
+        <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
     <section class="counters">
         <div class="container">
             <div class="pointerBtn">
@@ -244,13 +246,32 @@
     </div>
     <!--  chat bot finish  -->
 
-    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-
     <script src="./js/contact.js"></script>
     <script src="./chatBot/script.js"></script>
     <script src="./js/login.js"></script>
     <script src="./main.js"></script>
-
+    <script>
+        // Function to scroll to the top smoothly
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        }
+      
+        // Add an event listener to the "scroll to top" button
+        const backToTopButton = document.querySelector(".back-to-top");
+        backToTopButton.addEventListener("click", scrollToTop);
+      
+        // Add an event listener to show/hide the button based on scroll position
+        window.addEventListener("scroll", () => {
+          if (document.documentElement.scrollTop > 100) {
+            backToTopButton.style.display = "block";
+          } else {
+            backToTopButton.style.display = "none";
+          }
+        });
+      </script>
 </body>
 
 </html>

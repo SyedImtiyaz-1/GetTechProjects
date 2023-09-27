@@ -7,3 +7,8 @@
 - Place: Ghaziabad, India
 - Bio: College Student | Software Engineer aspirant
 - GitHub: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
+
+### Name: [Tanya Kumari](https://github.com/07tAnYa)
+- Place: Bokaro Steel City, India
+- Bio: College Student | Full Stack Developer
+- Github: [Tanya Kumari](https://github.com/07tAnYa)
