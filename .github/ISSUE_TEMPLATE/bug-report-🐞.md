@@ -27,7 +27,7 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 
 
-🌟 **Note**: Please make sure to complete all the required tasks before submitting your contribution.
+🌟 **Note**: Please make sure to complete all the required tasks before submitting your issue/PR.
 
 - [ ] I have checked the existing issues
 - [ ]  [Give a Star](https://github.com/SyedImtiyaz-1/PreciousServices) ⭐
@@ -35,4 +35,4 @@ Add any other context about the problem here.
 - [ ] I want to work on this issue
 
 Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
-Let's Connect 1:1 - [Click Here](https://topmate.io/syedimtiyazali)
+Let's Connect 1:1 - [Click Here]https://topmate.io/syedimtiyazali
