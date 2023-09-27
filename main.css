@@ -829,6 +829,7 @@ body{
 		}
 		.contact-form-txt
 		{
+            margin-top: 1rem;
             margin-left: 2rem;
 			width: 95%;
 			height: 40px;
@@ -882,7 +883,7 @@ body{
 
 		.contact-form-btn
 		{
-            margin-left: 59rem;
+            margin-left: 20rem;
             outline: none;
             border: none;
             border-radius: 5rem;
