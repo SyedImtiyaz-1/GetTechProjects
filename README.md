@@ -8,7 +8,7 @@ Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting in
 
 This repository is open to all members of the GitHub community. Any member can contribute to this project.
 
-➡ [https://github.com/SyedImtiyaz-1/hacktoberfest/](https://github.com/SyedImtiyaz-1/hacktoberfest/)
+➡ [https://github.com/SyedImtiyaz-1/hacktoberfest/](https://github.com/SyedImtiyaz-1/PreciousServices/)
 
 ## New to Open Source ? No worries I will teach you how to contribute :
 ### Join a 1:1 session with me ➡ https://topmate.io/syedimtiyazali
