@@ -35,4 +35,4 @@ Add any other context about the problem here.
 - [ ] I want to work on this issue
 
 Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
-Let's Connect 1:1 - [Click Here]https://topmate.io/syedimtiyazali
+Let's Connect 1:1 - [Click Here](https://topmate.io/syedimtiyazali)
