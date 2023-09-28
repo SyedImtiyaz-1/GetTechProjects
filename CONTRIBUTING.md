@@ -12,3 +12,8 @@
 - Place: Bokaro Steel City, India
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
+
+  ### Name: [Navneet Singh Negi](https://github.com/Navneetsinghnegi)
+- Place: Dehradun, India
+- Bio: College Student | Full Stack Developer
+- Github: [Navneet Singh negi](https://github.com/Navneetsinghnegi)
