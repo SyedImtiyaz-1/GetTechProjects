@@ -16,4 +16,9 @@
 ### Name: [Lavanshi Bansal](https://github.com/lavanshi295)
 - Place: Rohini, Delhi, India
 - Bio: College Student | Frontend Developer
-- Github: [Lavanshi Bansal](https://github.com/lavanshi295) 
+- Github: [Lavanshi Bansal](https://github.com/lavanshi295)
+
+### Name: [SAIFULLAH](https://github.com/Saifullah00)
+- Place: Kolkata, West Bengal, India
+- Bio: College Student | Frontend Developer
+- Github: [Saifullah](https://github.com/Saifullah00) 
