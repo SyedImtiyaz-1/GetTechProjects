@@ -795,7 +795,12 @@ body{
 .contact h2{
     margin-bottom: 1.5rem;
 }
+#errorshown{
+    padding: 10px;
+    color:red;
+    font-size:100%;
 
+}
 .contact-in
 		{
 			width: 80%;
@@ -814,6 +819,7 @@ body{
 			width: 100%;
 			height: auto;
 			flex: 50%;
+            padding-bottom:2%;
 		}
 		.contact-map iframe
 		{
@@ -879,7 +885,13 @@ body{
 			color: #aaa;
             font-size: 1.5rem;
 		}
-
+        .contact-form-buttons {
+            display: flex;
+            justify-content: space-between; /* This will place the elements side by side */
+            align-items: center; /* Optional: Center vertically */
+            padding:10px;
+            padding-right:3%;
+        }
 		.contact-form-btn
 		{
             margin-left: 59rem;

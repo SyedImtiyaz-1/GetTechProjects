@@ -148,8 +148,12 @@
                 maxlength="10" class="contact-form-phone">
             <input type="email" name="email" placeholder="Email" id="mail" class="contact-form-email" required>
             <textarea placeholder="Your Message" id="message" name="message" class="contact-form-txtarea"
-                required></textarea>
-            <button class="contact-form-btn " onclick="sendMail()">Submit</button>
+                required>
+            </textarea>
+            <div class="contact-form-buttons">
+                <div id="errorshown"></div>
+                <button class="contact-form-btn" onclick="sendMail()">Submit</button>
+            </div>
         </div>
     </div>
 
