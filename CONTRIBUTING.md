@@ -13,7 +13,7 @@
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
 
-### Name: [Tanya Kumari](https://github.com/vatsalshah041)
+### Name: [Vatsal Shah](https://github.com/vatsalshah041)
 - Place: Mumbai, India
 - Bio: College Student | Full Stack Developer
 - Github: [Vatsal Shah](https://github.com/vatsalshah041)
