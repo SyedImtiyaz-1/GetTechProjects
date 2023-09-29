@@ -32,3 +32,8 @@
 - Place: Kalyan, Maharashtra, India
 - Bio: Computer Science Student | Full Stack Developer
 - GitHub: [Bhavya D Verma](https://github.com/bhaavvya)
+
+#### Name: [Bhumika Bachchan](https://github.com/insane-22)
+- Place: Roorkee, Uttarakhand, India
+- Bio: College Student | Full Stack Developer
+- GitHub: [insane-22](https://github.com/insane-22)
