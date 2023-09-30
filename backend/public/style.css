@@ -46,7 +46,7 @@ section{
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px; 
+    grid-column-gap: 26px; 
 }
 .course{
     text-align: center;
@@ -280,12 +280,21 @@ section{
 .course-detail h3{
     font-size: 1.5em;
 }
+
 .course-detail p{
     font-size: 1.3em;
-    background-color: rgba(255, 0, 0, 0.357);
+    background: rgba(153, 187, 241, 0.419);
     width: fit-content;
-    padding: .1em .5em;
+    padding: .5em .5em;
     margin: .8vh auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.8s;
+}
+
+.course-detail p:hover{
+    background: blue;
+    color:white;
 }
 
 .btn:hover{
@@ -321,7 +330,7 @@ section{
 
 .buy-button{
     padding: .7em;
-    width: 10em;
+    width: 20em;
     color: black;
     font-size: 1.2em;
     border: .5px solid grey;
@@ -332,7 +341,7 @@ section{
     font-family: inherit;
 }
 .buy-button:hover{
-    background: rgb(53, 101, 188);
+    background: blue;
     color: white;
 }
 
@@ -366,6 +375,7 @@ section{
     .course-banner img {
         width: 100px;
         height: 100px;
+	border-radius: 50%;
     }
 }
 
