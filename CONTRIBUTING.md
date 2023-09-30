@@ -45,3 +45,10 @@
 - Place: Ahmedabad, Gujarat, India
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
+
+
+#### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
+
+- Place: Nashik, Maharastra, India
+- Bio: Computer Engineering Student | Full Stack Web Developer
+- GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
