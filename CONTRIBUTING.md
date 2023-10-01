@@ -128,3 +128,7 @@
 - Place: Kharagpur, West Bengal, India
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
+#### Name: [Ryan Maddock](https://github.com/Ryan-Maddock-96)
+- Place: Liverpool, United Kingdom
+- Bio: Front End Developer
+- GitHub: [Ryan Maddock](https://github.com/Ryan-Maddock-96)
