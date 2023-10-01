@@ -56,3 +56,10 @@
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
+
+
+#### Name: [Karamraj Singh Anand](https://github.com/Karamraj)
+
+- Place: Raipur, Chhattisgarh, India
+- Bio: Computer Engineering Student | Full Stack Web Developer | Bennett University'26
+- GitHub: [Karamraj Singh Anand](https://github.com/Karamraj)

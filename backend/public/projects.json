@@ -39,12 +39,11 @@
     {
       "courseId": "Tesla Clone",
       "name":"Tesla Clone",
-      "image": "img/tesla-clone",
+      "image": "img/tesla-clone.png",
       "downloadLink": "https://drive.google.com/file/d/1x-S0kax4HgcSIEo6GGyjcYJHWEjUaCwF/view?usp=drive_link",
       "techstack": "HTML, CSS, JS, React JS, Firebase",
-      "slide-img-1":"img/tesla-clone-1.png",
-      "slide-img-2":"img/tesla-clone-2.png"
+      "slide-img-1":"img/tesla-1.png",
+      "slide-img-2":"img/tesla-2.png"
     }
 
-]
 ]
