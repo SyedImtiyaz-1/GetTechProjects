@@ -89,3 +89,8 @@
 - Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
 - GitHub: [yusra05](https://github.com/yusra05)
 
+#### Name: [Dushyant](https://github.com/dushyantpant5)
+
+- Place: Dehradun, India
+- Bio: Software Developer | C++ | JavaScript | React | Redux | NodeJs | Bun
+- GitHub: [dushyantpant5](https://github.com/dushyantpant5)
