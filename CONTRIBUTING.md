@@ -123,3 +123,8 @@
 - Place: Pune, Maharashtra, India
 - Bio: 3rd year Computer Engineering student at SCOE, Pune | MERN stack developer | loves hackathons
 - GitHub: [Suyog S Chavan](https://github.com/suyogschavan/)
+
+#### Name: [Ayan Ghosh](https://github.com/Ayan726)
+- Place: Kharagpur, West Bengal, India
+- Bio: ECE Student | React Developer | Competitive Programmer
+- GitHub: [Ayan Ghosh](https://github.com/Ayan726)
