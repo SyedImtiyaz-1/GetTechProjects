@@ -47,6 +47,7 @@
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
 
 #### Name: [Bhumika Bachchan](https://github.com/insane-22)
+
 - Place: Roorkee, Uttarakhand, India
 - Bio: College Student | Full Stack Developer
 - GitHub: [insane-22](https://github.com/insane-22)
@@ -57,9 +58,15 @@
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
 
-
 #### Name: [Karamraj Singh Anand](https://github.com/Karamraj)
 
 - Place: Raipur, Chhattisgarh, India
 - Bio: Computer Engineering Student | Full Stack Web Developer | Bennett University'26
 - GitHub: [Karamraj Singh Anand](https://github.com/Karamraj)
+
+
+#### Name: [Aditya Lad](https://github.com/Adityalad-25)
+
+- Place: Pune, Maharashtra, India
+- Bio: Computer Engineering Student | Frontend Developer| SPPU , Pune
+- GitHub: [Aditya Lad](https://github.com/Adityalad-25)
