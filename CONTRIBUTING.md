@@ -98,3 +98,8 @@
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+
+#### Name: [Advaita Vedanta](https://github.com/Advaita151)
+- Place: Bhubaneswar, Odisha, India
+- Bio: Computer Engineering student | Full stack developer
+- Github: [Advaita](https://github.com/Advaita151)
