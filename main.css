@@ -77,6 +77,9 @@ body {
   transform: rotate(180deg);
 }
 
+.text-trans-none {
+  text-transform: none;
+}
 .row .btn {
   outline: none;
   border: none;
@@ -1014,7 +1017,7 @@ footer {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 ul li {
