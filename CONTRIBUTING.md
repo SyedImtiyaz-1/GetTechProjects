@@ -119,3 +119,9 @@
 - Place: Jaipur, Rajasthan, India
 - Bio: Computer Engineering Student | Cyber Security | Web Developer
 - GitHub: [Lalit Chauhan](https://github.com/LalitChauhan56)
+
+
+#### Name: [Ayan Ghosh](https://github.com/Ayan726)
+- Place: Kharagpur, West Bengal, India
+- Bio: ECE Student | React Developer | Competitive Programmer
+- GitHub: [Ayan Ghosh](https://github.com/Ayan726)
