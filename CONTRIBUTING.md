@@ -16,6 +16,13 @@
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
 
+#### Name: [Premsai Varma Chekuri](https://github.com/premsaivarmachekuri/)
+
+- Place: Visakhapatnam, Andhra Pradesh, India
+- Bio: College Student | Full Stack Developer
+- GitHub: [premsaivarmachekuri](https://github.com/premsaivarmachekuri)
+- Linkedin [Premsai Varma](https://www.linkedin.com/in/premsaivarma/)
+
 ### Name: [Lavanshi Bansal](https://github.com/lavanshi295)
 
 - Place: Rohini, Delhi, India
@@ -57,7 +64,33 @@
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
 
+
+#### Name: [Karamraj Singh Anand](https://github.com/Karamraj)
+
+- Place: Raipur, Chhattisgarh, India
+- Bio: Computer Engineering Student | Full Stack Web Developer | Bennett University'26
+- GitHub: [Karamraj Singh Anand](https://github.com/Karamraj)
+
+#### Name: [Swapnil Sinha](https://www.linkedin.com/in/swapnilsinha81/)
+
+- 📍 Place: Banglore, Karnataka, India
+- ⏳ Bio: Data Engineer @AB InBev GCC 👾 | Software Developer 💜 | Final-Year Student 📜
+- 🚀 [GitHub](https://github.com/Swap-Nova)
+
+#### Name: [zain shakoor](https://www.linkedin.com/in/zainbinshakoor/)
+
+- 📍 Place: Faisalabad, Pakistan
+- ⏳ Bio: Full stack developer @ZAW TECH | Software Developer
+- 🚀 [GitHub](https://github.com/zainbinshakoor)
+
+#### Name: [Yusra](https://github.com/yusra05)
+
+- Place: Delhi, India
+- Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
+- GitHub: [yusra05](https://github.com/yusra05)
+
 #### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
 - Place: Chhindwara, Madhya Pradesh, India
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
+
