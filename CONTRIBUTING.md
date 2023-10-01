@@ -90,16 +90,36 @@
 - GitHub: [yusra05](https://github.com/yusra05)
 
 #### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
+
 - Place: Chhindwara, Madhya Pradesh, India
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
 #### Name: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
-#### Name: [SUYOG CHAVAN](https://github.com/suyogschavan/)
 
+#### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
+
+- Place: Mumbai, Maharashtra, India
+- Bio: Computer Engineering Student | Web Developer
+- Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
+
+#### Name: [Vivek Chavan] (https://github.com/Vivek7038)
+
+- Place: Aurangabad, Maharashtra, India
+- Bio: CSE student 
+- Github: [Vivek Chavan] (https://github.com/Vivek7038)
+
+#### Name: [Lalit Chauhan](https://github.com/LalitChauhan56)
+
+- Place: Jaipur, Rajasthan, India
+- Bio: Computer Engineering Student | Cyber Security | Web Developer
+- GitHub: [Lalit Chauhan](https://github.com/LalitChauhan56)
+
+#### Name: [SUYOG CHAVAN](https://github.com/suyogschavan/)
 - Place: Pune, Maharashtra, India
 - Bio: 3rd year Computer Engineering student at SCOE, Pune | MERN stack developer | loves hackathons
 - GitHub: [Suyog S Chavan](https://github.com/suyogschavan/)
