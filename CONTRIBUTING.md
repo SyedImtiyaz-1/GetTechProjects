@@ -107,3 +107,10 @@
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
+
+#### Name: [Vivek Chavan] (https://github.com/Vivek7038)
+
+- Place: Aurangabad, Maharashtra, India
+- Bio: CSE student 
+- Github: [Vivek Chavan] (https://github.com/Vivek7038)
+
