@@ -347,6 +347,12 @@ body {
 .item h6 {
   font-size: 2rem;
 }
+.item p{
+  text-transform: lowercase;
+}
+.item p::first-letter{
+  text-transform: uppercase;
+}
 .item:hover h6,
 .item:hover p {
   color: #2b6777;
