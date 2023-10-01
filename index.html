@@ -180,6 +180,7 @@
       <h2 class="text-trans-none">Submit the form and Leave a Brief Description for the Team</h2>
     </section>
 
+    <!-- Contact Us Form -->
     <div class="contact-in">
       <div class="contact-map">
         <iframe
@@ -192,24 +193,27 @@
         ></iframe>
       </div>
       <div class="contact-form">
+        <form action="" id="contact-form">
         <input
           type="text"
           name="name"
           placeholder="Name"
-          id="first"
+          id="name"
           class="contact-form-txt"
           required
         />
+        <span id="name-error" class="error"></span> <!-- Validation error message for Name -->
         <input
           type="tel"
           id="number"
           name="phone"
           pattern="[0-9]{10}"
           required
-          placeholder="Contact number"
+          placeholder="Contact Number"
           maxlength="10"
           class="contact-form-phone"
         />
+        <span id="phone-error" class="error"></span> <!-- Validation error message for Contact Number -->
         <input
           type="email"
           name="email"
@@ -218,6 +222,7 @@
           class="contact-form-email"
           required
         />
+        <span id="email-error" class="error"></span> <!-- Validation error message for Email -->
         <textarea
           placeholder="Your Message"
           id="message"
@@ -225,7 +230,9 @@
           class="contact-form-txtarea"
           required
         ></textarea>
-        <button class="contact-form-btn" onclick="sendMail()">Submit</button>
+        <span id="message-error" class="error"></span> <!-- Validation error message for Message -->
+        <button class="contact-form-btn" onclick="validateAndSend()">Submit</button>
+      </form>
       </div>
     </div>
 
