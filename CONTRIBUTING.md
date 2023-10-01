@@ -56,3 +56,9 @@
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
+
+#### Name: [Abhinav Anand](https://github.com/abhinavroy83)
+
+- Place: Patna, Bihar, India
+- Bio: College Student | Front-end Developer
+- GitHub: [Abhinav Anand](https://github.com/abhinavroy83)
