@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 
 // Import your database model (if using a database)
-const Purchase = require('./path/to/your/PurchaseModel'); // Update the path accordingly
+// const Purchase = require('./path/to/your/PurchaseModel'); // Update the path accordingly
 
 const PORT = process.env.PORT || 4000;
 

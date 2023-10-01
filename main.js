@@ -39,3 +39,33 @@ $(document).ready(function(){
     
 })(jQuery);
 })
+$(document).ready(function() {
+    // Function to start counting for a single counter
+    function startCounter(counterElement, target) {
+      let count = 0;
+      const speed = Math.ceil(target / 200); // Adjust the speed as needed
+  
+      const updateCounter = () => {
+        if (count < target) {
+          count += speed;
+          $(counterElement).text(count + "+");
+          setTimeout(updateCounter, 10);
+        } else {
+          $(counterElement).text(target + "+"); // Ensure the final value is accurate
+        }
+      };
+  
+      updateCounter();
+    }
+  
+    // Function to initialize all counters
+    function initCounters() {
+      $(".counter").each(function() {
+        const target = parseInt($(this).data("target"));
+        startCounter(this, target);
+      });
+    }
+  
+    // Call the initCounters function when the document is ready
+    initCounters();
+  });
