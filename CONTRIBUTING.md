@@ -45,3 +45,9 @@
 - Place: Ahmedabad, Gujarat, India
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
+
+
+#### Name: [Mukul Rana](https://github.com/mukulpythondev)
+- Place: Ghaziabad,UP ,India
+- Bio: Full Stack  Developer | B.Tech CSE 1 yr student
+- GitHub: [Mukul Rana](https://github.com/mukulpythondev)
