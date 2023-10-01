@@ -101,7 +101,6 @@
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
 
-
 #### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
 - Place: Mumbai, Maharashtra, India
@@ -119,3 +118,8 @@
 - Place: Jaipur, Rajasthan, India
 - Bio: Computer Engineering Student | Cyber Security | Web Developer
 - GitHub: [Lalit Chauhan](https://github.com/LalitChauhan56)
+
+#### Name: [SUYOG CHAVAN](https://github.com/suyogschavan/)
+- Place: Pune, Maharashtra, India
+- Bio: 3rd year Computer Engineering student at SCOE, Pune | MERN stack developer | loves hackathons
+- GitHub: [Suyog S Chavan](https://github.com/suyogschavan/)
