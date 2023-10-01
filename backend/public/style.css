@@ -1908,7 +1908,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-/* login media query */
+/* Log In media query */
 @media (max-width: 1080px) {
     .chatbot {
       right: 1em !important;

@@ -1,8 +1,8 @@
-// Login
-let loginBtn = document.getElementById("login");
+// Log In
+let Log InBtn = document.getElementById("Log In");
 let logoutBtn = document.getElementById("logout");
 
-loginBtn.addEventListener("click", () => {
+Log InBtn.addEventListener("click", () => {
   let oauth2Endpoint = "https://accounts.google.com/o/oauth2/v2/auth";
   let form = document.createElement("form");
   form.setAttribute("method", "GET");
@@ -61,7 +61,7 @@ fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
     document.getElementById("name").innerHTML += info.name;
     document.getElementById("name").classList.add("nameCSS");
     document.getElementById("image").setAttribute("src", info.picture);
-    document.getElementById('login').textContent='Logout';
+    document.getElementById('Log In').textContent='Logout';
 });
 
 function logout() {
@@ -73,14 +73,14 @@ function logout() {
   }).then(() => {
     // Remove stored authentication information
     localStorage.removeItem("authInfo");
-    // Redirect to the login page
+    // Redirect to the Log In page
     location.href = "https://preciousitservices.vercel.app";
   });
 }
 
-// Hide login button if logged in
+// Hide Log In button if logged in
 if (info && info.hasOwnProperty("access_token")) {
-  loginBtn.style.display = "none";
+  Log InBtn.style.display = "none";
 }
 if (info && info.hasOwnProperty("access_token")) {
   logoutBtn.style.display = "block";
