@@ -16,6 +16,13 @@
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
 
+### Name: [Vivek Chaudhary](https://github.com/Venerablevivek)
+
+- Place: Mathura, Uttar Pradesh, India
+- Bio: College Student | MERN Stack Developer
+- Github: [Venerablevivek](https://github.com/Venerablevivek)
+- LinkedIn: [Vivek Chaudhary](https://www.linkedin.com/in/vivek-chaudhary-b8460321a/)
+
 #### Name: [Premsai Varma Chekuri](https://github.com/premsaivarmachekuri/)
 
 - Place: Visakhapatnam, Andhra Pradesh, India
