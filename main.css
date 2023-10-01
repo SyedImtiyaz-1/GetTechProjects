@@ -825,7 +825,6 @@ body {
   height: auto;
   margin: auto auto 5rem auto;
   display: flex;
-  flex-wrap: wrap;
   padding: 10px;
   border-radius: 10px;
   background: #fff;
