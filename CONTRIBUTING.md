@@ -45,3 +45,9 @@
 - Place: Ahmedabad, Gujarat, India
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
+
+#### Name: [Sahil Arora](https://github.com/TSxSAHIL)
+
+- Place : Bharatpur, Rajasthan, India
+- Bio: Computer Science Undergrad @ VIT 
+- GitHub: [Sahil Arora](https://github.com/TSxSAHIL)
