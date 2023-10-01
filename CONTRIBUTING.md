@@ -97,5 +97,5 @@
 #### Name: [Vivek Chavan] (https://github.com/Vivek7038)
 - Place: Aurangabad, Maharashtra, India
 - Bio: CSE student 
-- Github: [Vivek Chavan] (https://github.com/Parvezkhan0)
+- Github: [Vivek Chavan] (https://github.com/Vivek7038)
 
