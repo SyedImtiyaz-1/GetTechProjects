@@ -56,3 +56,8 @@
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
+
+#### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
+- Place: Chhindwara, Madhya Pradesh, India
+- Bio: CSE student | Data Science
+- Github: [Parvez Khan] (https://github.com/Parvezkhan0)
