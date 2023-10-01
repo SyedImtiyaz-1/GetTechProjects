@@ -23,7 +23,7 @@
 - GitHub: [premsaivarmachekuri](https://github.com/premsaivarmachekuri)
 - Linkedin [Premsai Varma](https://www.linkedin.com/in/premsaivarma/)
 
-### Name: [Premsai Varma Chekuri](https://github.com/lavanshi295)
+### Name: [Lavanshi Bansal](https://github.com/lavanshi295)
 
 - Place: Rohini, Delhi, India
 - Bio: College Student | Frontend Developer
