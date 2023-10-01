@@ -94,3 +94,8 @@
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
+#### Name: [Prathamesh Patil](https://www.linkedin.com/in/prathamesh8124)
+
+- 📍 Place: Banglore, Karnataka, India
+- ⏳ Bio: Security Engineer | Red Teamer | Blue Teamer
+- 🚀 [GitHub](https://github.com/mrghost100348)
