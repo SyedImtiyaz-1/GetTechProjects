@@ -69,3 +69,8 @@
 - 📍 Place: Banglore, Karnataka, India
 - ⏳ Bio: Data Engineer @AB InBev GCC 👾 | Software Developer 💜 | Final-Year Student 📜
 - 🚀 [GitHub](https://github.com/Swap-Nova)
+
+#### Name: [Kunal Gupta](https://www.linkedin.com/in/kunalgupta22/)
+- Place: Lucknow, Uttar Pradesh, India
+- Bio: Front End developer exploring web and new technologies.
+- GitHub: [Kunal Gupta](https://github.com/kunal22-gupta)
