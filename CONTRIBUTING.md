@@ -128,3 +128,8 @@
 - Place: Kharagpur, West Bengal, India
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
+
+#### Name: [Aryan Krishna](https://github.com/Ayan726)
+- Place: Mumbai, Maharashtra, India
+- Bio: CSE Student | MERN Developer | Competitive Programmer
+- GitHub: [Aryan Krishna](https://github.com/KudoAkinichi)
