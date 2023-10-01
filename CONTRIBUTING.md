@@ -45,3 +45,8 @@
 - Place: Ahmedabad, Gujarat, India
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
+
+#### Name: [Sabir Khan](https://github.com/DroidMystic)
+- Place: Dehradun, Uttrakhand, India.
+- Bio: College Student | Android Developer.
+- GitHub: [Sabir Khan](https://github.com/DroidMystic)
