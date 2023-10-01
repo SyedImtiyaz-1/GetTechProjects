@@ -51,7 +51,7 @@
 - Bio: College Student | Full Stack Developer
 - GitHub: [insane-22](https://github.com/insane-22)
 
-- #### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
+#### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
 
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
@@ -63,3 +63,9 @@
 - Place: Raipur, Chhattisgarh, India
 - Bio: Computer Engineering Student | Full Stack Web Developer | Bennett University'26
 - GitHub: [Karamraj Singh Anand](https://github.com/Karamraj)
+
+#### Name: [Swapnil Sinha](https://www.linkedin.com/in/swapnilsinha81/)
+
+- 📍 Place: Banglore, Karnataka, India
+- ⏳ Bio: Data Engineer @AB InBev GCC 👾 | Software Developer 💜 | Final-Year Student 📜
+- 🚀 [GitHub](https://github.com/Swap-Nova)
