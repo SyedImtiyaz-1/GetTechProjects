@@ -114,3 +114,8 @@
 - Bio: CSE student 
 - Github: [Vivek Chavan] (https://github.com/Vivek7038)
 
+#### Name: [Lalit Chauhan](https://github.com/LalitChauhan56)
+
+- Place: Jaipur, Rajasthan, India
+- Bio: Computer Engineering Student | Cyber Security | Web Developer
+- GitHub: [Lalit Chauhan](https://github.com/LalitChauhan56)
