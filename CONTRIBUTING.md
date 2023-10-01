@@ -94,3 +94,8 @@
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
+#### Name: [Vivek Chavan] (https://github.com/Vivek7038)
+- Place: Aurangabad, Maharashtra, India
+- Bio: CSE student 
+- Github: [Vivek Chavan] (https://github.com/Parvezkhan0)
+
