@@ -46,6 +46,10 @@
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
 
+#### Name: [Bhumika Bachchan](https://github.com/insane-22)
+- Place: Roorkee, Uttarakhand, India
+- Bio: College Student | Full Stack Developer
+- GitHub: [insane-22](https://github.com/insane-22)
 
 #### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
 
