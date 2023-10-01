@@ -56,3 +56,9 @@
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
+
+### Name: [Arnab Pal](https://github.com/arnabpal2022)
+
+- Place: Kolkata, West Bengal, India
+- Bio: College Student | FrontEnd Developer
+- Github: [Arnab Pal](https://github.com/arnabpal2022)
