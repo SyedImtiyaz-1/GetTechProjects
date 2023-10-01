@@ -69,3 +69,9 @@
 - 📍 Place: Banglore, Karnataka, India
 - ⏳ Bio: Data Engineer @AB InBev GCC 👾 | Software Developer 💜 | Final-Year Student 📜
 - 🚀 [GitHub](https://github.com/Swap-Nova)
+
+#### Name: [zain shakoor](https://www.linkedin.com/in/zainbinshakoor/)
+
+- 📍 Place: Faisalabad, Pakistan
+- ⏳ Bio: Full stack developer @ZAW TECH | Software Developer
+- 🚀 [GitHub](https://github.com/zainbinshakoor)
