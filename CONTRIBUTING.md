@@ -64,7 +64,6 @@
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
 
-
 #### Name: [Karamraj Singh Anand](https://github.com/Karamraj)
 
 - Place: Raipur, Chhattisgarh, India
@@ -94,3 +93,8 @@
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
+### Name: [Arnab Pal](https://github.com/arnabpal2022)
+
+- Place: Kolkata, West Bengal, India
+- Bio: College Student | FrontEnd Developer
+- Github: [Arnab Pal](https://github.com/arnabpal2022)
