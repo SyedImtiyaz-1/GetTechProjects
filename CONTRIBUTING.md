@@ -16,6 +16,13 @@
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
 
+#### Name: [Premsai Varma Chekuri](https://github.com/premsaivarmachekuri/)
+
+- Place: Visakhapatnam, Andhra Pradesh, India
+- Bio: College Student | Full Stack Developer
+- GitHub: [premsaivarmachekuri](https://github.com/premsaivarmachekuri)
+- Linkedin [Premsai Varma](https://www.linkedin.com/in/premsaivarma/)
+
 ### Name: [Lavanshi Bansal](https://github.com/lavanshi295)
 
 - Place: Rohini, Delhi, India
