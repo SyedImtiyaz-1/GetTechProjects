@@ -94,3 +94,7 @@
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
+#### Name: [Mayuri Narute] (https://github.com/MayuriNarute)
+- Place: Pune-Maharashtra, India
+- Bio: IT student | Java Full Stack | React | Python
+- Github: [Mayuri Narute] (https://github.com/MayuriNarute)
