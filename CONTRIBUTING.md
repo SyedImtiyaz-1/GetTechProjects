@@ -51,7 +51,7 @@
 - Bio: College Student | Full Stack Developer
 - GitHub: [insane-22](https://github.com/insane-22)
 
-#### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
+- #### Name: [Yash Vaidya](https://github.com/hsayvaidya23)
 
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
