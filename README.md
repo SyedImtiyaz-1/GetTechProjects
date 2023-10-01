@@ -50,8 +50,9 @@ git commit -m 'Commit message'
 git push origin <your_branch_name>
 ```
 
-Starting Point of the Project : ![Screenshot from 2023-10-01 22-30-17](https://github.com/SyedImtiyaz-1/PreciousServices-/assets/121503426/49c6715a-d8cb-45b4-97e8-d4b0aef20d1d) 
-`The index.html which is the main starting point of the website.`
+Starting Point of the Project : </br></br>
+![Screenshot from 2023-10-01 22-30-17](https://github.com/SyedImtiyaz-1/PreciousServices-/assets/121503426/49c6715a-d8cb-45b4-97e8-d4b0aef20d1d) </br></br>
+`The index.html which is the main starting point of the website. You can run it with Live Server.`
 
 
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
