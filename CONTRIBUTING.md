@@ -69,3 +69,9 @@
 - 📍 Place: Banglore, Karnataka, India
 - ⏳ Bio: Data Engineer @AB InBev GCC 👾 | Software Developer 💜 | Final-Year Student 📜
 - 🚀 [GitHub](https://github.com/Swap-Nova)
+
+#### Name: [Yusra](https://github.com/yusra05)
+
+- Place: Delhi, India
+- Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
+- GitHub: [yusra05](https://github.com/yusra05)
