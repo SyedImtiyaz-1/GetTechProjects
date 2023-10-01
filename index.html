@@ -42,7 +42,6 @@
     <link rel="stylesheet" href="./chatBot/style.css" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    <script src="./js/main.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
@@ -207,10 +206,11 @@
           type="tel"
           id="number"
           name="phone"
-          pattern="[0-9]{10}"
+          pattern="[0-9]{10,12}"
           required
           placeholder="Contact Number"
-          maxlength="10"
+          minlength="10"
+          maxlength="12"
           class="contact-form-phone"
         />
         <span id="phone-error" class="error"></span> <!-- Validation error message for Contact Number -->
@@ -231,7 +231,7 @@
           required
         ></textarea>
         <span id="message-error" class="error"></span> <!-- Validation error message for Message -->
-        <button class="contact-form-btn" onclick="validateAndSend()">Submit</button>
+        <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
       </form>
       </div>
     </div>
