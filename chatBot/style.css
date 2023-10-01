@@ -39,6 +39,7 @@
   overflow: hidden;
   opacity: 0;
   pointer-events: none;
+  z-index: 1000;
 }
 .show-chatbot .chatbot {
   opacity: 1;
