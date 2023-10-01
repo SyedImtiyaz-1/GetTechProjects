@@ -45,3 +45,9 @@
 - Place: Ahmedabad, Gujarat, India
 - Bio: I am a Cyber Security Student studying in Nirma University.
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
+- 
+- #### Name: [Moiz S](https://github.com/abdulmoizsheraz)
+
+- Place: Rawalpindi, Pakistan
+- Bio: I am a CS undergrad Student and a Mern Stack Developer
+- GitHub: [Jenil Gajjar](https://github.com/abdulmoizsheraz)
