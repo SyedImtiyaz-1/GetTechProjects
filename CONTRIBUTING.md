@@ -89,3 +89,8 @@
 - Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
 - GitHub: [yusra05](https://github.com/yusra05)
 
+#### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
+- Place: Chhindwara, Madhya Pradesh, India
+- Bio: CSE student | Data Science
+- Github: [Parvez Khan] (https://github.com/Parvezkhan0)
+
