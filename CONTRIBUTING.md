@@ -83,3 +83,9 @@
 - ⏳ Bio: Full stack developer @ZAW TECH | Software Developer
 - 🚀 [GitHub](https://github.com/zainbinshakoor)
 
+#### Name: [Yusra](https://github.com/yusra05)
+
+- Place: Delhi, India
+- Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
+- GitHub: [yusra05](https://github.com/yusra05)
+
