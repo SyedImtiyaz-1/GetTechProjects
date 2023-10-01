@@ -94,3 +94,8 @@
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
+#### Name: [Lalit Kumar Jangir](https://github.com/lalitjangir2002)
+
+- Place: Alwar, Rajasthan, India
+- Bio: CSE Student | Java | DSA | React | JavaScript
+- GitHub: [Lalit Jangir](https://github.com/lalitjangir2002)
