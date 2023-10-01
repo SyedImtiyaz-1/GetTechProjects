@@ -98,3 +98,8 @@
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+
+- #### Name: [Abhisek Roy] (https://github.com/abhisek247767)
+- Place: Kolkata, West Bengal, India
+- Bio: Software Developer Engineer | Java |Drupal |React
+- Github: [Abhisek Roy] (https://github.com/abhisek247767)
