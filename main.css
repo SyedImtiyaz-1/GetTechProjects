@@ -874,7 +874,7 @@ body {
   height: auto;
   margin: auto auto 5rem auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
   border-radius: 10px;
@@ -1038,7 +1038,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-bottom: 50px;
 }
@@ -1567,5 +1567,11 @@ hr {
 
   .chatbot__input-box {
     overflow: hidden;
+  }
+}
+
+@media (max-width: 425px){
+  .contact-in{
+    flex-direction: column;
   }
 }
