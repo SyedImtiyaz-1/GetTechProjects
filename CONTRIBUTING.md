@@ -178,3 +178,8 @@
 - Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+
+- #### Name: [Manish Verma](https://github.com/Manish12-verma)
+- Place : NOida,Uttar pradesh,India
+- Bio:-  IT Undergrad  | Web developer
+- Github:-[Manish Verma](https://github.com/Manish12-verma)
