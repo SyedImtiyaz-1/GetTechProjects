@@ -129,9 +129,7 @@
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
 
-#### Name: [Punam Kumavat](https://github.com/punam01)
+#### Name: [Punam Kumavat](https://github.com/punam01/)
 - Place: Mumbai, Maharashtra, India
 - Bio: MCA Student at National Institute of Technology, Karnataka | Frontend Developer | Game Developer | Research enthusiast
-- GitHub: [Punam Kumavat](https://github.com/punam01)
-- Linkedin: [Punam Kumavat](www.linkedin.com/in/punam-kumavat)
-- Portfolio: [Portfolio](https://punamk-portfolio.netlify.app/)
+- GitHub: [Punam Kumavat](https://github.com/punam01/)
