@@ -149,7 +149,6 @@
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
 
-
 #### Name: [Aditya Lad](https://github.com/Adityalad-25)
 
 - Place: Pune,Maharashtra, India
@@ -168,4 +167,8 @@
 - Bio: SY BTech Computer Engineering Student
 - GitHub: [ketan-sonar](https://github.com/ketan-sonar)
 
+#### Name: [Animesh Gupta](https://github.com/aniimessh)
 
+- Place: Aurangabad, Bihar, India
+- Bio: Btech CSE | React Developer
+- GitHub: [wAsI7](https://github.com/aniimessh)
