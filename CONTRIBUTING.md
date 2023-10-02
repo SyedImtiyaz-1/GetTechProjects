@@ -142,3 +142,9 @@
 - Place: Hyderabad, Telangana, India
 - Bio: Front End Developer | React Developer
 - GitHub: [wAsI7](https://github.com/wAsI7)
+
+#### Name: [Aditya Lad](https://github.com/Adityalad-25)
+
+- Place: Pune,Maharashtra, India
+- Bio: Front End Developer | React Developer
+- GitHub: [adityalad-25](https://github.com/Adityalad-25)
