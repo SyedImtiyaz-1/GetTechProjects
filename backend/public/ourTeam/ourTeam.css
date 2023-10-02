@@ -168,9 +168,11 @@ section {
     font-weight: 400;
   }
 
+
   /* Media query to target mobile devices */
 @media (max-width: 768px) {
   .navbar-toggler.navbar-toggler-right {
     margin-left: auto; /* Automatically align to the right */
   }
 }
+
