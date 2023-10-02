@@ -12,10 +12,12 @@ $(document).ready(function(){
         if($(window).scrollTop()>35)
         {
             $('.header').css({'background':'#002e5f','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
+            $('.login').css({'background':'#227EBB','box-shadow':'none'});
         }
         else
         {
             $('.header').css({'background':'none','box-shadow':'none'});
+            $(".login").css({ background: "#002e5f" });
         }
     });
 

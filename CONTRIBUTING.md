@@ -143,8 +143,14 @@
 - Bio: Front End Developer | React Developer
 - GitHub: [wAsI7](https://github.com/wAsI7)
 
+#### Name: [Shagun](https://github.com/shagunZ)
+
+- Place: Jammu, J&K, India
+- Bio: Btech CSE | React Developer
+- GitHub: [wAsI7](https://github.com/shagunZ)
+
 #### Name: [Aditya Lad](https://github.com/Adityalad-25)
 
 - Place: Pune,Maharashtra, India
 - Bio: Front End Developer | React Developer
-- GitHub: [adityalad-25](https://github.com/Adityalad-25)
+- GitHub: [Adityalad-25](https://github.com/Adityalad-25)
