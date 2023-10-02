@@ -128,3 +128,8 @@
 - Place: Kharagpur, West Bengal, India
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
+
+#### Name: [Abhisek Roy](https://github.com/abhisek247767)
+- Place: Kolkata, West Bengal, India
+- Bio: SDE | React Developer | Java |Springboot
+- GitHub: [Abhisek Roy](https://github.com/abhisek247767)
