@@ -178,3 +178,9 @@
 - Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+
+#### Name: [Vaibhav Sawate](https://github.com/Vaibhav-Sawate)
+
+- Place: Pune, Maharashtra, India
+- Bio: TY B.Tech Computer Engineering Student | Cybersecurity Enthusiast
+- GitHub: [Vaibhav-Sawate](https://github.com/Vaibhav-Sawate)
