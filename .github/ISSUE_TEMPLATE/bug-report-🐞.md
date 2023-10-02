@@ -31,7 +31,7 @@ Add any other context about the problem here.
 
 - [ ] I have checked the existing issues
 - [ ]  [Give a Star](https://github.com/SyedImtiyaz-1/PreciousServices) ⭐
-- [ ] Have you added your name in [CONTRIBUTING.md](https://github.com/SyedImtiyaz-1/PreciousServices/blob/main/CONTRIBUTING.md)
+- [ ] Follow - [Project Admin](https://github.com/SyedImtiyaz-1/)
 - [ ] I want to work on this issue
 
 Connect with me on [Linkedin](https://linkedin.com/in/imtiyaz-sde)
