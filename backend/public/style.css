@@ -196,6 +196,7 @@ section{
 .swiper-slide img { 
     width: 50%;
     height: auto;
+    aspect-ratio: 1;
   }
   
   /* Style for the Swiper navigation buttons */
