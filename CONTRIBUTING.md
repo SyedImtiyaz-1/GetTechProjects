@@ -16,6 +16,13 @@
 - Bio: College Student | Full Stack Developer
 - Github: [Tanya Kumari](https://github.com/07tAnYa)
 
+### Name: [Vivek Chaudhary](https://github.com/Venerablevivek)
+
+- Place: Mathura, Uttar Pradesh, India
+- Bio: College Student | MERN Stack Developer
+- Github: [Venerablevivek](https://github.com/Venerablevivek)
+- LinkedIn: [Vivek Chaudhary](https://www.linkedin.com/in/vivek-chaudhary-b8460321a/)
+
 #### Name: [Premsai Varma Chekuri](https://github.com/premsaivarmachekuri/)
 
 - Place: Visakhapatnam, Andhra Pradesh, India
@@ -128,6 +135,12 @@
 - Place: Kharagpur, West Bengal, India
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
+
+#### Name: [Punam Kumavat](https://github.com/punam01/)
+- Place: Mumbai, Maharashtra, India
+- Bio: MCA Student at National Institute of Technology, Karnataka | Frontend Developer | Game Developer | Research enthusiast
+- GitHub: [Punam Kumavat](https://github.com/punam01/)
+
 #### Name: [Ryan Maddock](https://github.com/Ryan-Maddock-96)
 - Place: Liverpool, United Kingdom
 - Bio: Front End Developer

@@ -62,6 +62,14 @@ section{
     border: 3px solid black;
 } */
 
+/* Added Course Hovering POP-UP Effect with background color */
+.course:hover{
+    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+    transform: scale(1.1);
+    transition: all 250ms linear 0s;
+    cursor: pointer;
+}
+
 .course[data-paid="false"]:hover {
     /* Your hover effect styles */
     border: .7px solid grey;
