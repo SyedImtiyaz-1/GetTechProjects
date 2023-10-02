@@ -54,6 +54,15 @@
       "techstack": "HTML, CSS, JS, React JS, Firebase",
       "slide-img-1":"img/tesla-1.png",
       "slide-img-2":"img/tesla-2.png"
+    },
+    {
+      "courseId": "Microsoft Clone",
+      "name":"Microsoft Clone",
+      "image": "img/micorsoft.png",
+      "downloadLink": "https://drive.google.com/file/d/1x-S0kax4HgcSIEo6GGyjcYJHWEjUaCwF/view?usp=drive_link",
+      "techstack": "HTML, CSS, JS, Tailwind CSS",
+      "slide-img-1":"img/microsoft-1.png",
+      "slide-img-2":"img/microsoft-2.png"
     }
 
 ]
