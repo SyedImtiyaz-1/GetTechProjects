@@ -168,4 +168,7 @@
 - Bio: SY BTech Computer Engineering Student
 - GitHub: [ketan-sonar](https://github.com/ketan-sonar)
 
-
+#### Name: [Logeshwaran](https://github.com/Logesh-waran2003)
+- Place: Chennai, Tamilnadu, India
+- Bio: CS Undergrad | Full stack Developer
+- GitHub: [Logesh-waran2003](https://github.com/Logesh-waran2003)
