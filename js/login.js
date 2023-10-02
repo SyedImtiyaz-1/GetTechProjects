@@ -49,21 +49,21 @@ let info = JSON.parse(localStorage.getItem("authInfo"));
 console.log(JSON.parse(localStorage.getItem("authInfo")));
 console.log(info["access_token"]);
 console.log(info["expires_in"]);
-
-fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
-  headers: {
-    Authorization: `Bearer ${info["access_token"]}`,
-  },
-})
-  .then((data) => data.json())
-  .then((info) => {
-    console.log(info);
-    document.getElementById("name").innerHTML += info.name;
-    document.getElementById("name").classList.add("nameCSS");
-    document.getElementById("image").setAttribute("src", info.picture);
-    document.getElementById('login').textContent='Logout';
-});
-
+if (info !== null) {
+  fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
+    headers: {
+      Authorization: `Bearer ${info["access_token"]}`,
+    },
+  })
+    .then((data) => data.json())
+    .then((info) => {
+      console.log(info);
+      document.getElementById("name").innerHTML += info.name;
+      document.getElementById("name").classList.add("nameCSS");
+      document.getElementById("image").setAttribute("src", info.picture);
+      document.getElementById('login').textContent = 'Logout';
+    });
+}
 function logout() {
   fetch("https://oauth2.googleapis.com/revoke?token=" + info["access_token"], {
     method: "POST",
