@@ -148,3 +148,9 @@
 - Place: Jammu, J&K, India
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
+
+#### Name: [Animesh Gupta](https://github.com/aniimessh)
+
+- Place: Aurangabad, Bihar, India
+- Bio: Btech CSE | React Developer
+- GitHub: [wAsI7](https://github.com/aniimessh)
