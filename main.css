@@ -988,7 +988,7 @@ footer {
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
   padding: 100px 0px 30px;
-  border-top-left-radius: 125px;
+  border-radius: 50px 50px 0px 0px;
   font-size: 13px;
   line-height: 20px;
 }
@@ -1363,7 +1363,7 @@ hr {
   }
 
   .contact-in {
-    width: 80%;
+    width: 40%;
     height: auto;
     margin: auto auto 5rem auto;
     display: flex;
