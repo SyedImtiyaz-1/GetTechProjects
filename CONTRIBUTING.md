@@ -148,3 +148,9 @@
 - Place: Jammu, J&K, India
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
+
+#### Name: [Rohit](https://github.com/Rohit-Yadavv)
+
+- Place: Haryana, India
+- Bio: Web Developer
+- GitHub: [Rohit](https://github.com/Rohit-Yadavv)
