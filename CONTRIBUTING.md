@@ -178,3 +178,10 @@
 - Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+- 
+#### Name: [Ketan Choudhari](https://github.com/ketan-choudhari)
+
+- Place: Pune Maharashtra, India
+- Bio: TY BTech Computer Engineering Student | Full stack Developer
+- GitHub: [ketan-choudhari](https://github.com/ketan-choudhari)
+
