@@ -61,6 +61,7 @@
 - GitHub: [Jenil Gajjar](https://github.com/JenilGajjar20)
 
 #### Name: [Bhumika Bachchan](https://github.com/insane-22)
+
 - Place: Roorkee, Uttarakhand, India
 - Bio: College Student | Full Stack Developer
 - GitHub: [insane-22](https://github.com/insane-22)
@@ -70,7 +71,6 @@
 - Place: Nashik, Maharastra, India
 - Bio: Computer Engineering Student | Full Stack Web Developer
 - GitHub: [Yash Vaidya](https://github.com/hsayvaidya23)
-
 
 #### Name: [Karamraj Singh Anand](https://github.com/Karamraj)
 
@@ -117,7 +117,7 @@
 #### Name: [Vivek Chavan] (https://github.com/Vivek7038)
 
 - Place: Aurangabad, Maharashtra, India
-- Bio: CSE student 
+- Bio: CSE student
 - Github: [Vivek Chavan] (https://github.com/Vivek7038)
 
 #### Name: [Lalit Chauhan](https://github.com/LalitChauhan56)
@@ -127,16 +127,25 @@
 - GitHub: [Lalit Chauhan](https://github.com/LalitChauhan56)
 
 #### Name: [SUYOG CHAVAN](https://github.com/suyogschavan/)
+
 - Place: Pune, Maharashtra, India
 - Bio: 3rd year Computer Engineering student at SCOE, Pune | MERN stack developer | loves hackathons
 - GitHub: [Suyog S Chavan](https://github.com/suyogschavan/)
 
 #### Name: [Ayan Ghosh](https://github.com/Ayan726)
+
 - Place: Kharagpur, West Bengal, India
 - Bio: ECE Student | React Developer | Competitive Programmer
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
 
 #### Name: [Punam Kumavat](https://github.com/punam01/)
+
 - Place: Mumbai, Maharashtra, India
 - Bio: MCA Student at National Institute of Technology, Karnataka | Frontend Developer | Game Developer | Research enthusiast
 - GitHub: [Punam Kumavat](https://github.com/punam01/)
+
+#### Name: [Syed Wasi Ali](https://github.com/wAsI7)
+
+- Place: Hyderabad, Telangana, India
+- Bio: Front End Developer | React Developer
+- GitHub: [wAsI7](https://github.com/wAsI7)
