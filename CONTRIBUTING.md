@@ -132,6 +132,7 @@
 - GitHub: [Ayan Ghosh](https://github.com/Ayan726)
 
 #### Name: [SHRIKRUSHNA PATIL](https://github.com/Patilshrikrushna07)
+
 - Place: Mumbai, Maharashtra, India
 - Bio: 2nd year Computer Engineering student at TCET,Kandiwali Mumbai | MERN stack developer | loves hackathons
 - GitHub: [Shrikrushna Patil](https://github.com/Patilshrikrushna07)
