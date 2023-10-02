@@ -440,15 +440,6 @@ body {
   margin: 10px 0;
 }
 
-.countItem{
-  padding: 10px;
-}
-
-.countItem:hover{
-  background-color: #002e5f;
-  border-radius: 10px;
-}
-
 @media (max-width: 700px) {
   .counters .container {
     grid-template-columns: repeat(2, 1fr);
@@ -520,7 +511,6 @@ body {
 .item:hover {
   background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
   background-position: right;
-  transform: scale(1.1);
   transition: background-position 3s;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0s;
