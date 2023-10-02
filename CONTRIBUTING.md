@@ -172,3 +172,8 @@
 - Place: Chennai, Tamilnadu, India
 - Bio: CS Undergrad | Full stack Developer
 - GitHub: [Logesh-waran2003](https://github.com/Logesh-waran2003)
+
+#### Name: [MOHAN MAJHI](https://github.com/mohan060104)
+- Place: Purulia, West Bengal, india
+- Bio: I am a tech enthusiast, aspiring full-stack developer.  
+- GitHub: [mohan060104](https://github.com/mohan060104)
