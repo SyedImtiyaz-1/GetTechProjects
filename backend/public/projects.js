@@ -96,6 +96,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     closeButtons.forEach((closeButton) => {
       closeButton.addEventListener("click", () => {
         closeButton.closest(".popup").style.display = "none";
+        body.removeAttribute("style")
       });
     });
 
@@ -112,6 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     closeButton.addEventListener("click", () => {
       popup.style.display = "none";
+      body.style.overflow = "auto"; // Restore body overflow
     });
 
     buyButton.addEventListener("click", async function (event) {

@@ -4,7 +4,8 @@
 
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
-Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting involved in the open source community by completing some simple tasks in this project.
+Builds With :
+`HTML, CSS, Javascript, Node.js, Express.js, MongoDB`
 
 This repository is open to all members of the GitHub community. Any member can contribute to this project.
 
@@ -31,13 +32,13 @@ Make a pull request and wait for it to be merged!
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+git clone https://github.com/SyedImtiyaz-1/PreciousServices-
 ```
 
 * Create a branch
 
 ```markdown
-git checkout -b branch-name
+git checkout -b "<your_branch_name>"
 ```
 
 * Make your changes (choose from any task below)
@@ -46,8 +47,13 @@ git checkout -b branch-name
 ```markdown
 git add .
 git commit -m 'Commit message'
-git push origin branch-name
+git push origin <your_branch_name>
 ```
+
+Starting Point of the Project : </br></br>
+![Screenshot from 2023-10-01 22-30-17](https://github.com/SyedImtiyaz-1/PreciousServices-/assets/121503426/49c6715a-d8cb-45b4-97e8-d4b0aef20d1d) </br></br>
+`The index.html which is the main starting point of the website. You can run it with Live Server.`
+
 
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!

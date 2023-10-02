@@ -1,5 +1,15 @@
 [
     {
+      "courseId": "Questify",
+      "name": "Questify ( Blogging Mern App )",
+      "image": "img/questify.png",
+      "downloadLink": "https://github.com/Rohit-Yadavv/questify",
+      "techstack": "MERN, Nodejs, Reactjs, MongoDb",
+      "slide-img-1":"img/questify-1.png",
+      "slide-img-2":"img/questify-2.png"
+      
+    },
+    {
       "courseId": "Amazon",
       "name": "Amazon Clone",
       "image": "img/amazon.png",
