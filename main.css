@@ -464,7 +464,7 @@ body {
 
   .header .navbar ul button {
     width: fit-content;
-    height: 3.5vh;
+    height: fit-content;
     flex-wrap: wrap;
     background: transparent;
     color: white;
