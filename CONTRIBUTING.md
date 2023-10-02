@@ -140,8 +140,3 @@
 - Place: Mumbai, Maharashtra, India
 - Bio: MCA Student at National Institute of Technology, Karnataka | Frontend Developer | Game Developer | Research enthusiast
 - GitHub: [Punam Kumavat](https://github.com/punam01/)
-
-#### Name: [Ryan Maddock](https://github.com/Ryan-Maddock-96)
-- Place: Liverpool, United Kingdom
-- Bio: Front End Developer
-- GitHub: [Ryan Maddock](https://github.com/Ryan-Maddock-96)

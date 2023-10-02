@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     closeButtons.forEach((closeButton) => {
       closeButton.addEventListener("click", () => {
         closeButton.closest(".popup").style.display = "none";
-        body.removeAttribute("style")
       });
     });
 
