@@ -1,5 +1,5 @@
 // Login
-let loginBtn = document.getElementById("login");
+let loginBtn = document.getElementById("Login");
 let logoutBtn = document.getElementById("logout");
 
 loginBtn.addEventListener("click", () => {
