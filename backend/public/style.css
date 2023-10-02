@@ -251,6 +251,48 @@ section {
   }
 
   .swiper-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    max-height: 60vh;
+  }
+  
+  /* Style for the Swiper slides */
+.swiper-slide img { 
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  
+  /* Style for the Swiper navigation buttons */
+  .swiper-button-next, .swiper-button-prev {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  
+  /* Style for the close button */
+  .close-button {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
     max-width: 100%; /* Adjust the maximum width for better responsiveness */
     max-height: 50vh; /* Adjust the maximum height for better fit */
   }
