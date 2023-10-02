@@ -167,3 +167,114 @@ section {
     font-size: 23px;
     font-weight: 400;
   }
+
+
+  /* Media query to target mobile devices */
+@media (max-width: 1000px) {
+  .navbar-toggler.navbar-toggler-right {
+    margin-left: auto; /* Automatically align to the right */
+    margin-bottom: 10px;
+  }
+
+  .header .logo img {
+    width: 15%; /* Adjust the width as needed */
+    height: 15%; /* Maintain aspect ratio */
+    margin-top: 0.3em;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    display: flex; /* Vertically align the logo */
+    align-items: center; /* Vertically center the logo */
+  }
+
+  /* Center-align the nav links */
+  .header .navbar ul {
+    text-align: center;
+  }
+
+  .header .navbar ul li {
+    margin: 1rem 0;
+  }
+
+  .header .navbar ul li a {
+    color: grey;
+    font-size: 2.4rem; /* Adjust the font size as needed */
+  }
+ 
+
+  .header .navbar ul button:hover {
+    text-decoration: underline;
+    background: none;
+    color: #1da1f2;
+  }
+
+  .nameCSS {
+    color: rgb(16, 16, 16);
+    margin: 0 1em;
+    padding: 0.2em;
+    font-weight: 550;
+    text-decoration: underline;
+  }
+
+  .header .navbar ul button {
+    width: fit-content;
+    height: 100%;
+    padding: 0 0.3em;
+  }
+
+  .header .logo img {
+    width: 9%;
+    height: 3.5rem;
+    margin-top: 0.3em;
+    top: 0;
+    left: 0;
+    background-size: cover;
+  }
+
+  .header .fa-bars {
+    display: block;
+    color: white;
+    margin-right: 1rem;
+  }
+
+  .header .fa-bars:hover {
+    color: #00bfff;
+  }
+
+  .header .navbar {
+    position: fixed;
+    top: -120%;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+
+  .header .navbar ul {
+    height: 100%;
+    width: 100%;
+    flex-flow: column;
+  }
+
+  .header .navbar ul li {
+    margin: 1rem 0;
+  }
+
+  .header .navbar ul li a {
+    color: grey;
+    font-size: 2.4rem;
+  }
+
+  .header .fa-times {
+    transform: rotate(90deg);
+  }
+
+  .header .nav-toggle {
+    top: 5.8rem;
+  }
+
+  
+}
+
