@@ -148,3 +148,9 @@
 - Place: Jammu, J&K, India
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
+
+#### Name: [Ketan Sonar](https://github.com/ketan-sonar)
+
+- Place: Pune, Maharashtra, India
+- Bio: SY BTech Computer Engineering Student
+- GitHub: [ketan-sonar](https://github.com/ketan-sonar)
