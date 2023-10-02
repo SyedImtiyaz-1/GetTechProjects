@@ -172,3 +172,8 @@
 - Place: Chennai, Tamilnadu, India
 - Bio: CS Undergrad | Full stack Developer
 - GitHub: [Logesh-waran2003](https://github.com/Logesh-waran2003)
+
+#### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+- Place: New Delhi, Delhi, India
+- Bio: Just another programmer. 
+- GitHub: [sysreset999](https://github.com/sysreset999)

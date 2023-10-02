@@ -1056,6 +1056,7 @@ form input {
   color: #ccc;
   border: 0;
   outline: none;
+  font-size: 16px;
 }
 .input-wrapper {
   display: flex;
