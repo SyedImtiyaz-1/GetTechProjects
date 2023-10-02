@@ -149,8 +149,15 @@
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
 
+#### Name: [Rohit](https://github.com/Rohit-Yadavv)
+
+- Place: Haryana, India
+- Bio: Web Developer
+- GitHub: [Rohit](https://github.com/Rohit-Yadavv)
+
 #### Name: [Ketan Sonar](https://github.com/ketan-sonar)
 
 - Place: Pune, Maharashtra, India
 - Bio: SY BTech Computer Engineering Student
 - GitHub: [ketan-sonar](https://github.com/ketan-sonar)
+
