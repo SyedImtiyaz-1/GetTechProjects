@@ -42,8 +42,18 @@
       "image": "img/tesla-clone.png",
       "downloadLink": "https://drive.google.com/file/d/1x-S0kax4HgcSIEo6GGyjcYJHWEjUaCwF/view?usp=drive_link",
       "techstack": "HTML, CSS, JS, React JS, Firebase",
-      "slide-img-1":"img/tesla-1.png",
+      "slide-img-1":"img/",
       "slide-img-2":"img/tesla-2.png"
+    },
+
+    {
+      "courseId": "Portfolio",
+      "name":"Portfolio Website",
+      "image": "img/Portfolio.jpg" ,
+      "downloadLink": "https://drive.google.com/file/d/1Idbf4CdqZkamlnLn2O-q0YQ6uTb1iGiF/view?usp=sharing",
+      "techstack": "HTML, CSS, JS,Firebase,AOS.js",
+      "slide-img-1":"img/portfoliioslider1.png",
+      "slide-img-2":"img/portfolioslider3.jpg"
     }
 
 ]
