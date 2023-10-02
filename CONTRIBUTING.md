@@ -149,6 +149,13 @@
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
 
+
+#### Name: [Aditya Lad](https://github.com/Adityalad-25)
+
+- Place: Pune,Maharashtra, India
+- Bio: Front End Developer | React Developer
+- GitHub: [Adityalad-25](https://github.com/Adityalad-25)
+
 #### Name: [Rohit](https://github.com/Rohit-Yadavv)
 
 - Place: Haryana, India
@@ -160,4 +167,5 @@
 - Place: Pune, Maharashtra, India
 - Bio: SY BTech Computer Engineering Student
 - GitHub: [ketan-sonar](https://github.com/ketan-sonar)
+
 
