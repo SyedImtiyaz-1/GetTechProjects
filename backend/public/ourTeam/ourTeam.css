@@ -11,7 +11,9 @@ section {
     text-align: center;
     padding-bottom: 30px;
   }
-  
+  .container-fluid{
+    color: #fff;
+  }
   .section-title h2 {
     font-size: 32px;
     font-weight: 500;
@@ -167,17 +169,23 @@ section {
     font-size: 23px;
     font-weight: 400;
   }
-
-  .hoverprop{
-    border-radius: 8px;
-
-  }
-.hoverprop:hover{
-padding-bottom: 0;
-background-color: #c8e6f4;
- border-bottom: 3px solid #47b2e4; /* Add a transparent underline */
+ 
+ 
+ 
   
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 500;
+    color:#37517e;
+  }
+
+.hoverprop:hover{
+  padding-bottom: 0;
+  border-bottom: 2px solid #37517e;
 }
+
+
+
   /* Media query to target mobile devices */
 @media (max-width: 768px) {
   .navbar-toggler.navbar-toggler-right {
