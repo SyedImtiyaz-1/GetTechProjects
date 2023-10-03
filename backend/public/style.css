@@ -57,10 +57,11 @@ section{
     margin-top: 20px;
     border-radius: 8px;
     transition: border 0.1s linear 0s;
+    cursor: pointer;
 }
-/* .course:hover{
-    border: 3px solid black;
-} */
+.course:hover{
+    border: .2px solid rgb(171, 170, 170);
+}
 
 .course[data-paid="false"]:hover {
     /* Your hover effect styles */
