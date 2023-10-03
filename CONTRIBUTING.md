@@ -183,3 +183,8 @@
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Udayan Sharma](https://github.com/hollermay)
+- Place: Chandigarh, India
+- Bio: CSE Student | FrontEnd Developer | Django | Ai/ML Enthusiast | SIH Shortlisted candidate
+- GitHub: [Udayan Sharma](https://github.com/hollermay)
