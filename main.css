@@ -919,6 +919,7 @@ body {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  text-transform: none;
 }
 .contact-form-txt::placeholder {
   color: #aaa;
