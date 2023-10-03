@@ -138,6 +138,7 @@ nav #login:hover{
 }
 .chatbot__textarea::placeholder {
   font-family: 'Poppins', sans-serif;
+  
 }
 .chatbot__input-box span {
   font-size: 2.5em;
@@ -150,7 +151,10 @@ nav #login:hover{
 .chatbot__textarea:valid ~ span {
   visibility: visible;
 }
+.hover__effect:hover{
+color: #721c24;
 
+}
 @media (max-width: 490px) {
   .chatbot__button {
     position: fixed;

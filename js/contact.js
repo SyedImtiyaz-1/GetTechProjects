@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Your code here, including the form element access
     function validateForm() {
       const form = {
-          name: document.getElementById("name").value,
+          name: document.getElementById("name").value.trim(),
           number: document.getElementById("number").value,
           mail: document.getElementById("mail").value.trim(),
           message: document.getElementById("message").value.trim(),
@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
       // const phonePattern = /^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$/;
     
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    
+      const allspace = /^\s*$/;
       const errors = {};
     
-      if (form.name === "") {
-          errors.name = "Name can't be blank.";
+      if (form.name === "" || allspace.test(form.name)) {
+          errors.name = "Name can't be blank or consist of only spaces";
       }
     
       if (!phonePattern.test(form.number)) {

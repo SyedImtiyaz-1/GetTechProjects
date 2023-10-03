@@ -184,7 +184,16 @@
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
 
+
 #### Name: [Udayan Sharma](https://github.com/hollermay)
 - Place: Chandigarh, India
 - Bio: CSE Student | FrontEnd Developer | Django | Ai/ML Enthusiast | SIH Shortlisted candidate
 - GitHub: [Udayan Sharma](https://github.com/hollermay)
+
+
+#### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+- Place: New Delhi, Delhi, India
+- Bio: Just another programmer. 
+- GitHub: [sysreset999](https://github.com/sysreset999)
+
+

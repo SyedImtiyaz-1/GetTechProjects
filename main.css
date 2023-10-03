@@ -212,7 +212,7 @@ body {
 }
 
 .header .navbar ul li a:hover {
-  color: #00bfff;
+  color: #2d5c6b;
   text-decoration: underline;
 }
 
@@ -919,6 +919,7 @@ body {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  text-transform: none;
 }
 .contact-form-txt::placeholder {
   color: #aaa;
@@ -1055,6 +1056,7 @@ form input {
   color: #ccc;
   border: 0;
   outline: none;
+  font-size: 16px;
 }
 .input-wrapper {
   display: flex;
@@ -1268,6 +1270,10 @@ hr {
 
   .header .navbar ul li {
     margin: 1rem 0;
+  }
+
+  .header .navbar ul button{
+    color:grey;
   }
 
   .header .navbar ul li a {
