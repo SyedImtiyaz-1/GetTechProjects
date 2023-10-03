@@ -19,6 +19,10 @@
 .chatbot__button span {
   position: absolute;
 }
+nav #login:hover{
+  background-color: #4141f2;
+  box-shadow: #9f9fa2;
+}
 .show-chatbot .chatbot__button span:first-child,
 .chatbot__button span:last-child {
   opacity: 0;
