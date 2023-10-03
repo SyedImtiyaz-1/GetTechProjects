@@ -178,3 +178,9 @@
 - Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+
+#### Name: [Pranav Jadhav](https://github.com/pranav-jadhav)
+
+- Place: Los Angeles, California, USA
+- Bio: MS CS Student | University of Southern California
+- GitHub: [pranav-jadhav](https://github.com/pranav-jadhav)
