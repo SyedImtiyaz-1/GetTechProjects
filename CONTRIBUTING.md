@@ -179,6 +179,11 @@
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
 
+#### Name: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+- Place: Pune, Maharashtra, India
+- Bio: Employee | Software Associate Engineer
+- GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
 #### Name: [Pranav Jadhav](https://github.com/pranav-jadhav)
 
 - Place: Los Angeles, California, USA
