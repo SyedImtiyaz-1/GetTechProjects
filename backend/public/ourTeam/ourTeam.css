@@ -168,7 +168,16 @@ section {
     font-weight: 400;
   }
 
+  .hoverprop{
+    border-radius: 8px;
 
+  }
+.hoverprop:hover{
+padding-bottom: 0;
+background-color: #c8e6f4;
+ border-bottom: 3px solid #47b2e4; /* Add a transparent underline */
+  
+}
   /* Media query to target mobile devices */
 @media (max-width: 768px) {
   .navbar-toggler.navbar-toggler-right {
