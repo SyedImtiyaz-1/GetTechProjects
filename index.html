@@ -2,10 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Precious IT Services</title>
     <link rel="stylesheet" href="./main.css" />
+    <script>
+      $(function() {
+         $("#includeHtml").load("login.html");
+      });
+   </script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -36,7 +42,6 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
-
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./chatBot/style.css" />
@@ -55,6 +60,7 @@
 
   <body>
     <header class="header">
+      <div id="includeHtml"></div>
         <a href="#" class="logo"><img src="./images/pngwing.com(5).png" style="width: 100%;" alt=""></a>
         <div class="fas fa-bars"></div>
         <nav class="navbar">
@@ -64,7 +70,7 @@
                 <!-- <li><a href="careers.html">career</a></li> -->
                 <li><a href="#contact">contact</a></li>
                 <li><a href="./backend/public/ourTeam/index.html">Our team</a></li>
-                <button id="Login">Log In</button>
+                <button id="Login" onclick="location.href='login.html'">Log In</button>
                 <h3 id="name"></h3>
                 <img id="image" onclick="ProfileClicked()" />
                 <button onclick="logout()" id="logout">Logout</button>
