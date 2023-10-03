@@ -178,3 +178,8 @@
 - Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | Fultter Developer
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+
+#### Name: [Abhishek Kumar](https://github.com/Kumarabhi0776)
+- Place: Patna, Bihar, India
+- Bio: 3rd year undergrad NIT Agartala
+- GitHub: [Kumarabhi0776](https://github.com/Kumarabhi0776)
