@@ -183,3 +183,9 @@
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+- Place: New Delhi, Delhi, India
+- Bio: Just another programmer. 
+- GitHub: [sysreset999](https://github.com/sysreset999)
+
