@@ -180,6 +180,13 @@
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
 
 #### Name: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Waleed](https://github.com/RoastedBrotato)
+
+- Place: Qatar
+- Bio: Employee | Software Developer
+- GitHub: [RoastedBrotato](https://github.com/RoastedBrotato)
