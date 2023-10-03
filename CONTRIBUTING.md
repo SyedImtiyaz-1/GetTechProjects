@@ -183,3 +183,8 @@
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Kabir Singh](https://github.com/kabir-afk)
+- Place: City, State, Country
+- Bio: CS Undergrad | frontend-web-dev
+- GitHub: [kabir-afk](https://github.com/kabir-afk)
