@@ -11,7 +11,9 @@ section {
     text-align: center;
     padding-bottom: 30px;
   }
-  
+  .container-fluid{
+    color: #fff;
+  }
   .section-title h2 {
     font-size: 32px;
     font-weight: 500;
@@ -167,6 +169,21 @@ section {
     font-size: 23px;
     font-weight: 400;
   }
+ 
+ 
+ 
+  
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 500;
+    color:#37517e;
+  }
+
+.hoverprop:hover{
+  padding-bottom: 0;
+  border-bottom: 2px solid #37517e;
+}
+
 
 
   /* Media query to target mobile devices */
