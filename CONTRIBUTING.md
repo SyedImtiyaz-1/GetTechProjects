@@ -184,7 +184,8 @@
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
 
-#### Name: [Kabir Singh](https://github.com/kabir-afk)
-- Place: Noida, Uttar Pradesh, India
-- Bio: CS Undergrad | frontend-web-dev
-- GitHub: [kabir-afk](https://github.com/kabir-afk)
+#### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+- Place: New Delhi, Delhi, India
+- Bio: Just another programmer. 
+- GitHub: [sysreset999](https://github.com/sysreset999)
+
