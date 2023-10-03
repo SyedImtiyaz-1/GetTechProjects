@@ -183,3 +183,9 @@
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Bikash Nath](https://github.com/b0n21en5)
+
+- Place: Dharmanagar, Tripura, India
+- Bio: MERN Stack | Full Stack Developer Enthusiast
+- GitHub: [Bikash Nath](https://github.com/b0n21en5)
