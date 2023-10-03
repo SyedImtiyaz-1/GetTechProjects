@@ -185,6 +185,6 @@
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
 
 #### Name: [Kabir Singh](https://github.com/kabir-afk)
-- Place: City, State, Country
+- Place: Noida, Uttar Pradesh, India
 - Bio: CS Undergrad | frontend-web-dev
 - GitHub: [kabir-afk](https://github.com/kabir-afk)
