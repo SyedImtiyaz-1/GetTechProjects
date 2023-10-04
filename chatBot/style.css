@@ -19,6 +19,10 @@
 .chatbot__button span {
   position: absolute;
 }
+nav #login:hover{
+  background-color: #4141f2;
+  box-shadow: #9f9fa2;
+}
 .show-chatbot .chatbot__button span:first-child,
 .chatbot__button span:last-child {
   opacity: 0;
@@ -39,6 +43,7 @@
   overflow: hidden;
   opacity: 0;
   pointer-events: none;
+  z-index: 1000;
 }
 .show-chatbot .chatbot {
   opacity: 1;
@@ -133,6 +138,7 @@
 }
 .chatbot__textarea::placeholder {
   font-family: 'Poppins', sans-serif;
+  
 }
 .chatbot__input-box span {
   font-size: 2.5em;
@@ -145,7 +151,10 @@
 .chatbot__textarea:valid ~ span {
   visibility: visible;
 }
+.hover__effect:hover{
+color: #721c24;
 
+}
 @media (max-width: 490px) {
   .chatbot__button {
     position: fixed;

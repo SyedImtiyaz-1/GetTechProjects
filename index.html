@@ -50,11 +50,11 @@
     <link rel="stylesheet" href="./chatBot/style.css" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    <script src="./js/main.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
+    
     <script type="text/javascript">
       (function () {
         emailjs.init("oUbB-IqXyvbW5JlV9");
@@ -64,24 +64,21 @@
 
   <body>
     <header class="header">
-      <a href="#" class="logo"
-        ><img src="./images/pngwing.com(5).png" style="width: 100%" alt=""
-      /></a>
-      <div class="fas fa-bars"></div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#home">home</a></li>
-          <li><a href="./backend/public/index.html">Projects</a></li>
-          <!-- <li><a href="careers.html">career</a></li> -->
-          <li><a href="#contact">contact</a></li>
-          <li><a href="Team.html">Our team</a></li>
-          <button id="login">Login</button>
-          <label id="dark-change"></label>
-          <h3 id="name"></h3>
-          <img id="image" onclick="ProfileClicked()" />
-          <button onclick="logout()" id="logout">Logout</button>
-        </ul>
-      </nav>
+        <a href="#" class="logo"><img src="./images/pngwing.com(5).png" style="width: 100%;" alt=""></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="./backend/public/index.html">Projects</a></li>
+                <!-- <li><a href="careers.html">career</a></li> -->
+                <li><a href="#contact">contact</a></li>
+                <li><a href="./backend/public/ourTeam/index.html">Our team</a></li>
+                <button id="login">Log In</button>
+                <h3 id="name"></h3>
+                <img id="image" onclick="ProfileClicked()" />
+                <button onclick="logout()" id="logout">Logout</button>
+            </ul>
+    </nav>
     </header>
 
     <section id="home" class="home">
@@ -98,48 +95,53 @@
         <div class="row">
           <div class="section-head col-sm-12" id="projects">
             <h1>Projects</h1>
-            <p>
-              We build robust and productive projects for you that what help in
+            <p class="text-trans-none">
+              We build robust and productive projects for you that help in
               your placements and for sharpening your learning.
             </p>
           </div>
           <div class="col-lg-4 col-sm-6 pointerBtn">
             <div class="item">
-              <span class="icon feature_box_col_one"
+              <span class="icon feature_box_col_one p-2"
                 ><i class="fa fa-laptop"></i
               ></span>
               <h6>Web-App Projects</h6>
-              <p>
-                Our Custom Web Development Services Include Both Front-End And
-                Back-End Development. Whether It Is Enhancing An Existing App Or
-                Architecting An Enterprise App, Our Developers Are Up For The
-                Challenges.
+              <p class="text-trans-none">
+                Our custom Web Development Services include both Front-End and
+                Back-End development. Whether it is enhancing an Existing app or
+                Architecting an Enterprise app, our Developers are up for the
+                challenges.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 pointerBtn">
             <div class="item">
-              <span class="icon feature_box_col_two"
+              <span class="icon feature_box_col_two p-2"
                 ><i class="fa fa-android"></i
               ></span>
               <h6>Mobile-App Projects</h6>
-              <p>
-                We Have Expertise In Creating Multi-Platform Mobile App
-                Solutions For Both Android And IOS Devices. Using PhoneGap,
-                Xamarin, And React Native, We Offer Custom Mobile App That Runs
-                Smoothly On Multiple Platforms.
+              <p class="text-trans-none">
+                We have expertise in creating Multi-Platform mobile app
+                solutions for both Android and IOS devices. Using PhoneGap,
+                Xamarin and React Native, we offer custom Mobile App that runs
+                smoothly on Multiple Platforms.
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 pointerBtn">
             <div class="item">
-              <span class="icon feature_box_col_three"
+              <span class="icon feature_box_col_three p-2"
                 ><i class="fa fa-magic"></i
               ></span>
               <h6>Data Analytics Projects</h6>
+
               <p class="text-black">
                 The Project will include Visualizating of Data and the
                 Rescanning. As per the Statistics and the giving space. This
+
+              <p class="text-trans-none">
+                The project will include Visualizating of Data and Rescanning. As per the Statistics and the giving space. This
+
                 type of data can be seen in Big Tech Companies & the graph
                 structure optimize the visual.
               </p>
@@ -166,22 +168,22 @@
       <div class="container">
         <div class="pointerBtn">
           <i class="far fa-clock fa-4x"></i>
-          <div class="counter" data-target="24">24 / 7</div>
-          <h3>Working Time</h3>
+          <div class="counter" data-target="24">24+</div>
+          <h3>Working Hours/Week</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-gift fa-4x"></i>
-          <div class="counter" data-target="60">23+</div>
+          <div class="counter" data-target="60">60+</div>
           <h3>Projects Sold</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-users fa-4x"></i>
-          <div class="counter" data-target="52">20+</div>
+          <div class="counter" data-target="52">52+</div>
           <h3>Happy Clients</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-award fa-4x"></i>
-          <div class="counter" data-target="13">13</div>
+          <div class="counter" data-target="13">13+</div>
           <h3>Awards Received</h3>
         </div>
       </div>
@@ -189,8 +191,10 @@
 
     <section id="contact" class="contact">
       <h1 class="heading">If You Have to Order Other Projects</h1>
-      <h2>Submit the form and Leave a Brief Description for the Team</h2>
+      <h2 class="text-trans-none">Submit the form and Leave a Brief Description for the Team</h2>
     </section>
+
+    <!-- Contact Us Form -->
     <div class="contact-in">
       <div class="contact-map">
         <iframe
@@ -203,24 +207,29 @@
         ></iframe>
       </div>
       <div class="contact-form">
+        <form action="" id="contact-form">
         <input
           type="text"
           name="name"
           placeholder="Name"
-          id="first"
+          id="name"
           class="contact-form-txt"
+          pattern="^[A-Za-z\- ']+$"
           required
         />
+        <span id="name-error" class="error"></span> <!-- Validation error message for Name -->
         <input
           type="tel"
           id="number"
           name="phone"
-          pattern="[0-9]{10}"
+          pattern="[0-9]{10,12}"
           required
-          placeholder="Contact number"
-          maxlength="10"
+          placeholder="Contact Number"
+          minlength="10"
+          maxlength="12"
           class="contact-form-phone"
         />
+        <span id="phone-error" class="error"></span> <!-- Validation error message for Contact Number -->
         <input
           type="email"
           name="email"
@@ -229,6 +238,7 @@
           class="contact-form-email"
           required
         />
+        <span id="email-error" class="error"></span> <!-- Validation error message for Email -->
         <textarea
           placeholder="Your Message"
           id="message"
@@ -236,13 +246,15 @@
           class="contact-form-txtarea"
           required
         ></textarea>
-        <button class="contact-form-btn" onclick="sendMail()">Submit</button>
+        <span id="message-error" class="error"></span> <!-- Validation error message for Message -->
+        <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
+      </form>
       </div>
     </div>
 
     <!-- <div class="footer">
         <div class="footer-top">
-            <div class="container">z
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>About Us</h4>
@@ -312,17 +324,17 @@
       <div class="row_f">
         <div class="col">
           <img src="./images/pngwing.com(5).png" class="logo_f" />
-          <p>
+          <p class="text-trans-none">
             Get ready for your college project submission with PreciousServices.
-            We Provide best solution and projects that will gain your knowledge.
-            Subscribe and get Latest Updates
+            We provide best solutions and projects that will help you gain more knowledge.
+            Subscribe to get latest updates.
           </p>
         </div>
         <div class="col">
           <h3>Office</h3>
           <p>Nagpur, PIN 440001</p>
           <p>Maharashtra, India</p>
-          <p class="email">PreciousItServices@gmail.com</p>
+          <p class="email">preciousitservices@gmail.com</p>
           <h4>+91 7249545778</h4>
         </div>
         <div class="col">
@@ -339,7 +351,7 @@
           <h3>About Us</h3>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Team.html">Team</a></li>
+            <li><a href="./backend/public/ourTeam/index.html">Team</a></li>
             <li><a href="index.html#service">Reviews</a></li>
             <!-- <li><a href="#">Terms & condition</a></li> -->
             <!-- <li> <a href="#">Privacy policy</a></li> -->
