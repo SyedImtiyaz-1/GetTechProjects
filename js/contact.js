@@ -86,8 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     let btn = document.getElementById("contact_sbmt_btn");
     btn.addEventListener("click", validateAndSend);
-    
-    let subscribe = document.getElementById("subs");
+    let subscribe = document.getElementsByClassName("sbt")[0];
     let tval = document.getElementById("tval");
     subscribe.addEventListener("click", () => {
       if (tval.value === "") {

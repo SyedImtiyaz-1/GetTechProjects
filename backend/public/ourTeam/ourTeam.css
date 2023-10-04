@@ -22,6 +22,93 @@ section {
     position: relative;
     color: #37517e;
   }
+  .an::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    display: block;
+  
+  
+  }
+  .an:hover::after{
+    width: 40%;
+    transition: width 0.2s linear;
+  }
+  .an{
+    cursor: pointer;
+    
+  }
+  
+  .an1::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    display: block;
+  
+  
+  }
+  .an1:hover::after{
+    width: 30%;
+    transition: width 0.2s linear;
+  }
+  .an1{
+    cursor: pointer;
+    
+  }
+  .container{
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    position: relative;
+    
+    background: #002e5f;
+  
+    color: #fff;
+    padding: 100px 0px 30px;
+    font-size: 13px;
+    line-height: 20px;
+  
+  }
+  .cen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .an2::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    display: block;
+  
+  
+  }
+  .an2:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+  }
+  .an2{
+    cursor: pointer;
+    
+  }
+  .fc{
+    font-size: 14px; 
+      line-height: 1.5;
+  }
+  .ct{
+   font-size: medium;    
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .section-title h2::before {
     content: "";
@@ -34,6 +121,14 @@ section {
     left: calc(50% - 60px);
   }
   
+ .lsstyl{
+  margin-bottom: 8px;
+ }
+ .lsstylh{
+  font-weight: bold;
+  font-size: medium;
+ }
+
   .section-title h2::after {
     content: "";
     position: absolute;

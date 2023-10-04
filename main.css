@@ -981,16 +981,26 @@ body {
   color: #aaa;
   font-size: 1.5rem;
 }
-
+.container{
+  margin: 0px;
+}
 footer {
   width: 100%;
   position: relative;
-  background: linear-gradient(to right, #00093c, #2d0b00);
+  
+  background: #002e5f;
+
   color: #fff;
   padding: 100px 0px 30px;
-  border-top-left-radius: 125px;
   font-size: 13px;
   line-height: 20px;
+
+}
+.cen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .row_f {
@@ -1023,7 +1033,65 @@ footer {
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
+.an::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  display: block;
 
+
+}
+.an:hover::after{
+  width: 40%;
+  transition: width 0.2s linear;
+}
+.an{
+  cursor: pointer;
+  
+}
+
+.an1::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  display: block;
+
+
+}
+.an1:hover::after{
+  width: 30%;
+  transition: width 0.2s linear;
+}
+.an1{
+  cursor: pointer;
+  
+}
+.an2::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  display: block;
+
+
+}
+.an2:hover::after{
+  width: 100%;
+  transition: width 0.2s linear;
+}
+.an2{
+  cursor: pointer;
+  
+}
+.fc{
+  font-size: 14px; 
+    line-height: 1.5;
+}
 ul li {
   list-style: none;
   margin-bottom: 12px;
