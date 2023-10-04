@@ -50,3 +50,11 @@
 - Place: Roorkee, Uttarakhand, India
 - Bio: College Student | Full Stack Developer
 - GitHub: [insane-22](https://github.com/insane-22)
+
+
+#### Name: [Shamima Yesmin Alina](https://github.com/Shamimayesmin)
+- Place: Dhaka, Bangladesh
+- Bio: University student | Front-end Developer
+- GitHub: [Shamimayesmin](https://github.com/Shamimayesmin)
+
+

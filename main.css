@@ -77,6 +77,42 @@ body {
   transform: rotate(180deg);
 }
 
+/*------ dark mode -----*/
+label{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 2px;
+  top:12px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+label:before{
+  position: absolute;
+  content: "";
+  width:  20px;
+  height: 20px;
+  left: 1px;
+  top:1px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #000;
+  transition: 0.4s;
+}
+
+label.active:before{
+  left: 23px;
+  background: #fff;
+  /* background: black; */
+}
+body.night{
+  background: #000;
+  color: #fff;
+ 
+}
+
+/* ---------- */
+
 .row .btn {
   outline: none;
   border: none;
@@ -303,13 +339,14 @@ body {
 }
 .pt-5 .container .row .section-head p {
   font-size: 2rem;
-  color: #333;
   padding: 1rem 0;
+  
 }
 .section-head {
   margin-bottom: 60px;
   text-align: center;
   margin-top: -8rem;
+  text-emphasis-color: #fff;
 }
 .section-head p {
   font-size: 20px;
@@ -317,7 +354,7 @@ body {
   text-align: center;
 }
 .item {
-  background: #fff;
+  background-color: #1e1d1d;
   text-align: center;
   padding: 30px 25px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
@@ -347,6 +384,7 @@ body {
 .item:hover h6,
 .item:hover p {
   color: #2b6777;
+  text-emphasis-color: #fff;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
@@ -386,6 +424,7 @@ body {
 .item p {
   font-size: 15px;
   line-height: 26px;
+  color: #2f2f2f;
 }
 .item h6 {
   margin-bottom: 20px;
@@ -468,6 +507,7 @@ body {
 }
 .section-head-1 p {
   color: #333;
+ 
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -802,7 +842,7 @@ body {
 }
 
 .team .row .card::after {
-  background: #ccc;
+  background: #ccc;   
   bottom: -3rem;
   left: -4rem;
 }
