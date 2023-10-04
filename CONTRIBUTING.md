@@ -4,6 +4,13 @@
 - Bio: Project Admin | Software Engineer
 - GitHub: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
+#### Name: [Ankit Matth](https://github.com/Ankit-Matth)
+
+- Place: Bhiwani, Haryana, India
+- Bio: Engineering Student | Passionate Frontend Developer
+- GitHub: [Ankit-Matth](https://github.com/Ankit-Matth)
+- Linkedin [@ankit-matth](https://www.linkedin.com/in/ankit-matth)
+
 #### Name: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
 
 - Place: Ghaziabad, India
