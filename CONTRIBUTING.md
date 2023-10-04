@@ -180,12 +180,20 @@
 - GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
 
 #### Name: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
 - Place: Pune, Maharashtra, India
 - Bio: Employee | Software Associate Engineer
 - GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
 
 #### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+
 - Place: New Delhi, Delhi, India
 - Bio: Just another programmer. 
 - GitHub: [sysreset999](https://github.com/sysreset999)
+
+#### Name: [Shamima Yesmin Alina](https://github.com/Shamimayesmin)
+
+- Place: Dhaka, Bangladesh
+- Bio: University student | Front-end Developer
+- GitHub: [Shamimayesmin](https://github.com/Shamimayesmin)
 

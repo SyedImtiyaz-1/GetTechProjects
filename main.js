@@ -41,6 +41,7 @@ $(document).ready(function(){
     
 })(jQuery);
 })
+
 $(document).ready(function() {
     // Function to start counting for a single counter
     function startCounter(counterElement, target) {
