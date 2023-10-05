@@ -96,13 +96,13 @@
 - Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
 - GitHub: [yusra05](https://github.com/yusra05)
 
-#### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
+#### Name: [Parvez Khan](https://github.com/Parvezkhan0)
 
 - Place: Chhindwara, Madhya Pradesh, India
 - Bio: CSE student | Data Science
 - Github: [Parvez Khan] (https://github.com/Parvezkhan0)
 
-#### Name: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+#### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
@@ -114,7 +114,7 @@
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
-#### Name: [Vivek Chavan] (https://github.com/Vivek7038)
+#### Name: [Vivek Chavan](https://github.com/Vivek7038)
 
 - Place: Aurangabad, Maharashtra, India
 - Bio: CSE student
@@ -195,7 +195,7 @@
 #### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
 
 - Place: New Delhi, Delhi, India
-- Bio: Just another programmer. 
+- Bio: Just another programmer.
 - GitHub: [sysreset999](https://github.com/sysreset999)
 
 #### Name: [Shamima Yesmin Alina](https://github.com/Shamimayesmin)
@@ -204,3 +204,8 @@
 - Bio: University student | Front-end Developer
 - GitHub: [Shamimayesmin](https://github.com/Shamimayesmin)
 
+#### Name: [Macco Jia](https://github.com/war408705279)
+
+- 📍 Place: Shanghai, China
+- ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
+- 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
