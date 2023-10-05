@@ -100,13 +100,13 @@
 
 - Place: Chhindwara, Madhya Pradesh, India
 - Bio: CSE student | Data Science
-- Github: [Parvez Khan] (https://github.com/Parvezkhan0)
+- Github: [Parvez Khan](https://github.com/Parvezkhan0)
 
 #### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
 - Place: Mumbai, Maharashtra, India
 - Bio: Computer Engineering Student | Web Developer
-- Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+- Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
 #### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
@@ -118,7 +118,7 @@
 
 - Place: Aurangabad, Maharashtra, India
 - Bio: CSE student
-- Github: [Vivek Chavan] (https://github.com/Vivek7038)
+- Github: [Vivek Chavan](https://github.com/Vivek7038)
 
 #### Name: [Lalit Chauhan](https://github.com/LalitChauhan56)
 
