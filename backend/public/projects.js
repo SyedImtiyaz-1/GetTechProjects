@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       </div>
       <div class="course-detail">
         <h3 class="course-title">${project.name}</h3>
-        <button class="eye-button" style="cursor:pointer"><i class="fas fa-eye"></i></button>
+        <button class="eye-button" style="cursor:pointer"><h6>Tap to see</h6><i class="fas fa-eye"></i></button>
         <p>${project.techstack}</p>
         <div class="course-info">
           <button class="buy-button course" data-paid="false">Buy Course</button>

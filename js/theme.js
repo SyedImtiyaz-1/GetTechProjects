@@ -1,8 +1,8 @@
 
 const content = document.getElementsByTagName('body')[0];
-const darkMode = document.getElementById('dark-change')
+const darkMode = document.getElementById('toggle')
 
-darkMode.addEventListener('click', function(){
-    darkMode.classList.toggle('active');
+toggle.addEventListener('click', function(){
+    toggle.classList.toggle('active');
     content.classList.toggle("night")
 })

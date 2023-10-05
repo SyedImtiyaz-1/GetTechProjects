@@ -115,7 +115,6 @@ body.night{
   color: #fff;
  
 }
-
 /* ---------- */
 
 .row .btn {
@@ -174,8 +173,6 @@ body.night{
 }
 
 .header .logo img {
-  width: 4rem;
-  height: 4rem;
   padding-bottom: 0.5em;
   top: 0;
   left: 0;
@@ -1615,3 +1612,55 @@ hr {
     overflow: hidden;
   }
 }
+
+/*slider switch css */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-switch-wrapper em {
+  font-size: 1rem;
+}
+.theme-switch {
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  width: 62px;
+  margin-bottom: 20px;
+}
+.theme-switch input {
+  display: none;
+}
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+.slider:before {
+  background-color: #fff;
+  top: 2.5px;
+  content: "";
+  height: 25px;
+  left: 2.8px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+input:checked + .slider {
+  background-color: #202125;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+

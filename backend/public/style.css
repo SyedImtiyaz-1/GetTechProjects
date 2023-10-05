@@ -84,6 +84,11 @@ section {
   text-align: center; /* Center text inside container */
   margin-top: 1em;
 }
+
+.course-title{
+  margin-top: .5em;
+}
+
 .btn-7c {
   overflow: hidden;
 }
@@ -236,7 +241,11 @@ section {
 .eye-button {
   background: none;
   border: none;
-  width: 1.3rem;
+}
+
+
+.eye-button i{
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 768px) {
