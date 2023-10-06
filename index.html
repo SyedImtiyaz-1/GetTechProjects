@@ -60,6 +60,23 @@
         emailjs.init("oUbB-IqXyvbW5JlV9");
       })();
     </script>
+    <script>
+      function changeMode() {
+          var body = document.body;
+
+          // toggle the theme
+          body.classList.toggle("dark-theme");
+          let button = document.getElementById('button');
+
+          // change the button text
+          if (button.innerHTML == "Dark Mode") {
+            button.innerHTML = "Normal Mode";
+          } else {
+            button.innerHTML = "Dark Mode"
+          }
+        }
+
+    </script>
   </head>
 
   <body>
@@ -73,6 +90,12 @@
                 <!-- <li><a href="careers.html">career</a></li> -->
                 <li><a href="#contact">contact</a></li>
                 <li><a href="./backend/public/ourTeam/index.html">Our team</a></li>
+                <li><label class="switch-container" >
+                  <input type="checkbox" id="themeToggle" onclick = "changeMode()" id = "button">
+                  <span class="slider"></span>
+                </label>
+                </li>
+                
                 <button id="login">Log In</button>
                 <h3 id="name"></h3>
                 <img id="image" onclick="ProfileClicked()" />

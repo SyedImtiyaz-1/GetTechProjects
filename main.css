@@ -19,7 +19,79 @@ html {
 body {
   overflow-x: hidden;
 }
+/* ----------------------------------------------------- */
 
+
+
+.switch-container {
+  position: sticky;
+  display: inline-block;
+  width: 4em;
+  height: 2.5em;
+}
+
+.switch-container input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.switch-container .slider {
+  --background: linear-gradient(to right, #090613ef, #002e5f);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background);
+  transition: background-color 0.5s;
+  border-radius: 30px;
+}
+
+.switch-container .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #ece78b;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.switch-container input:checked+.slider {
+  background-color: #000;
+}
+
+.switch-container input:checked+.slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 8px -4px 0px 0px #f8f8f4;
+} 
+
+/* main.css (Light Theme) */
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* main.css (Dark Theme) */
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+ 
+/* ----------------------------------------------------- */
 .heading,
 .clients .section-header h2,
 .section-head h1,
@@ -1614,4 +1686,23 @@ hr {
   .chatbot__input-box {
     overflow: hidden;
   }
+}
+
+
+
+
+
+
+
+
+body {
+  color: black;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  justify-content: center;
+}
+
+.dark-theme {
+  color: white;
+  background-color: rgb(26, 20, 20);
 }
