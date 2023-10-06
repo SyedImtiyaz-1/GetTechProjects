@@ -54,6 +54,12 @@
 - Bio: Computer Science Student | Full Stack Developer
 - GitHub: [Bhavya D Verma](https://github.com/bhaavvya)
 
+#### Name: [Trapti Patel](https://github.com/trapti77)
+
+- Place: Maihar, Satna , India
+- Bio: Computer Science Student | Full Stack Developer
+- GitHub: [Trapti Patel](https://github.com/trapti77)
+
 #### Name: [Jenil Gajjar](https://github.com/JenilGajjar20)
 
 - Place: Ahmedabad, Gujarat, India
