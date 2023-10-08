@@ -1963,3 +1963,8 @@ body {
     overflow: hidden;
   }
 }
+
+.download-link{
+  width: 45%;
+  margin-top: .21em;
+}
