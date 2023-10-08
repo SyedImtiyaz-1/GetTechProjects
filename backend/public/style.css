@@ -1968,3 +1968,13 @@ body {
   width: 45%;
   margin-top: .21em;
 }
+
+body.night{
+  background: #0b0b0b;
+  color: #fff;
+ 
+}
+
+.download-link.night{
+  color: #fff;
+}

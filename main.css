@@ -82,7 +82,7 @@ body {
   text-transform: none;
 }
 
-/*------ dark mode -----*/
+/*------ s mode -----*/
 label{
   position: absolute;
   width: 45px;
@@ -111,9 +111,8 @@ label.active:before{
   /* background: black; */
 }
 body.night{
-  background: #000;
+  background: #0b0b0b;
   color: #fff;
- 
 }
 /* ---------- */
 
@@ -524,11 +523,15 @@ body.night{
     font-weight: 550;
     text-decoration: underline;
   }
-
-  .col {
-    flex-basis: 100%;
-    margin-top: 20px;
+/* 
+  .col form {
+    width: 100%;
+    display: flex;
   }
+  .col form input {
+    display: flex;
+  } */
+
 }
 
 .section-head-1 {
@@ -1026,7 +1029,6 @@ footer {
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
   padding: 100px 0px 30px;
-  border-top-left-radius: 125px;
   font-size: 13px;
   line-height: 20px;
 }
@@ -1048,6 +1050,10 @@ footer {
 .col {
   flex-basis: 25%;
   padding: 10px;
+}
+
+.col img{
+  width: 3.5em;
 }
 
 .col h3 {
@@ -1324,7 +1330,7 @@ hr {
   }
 
   .header .nav-toggle {
-    top: 5.8rem;
+    top: 1em;
   }
 
   .home h1 {

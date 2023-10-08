@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         <p>${project.techstack}</p>
         <div class="course-info">
           <button class="buy-button course" data-paid="false">Buy Project</button>
-          <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
         </div>
       </div>
       <div class="popup" style="display: none;">
@@ -185,7 +184,7 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const options = {
     // Replace with your actual Razorpay API key
     key: "rzp_test_rmVf1ufuOltuLZ",
-    amount: 100000, // Replace with the actual amount
+    amount: 500, // Replace with the actual amount
     currency: "INR", // Replace with the desired currency
     name: "Project Store",
     description: `Purchase of ${courseId} project`,
@@ -206,3 +205,8 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const razorpayInstance = new Razorpay(options);
   razorpayInstance.open();
 }
+
+
+
+
+// download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
