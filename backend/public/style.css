@@ -54,13 +54,13 @@ section {
   padding: 20px;
   /* width: 15vw;
     height: 30vh; */
-    margin-top: 20px;
-    border-radius: 8px;
-    transition: border 0.1s linear 0s;
-    cursor: pointer;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: border 0.1s linear 0s;
+  cursor: pointer;
 }
-.course:hover{
-    border: .2px solid rgb(171, 170, 170);
+.course:hover {
+  border: 0.2px solid rgb(171, 170, 170);
 }
 
 .course[data-paid="false"]:hover {
@@ -85,8 +85,8 @@ section {
   margin-top: 1em;
 }
 
-.course-title{
-  margin-top: .5em;
+.course-title {
+  margin-top: 0.5em;
 }
 
 .btn-7c {
@@ -243,8 +243,7 @@ section {
   border: none;
 }
 
-
-.eye-button i{
+.eye-button i {
   font-size: 1.5em;
 }
 
@@ -1651,6 +1650,7 @@ body {
     display: block;
     color: white;
     margin-right: 1rem;
+    z-index: 2000 !important;
   }
 
   .header .fa-bars:hover {
@@ -1686,7 +1686,9 @@ body {
   .header .fa-times {
     transform: rotate(90deg);
   }
-
+  .fas .fa-bars .fa-times {
+    z-index: 2000 !important;
+  }
   .header .nav-toggle {
     top: 5.8rem;
   }
@@ -1964,17 +1966,16 @@ body {
   }
 }
 
-.download-link{
+.download-link {
   width: 45%;
-  margin-top: .21em;
+  margin-top: 0.21em;
 }
 
-body.night{
+body.night {
   background: #0b0b0b;
   color: #fff;
- 
 }
 
-.download-link.night{
+.download-link.night {
   color: #fff;
 }

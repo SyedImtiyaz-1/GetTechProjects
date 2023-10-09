@@ -436,6 +436,7 @@ footer hr {
   .header .fa-bars {
     display: block;
     color: white;
+    z-index: 2000 !important;
   }
 
   .header .fa-bars:hover {
