@@ -96,6 +96,12 @@
 - Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
 - GitHub: [yusra05](https://github.com/yusra05)
 
+#### Name: [Nikhar Behera](https://github.com/SoulNikhar)
+
+- Place: Odisha, India
+- Bio: Computer Science Student
+- GitHub: [SoulNikhar](https://github.com/SoulNikhar)
+  
 #### Name: [Parvez Khan](https://github.com/Parvezkhan0)
 
 - Place: Chhindwara, Madhya Pradesh, India
