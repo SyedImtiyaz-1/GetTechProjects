@@ -212,6 +212,6 @@
 
 #### Name: [Douglas](https://github.com/DouglasD18)
 
-- 📍 Place: Shanghai, China
+- 📍 Place: Sobral, Ceará, Brasil
 - ⏳ Bio: University student | Freelancer FullStack Developer
 - 🚀 GitHub: [DouglasD18](https://github.com/DouglasD18)
