@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [Douglas](https://github.com/DouglasD18)
+
+- 📍 Place: Shanghai, China
+- ⏳ Bio: University student | Freelancer FullStack Developer
+- 🚀 GitHub: [DouglasD18](https://github.com/DouglasD18)
