@@ -46,9 +46,9 @@ if (Object.keys(params).length > 0) {
 window.history.pushState({}, document.title, "/" + "index.html");
 
 let info = JSON.parse(localStorage.getItem("authInfo"));
-console.log(JSON.parse(localStorage.getItem("authInfo")));
-console.log(info["access_token"]);
-console.log(info["expires_in"]);
+// console.log(JSON.parse(localStorage.getItem("authInfo")));
+// console.log(info["access_token"]);
+// console.log(info["expires_in"]);
 
 if (info !== null) {
   fetch("https://www.googleapis.com/oauth2/v3/userinfo", {

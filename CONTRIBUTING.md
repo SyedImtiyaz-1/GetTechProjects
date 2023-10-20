@@ -4,6 +4,13 @@
 - Bio: Project Admin | Software Engineer
 - GitHub: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
+#### Name: [Ankit Matth](https://github.com/Ankit-Matth)
+
+- Place: Bhiwani, Haryana, India
+- Bio: Engineering Student | Passionate Frontend Developer
+- GitHub: [Ankit-Matth](https://github.com/Ankit-Matth)
+- Linkedin [@ankit-matth](https://www.linkedin.com/in/ankit-matth)
+
 #### Name: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
 
 - Place: Ghaziabad, India
@@ -89,17 +96,11 @@
 - Bio: Web Developer | C++ | Java | DSA | tailwind | JavaScript
 - GitHub: [yusra05](https://github.com/yusra05)
 
-#### Name: [Parvez Khan] (https://github.com/Parvezkhan0)
+#### Name: [Parvez Khan](https://github.com/Parvezkhan0)
 
 - Place: Chhindwara, Madhya Pradesh, India
 - Bio: CSE student | Data Science
-- Github: [Parvez Khan] (https://github.com/Parvezkhan0)
-
-#### Name: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
-
-- Place: Mumbai, Maharashtra, India
-- Bio: Computer Engineering Student | Web Developer
-- Github: [Sarvesh Yadav] (https://github.com/sarveshpyadav)
+- Github: [Parvez Khan](https://github.com/Parvezkhan0)
 
 #### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
@@ -107,11 +108,17 @@
 - Bio: Computer Engineering Student | Web Developer
 - Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
 
-#### Name: [Vivek Chavan] (https://github.com/Vivek7038)
+#### Name: [Sarvesh Yadav](https://github.com/sarveshpyadav)
+
+- Place: Mumbai, Maharashtra, India
+- Bio: Computer Engineering Student | Web Developer
+- Github: [Sarvesh Yadav](https://github.com/sarveshpyadav)
+
+#### Name: [Vivek Chavan](https://github.com/Vivek7038)
 
 - Place: Aurangabad, Maharashtra, India
 - Bio: CSE student
-- Github: [Vivek Chavan] (https://github.com/Vivek7038)
+- Github: [Vivek Chavan](https://github.com/Vivek7038)
 
 #### Name: [Lalit Chauhan](https://github.com/LalitChauhan56)
 
@@ -149,7 +156,6 @@
 - Bio: Btech CSE | React Developer
 - GitHub: [wAsI7](https://github.com/shagunZ)
 
-
 #### Name: [Aditya Lad](https://github.com/Adityalad-25)
 
 - Place: Pune,Maharashtra, India
@@ -169,6 +175,7 @@
 - GitHub: [ketan-sonar](https://github.com/ketan-sonar)
 
 #### Name: [Logeshwaran](https://github.com/Logesh-waran2003)
+
 - Place: Chennai, Tamilnadu, India
 - Bio: CS Undergrad | Full stack Developer
 - GitHub: [Logesh-waran2003](https://github.com/Logesh-waran2003)
@@ -177,3 +184,34 @@
 - Place: Purulia, West Bengal, india
 - Bio: I am a tech enthusiast, aspiring full-stack developer.  
 - GitHub: [mohan060104](https://github.com/mohan060104)
+
+#### Name: [Ayush Yadav](https://github.com/ayush-yadavv)
+
+- Place: Noida, Uttar Pradesh, India
+- Bio: CS Undergrad | Fultter Developer
+- GitHub: [ayush-yadavv](https://github.com/ayush-yadavv)
+
+#### Name: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+- Place: Pune, Maharashtra, India
+- Bio: Employee | Software Associate Engineer
+- GitHub: [Vaishnavi Nagothanekar](https://github.com/vaishnavibn14)
+
+#### Name: [Uday Prakash Gupta](https://github.com/sysreset999)
+
+- Place: New Delhi, Delhi, India
+- Bio: Just another programmer.
+- GitHub: [sysreset999](https://github.com/sysreset999)
+
+#### Name: [Shamima Yesmin Alina](https://github.com/Shamimayesmin)
+
+- Place: Dhaka, Bangladesh
+- Bio: University student | Front-end Developer
+- GitHub: [Shamimayesmin](https://github.com/Shamimayesmin)
+
+#### Name: [Macco Jia](https://github.com/war408705279)
+
+- 📍 Place: Shanghai, China
+- ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
+- 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/72c30b7157.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./chatBot/style.css" /> -->
+  <link rel="stylesheet" href="./ourTeam/style.css">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./backend/public/style.css">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+
+  <title>Our Team</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px;"></a>
+    <i class="fas fa-bars"></i>
+    
+    </nav>
+  </header>
+
+  <div class="box">
+
+    <div class="profile-circle">
+      <img src="../images/founder.jpeg" alt="">
+    </div>
+
+    <div class="profile-info">
+      <h4> Imtiyaz </h4>
+      <p> Software Engineer | Open Source | Mentor </p>
+      
+    </div>
+
+    <div class="social-icon">
+      <i class="fa-solid fa-link" id="preplaced"></i>
+      <i class="fab fa-linkedin" id="linkedin"></i>
+      <i class="fa-solid fa-link" id="topmate"></i>
+    </div>
+
+    <style>
+      .social-icon i {
+        font-size: 2.2em;
+        cursor: pointer;
+      }
+    </style>
+
+    <div class="btns">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="extra-stats" style="display: block;">
+      <h3 style="margin: auto;">SWE | Open Source | Mentor </h3>
+      <br>
+      <h5 style="margin: auto;">I am an experienced Software Development Engineer (SDE) with a passion for technology and
+        a knack for solving complex problems. My expertise spans multiple domains, including Full Stack Web Development,
+        Java and AWS.
+
+        I take pride in my proficiency in version control using Git and GitHub, ensuring codebase integrity and
+        collaboration efficiency. My experience with AWS allows me to design and implement scalable, cloud-based
+        solutions that drive innovation and efficiency in projects.
+
+        One of the aspects of my career that brings me immense satisfaction is mentoring. I enjoy guiding students and
+        early graduates on their journey to becoming proficient developers. Watching them grow and succeed is truly
+        rewarding.
+
+        If you're interested in technology, coding, or just connecting with like-minded professionals, I'd be delighted
+        to connect. Let's explore opportunities for collaboration, knowledge exchange, or simply a friendly chat.</h5>
+    </div>
+
+  </div>
+
+  <script src="../js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>
+    let linkedin = document.getElementById('linkedin');
+    let topmate = document.getElementById('topmate');
+    let preplaced = document.getElementById('preplaced');
+
+    preplaced.addEventListener('click', ()=>{
+      window.location.href = 'https://www.preplaced.in/profile/syed-imtiyaz-ali-40';
+    });
+
+    topmate.addEventListener('click', () => {
+      window.location.href = 'https://topmate.io/syedimtiyazali';
+    });
+
+    linkedin.addEventListener('click', () => {
+      window.location.href = 'https://linkedin.com/in/imtiyaz-sde';
+    });
+
+  </script>
+</body>
+
+</html>
