@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [Ritik Shrestha](https://github.com/shresritik)
+
+- 📍 Place: Kathmandu, Nepal
+- ⏳ Bio: University student | Full Stack Developer
+- 🚀 GitHub: [shresritik](https://github.com/shresritik)
