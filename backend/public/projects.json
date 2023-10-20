@@ -1,59 +1,110 @@
 [
-    {
-      "courseId": "Questify",
-      "name": "Questify ( Blogging Mern App )",
-      "image": "img/questify.png",
-      "downloadLink": "https://github.com/Rohit-Yadavv/questify",
-      "techstack": "MERN, Nodejs, Reactjs, MongoDb",
-      "slide-img-1":"img/questify-1.png",
-      "slide-img-2":"img/questify-2.png"
-      
-    },
-    {
-      "courseId": "Amazon",
-      "name": "Amazon Clone",
-      "image": "img/amazon.png",
-      "downloadLink": "you-are-nub.zip",
-      "techstack": "HTML, CSS, JS",
-      "slide-img-1":"img/amazon-img.jpg",
-      "slide-img-2":"img/amazon-img2.jpg"
-      
-    },
-    {
-      "courseId": "Netflix",
-      "name": "Netflix Clone",
-      "image": "img/netflix.png",
-      "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
-      "techstack": "HTML, CSS, JS, rapidAPI",
-      "slide-img-1":"img/netflix-1.png",
-      "slide-img-2":"img/netflix-2.png"
-    },
-    {
-      "courseId": "Telegram Bot",
-      "name": "Telegram Bot",
-      "image": "img/hero-logo.png",
-      "downloadLink": "https://drive.google.com/uc?export=download&id=1hXcfG3UUPEwT0MClAFwc872eIbofYm7E",
-      "techstack": "Python",
-      "slide-img-1":"img/telegram-1.png",
-      "slide-img-2":"img/telegram-2.jpg"
-    },
-    {
-      "courseId": "E-Commerce Cloths Shopping",
-      "name": "E-Commerce (CodeShop)",
-      "image": "img/e-commerce.png",
-      "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
-      "techstack": "HTML, CSS, JS, Swipper.JS",
-      "slide-img-1":"img/codeshop1.png",
-      "slide-img-2":"img/codeshop2.png"
-    },
-    {
-      "courseId": "Tesla Clone",
-      "name":"Tesla Clone",
-      "image": "img/tesla-clone.png",
-      "downloadLink": "https://drive.google.com/file/d/1x-S0kax4HgcSIEo6GGyjcYJHWEjUaCwF/view?usp=drive_link",
-      "techstack": "HTML, CSS, JS, React JS, Firebase",
-      "slide-img-1":"img/tesla-1.png",
-      "slide-img-2":"img/tesla-2.png"
-    }
-
+  {
+    "courseId": "E-Commerce Website",
+    "name": "Shopping Website",
+    "image": "img/ecom-logo.jpg",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1ZEScf748F9mkxKLbDB0XxkcjAIpJ9H98",
+    "techstack": "PHP, MySQL",
+    "slide-img-1": "img/apna-store2.png",
+    "slide-img-2": "img/apna-store3.png"
+  },
+  {
+    "courseId": "Apna Store",
+    "name": "International Shopping Website",
+    "image": "img/apna-store.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1Rk2c7K-aDtnqsMccmrm2IfRFaVSqHGo4",
+    "techstack": "Nodejs, Reactjs, MongoDB",
+    "slide-img-1": "img/apna-store2.png",
+    "slide-img-2": "img/apna-store3.png"
+  },
+  {
+    "courseId": "Questify",
+    "name": "Questify - Blogging Website",
+    "image": "img/questify.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1MKHCuWu_cSwizKwOtefExYLT_0aIz1PW",
+    "techstack": "MERN, Nodejs, Reactjs, MongoDb",
+    "slide-img-1": "img/questify-1.png",
+    "slide-img-2": "img/questify-2.png"
+  },
+  {
+    "courseId": "Amazon",
+    "name": "Amazon Clone",
+    "image": "img/amazon.png",
+    "downloadLink": "you-are-nub.zip",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/amazon-img.jpg",
+    "slide-img-2": "img/amazon-img2.jpg"
+  },
+  {
+    "courseId": "Netflix",
+    "name": "Netflix Clone",
+    "image": "img/netflix.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1qO8-8CntMo_yvspTr1pnYbo_8Z2f4C3b",
+    "techstack": "HTML, CSS, JavaScript, rapidAPI",
+    "slide-img-1": "img/netflix-1.png",
+    "slide-img-2": "img/netflix-2.png"
+  },
+  {
+    "courseId": "Telegram Bot",
+    "name": "Telegram Bot",
+    "image": "img/hero-logo.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1hXcfG3UUPEwT0MClAFwc872eIbofYm7E",
+    "techstack": "Python",
+    "slide-img-1": "img/telegram-1.png",
+    "slide-img-2": "img/telegram-2.jpg"
+  },
+  {
+    "courseId": "E-Commerce Cloths Shopping",
+    "name": "E-Commerce (CodeShop)",
+    "image": "img/e-commerce.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
+    "techstack": "HTML, CSS, JavaScript, Swipper.JS",
+    "slide-img-1": "img/codeshop1.png",
+    "slide-img-2": "img/codeshop2.png"
+  },
+  {
+    "courseId": "Tesla Clone",
+    "name": "Tesla Clone",
+    "image": "img/tesla-clone.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=S0kax4HgcSIEo6GGyjcYJHWEjUaCwF",
+    "techstack": "HTML, CSS, JavaScript, React JS, Firebase",
+    "slide-img-1": "img/tesla-1.png",
+    "slide-img-2": "img/tesla-2.png"
+  },
+  {
+    "courseId": "Microsoft Clone",
+    "name": "Microsoft Clone",
+    "image": "img/microsoftlogo.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1_I41By3ybMpyBVjSZI_D7e2fC_msZ1Fu",
+    "techstack": "HTML, CSS, JavaScript, Tailwind CSS",
+    "slide-img-1": "img/microsoft-1.png",
+    "slide-img-2": "img/microsoft-2.png"
+  },
+  {
+    "courseId": "Tic Tac Toe",
+    "name": "Tic Tac Toe Game",
+    "image": "img/tictactoe.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1kphT4H3QudfoBuyLljvINPjBaZCA3Aei",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tic1.png",
+    "slide-img-2": "img/tic2.png"
+  },
+  {
+  "courseId": "Meme Generator",
+    "name": "Meme Generator",
+    "image": "img/meme.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=16557hFI5OSz85aJTuwuf-UoYV3xlU3PX",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/meme1.png",
+    "slide-img-2": "img/meme2.png"
+  },
+  {
+  "courseId": "Frontend Shopping Website",
+    "name": "Frontend Shopping Website",
+    "image": "img/frontendComLogo.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/frontendCom.png",
+    "slide-img-2": "img/frontendCom2.png"
+  }
 ]

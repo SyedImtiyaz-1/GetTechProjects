@@ -30,16 +30,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     projectElement.setAttribute("data-course-id", project.courseId);
 
     projectElement.innerHTML = `
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <div class="course-banner">
         <img src="${project.image}" alt="${project.name}">
       </div>
       <div class="course-detail">
         <h3 class="course-title">${project.name}</h3>
-        <button class="eye-button" style="cursor:pointer"><i class="fas fa-eye"></i></button>
+        <button class="eye-button" style="cursor:pointer"><h6>Tap to see</h6><i class="fas fa-eye"></i></button>
         <p>${project.techstack}</p>
         <div class="course-info">
-          <button class="buy-button course" data-paid="false">Buy Course</button>
-          <a class="download-link btn btn-7 btn-7c btn-icon-only zmdi-arrow-right" href="${project.downloadLink}" download style="display: none;">Download Project</a>
+          <button class="buy-button course" data-paid="false">Buy Project</button>
         </div>
       </div>
       <div class="popup" style="display: none;">
@@ -131,24 +131,60 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-const eyeButton = projectElement.querySelector(".eye-button");
-const closeButton = projectElement.querySelector(".close-button");
-const popup = projectElement.querySelector(".popup");
+const sendEmailButton = document.getElementById("sendEmailButton");
+sendEmailButton.addEventListener("click", () => {
+  const userEmail = document.getElementById("userEmail").value;
+  if (userEmail.trim() === "") {
+    alert("Please enter a valid email address.");
+    return;
+  }
 
-eyeButton.addEventListener("click", () => {
-  popup.style.display = "block";
+  // Make a request to fetch the project data from projects.json
+  fetch("./projects.json")
+    .then((response) => response.json())
+    .then((projectsData) => {
+      // Assuming you want to send the first project from the JSON file
+      const projectData = projectsData[0];
+
+      // Call the sendProjectByEmail function with the user's email and project data
+      sendProjectByEmail(userEmail, projectData);
+    })
+    .catch((error) => {
+      console.error("Error fetching project data:", error);
+      alert("Failed to fetch project data. Please try again later.");
+    });
 });
 
-closeButton.addEventListener("click", () => {
-  popup.style.display = "none";
-});
+async function sendProjectByEmail(userEmail, projectData) {
+  // Create a form data object to send the project data to the server
+  const formData = new FormData();
+  formData.append("userEmail", userEmail);
+  formData.append("projectData", JSON.stringify(projectData));
+
+  // Make a POST request to your server to send the email
+  try {
+    const response = await fetch("/sendProjectEmail", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (response.ok) {
+      alert("Email sent successfully!");
+    } else {
+      alert("Failed to send email. Please try again later.");
+    }
+  } catch (error) {
+    console.error("Error sending email:", error);
+    alert("An error occurred while sending the email. Please try again later.");
+  }
+}
 
 async function handlePayment(courseId, downloadLink, buyButton) {
   // Simulate payment process using Razorpay
   const options = {
     // Replace with your actual Razorpay API key
     key: "rzp_test_rmVf1ufuOltuLZ",
-    amount: 100000, // Replace with the actual amount
+    amount: 500, // Replace with the actual amount
     currency: "INR", // Replace with the desired currency
     name: "Project Store",
     description: `Purchase of ${courseId} project`,
@@ -169,3 +205,8 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const razorpayInstance = new Razorpay(options);
   razorpayInstance.open();
 }
+
+
+
+
+// download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
