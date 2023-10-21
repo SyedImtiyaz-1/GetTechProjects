@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [Mohan Majhi](https://github.com/mohan060104)
+
+- Place: Purulia, West Bengal, India
+- Bio: I'm a tech enthusiast and an aspiring full-stack developer.
+- GitHub: [Mohan Majhi](https://github.com/mohan060104)
