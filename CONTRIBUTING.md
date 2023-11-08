@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+  #### Name: [CJ Kets](https://github.com/ketscj)
+
+- Place: New England, USA
+- Bio:   Front-end & Python Developer
+- GitHub: [CJ Kets](https://github.com/ketscj)
