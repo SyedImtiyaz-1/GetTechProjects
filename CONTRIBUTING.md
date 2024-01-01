@@ -1,3 +1,10 @@
+#### Name: [Aakash Sharma](https://github.com/aakash-sharma25)
+
+- Place: Mumbai, Maharashtra, India
+- Bio: Engineering Student | Full Stack Developer
+- GitHub: [Syed Imtiyaz Ali](https://github.com/aakash-sharma25)
+- Linkedin [Aakash Sharma](https://www.linkedin.com/in/aakash25/)
+
 #### Name: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
 - Place: Nagpur, Maharashtra, India
@@ -213,5 +220,5 @@
   #### Name: [CJ Kets](https://github.com/ketscj)
 
 - Place: New England, USA
-- Bio:   Front-end & Python Developer
+- Bio: Front-end & Python Developer
 - GitHub: [CJ Kets](https://github.com/ketscj)
