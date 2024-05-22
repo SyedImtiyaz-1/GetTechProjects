@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <button class="eye-button" style="cursor:pointer"><h6>Tap to see</h6><i class="fas fa-eye"></i></button>
         <p>${project.techstack}</p>
         <div class="course-info">
-          <button class="buy-button course" data-paid="false">Buy Project</button>
+          <button class="buy-button course" data-paid="false">Get Project</button>
         </div>
       </div>
       <div class="popup" style="display: none;">
