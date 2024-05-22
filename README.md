@@ -1,4 +1,4 @@
-#  Precious IT Services 🚀
+#  Get IT Projects 🚀
 
 **THIS REPO IS READY FOR HacktoberFest-23 You can start contributing !!!**
 
