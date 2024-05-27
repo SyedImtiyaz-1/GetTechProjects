@@ -107,4 +107,14 @@
     "slide-img-1": "img/frontendCom.png",
     "slide-img-2": "img/frontendCom2.png"
   }
+  ,
+  {
+  "courseId": "Weight Converter Application",
+    "name": "Weight Converter Application",
+    "image": "img/WeightConverterlogo.png",
+    "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/ss1.png",
+    "slide-img-2": "img/ss2.png"
+  }
 ]

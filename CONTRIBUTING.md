@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
+
+- 📍 Place: Gondia, Maharashtra, India
+- ⏳ Bio: Student | Frontend Developer | Backend Developer
+- 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
