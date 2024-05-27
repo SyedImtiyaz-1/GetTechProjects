@@ -209,3 +209,9 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [vinay dussa](https://github.com/dussa-vinay17/)
+
+- 📍 Place: hyderabad, india
+- ⏳ Bio: Data Science Intern @Innomatics Reasearch Labs | Software Developer
+- 🚀 [GitHub](https://github.com/dussa-vinay17/)
