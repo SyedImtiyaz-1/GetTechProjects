@@ -117,4 +117,15 @@
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
   }
+
+   ,
+  {
+  "courseId": "Twitter Clone",
+    "name": "Twitter Clone",
+    "image": "img/twitterlogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1oZRMa21UwV4nMc7cJDLFVKR22Mgb75dQ?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript, Tailwind CSS",
+    "slide-img-1": "img/twitter_clone.jpg",
+    "slide-img-2": "img/twitter_clone.jpg"
+  }
 ]

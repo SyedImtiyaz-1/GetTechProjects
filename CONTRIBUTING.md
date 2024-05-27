@@ -215,3 +215,9 @@
 - 📍 Place: Gondia, Maharashtra, India
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
+
+### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+- Place: Bokaro Steel City, Jharkhand, India
+- Bio: College Student | Full Stack Developer
+- Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
