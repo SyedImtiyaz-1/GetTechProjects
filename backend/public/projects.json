@@ -139,4 +139,14 @@
     "slide-img-1": "img/passwordmanager.png",
     "slide-img-2": "img/passwordmanager.png"
   }
+   ,
+  {
+  "courseId": "Currency Converter App",
+    "name": "Currency Converter App",
+    "image": "img/currencylogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1IuzSEQ3TXhfOTU-hf3kjFBRjpLWenVHE?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/currencyConverter.png",
+    "slide-img-2": "img/currencyConverter.png"
+  }
 ]
