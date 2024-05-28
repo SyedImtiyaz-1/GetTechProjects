@@ -221,3 +221,9 @@
 - Place: Bokaro Steel City, Jharkhand, India
 - Bio: College Student | Full Stack Developer
 - Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+### Name: [Aryan Raj](https://github.com/aaryancodeshere)
+
+- Place: Rourkela, Odisha, India
+- Bio: College Student | Full Stack Developer | AI/ML 
+- Github: [Aryan Raj](https://github.com/aaryancodeshere)
