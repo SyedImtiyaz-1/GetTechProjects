@@ -221,3 +221,8 @@
 - Place: Bokaro Steel City, Jharkhand, India
 - Bio: College Student | Full Stack Developer
 - Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+### Name: [Shivam Singh](https://github.com/Shivam250702)
+
+- Place: Gwalior, Madhya Pradesh, India
+- Bio: College Student | MERN  Stack Developer
+- Github: [Shivam Singh](https://github.com/Shivam250702)
