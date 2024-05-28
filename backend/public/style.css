@@ -68,12 +68,12 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 24px;
+  grid-column-gap: 34px;
 }
 
 .course {
   text-align: center;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(227, 158, 158, 0.909) 0px 2px 8px 0px;
   padding: 20px;
   /* width: 15vw;
     height: 30vh; */
@@ -81,15 +81,22 @@ section {
   border-radius: 8px;
   transition: border 0.1s linear 0s;
   cursor: pointer;
+  font-size: 10px;
 }
 
 .course:hover {
-  border: .2px solid rgb(171, 170, 170);
-}
+  /* border: .2px solid rgb(216, 72, 72); */
+  box-shadow: rgb(216, 72, 72) 0px 2px 8px 0px;
 
+}
+.course[data-paid="false"]{
+  background-color:  rgb(214, 88, 88);
+  color: whitesmoke;
+}
 .course[data-paid="false"]:hover {
   /* Your hover effect styles */
-  border: 0.7px solid grey;
+  border: 0.7px solid rgb(210, 58, 58);
+  background-color:  rgb(216, 72, 72);
 }
 
 .course .course-banner img {
@@ -132,7 +139,7 @@ section {
   height: 100%;
   z-index: 0;
   width: 0;
-  background: #61a2f6e4;
+  background: rgb(212, 96, 96);
   transition: none;
 }
 
