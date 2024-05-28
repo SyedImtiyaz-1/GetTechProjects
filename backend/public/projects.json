@@ -128,4 +128,15 @@
     "slide-img-1": "img/twitter_clone.jpg",
     "slide-img-2": "img/twitter_clone.jpg"
   }
+
+   ,
+  {
+  "courseId": "Password Manager",
+    "name": "Password Manager",
+    "image": "img/passwordlogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1asRpNxt_1G2XT5nXpYeh1GdJ6tHrSgUf?usp=sharing",
+    "techstack": "Nodejs, Reactjs, MongoDB",
+    "slide-img-1": "img/passwordmanager.png",
+    "slide-img-2": "img/passwordmanager.png"
+  }
 ]
