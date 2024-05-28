@@ -221,3 +221,8 @@
 - Place: Bokaro Steel City, Jharkhand, India
 - Bio: College Student | Full Stack Developer
 - Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+#### Name: [Zoha Waheed](https://github.com/Zoha-Waheed)
+- Place: Lahore, Punjab, Pakistan
+- Bio: Software Engineer | Cloud enthusiast
+- GitHub: [Zoha-Waheed](https://github.com/Zoha-Waheed)
