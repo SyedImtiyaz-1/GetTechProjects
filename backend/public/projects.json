@@ -149,4 +149,14 @@
     "slide-img-1": "img/currencyConverter.png",
     "slide-img-2": "img/currencyConverter.png"
   }
+  ,
+  {
+  "courseId": "Temperature Converter App",
+    "name": "Temperature Converter App",
+    "image": "img/tempConvLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1KAtlhOA5gB3Gw16VpekDanKFbtx9R4pl?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tempConverter.png",
+    "slide-img-2": "img/tempConverter.png"
+  }
 ]
