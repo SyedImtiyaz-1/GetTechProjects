@@ -227,3 +227,10 @@
 - Place: Lucknow, Uttar Pradesh, India
 - Bio: College Student | Engineering
 - Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+
+### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+📍 Place: Aurangabad, Maharashtra, India.
+👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
+🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
