@@ -227,3 +227,9 @@
 - Place: Lucknow, Uttar Pradesh, India
 - Bio: College Student | Engineering
 - Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+### Name: [Swetha S](https://github.com/swetha5157)
+
+- Place: Coimbatore, Tamil Nadu, India
+- Bio: College Student | Engineering
+- Github: [Swetha S](https://github.com/swetha5157)
