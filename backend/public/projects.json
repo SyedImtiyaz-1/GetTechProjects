@@ -186,5 +186,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Color_converter1.png",
     "slide-img-2": "img/Color_converter2.png"
+  },
+    {
+  "courseId": "News Blaze",
+    "name": "News Blaze",
+    "image": "img/NewsBlaze.PNG",
+    "downloadLink": "https://drive.google.com/drive/folders/1G8yx5OeP1RLGHrpg_IMBC1ShenNJNbxW?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript React Axios",
+    "slide-img-1": "img/NewsBlaze.PNG",
+    "slide-img-2": "img/NewsBlaze2.PNG"
   }
 ]
