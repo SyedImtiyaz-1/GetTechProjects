@@ -209,3 +209,21 @@
 - 📍 Place: Shanghai, China
 - ⏳ Bio: Graduated from Wuhan University(WHU) | Major in GIS | Frontend Developer
 - 🚀 GitHub: [Zhazha_JiaYiZhen](https://github.com/war408705279)
+
+#### Name: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
+
+- 📍 Place: Gondia, Maharashtra, India
+- ⏳ Bio: Student | Frontend Developer | Backend Developer
+- 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
+
+### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+- Place: Bokaro Steel City, Jharkhand, India
+- Bio: College Student | Full Stack Developer
+- Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+### Name: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+- Place: Lucknow, Uttar Pradesh, India
+- Bio: College Student | Engineering
+- Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
