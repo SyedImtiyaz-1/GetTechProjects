@@ -2,13 +2,13 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
-  transition: all 0.2s linear;
-  text-decoration: none;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -20,20 +20,22 @@ body {
   overflow-x: hidden;
 }
 
+/* Headings */
 .heading,
 .clients .section-header h2,
 .section-head h1,
 .testimonials .section-header h2,
 .section-head-1 h4 {
-  margin: 2rem;
-  padding-top: 6rem;
-  display: inline-block;
-  font-size: 3.5rem;
-  color: #002e5f;
-  position: relative;
-  letter-spacing: 0.2rem;
+    margin: 2rem;
+    padding-top: 6rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #002e5f;
+    position: relative;
+    letter-spacing: 0.2rem;
 }
 
+/* Heading Before and After Pseudo-elements */
 .heading::before,
 .heading::after,
 .clients .section-header h2::before,
@@ -44,27 +46,29 @@ body {
 .testimonials .section-header h2::after,
 .section-head-1 h4::before,
 .section-head-1 h4::after {
-  content: "";
-  position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
-  border-top: 0.4rem solid #002e5f;
-  border-left: 0.4rem solid #002e5f;
+    content: "";
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-top: 0.4rem solid #002e5f;
+    border-left: 0.4rem solid #002e5f;
 }
 
+/* FAQ Heading Styles */
 .faq .heading::before,
 .faq .heading::after {
-  border-top: 0.4rem solid #00bfff;
-  border-left: 0.4rem solid #00bfff;
+    border-top: 0.4rem solid #00bfff;
+    border-left: 0.4rem solid #00bfff;
 }
 
+/* Heading Before and After Positioning */
 .heading::before,
 .clients .section-header h2::before,
 .section-head h1::before,
 .testimonials .section-header h2::before,
 .section-head-1 h4::before {
-  top: 5.8rem;
-  left: -2rem;
+    top: 5.8rem;
+    left: -2rem;
 }
 
 .heading::after,
@@ -72,33 +76,32 @@ body {
 .section-head h1::after,
 .testimonials .section-header h2::after,
 .section-head-1 h4::after {
-  bottom: -0.5rem;
-  right: -2rem;
-  transform: rotate(180deg);
+    bottom: -0.5rem;
+    right: -2rem;
+    transform: rotate(180deg);
 }
 
-
+/* Text Transform None */
 .text-trans-none {
-  text-transform: none;
-}
+    text-transform: none;
 
 /*------ s mode -----*/
 label{
   position: absolute;
-  width: 45px;
-  height: 22px;
-  right: 2px;
-  top:12px;
-  border: 2px solid;
-  border-radius: 20px;
+  width: 4.5rem;
+  height: 2.2rem;
+  right: 0.2rem;
+  top:1.2rem;
+  border: 0.2rem solid;
+  border-radius: 2rem;
 }
 label:before{
   position: absolute;
   content: "";
-  width:  20px;
-  height: 20px;
-  left: 1px;
-  top:1px;
+  width:  2rem;
+  height: 2rem;
+  left: 0.1rem;
+  top:0.1rem;
   border-radius: 50%;
   cursor: pointer;
   background: #000;
@@ -106,7 +109,7 @@ label:before{
 }
 
 label.active:before{
-  left: 23px;
+  left: 2.3rem;
   background: #fff;
   /* background: black; */
 }
@@ -117,17 +120,17 @@ body.night{
 /* ---------- */
 
 .row .btn {
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  background: white;
-  border-style: groove;
-  border-color: #002e5f;
-  font-size: 1.5rem;
-  cursor: pointer;
-  height: 3.5rem;
-  width: 15rem;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: white;
+    border-style: groove;
+    border-color: #002e5f;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 15rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .communicate .btn {
@@ -192,7 +195,7 @@ body.night{
   /* background: transparent; */
   color: rgb(255, 255, 255);
   font-size: large;
-  /* border: 0.5px solid white; */
+  /* border: 0.05rem solid white; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   /* padding: 8em 5em; */
@@ -212,7 +215,7 @@ body.night{
 .nameCSS {
   color: white;
   margin: 0 1em;
-  border: 0.5px solid white;
+  border: 0.05rem solid white;
   padding: 0.2em;
   font-weight: 550;
 }
@@ -373,19 +376,19 @@ body.night{
 .item {
   background-color: #1e1d1d;
   text-align: center;
-  padding: 30px 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+  padding: 3rem 2.5rem;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.07);
   border-radius: 20px;
   margin-bottom: 30px;
   margin-top: -2rem;
-  border: 5px solid rgba(0, 0, 0, 0.07);
+  border: 0.5rem solid rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
 .item:hover {
   background: #c8d8e4;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
@@ -461,32 +464,37 @@ body.night{
   color: #2f2f2f;
 }
 
+/* Counters Section */
 .counters {
   background-image: url(../images/img2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 40px 20px;
+  padding: 4rem 2rem; /* Consistent unit rem */
 }
 
+/* Counters Container */
 .counters .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  grid-gap: 3rem; /* Consistent unit rem */
   text-align: center;
 }
 
+/* Counter Icons */
 .counters i {
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem; /* Consistent unit rem */
 }
 
+/* Counter Numbers */
 .counters .counter {
-  font-size: 45px;
-  margin: 10px 0;
+  font-size: 4.5rem; /* Consistent unit rem */
+  margin: 1rem 0; /* Consistent unit rem */
 }
 
+/* Responsive Design Adjustments */
 @media (max-width: 700px) {
   .counters .container {
     grid-template-columns: repeat(2, 1fr);
@@ -494,9 +502,10 @@ body.night{
 
   .counters .container > div:nth-of-type(1),
   .counters .container > div:nth-of-type(2) {
-    border-bottom: 1px lightskyblue solid;
-    padding-bottom: 20px;
+    border-bottom: 0.1rem lightskyblue solid; /* Consistent unit rem */
+    padding-bottom: 2rem; /* Consistent unit rem */
   }
+}
 
   .header .navbar ul button {
     width: fit-content;
@@ -505,7 +514,7 @@ body.night{
     background: transparent;
     color: white;
     font-size: large;
-    border: 0.5px solid white;
+    border: 0.05rem solid white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
   }
@@ -548,52 +557,52 @@ body.night{
   text-align: center;
 }
 
+/* Item Styling */
 .item {
   background: #fff;
   text-align: center;
-  padding: 30px 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
-  border-radius: 20px;
-  margin-bottom: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  -webkit-transition: all 0.7s ease 0s;
-  transition: all 0.7 ease 0s;
+  padding: 3rem 2.5rem; /* Consistent unit rem */
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.07); /* Consistent unit rem */
+  border-radius: 2rem; /* Consistent unit rem */
+  margin-bottom: 3rem; /* Consistent unit rem */
+  border: 0.1rem solid rgba(0, 0, 0, 0.07); /* Consistent unit rem */
+  transition: all 0.7s ease;
 }
 
+/* Item Hover Effect */
 .item:hover {
   background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
   background-position: right;
   transition: background-position 3s;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.7s ease 0s;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2); /* Consistent unit rem */
 }
 
+/* Item Hover Effects */
 .item:hover .item,
 .item:hover span.icon {
   background: #fff;
-  border-radius: 10px;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  border-radius: 1rem; /* Consistent unit rem */
+  transition: all 0.5s ease;
 }
 
 .item:hover h6,
 .item:hover p {
   color: #2b6777;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  transition: all 0.5s ease;
 }
 
+/* Item Icon */
 .item .icon {
-  font-size: 40px;
-  margin-bottom: 25px;
+  font-size: 4rem; /* Consistent unit rem */
+  margin-bottom: 2.5rem; /* Consistent unit rem */
   color: yellow;
-  width: 90px;
-  height: 90px;
-  line-height: 96px;
-  border-radius: 50px;
+  width: 9rem; /* Consistent unit rem */
+  height: 9rem; /* Consistent unit rem */
+  line-height: 9.6rem; /* Consistent unit rem */
+  border-radius: 50%;
 }
 
+/* Feature Box Colors */
 .item .feature_box_col_one {
   background: rgba(247, 198, 5, 0.2);
   color: #52ab98;
@@ -624,18 +633,20 @@ body.night{
   color: #52ab98;
 }
 
+/* Item Text */
 .item p {
-  font-size: 15px;
+  font-size: 1.5rem; /* Consistent unit rem */
   font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 26px;
+  line-height: 2.6rem; /* Consistent unit rem */
 }
 
 .item h6 {
-  margin-bottom: 20px;
+  margin-bottom: 2rem; /* Consistent unit rem */
   font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #2f2f2f;
 }
 
+/* Communicate Section */
 .communicate {
   text-align: center;
   align-items: center;
@@ -645,7 +656,7 @@ body.night{
   background-attachment: fixed;
   color: #fff;
   min-height: 35vh;
-  padding: 40px 20px;
+  padding: 4rem 2rem; /* Consistent unit rem */
 }
 
 .communicate h3 {
@@ -657,15 +668,16 @@ body.night{
   font-size: 2rem;
 }
 
+/* Testimonials Section */
 .testimonials {
   position: relative;
-  padding: 90px 0 60px 0;
+  padding: 9rem 0 6rem; /* Consistent unit rem */
   background: #f2f2f2;
 }
 
 .testimonials .testimonial-item {
   position: relative;
-  margin: 0 15px 30px 15px;
+  margin: 0 1.5rem 3rem; /* Consistent unit rem */
   background: #ffffff;
 }
 
@@ -678,40 +690,40 @@ body.night{
 .testimonials .testimonial-text {
   position: relative;
   width: 100%;
-  padding: 30px 15px;
+  padding: 3rem 1.5rem; /* Consistent unit rem */
   text-align: center;
   background: #ffffff;
 }
 
 .testimonials .testimonial-text h3 {
-  font-size: 18px;
+  font-size: 1.8rem; /* Consistent unit rem */
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 1rem; /* Consistent unit rem */
 }
 
 .testimonials .testimonial-text h4 {
-  font-size: 12px;
+  font-size: 1.2rem; /* Consistent unit rem */
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .testimonials .testimonial-text p {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.6rem; /* Consistent unit rem */
   font-weight: 300;
 }
 
 .testimonials .owl-nav,
 .testimonials .owl-dots {
-  margin-top: 5px;
+  margin-top: 0.5rem; /* Consistent unit rem */
   text-align: center;
 }
 
 .testimonials .owl-dot {
   display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
+  margin: 0 0.5rem; /* Consistent unit rem */
+  width: 1.2rem; /* Consistent unit rem */
+  height: 1.2rem; /* Consistent unit rem */
   border-radius: 50%;
   background-color: #dddddd;
 }
@@ -720,42 +732,43 @@ body.night{
   background-color: #4f84c4;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 575px) {
   .testimonials .testimonial-text {
-    padding: 25px;
+    padding: 2.5rem; /* Consistent unit rem */
   }
 
   .header .navbar ul button {
-    margin: 0.3em 0 !important;
+    margin: 0.3rem 0; /* Consistent unit rem */
   }
 
   #image {
-    padding: 0.3em 0 !important;
+    padding: 0.3rem 0; /* Consistent unit rem */
   }
 }
 
+/* Clients Section */
 .clients {
   position: relative;
-  padding: 90px 0;
+  padding: 9rem 0; /* Consistent unit rem */
   text-align: center;
-  margin-top: -10rem;
-  margin-bottom: -10rem;
+  margin-top: -10rem; /* Consistent unit rem */
+  margin-bottom: -10rem; /* Consistent unit rem */
 }
 
 .clients .section-header p {
-  padding-bottom: 10px;
-  margin-top: 2.5rem;
+  padding-bottom: 1rem; /* Consistent unit rem */
+  margin-top: 2.5rem; /* Consistent unit rem */
   text-align: center;
-  font-size: 2rem;
+  font-size: 2rem; /* Consistent unit rem */
   color: #333;
-  padding: 1rem 0;
 }
 
 .clients img {
   max-width: 100%;
   opacity: 1;
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 1.5rem 0; /* Consistent unit rem */
 }
 
 .clients img:hover {
@@ -812,7 +825,7 @@ body.night{
   margin: 5rem 5rem;
   position: relative;
   overflow: hidden;
-  -webkit-box-reflect: below 5px linear-gradient(transparent 70%, #0004);
+  -webkit-box-reflect: below 0.5rem linear-gradient(transparent 70%, #0004);
   transition: 0.5s;
 }
 
@@ -910,6 +923,7 @@ body.night{
   margin-bottom: 1.5rem;
 }
 
+/* Contact Container */
 .contact-in {
   width: 80%;
   height: auto;
@@ -917,12 +931,13 @@ body.night{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1rem; /* Consistent unit rem */
+  border-radius: 1rem; /* Consistent unit rem */
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #666;
+  box-shadow: 0 0 1rem 0 #666; /* Consistent unit rem */
 }
 
+/* Contact Map */
 .contact-map {
   width: 100%;
   height: auto;
@@ -933,6 +948,7 @@ body.night{
   height: 100%;
 }
 
+/* Contact Form */
 .contact-form {
   width: 100%;
   height: auto;
@@ -944,7 +960,7 @@ body.night{
   width: 95%;
   height: 40px;
   color: #000;
-  border: 1px solid #bcbcbc;
+  border: 0.1rem solid #bcbcbc;
   border-radius: 50px;
   outline: none;
   margin-bottom: 20px;
@@ -955,11 +971,11 @@ body.night{
   width: 95%;
   height: 40px;
   color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
+  border: 0.1rem solid #bcbcbc;
+  border-radius: 5rem;
   outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
   text-transform: none;
 }
 .contact-form-txt::placeholder {
@@ -975,11 +991,11 @@ body.night{
   width: 95%;
   height: 130px;
   color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 10px;
+  border: 0.1rem solid #bcbcbc;
+  border-radius: 1rem;
   outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
 .contact-form-txtarea::placeholder {
@@ -1010,27 +1026,28 @@ body.night{
 .contact-form-phone {
   margin-left: 2rem;
   width: 95%;
-  height: 40px;
+  height: 4rem; /* Consistent unit rem */
   color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
+  border: 0.1rem solid #bcbcbc; /* Consistent unit rem */
+  border-radius: 5rem; /* Consistent unit rem */
   outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 2rem; /* Consistent unit rem */
+  padding: 1.5rem; /* Consistent unit rem */
 }
 .contact-form-phone::placeholder {
   color: #aaa;
   font-size: 1.5rem;
 }
 
+/* Footer */
 footer {
   width: 100%;
   position: relative;
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
-  padding: 100px 0px 30px;
-  font-size: 13px;
-  line-height: 20px;
+  padding: 10rem 0 3rem; /* Consistent unit rem */
+  font-size: 1.3rem; /* Consistent unit rem */
+  line-height: 2rem; /* Consistent unit rem */
 }
 
 .row_f {
@@ -1044,33 +1061,33 @@ footer {
 
 .logo_f {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 3rem; /* Consistent unit rem */
 }
 
 .col {
   flex-basis: 25%;
-  padding: 10px;
+  padding: 1rem; /* Consistent unit rem */
 }
 
-.col img{
-  width: 3.5em;
+.col img {
+  width: 3.5rem; /* Consistent unit rem */
 }
 
 .col h3 {
   width: fit-content;
-  margin-bottom: 40px;
+  margin-bottom: 4rem; /* Consistent unit rem */
   position: relative;
 }
 
 .email {
   width: fit-content;
-  border-bottom: 1px solid #ccc;
-  margin: 20px 0;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 2rem 0; /* Consistent unit rem */
 }
 
 ul li {
   list-style: none;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem; /* Consistent unit rem */
 }
 
 ul li a {
@@ -1081,30 +1098,31 @@ ul li a {
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 1.5rem; /* Consistent unit rem */
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 5rem; /* Consistent unit rem */
 }
 
 form .ion-md-mail {
-  font-size: 18px;
-  margin-right: 10px;
+  font-size: 1.8rem; /* Consistent unit rem */
+  margin-right: 1rem; /* Consistent unit rem */
 }
 
 form input {
   width: 100%;
-  /* background: transparent; */
-  padding: 0.6em;
-  margin: 1em;
+  padding: 0.6rem;
+  margin: 1rem;
   color: #ccc;
   border: 0;
   outline: none;
-  font-size: 16px;
+  font-size: 1.6rem; /* Consistent unit rem */
 }
+
 .input-wrapper {
   display: flex;
 }
+
 form button {
   background: transparent;
   border: 0;
@@ -1113,36 +1131,36 @@ form button {
 }
 
 form button .ion-md-send {
-  font-size: 16px;
+  font-size: 1.6rem; /* Consistent unit rem */
   color: #ccc;
 }
 
 hr {
   width: 90%;
   border: 0;
-  border-bottom: 1px solid #ccc;
-  margin: 20px auto;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 2rem auto; /* Consistent unit rem */
 }
 
 .copyright {
   text-align: center;
 }
 
+/* Back to Top Button */
 .back-to-top {
   position: fixed;
   display: none;
   background-color: #002e5f;
   color: #ffffff;
-  width: 45px;
-  height: 45px;
+  width: 4.5rem; /* Consistent unit rem */
+  height: 4.5rem; /* Consistent unit rem */
   text-align: center;
   line-height: 1;
-  font-size: 44px;
-  left: 15px;
-  bottom: 15px;
+  font-size: 4.4rem; /* Consistent unit rem */
+  left: 1.5rem; /* Consistent unit rem */
+  bottom: 1.5rem; /* Consistent unit rem */
   transition: background-color 0.3s;
   border-radius: 0.2em;
-  /* Change 'background' to 'background-color' */
   z-index: 9;
 }
 
@@ -1150,7 +1168,6 @@ hr {
   color: #ffffff;
 }
 
-/* Add hover effect to the background color */
 .back-to-top:hover {
   background-color: black;
 }
@@ -1250,7 +1267,7 @@ hr {
     background: transparent;
     /* color: rgb(85, 85, 85); */
     font-size: large;
-    border: 0.5px solid rgb(0, 0, 0);
+    border: 0.05rem solid rgb(0, 0, 0);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     padding: 2em;
@@ -1380,7 +1397,7 @@ hr {
 
   .clients {
     position: relative;
-    padding: 90px 0;
+    padding: 9rem 0;
     text-align: center;
     margin-top: -15rem;
     margin-bottom: -8rem;
@@ -1411,57 +1428,59 @@ hr {
     margin-top: -2rem;
   }
 
-  .contact-in {
-    width: 80%;
-    height: auto;
-    margin: auto auto 5rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0px 0px 10px 0px #666;
-  }
+/* Contact Container */
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto auto 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem; /* Consistent unit rem */
+  border-radius: 1rem; /* Consistent unit rem */
+  background: #fff;
+  box-shadow: 0 0 1rem 0 #666; /* Consistent unit rem */
+}
 
-  .contact-map {
-    width: 100%;
-    height: auto;
-    flex: 50%;
-  }
+/* Contact Map */
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
 
-  .contact-map iframe {
-    width: 100%;
-    height: 100%;
-  }
-
-  .contact-form {
-    width: 100%;
-    height: auto;
-    flex: 50%;
-    text-align: left;
-  }
+/* Contact Form */
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  text-align: left;
+}
 
   .contact-form-txt {
     width: 90%;
-    height: 20px;
+    height: 2rem;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 0.1rem solid #bcbcbc;
+    border-radius: 5rem;
     outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
   }
 
   .contact-form-email {
     margin-left: 2rem;
     width: 90%;
-    height: 20px;
+    height: 2rem;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 0.1rem solid #bcbcbc;
+    border-radius: 5rem;
     outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
   }
 
   .contact-form-txt::placeholder {
@@ -1477,13 +1496,13 @@ hr {
   .contact-form-txtarea {
     margin-left: 2rem;
     width: 90%;
-    height: 110px;
+    height: 11rem;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 10px;
+    border: 0.1rem solid #bcbcbc;
+    border-radius: 1rem;
     outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
     font-family: "Poppins", sans-serif;
   }
 
@@ -1517,13 +1536,13 @@ hr {
   .contact-form-phone {
     margin-left: 2rem;
     width: 90%;
-    height: 20px;
+    height: 2rem;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 0.1rem solid #bcbcbc;
+    border-radius: 5rem;
     outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
   }
 
   .contact-form-phone::placeholder {
@@ -1532,9 +1551,9 @@ hr {
   }
 
   .back-to-top {
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
   }
 
   .faq {
@@ -1575,7 +1594,7 @@ hr {
     bottom: 5em;
     width: 80% !important;
     height: 65%;
-    border-radius: 10px !important;
+    border-radius: 1rem !important;
   }
 
   .chatbot__box {
@@ -1629,10 +1648,10 @@ hr {
 }
 .theme-switch {
   display: inline-block;
-  height: 35px;
+  height: 3.5rem;
   position: relative;
-  width: 62px;
-  margin-bottom: 20px;
+  width: 6.2rem;
+  margin-bottom: 2rem;
 }
 .theme-switch input {
   display: none;
@@ -1649,22 +1668,22 @@ hr {
 }
 .slider:before {
   background-color: #fff;
-  top: 2.5px;
+  top: 0.25rem;
   content: "";
-  height: 25px;
-  left: 2.8px;
+  height: 2.5rem;
+  left: 0.28rem;
   position: absolute;
   transition: 0.4s;
-  width: 26px;
+  width: 2.6rem;
 }
 input:checked + .slider {
   background-color: #202125;
 }
 input:checked + .slider:before {
-  transform: translateX(26px);
+  transform: translateX(2.6rem);
 }
 .slider.round {
-  border-radius: 34px;
+  border-radius: 3.4rem;
 }
 .slider.round:before {
   border-radius: 50%;
