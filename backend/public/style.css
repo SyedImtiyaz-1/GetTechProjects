@@ -68,23 +68,30 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 24px;
+  grid-column-gap: 35px;
+  grid-row-gap: 30px;
+
 }
 
 .course {
   text-align: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
+  background-color: #a0d8f0;
+  box-shadow: 0 4px 8px 0 #a3cbf5,
+    0 6px 20px 0 #a3cbf5;
   /* width: 15vw;
     height: 30vh; */
   margin-top: 20px;
   border-radius: 8px;
   transition: border 0.1s linear 0s;
   cursor: pointer;
+
 }
 
 .course:hover {
-  border: .2px solid rgb(171, 170, 170);
+  border: .2px solid #093074;
+  background-color: #5c93f2;
 }
 
 .course[data-paid="false"]:hover {
@@ -378,8 +385,9 @@ section {
   padding: 0.7em;
   width: 10em;
   color: black;
+  background-color: #0654a8;
   font-size: 1.2em;
-  border: 0.5px solid grey;
+  border: none;
   cursor: pointer;
   margin: 0.7em 0;
   font-weight: 600;
@@ -388,7 +396,7 @@ section {
 }
 
 .buy-button:hover {
-  background: #2e4a79;
+  background: #093074;
   color: white;
 }
 
