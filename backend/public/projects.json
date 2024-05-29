@@ -168,5 +168,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/spotifyclone.jpg",
     "slide-img-2": "img/spotifyclone.jpg"
+  },
+  {
+  "courseId": "Password Checker",
+    "name": "Password Checker",
+    "image": "img/Password.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1tu94fhOOrD7HENmUD8kZX-k8swKb4bml?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Password.jpg",
+    "slide-img-2": "img/Password1.jpg"
   }
 ]
