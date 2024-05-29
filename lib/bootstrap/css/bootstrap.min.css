@@ -482,11 +482,14 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  width: 100%;
-  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ /* padding-right: 15px;
+  width:100%;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;*/
 }
 @media (min-width: 576px) {
   .container {
@@ -517,11 +520,10 @@ pre code {
 }
 
 .row {
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  -ms-flex-wrap: wrap;
+ /* display: -ms-flexbox;*/
+ display: flex;
+  width: 100%;
+ /* -ms-flex-wrap: wrap;*/
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
