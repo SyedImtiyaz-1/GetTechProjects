@@ -177,5 +177,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Password.jpg",
     "slide-img-2": "img/Password1.jpg"
-  }
+  },
+   {
+  "courseId": "Color Converter",
+    "name": "Color Converter",
+    "image": "img/Color_converter1.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1pXhioAKB5Cx_CtvP9Whi2dpnCPNgSx9E?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Color_converter1",
+    "slide-img-2": "img/Color_converter2.jpg"
+  },
 ]
