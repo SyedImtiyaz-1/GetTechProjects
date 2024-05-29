@@ -159,4 +159,14 @@
     "slide-img-1": "img/tempConverter.png",
     "slide-img-2": "img/tempConverter.png"
   }
+    ,
+  {
+  "courseId": "Spotify Clone",
+    "name": "Spotify Clone",
+    "image": "img/spotifyLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1So0ROfNdgEHE6LC_BySXX3pDAN1ngYy9?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/spotifyclone.jpg",
+    "slide-img-2": "img/spotifyclone.jpg"
+  }
 ]
