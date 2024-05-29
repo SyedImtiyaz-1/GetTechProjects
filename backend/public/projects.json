@@ -168,5 +168,23 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/spotifyclone.jpg",
     "slide-img-2": "img/spotifyclone.jpg"
+  },
+  {
+  "courseId": "Password Checker",
+    "name": "Password Checker",
+    "image": "img/Password.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1tu94fhOOrD7HENmUD8kZX-k8swKb4bml?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Password.png",
+    "slide-img-2": "img/Password1.png"
+  },
+   {
+  "courseId": "Color Converter",
+    "name": "Color Converter",
+    "image": "img/Color_converter1.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1pXhioAKB5Cx_CtvP9Whi2dpnCPNgSx9E?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Color_converter1.png",
+    "slide-img-2": "img/Color_converter2.png"
   }
 ]

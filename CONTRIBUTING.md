@@ -221,3 +221,9 @@
 - Place: Bokaro Steel City, Jharkhand, India
 - Bio: College Student | Full Stack Developer
 - Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+### Name: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+- Place: Lucknow, Uttar Pradesh, India
+- Bio: College Student | Engineering
+- Github: [Aditi Bansal](https://github.com/Aditi22Bansal)

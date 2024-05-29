@@ -9,15 +9,10 @@ Builds With :
 
 This repository is open to all members of the GitHub community. Any member can contribute to this project.
 
-➡ [https://github.com/SyedImtiyaz-1/hacktoberfest/](https://github.com/SyedImtiyaz-1/PreciousServices/)
+➡ [https://github.com/SyedImtiyaz-1/GetTechProjects](https://github.com/SyedImtiyaz-1/GetTechProjects)
 
 ## New to Open Source ? No worries I will teach you how to contribute :
 ### Join a 1:1 session with me ➡ https://topmate.io/syedimtiyazali
-
-## What is Hacktoberfest?
-A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
-
-[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
 ## How to contribute to this project
 Here are 3 quick ways to contribute to this project:
