@@ -186,8 +186,14 @@ body.night {
   align-items: center;
   padding-top: 0.5rem;
   justify-content: space-around;
+
+  
 }
 
+.header .navbar ul .icons{
+  font-size:25px; 
+  color:white;
+}
 .header .navbar ul button {
   /* width: 4vw; */
   /* height: 4.3vh; */
@@ -1340,6 +1346,9 @@ hr {
   .header .navbar ul li a {
     color: grey;
     font-size: 2.4rem;
+  }
+  .header .navbar ul .icons{
+    color:grey;
   }
 
   .header .fa-times {
