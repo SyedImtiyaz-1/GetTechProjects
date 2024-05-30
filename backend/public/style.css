@@ -73,35 +73,37 @@ section {
 
 .course {
   text-align: center;
-  box-shadow: rgba(227, 158, 158, 0.909) 0px 2px 8px 0px;
+  box-shadow: rgb(82, 146, 235) 4px 4px 4px 4px;
   padding: 20px;
   /* width: 15vw;
     height: 30vh; */
   margin-top: 20px;
   border-radius: 8px;
-  transition: border 0.1s linear 0s;
+  transition: border 0.2s linear 0s;
   cursor: pointer;
-  font-size: 10px;
+  background-color: #79c2f2e1;
+  font-size: 12px;
 }
 
 .course:hover {
   /* border: .2px solid rgb(216, 72, 72); */
-  box-shadow: rgb(216, 72, 72) 0px 2px 8px 0px;
+  box-shadow: rgb(0, 55, 142) 4px 4px 4px 4px;
 
 }
 .course[data-paid="false"]{
-  background-color:  rgb(214, 88, 88);
+  background-color:  rgb(8, 15, 114);
   color: whitesmoke;
+  box-shadow: rgb(79, 142, 243) 2px 2px 2px 2px;
 }
 .course[data-paid="false"]:hover {
   /* Your hover effect styles */
-  border: 0.7px solid rgb(210, 58, 58);
-  background-color:  rgb(216, 72, 72);
+  border: 0.2px solid rgb(127, 146, 222);
+  background-color:  rgb(5, 11, 97);
 }
 
 .course .course-banner img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 
 .course-author:hover {
