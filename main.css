@@ -920,18 +920,20 @@ body.night {
   height: auto;
   margin: auto auto 5rem auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #666;
+  box-shadow: 0px 0px 10px 0px #666
 }
 
 .contact-map {
   width: 100%;
   height: auto;
+  border: #bababa70 5px solid;
   flex: 50%;
+  border-radius: 1%;
 }
 
 .contact-map iframe {
@@ -947,24 +949,20 @@ body.night {
 }
 
 .contact-form-txt {
-  margin-left: 2rem;
-  width: 95%;
   height: 40px;
   color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .contact-form-email {
-  margin-left: 2rem;
-  width: 95%;
   height: 40px;
   color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
@@ -982,11 +980,10 @@ body.night {
 }
 
 .contact-form-txtarea {
-  margin-left: 2rem;
-  width: 95%;
+  width: 90%;
   height: 130px;
   color: #000;
-  border: 1px solid #bcbcbc;
+  border: 2px solid #bcbcbc;
   border-radius: 10px;
   outline: none;
   margin-bottom: 20px;
@@ -1006,7 +1003,7 @@ body.night {
   border-radius: 1rem;
   background: white;
   border-style: groove;
-  border-color: #002e5f;
+  border-color: #b1b1b1;
   font-size: 1.5rem;
   cursor: pointer;
   height: 4.5rem;
@@ -1015,22 +1012,20 @@ body.night {
 }
 
 .contact-form-btn:hover {
-  letter-spacing: 0.1rem;
   opacity: 0.9;
-  color: white;
-  background: #002e5f;
+  font-weight: 500;
+  color: black;
+  background: #bababa;
 }
 
 .contact-form-phone {
-  margin-left: 2rem;
-  width: 95%;
-  height: 40px;
-  color: #000;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+    height: 40px;
+    color: #000;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 .contact-form-phone::placeholder {
@@ -1108,7 +1103,7 @@ form .ion-md-mail {
 }
 
 form input {
-  width: 100%;
+  width: 90%;
   /* background: transparent; */
   padding: 0.6em;
   margin: 1em;
@@ -1459,26 +1454,24 @@ hr {
   }
 
   .contact-form-txt {
-    width: 90%;
-    height: 20px;
+    height: 40px;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
   }
 
   .contact-form-email {
-    margin-left: 2rem;
-    width: 90%;
-    height: 20px;
+    height: 40px;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
+    text-transform: none;
   }
 
   .contact-form-txt::placeholder {
@@ -1492,11 +1485,10 @@ hr {
   }
 
   .contact-form-txtarea {
-    margin-left: 2rem;
     width: 90%;
-    height: 110px;
+    height: 130px;
     color: #000;
-    border: 1px solid #bcbcbc;
+    border: 2px solid #bcbcbc;
     border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
@@ -1513,10 +1505,10 @@ hr {
     margin-left: 2rem;
     outline: none;
     border: none;
-    border-radius: 5rem;
+    border-radius: 1rem;
     background: white;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #b1b1b1;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -1525,19 +1517,17 @@ hr {
   }
 
   .contact-form-btn:hover {
-    letter-spacing: 0.1rem;
     opacity: 0.9;
-    color: white;
-    background: #002e5f;
+    font-weight: 500;
+    color: black;
+    background: #bababa;
   }
 
   .contact-form-phone {
-    margin-left: 2rem;
-    width: 90%;
-    height: 20px;
+    height: 40px;
     color: #000;
-    border: 1px solid #bcbcbc;
-    border-radius: 50px;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
     outline: none;
     margin-bottom: 20px;
     padding: 15px;
@@ -1584,7 +1574,11 @@ hr {
 #talentin {
   cursor: pointer;
 }
-
+@media (max-width: 770px) {
+  .contact-in {
+    flex-direction: column;
+  }
+}
 /* login media query */
 @media (max-width: 1080px) {
   .chatbot {
