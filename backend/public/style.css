@@ -154,96 +154,77 @@ section {
   }
 }
 
-/* Style for the pop-up overlay */
-.popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-}
 
-/* Style for the pop-up content */
-.popup-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 70%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  max-height: 80vh;
-  /* Adjust this value to control the maximum height of the pop-up */
-  overflow: hidden;
-  /* Add scrollbar if content exceeds the max height */
-}
-
-@media screen and (max-width: 600px) {
-  .popup-content {
-    width: 90%;
-    /* Adjust the width for smaller screens */
-  }
-
-  .popup-content img {
-    width: 90%;
-  }
-}
 
 /* styles.css */
 
 /* Style for the pop-up overlay */
 .popup {
-  /* position: fixed; */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 /* Style for the pop-up content */
 .popup-content {
   background-color: #fff;
   padding: 20px;
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  height: 80%;
+  transform: translate(-50%, -50%);
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  position: relative;
-  width: fit-content;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  /* Adjust this value to control the maximum height of the pop-up */
+  /* Add scrollbar if content exceeds the max height */
 }
 
 /* Style for the close button */
 .close-button {
   position: absolute;
   top: 10px;
-  right: 6px;
+  right: 15px;
   font-size: 20px;
   color: #333;
   cursor: pointer;
   background: none;
-  z-index: 999;
   border: none;
+  z-index: 999;
 }
 
 /* Style for the Swiper container */
 .swiper-container {
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  /* max-height: 100%; */
+  /* display: block; */
   margin: 0 auto;
-  max-height: 60vh;
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style for the Swiper slides */
 .swiper-slide img {
-  width: 50%;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Style for the Swiper navigation buttons */
@@ -267,16 +248,6 @@ section {
   left: 10px;
 }
 
-/* Style for the close button */
-.close-button {
-  position: absolute;
-  top: 8px;
-  right: 15px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 .close-button i {
   font-size: 2rem;
 }
@@ -290,6 +261,22 @@ section {
 .eye-button i {
   font-size: 1.5em;
 }
+
+@media screen and (max-width: 600px) {
+  .popup-content {
+    width: 90%;
+    /* Adjust the width for smaller screens */
+  }
+
+  .swiper-container{
+    max-height: 50vh;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -314,7 +301,7 @@ section {
   }
 
   .swiper-slide img {
-    width: 80%;
+    width: 100%;
     /* Adjust the image width to fill the container */
   }
 }
