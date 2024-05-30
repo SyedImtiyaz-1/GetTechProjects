@@ -4,6 +4,13 @@
 - Bio: Project Admin | Software Engineer
 - GitHub: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
+#### Name: [Manish Kumar](https://github.com/ManishBirthlia)
+
+- Place: Jaipur, Rajasthan, India
+- Bio: Engineering Student | Passionate Full-Stack Developer
+- GitHub: [ManishBirthlia](https://github.com/ManishBirthlia)
+- Linkedin [@manish-birthlia](https://www.linkedin.com/in/manish-birthlia)
+
 #### Name: [Ankit Matth](https://github.com/Ankit-Matth)
 
 - Place: Bhiwani, Haryana, India
