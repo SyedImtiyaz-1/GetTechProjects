@@ -234,3 +234,10 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+
+### Name: [Vaishnavi Tiwari](https://github.com/Vaishnavi1047)
+
+📍 Place:Lucknow,Uttar Pradesh, India.
+👩🏻‍💻 Bio: College Student | MERN Stack Developer in Making.
+🚀 GitHub: [Vaishnavi Tiwari](https://github.com/Vaishnavi1047)
