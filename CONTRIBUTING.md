@@ -234,3 +234,8 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+### Name: [Amruta Jayanti](https://github.com/AmrutaJayanti)
+- Place: Visakhapatnam, Andhra Pradesh, India.
+- Bio: Student
+- Github: [AmrutaJayanti](https://github.com/AmrutaJayanti)
