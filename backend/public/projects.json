@@ -186,5 +186,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Color_converter1.png",
     "slide-img-2": "img/Color_converter2.png"
+  },
+   {
+  "courseId": "Email Validator App",
+    "name": "Email Validator App",
+    "image": "img/emailvalidateLogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1uFU5I7ERgjlHWqN1tFGA7CiG6XpIFqGq?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/emailValidator.png",
+    "slide-img-2": "img/emailValidator.png"
   }
 ]
