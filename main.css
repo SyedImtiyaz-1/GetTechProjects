@@ -1704,3 +1704,6 @@ input:checked+.slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.swiper-button-next .swiper-button-prev{
+margin-top: auto;
+}
