@@ -161,22 +161,22 @@
       <div class="container">
         <div class="pointerBtn">
           <i class="far fa-clock fa-4x"></i>
-          <div class="counter" data-target="72">0+</div>
+          <div class="counter" data-target="24">24+</div>
           <h3>Working Hours/Week</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-gift fa-4x"></i>
-          <div class="counter" data-target="100">0+</div>
+          <div class="counter" data-target="60">60+</div>
           <h3>Projects Sold</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-users fa-4x"></i>
-          <div class="counter" data-target="92">0+</div>
+          <div class="counter" data-target="52">52+</div>
           <h3>Happy Clients</h3>
         </div>
         <div class="pointerBtn">
           <i class="fas fa-award fa-4x"></i>
-          <div class="counter" data-target="83"><span>0</span>+</div>
+          <div class="counter" data-target="13">13+</div>
           <h3>Awards Received</h3>
         </div>
       </div>
@@ -327,7 +327,7 @@
       </div>
     </div>
     <!--  chat bot finish  -->
-   
+
     <script src="./js/contact.js"></script>
     <script src="./chatBot/script.js"></script>
     <script src="./js/login.js"></script>
@@ -338,6 +338,27 @@
     alert("Under Maintenance, Please come again after sometime.")
   </script> -->
 
- 
+    <script>
+      // Function to scroll to the top smoothly
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      // Add an event listener to the "scroll to top" button
+      const backToTopButton = document.querySelector(".back-to-top");
+      backToTopButton.addEventListener("click", scrollToTop);
+
+      // Add an event listener to show/hide the button based on scroll position
+      window.addEventListener("scroll", () => {
+        if (document.documentElement.scrollTop > 100) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
