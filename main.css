@@ -175,7 +175,7 @@ body.night{
 }
 
 .header .logo img {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
   top: 0;
   left: 0;
 }
@@ -198,11 +198,11 @@ body.night{
   /* border: 0.05rem solid white; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
-  /* padding: 8em 5em; */
-  border-radius: 5px;
+  /* padding: 8rem 5rem; */
+  border-radius: 0.5rem;
   border: none;
   background-color: #002e5f;
-  padding: 0.6em;
+  padding: 0.6rem;
 }
 
 .header .navbar ul button:hover {
@@ -214,26 +214,26 @@ body.night{
 /* name of the user */
 .nameCSS {
   color: white;
-  margin: 0 1em;
+  margin: 0 1rem;
   border: 0.05rem solid white;
-  padding: 0.2em;
+  padding: 0.2rem;
   font-weight: 550;
 }
 
 /* image for user */
 #image {
-  width: 5em;
+  width: 5rem;
   border-radius: 50%;
   cursor: pointer;
 }
 
 /* logout btn */
 #logout {
-  margin: 0.2em 1em 0.1em 1em;
+  margin: 0.2rem 1rem 0.1rem 1rem;
   display: none;
 }
 /* .login {
-  margin: 0.2em 1em 0.1em 1em;
+  margin: 0.2rem 1rem 0.1rem 1rem;
   border: none;
   background-color: #2d0b00;
 } */
@@ -361,15 +361,15 @@ body.night{
 }
 
 .section-head {
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   text-align: center;
   margin-top: -8rem;
   text-emphasis-color: #fff;
 }
 
 .section-head p {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   text-align: center;
 }
 
@@ -378,8 +378,8 @@ body.night{
   text-align: center;
   padding: 3rem 2.5rem;
   box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.07);
-  border-radius: 20px;
-  margin-bottom: 30px;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
   margin-top: -2rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.5s ease 0s;
@@ -396,7 +396,7 @@ body.night{
 .item:hover .item,
 .item:hover span.icon {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 1rem;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
@@ -414,13 +414,13 @@ body.night{
 }
 
 .item .icon {
-  font-size: 40px;
-  margin-bottom: 25px;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
   color: yellow;
-  width: 90px;
-  height: 90px;
-  line-height: 96px;
-  border-radius: 50px;
+  width: 9rem;
+  height: 9rem;
+  line-height: 9.6rem;
+  border-radius: 5rem;
 }
 
 .item .feature_box_col_one {
@@ -454,13 +454,13 @@ body.night{
 }
 
 .item p {
-  font-size: 15px;
-  line-height: 26px;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
   color: #2f2f2f;
 }
 
 .item h6 {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   color: #2f2f2f;
 }
 
@@ -527,8 +527,8 @@ body.night{
 
   .nameCSS {
     color: rgb(16, 16, 16);
-    margin: 0 1em;
-    padding: 0.2em;
+    margin: 0 1rem;
+    padding: 0.2rem;
     font-weight: 550;
     text-decoration: underline;
   }
@@ -544,7 +544,7 @@ body.night{
 }
 
 .section-head-1 {
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   background-size: 200%;
   background-position: left;
 }
@@ -552,8 +552,8 @@ body.night{
 .section-head-1 p {
   color: #333;
  
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   text-align: center;
 }
 
@@ -575,6 +575,8 @@ body.night{
   background-position: right;
   transition: background-position 3s;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2); /* Consistent unit rem */
+  webkit-transition: all 0.5s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 
 /* Item Hover Effects */
@@ -582,6 +584,7 @@ body.night{
 .item:hover span.icon {
   background: #fff;
   border-radius: 1rem; /* Consistent unit rem */
+  webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease;
 }
 
@@ -599,7 +602,7 @@ body.night{
   width: 9rem; /* Consistent unit rem */
   height: 9rem; /* Consistent unit rem */
   line-height: 9.6rem; /* Consistent unit rem */
-  border-radius: 50%;
+  border-radius: 5rem;
 }
 
 /* Feature Box Colors */
@@ -777,15 +780,15 @@ body.night{
 
 .clients .owl-nav,
 .clients .owl-dots {
-  margin-top: 5px;
+  margin-top: 0.5rem;
   text-align: center;
 }
 
 .clients .owl-dot {
   display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
+  margin: 0 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   border-radius: 50%;
   background-color: #ddd;
 }
@@ -830,7 +833,7 @@ body.night{
 }
 
 .team .row .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-1rem);
   cursor: pointer;
 }
 
@@ -958,18 +961,18 @@ body.night{
 .contact-form-txt {
   margin-left: 2rem;
   width: 95%;
-  height: 40px;
+  height: 4rem;
   color: #000;
   border: 0.1rem solid #bcbcbc;
-  border-radius: 50px;
+  border-radius: 5rem;
   outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
 }
 .contact-form-email {
   margin-left: 2rem;
   width: 95%;
-  height: 40px;
+  height: 4rem;
   color: #000;
   border: 0.1rem solid #bcbcbc;
   border-radius: 5rem;
@@ -989,7 +992,7 @@ body.night{
 .contact-form-txtarea {
   margin-left: 2rem;
   width: 95%;
-  height: 130px;
+  height: 13rem;
   color: #000;
   border: 0.1rem solid #bcbcbc;
   border-radius: 1rem;
@@ -1160,7 +1163,7 @@ hr {
   left: 1.5rem; /* Consistent unit rem */
   bottom: 1.5rem; /* Consistent unit rem */
   transition: background-color 0.3s;
-  border-radius: 0.2em;
+  border-radius: 0.2rem;
   z-index: 9;
 }
 
@@ -1251,7 +1254,7 @@ hr {
   .header .navbar ul button {
     width: fit-content;
     height: 100%;
-    padding: 0 0.3em;
+    padding: 0 0.3rem;
   }
 }
 
@@ -1270,7 +1273,7 @@ hr {
     border: 0.05rem solid rgb(0, 0, 0);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    padding: 2em;
+    padding: 2rem;
   }
 
   .header .navbar ul button:hover {
@@ -1281,8 +1284,8 @@ hr {
 
   .nameCSS {
     color: rgb(16, 16, 16);
-    margin: 0 1em;
-    padding: 0.2em;
+    margin: 0 1rem;
+    padding: 0.2rem;
     font-weight: 550;
     text-decoration: underline;
   }
@@ -1290,13 +1293,13 @@ hr {
   .header .navbar ul button {
     width: fit-content;
     height: 100%;
-    padding: 0 0.3em;
+    padding: 0 0.3rem;
   }
 
   .header .logo img {
     width: 3.5rem;
     height: 3.5rem;
-    margin-top: 0.3em;
+    margin-top: 0.3rem;
     top: 0;
     left: 0;
     background-size: cover;
@@ -1347,7 +1350,7 @@ hr {
   }
 
   .header .nav-toggle {
-    top: 1em;
+    top: 1rem;
   }
 
   .home h1 {
@@ -1404,7 +1407,7 @@ hr {
   }
 
   .clients .section-header p {
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     margin-top: 2.5rem;
     text-align: center;
     font-size: 2rem;
@@ -1590,8 +1593,8 @@ hr {
 /* login media query */
 @media (max-width: 1080px) {
   .chatbot {
-    left: 1em !important;
-    bottom: 5em;
+    left: 1rem !important;
+    bottom: 5rem;
     width: 80% !important;
     height: 65%;
     border-radius: 1rem !important;
@@ -1599,7 +1602,7 @@ hr {
 
   .chatbot__box {
     height: 100%;
-    padding: 0.5em;
+    padding: 0.5rem;
   }
 
   .chatbot__box ul {
@@ -1607,7 +1610,7 @@ hr {
   }
 
   .chatbot__chat p {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 
   .chatbot__header span {
@@ -1620,17 +1623,17 @@ hr {
 
   .chatbot__input-box span {
     position: relative;
-    font-size: 1.6em;
-    bottom: 0.2em;
+    font-size: 1.6rem;
+    bottom: 0.2rem;
   }
 
   .chatbot__header b {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
 
   .chatbot__textarea {
     overflow-y: scroll;
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .chatbot__input-box {
