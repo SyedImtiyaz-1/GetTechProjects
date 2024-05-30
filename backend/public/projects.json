@@ -74,7 +74,7 @@
   {
     "courseId": "Microsoft Clone",
     "name": "Microsoft Clone",
-    "image": "img/microsoftlogo.png",
+    "image": "img/microsoftLogo.jpg",
     "downloadLink": "https://drive.google.com/uc?export=download&id=1_I41By3ybMpyBVjSZI_D7e2fC_msZ1Fu",
     "techstack": "HTML, CSS, JavaScript, Tailwind CSS",
     "slide-img-1": "img/microsoft-1.png",
@@ -172,7 +172,7 @@
   {
   "courseId": "Password Checker",
     "name": "Password Checker",
-    "image": "img/Password.png",
+    "image": "img/passcheckLogo.avif",
     "downloadLink": "https://drive.google.com/drive/folders/1tu94fhOOrD7HENmUD8kZX-k8swKb4bml?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Password.png",
@@ -181,7 +181,7 @@
    {
   "courseId": "Color Converter",
     "name": "Color Converter",
-    "image": "img/Color_converter1.png",
+    "image": "img/colorconvertLogo.jpg",
     "downloadLink": "https://drive.google.com/drive/folders/1pXhioAKB5Cx_CtvP9Whi2dpnCPNgSx9E?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Color_converter1.png",
@@ -195,6 +195,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/emailValidator.png",
     "slide-img-2": "img/emailValidator.png"
+  },
+  {
+      "courseId": "To-do List App",
+    "name": "To-do List App",
+    "image": "img/todolistLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1khvVWIrASby3A4qx2_jhWt7pe4Gm1_QS?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/todolist1.jpg",
+    "slide-img-2": "img/todolist2.png"
   },
   {
     "courseId": "BMR Calculator",
