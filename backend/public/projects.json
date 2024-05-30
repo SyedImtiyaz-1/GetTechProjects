@@ -195,5 +195,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/emailValidator.png",
     "slide-img-2": "img/emailValidator.png"
-  }
+  },
+  {
+    "courseId": "BMR Calculator",
+      "name": "BMR Calculator",
+      "image": "img/BMR-Calculator.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1KPK1iaLlte2g4iZ1CxF3HANIri47ixvX?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/BMR-Calculator1.png",
+      "slide-img-2": "img/BMR-Calculator1.png"
+    }
 ]
