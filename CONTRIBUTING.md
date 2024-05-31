@@ -242,7 +242,7 @@
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
-### Name: [Komal Agarwal](hhttps://github.com/komal-agarwal5)
+### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
 
 - Place: Kolkata, West Bengal, India.
 - Bio: CS Undergrad | Passionate Front-end Developer
