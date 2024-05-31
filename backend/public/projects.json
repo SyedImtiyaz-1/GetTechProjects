@@ -262,5 +262,14 @@
     "slide-img-1": "img/passwordgen.png",
     "slide-img-2": "img/passwordgen.png"
   }
+  ,{
+    "courseId": "Crossy Road",
+    "name": "Crossy Road",
+    "image": "img/Crossy_Road_logo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1tp9S8Nmf9iw8wgVBN4H8Wb0VDVzGNv1a",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Crossy_Road.png",
+    "slide-img-2": "img/Crossy_Road.png"
+  }
 >>>>>>> Stashed changes
 ]
