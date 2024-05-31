@@ -90,7 +90,7 @@
     "slide-img-2": "img/tic2.png"
   },
   {
-  "courseId": "Meme Generator",
+    "courseId": "Meme Generator",
     "name": "Meme Generator",
     "image": "img/meme.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=16557hFI5OSz85aJTuwuf-UoYV3xlU3PX",
@@ -99,45 +99,51 @@
     "slide-img-2": "img/meme2.png"
   },
   {
-  "courseId": "Frontend Shopping Website",
+    "courseId": "Frontend Shopping Website",
     "name": "Frontend Shopping Website",
     "image": "img/frontendComLogo.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/frontendCom.png",
     "slide-img-2": "img/frontendCom2.png"
-  }
-  ,
+  },
   {
-  "courseId": "Weight Converter Application",
+    "courseId": "Weight Converter Application",
     "name": "Weight Converter Application",
     "image": "img/WeightConverterlogo.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
-  }
+  },
 
-   ,
   {
-  "courseId": "Twitter Clone",
+    "courseId": "Twitter Clone",
     "name": "Twitter Clone",
     "image": "img/twitterlogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1oZRMa21UwV4nMc7cJDLFVKR22Mgb75dQ?usp=sharing",
     "techstack": "HTML, CSS, JavaScript, Tailwind CSS",
     "slide-img-1": "img/twitter_clone.jpg",
     "slide-img-2": "img/twitter_clone.jpg"
-  }
+  },
 
-   ,
   {
-  "courseId": "Password Manager",
+    "courseId": "Password Manager",
     "name": "Password Manager",
     "image": "img/passwordlogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1asRpNxt_1G2XT5nXpYeh1GdJ6tHrSgUf?usp=sharing",
     "techstack": "Nodejs, Reactjs, MongoDB",
     "slide-img-1": "img/passwordmanager.png",
     "slide-img-2": "img/passwordmanager.png"
+  },
+  {
+    "courseId": "Color Mind Game",
+    "name": "Color Mind Game",
+    "image": "https://w7.pngwing.com/pngs/492/562/png-transparent-colorgod-mind-control-game-consciousness-unconscious-mind-mind-games-game-color-brainwashing-thumbnail.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1RNpTbTwMokL5kj9Q3wG1Qv8RjsuHb6cH?usp=drive_link",
+    "techstack": "HTML,CSS, JS",
+    "slide-img-1": "img/mindballGame.png",
+    "slide-img-2": "img/mindballGame.png"
   }
    ,
   {
