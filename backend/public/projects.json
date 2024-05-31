@@ -204,5 +204,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
-  }
+  },
+  {
+    "courseId": "Facebook Login Clone",
+      "name": "Facebook Login Clone",
+      "image": "img/facebooklogin-logo.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1mUZbnzoiEl4zV49J6wtZN_txTPMBhEwC?usp=sharing",  
+      "techstack": "HTML, Tailwind CSS",
+      "slide-img-1": "img/facebooklogin1.png",
+      "slide-img-2": "img/facebooklogin2.png"
+    }
+
 ]
