@@ -205,4 +205,14 @@
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
   }
+  ,
+   {
+  "courseId": "URL Shortener",
+    "name": "URL Shortener",
+    "image": "img/urlshort.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/15SSDDyIwJLo5It3nFzIMcPGgSbOopbsR?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/urlshortex.png",
+    "slide-img-2": "img/urlshortex.png"
+  }
 ]
