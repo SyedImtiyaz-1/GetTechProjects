@@ -241,3 +241,9 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+### Name: [Harsh Mishra](https://github.com/harshmishra19)
+
+📍 Place: Mumbai, Maharashtra, India.
+👩🏻‍💻 Bio: Student | MERN Stack Developer.
+🚀 GitHub: [Harsh Mishra](https://github.com/harshmishra19)
