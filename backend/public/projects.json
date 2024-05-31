@@ -204,5 +204,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
+  },
+  {
+      "courseId": "Score Tracker App",
+        "name": "Score Tracker App",
+        "image": "img/scoretracker1.png",
+        "downloadLink": "https://drive.google.com/drive/folders/1m33j71DbQ3bDo6gengSog3Szs4iLB7BX?usp=drive_link",
+        "techstack": "HTML, CSS, JavaScript",
+        "slide-img-1": "img/scoretracker2.png",
+        "slide-img-2": "img/scoretracker3.png"
   }
 ]
