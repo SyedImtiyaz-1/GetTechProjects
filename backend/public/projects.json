@@ -237,5 +237,14 @@
    "techstack": "HTML, CSS, JavaScript",
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
+ },
+ {
+ "courseId": "Scientific Calculator",
+   "name": "Scientific Calculator",
+   "image": "img/calculator.jpeg",
+   "downloadLink": "https://drive.google.com/drive/folders/1Ayt5apVbnLHRqiNmj-NMvtCtn-367KrC?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/calculator.jpeg",
+   "slide-img-2": "img/calculator.jpeg"
  }
 ]
