@@ -196,6 +196,15 @@
     "slide-img-1": "img/emailValidator.png",
     "slide-img-2": "img/emailValidator.png"
   },
+  {
+    "courseId": "Online Stationery Shop",
+    "name": "Online Stationery Shop",
+    "image": "img/Stationery_Shop.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1OXKbKOvHRd3xLPZwBjzGhyTr4wsI9wZf?usp=sharing",
+    "techstack": "Python, Django, Sqlite",
+    "slide-img-1": "img/Stionery_Shop2.jpeg",
+    "slide-img-2": "img/Stionery_Shop3.jpeg"
+  },
    {
   "courseId": "To-do List App",
     "name": "To-do List App",
