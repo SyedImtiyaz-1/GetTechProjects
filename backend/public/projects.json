@@ -187,6 +187,15 @@
     "slide-img-1": "img/Color_converter1.png",
     "slide-img-2": "img/Color_converter2.png"
   },
+  {
+    "courseId": "Codeacedymy Codeing Platform",
+      "name": "Codeacedymy Codeing Platform",
+      "image": "img/cclogo.webp",
+      "downloadLink": "https://drive.google.com/drive/folders/1qYBRP3WItjLMZJJ-nIq0N6WRIS8-PnYJ?usp=drive_link",
+      "techstack": "Ejs , Node-express, Postgres",
+      "slide-img-1": "img/cc1.png",
+      "slide-img-2": "img/cc2.png"
+    },
    {
   "courseId": "Email Validator App",
     "name": "Email Validator App",
