@@ -241,3 +241,9 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+### Name: [Nisarga G R](https://github.com/nisargaa20)
+
+📍 Place: Mandya, Karnataka, India.
+👩🏻‍💻 Bio: Student | Full Stack Developer, ML Enthusiast
+🚀 GitHub: [Nisarga G R](https://github.com/nisargaa20)

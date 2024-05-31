@@ -204,5 +204,17 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
-  }
+  },
+  {
+    "courseId": "Estate Square App",
+      "name": "Estate Square App",
+      "image": "img/estate.png",
+      "downloadLink": "https://drive.google.com/file/d/1v2sXztsbys7voH4LC44kXRpfFf7od8ZG/view?usp=drivesdk",
+      "techstack": "MERN Stack",
+      "slide-img-1": "img/Real.png",
+      "slide-img-2": "img/Real-estate_3.png"
+     
+    }
+
+
 ]
