@@ -228,6 +228,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
+<<<<<<< Updated upstream
   },
   {
  "courseId": "Pac Man Game",
@@ -238,4 +239,17 @@
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
  }
+=======
+  }
+  ,
+   {
+  "courseId": "Password Generator",
+    "name": "Password Generator",
+    "image": "img/passwordgenLogo.jpeg",
+    "downloadLink": "https://drive.google.com/drive/folders/1C9PKmcOPiShpxZx62gmOfxPYDYcEExu8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/passwordgen.png",
+    "slide-img-2": "img/passwordgen.png"
+  }
+>>>>>>> Stashed changes
 ]
