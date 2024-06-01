@@ -246,8 +246,7 @@
    "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
    "techstack": "HTML, CSS, JavaScript",
    "slide-img-1": "img/Pacman.png",
-   "slide-img-2": "img/Pacman.png"
-  }
+   "slide-img-2": "img/Pacman.png"}
   ,
    {
   "courseId": "Password Generator",
@@ -267,5 +266,4 @@
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
   }
-
 ]
