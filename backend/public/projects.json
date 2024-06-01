@@ -264,21 +264,25 @@
   },
   {
     "courseId": "Basic Calculator",
+
     "name": "Basic Calculator",
     "image": "img/calculatorLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1nf88VC9n9oHiIu46SHTE2JAfT-fgNI4I?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/calculator.png",
     "slide-img-2": "img/calculator.png"
+
   },
   {
     "courseId": "Stone Paper Scissors Game",
+
     "name": "Stone Paper Scissors Game",
     "image": "img/stonepaperLogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1Rbe41OztGwmZS0PvMOwDvvmZ-fBRFFSP?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/stonepaper.png",
     "slide-img-2": "img/stonepaper.png"
+
   },
   {
     "courseId": "Weather App",
@@ -288,5 +292,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/weather.png",
     "slide-img-2": "img/weather.png"
+
   }
 ]
