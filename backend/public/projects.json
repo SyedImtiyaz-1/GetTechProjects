@@ -228,6 +228,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
+<<<<<<< Updated upstream
   },
   {
  "courseId": "Pac Man Game",
@@ -238,4 +239,26 @@
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
  }
+=======
+  }
+  ,
+   {
+  "courseId": "Password Generator",
+    "name": "Password Generator",
+    "image": "img/passwordgenLogo.jpeg",
+    "downloadLink": "https://drive.google.com/drive/folders/1C9PKmcOPiShpxZx62gmOfxPYDYcEExu8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/passwordgen.png",
+    "slide-img-2": "img/passwordgen.png"
+  }
+  ,{
+    "courseId": "Crossy Road",
+    "name": "Crossy Road",
+    "image": "img/Crossy_Road_logo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1tp9S8Nmf9iw8wgVBN4H8Wb0VDVzGNv1a",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Crossy_Road.png",
+    "slide-img-2": "img/Crossy_Road.png"
+  }
+>>>>>>> Stashed changes
 ]
