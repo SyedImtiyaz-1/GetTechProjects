@@ -252,5 +252,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
+  },
+  {
+    "courseId": "Tourism Website",
+    "name": "Tourism",
+    "image": "img/tourism_logo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1qMAoAXcwcw_GnFS-o11GawPeK0ewnb4S?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tourism.png",
+    "slide-img-2": "img/tourism1.png"
   }
 ]

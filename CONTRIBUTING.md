@@ -18,6 +18,13 @@
 - GitHub: [Ankit-Matth](https://github.com/Ankit-Matth)
 - Linkedin [@ankit-matth](https://www.linkedin.com/in/ankit-matth)
 
+#### Name: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+
+- Place: Rampur, Uttar Pradesh, India
+- Bio: Engineering Student | Passionate Full-Stack Developer
+- GitHub: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+- Linkedin [@Ayushmaan-Agarwal](https://www.linkedin.com/in/ayushmaan-agarwal-8064a4258/)
+
 #### Name: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
 
 - Place: Ghaziabad, India
