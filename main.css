@@ -958,7 +958,7 @@ body.night {
   width: 100%;
   height: 100%;
 }
-
+/*changes done by https://github.com/Mahimatestgithub*/
 .contact-form {
   width: 100%;
   height: auto;
@@ -966,7 +966,10 @@ body.night {
   text-align: left;
 }
 
-.contact-form-txt {
+.contact-form-txt,
+.contact-form-email,
+.contact-form-phone,
+.contact-form-txtarea {
   height: 40px;
   color: #000;
   border: 2px solid #bcbcbc;
@@ -974,25 +977,21 @@ body.night {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-form-email {
-  height: 40px;
-  color: #000;
-  border: 2px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
-  text-transform: none;
+.contact-form-txt:hover,
+.contact-form-email:hover,
+.contact-form-phone:hover,
+.contact-form-txtarea:hover {
+  border-color: grey; /* Change border color on hover */
+  box-shadow: 0 0 10px grey(0, 0, 255, 0.5); /* Add shadow effect on hover */
 }
 
-.contact-form-txt::placeholder {
-  color: #aaa;
-  font-size: 1.5rem;
-}
-
-.contact-form-email::placeholder {
+.contact-form-txt::placeholder,
+.contact-form-email::placeholder,
+.contact-form-phone::placeholder,
+.contact-form-txtarea::placeholder {
   color: #aaa;
   font-size: 1.5rem;
 }
@@ -1000,22 +999,10 @@ body.night {
 .contact-form-txtarea {
   width: 90%;
   height: 130px;
-  color: #000;
-  border: 2px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
   font-family: "Poppins", sans-serif;
 }
 
-.contact-form-txtarea::placeholder {
-  color: #aaa;
-  font-size: 1.5rem;
-}
-
 .contact-form-btn {
-  /* margin-left: 59rem; */
   outline: none;
   border: none;
   border-radius: 1rem;
@@ -1027,6 +1014,7 @@ body.night {
   height: 4.5rem;
   width: 15rem;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-form-btn:hover {
@@ -1037,19 +1025,23 @@ body.night {
 }
 
 .contact-form-phone {
-    height: 40px;
-    color: #000;
-    border: 2px solid #bcbcbc;
-    border-radius: 10px;
-    outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+  height: 40px;
+  color: #000;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form-phone::placeholder {
   color: #aaa;
   font-size: 1.5rem;
 }
+
+}
+
 
 footer {
   width: 100%;
