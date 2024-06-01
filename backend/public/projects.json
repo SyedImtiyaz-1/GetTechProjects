@@ -228,7 +228,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
-<<<<<<< Updated upstream
   },
 
   {
@@ -240,7 +239,6 @@
       "slide-img-1": "img/ag1.png",
       "slide-img-2": "img/ag2.png"
     },
-
   {
  "courseId": "Pac Man Game",
    "name": "Pac Man Game",
@@ -250,8 +248,6 @@
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
  }
-=======
-  }
   ,
    {
   "courseId": "Password Generator",
@@ -271,5 +267,4 @@
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
   }
->>>>>>> Stashed changes
 ]
