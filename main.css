@@ -20,6 +20,18 @@ body {
   overflow-x: hidden;
 }
 
+.unload{
+  display: none;
+}
+
+.loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .heading,
 .clients .section-header h2,
 .section-head h1,

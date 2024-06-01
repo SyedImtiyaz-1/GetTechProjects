@@ -51,327 +51,336 @@
   </head>
 
   <body>
-    <header class="header">
-      <a href="#" class="logo"
-        ><img
-          src="./images/logomain.png"
-          alt=""
-          style="width: 100px; height: 70px"
-      /></a>
-      <div class="fas fa-bars"></div>
-      <nav class="navbar">
-        <ul>
-          <i class='icons bx bxs-home' ></i>
-          <li style="margin-left: 1px;"><a href="#home">home</a></li>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <i class='icons bx bx-laptop'></i>
-          <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <i class='icons bx bxs-contact'></i>
-          <li style="margin-left: 1px;"><a href="#contact">contact</a></li>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button id="login">Log In</button>
-          <h3 id="name"></h3>
-          <img id="image" onclick="ProfileClicked()" />
-          <button onclick="logout()" id="logout">Logout</button>
-          <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox" />
-            <div class="slider round" id="toggle"></div>
-          </label>
-        </ul>
-      </nav>
-    </header>
+    <div class="loader">
+      <div>
+        <lottie-player src="https://lottie.host/44df716f-6291-433b-99cc-500641e4d08b/gU8MVYG2VW.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay mode="normal"></lottie-player>
+      </div>
+ </div>
 
-    <!--Button added by https://github.com/Mahimatestgithub-->
-    <section id="home" class="home">
-      <h1>Get IT Projects</h1>
-      <h2>for Under Graduation and Post Graduation Students.</h2>
-      <h2>B.E / BCA/ MCA / BSC-IT / etc.</h2>
-      <a href="#projects" class="explore-button">Explore Projects</a>
-      <div class="wave wave1"></div>
-      <div class="wave wave2"></div>
-      <div class="wave wave3"></div>
-    </section>
+    <div class="unload">
+      <header class="header">
+        <a href="#" class="logo"
+          ><img
+            src="./images/logomain.png"
+            alt=""
+            style="width: 100px; height: 70px"
+        /></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+          <ul>
+            <i class='icons bx bxs-home' ></i>
+            <li style="margin-left: 1px;"><a href="#home">home</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class='icons bx bx-laptop'></i>
+            <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class='icons bx bxs-contact'></i>
+            <li style="margin-left: 1px;"><a href="#contact">contact</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="login">Log In</button>
+            <h3 id="name"></h3>
+            <img id="image" onclick="ProfileClicked()" />
+            <button onclick="logout()" id="logout">Logout</button>
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round" id="toggle"></div>
+            </label>
+          </ul>
+        </nav>
+      </header>
 
-    <div class="pt-5 pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="section-head col-sm-12" id="projects">
-            <h1>Projects</h1>
+      <!--Button added by https://github.com/Mahimatestgithub-->
+      <section id="home" class="home">
+        <h1>Get IT Projects</h1>
+        <h2>for Under Graduation and Post Graduation Students.</h2>
+        <h2>B.E / BCA/ MCA / BSC-IT / etc.</h2>
+        <a href="#projects" class="explore-button">Explore Projects</a>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+      </section>
+
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="section-head col-sm-12" id="projects">
+              <h1>Projects</h1>
+              <p class="text-trans-none">
+                We build robust and productive projects for you that help in your
+                placements and for sharpening your learning.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item">
+                <span class="icon feature_box_col_one p-2"
+                  ><i class="fa fa-laptop"></i
+                ></span>
+                <h6>Web-App Projects</h6>
+                <p class="text-trans-none">
+                  Our custom Web Development Services include both Front-End and
+                  Back-End development. Whether it is enhancing an Existing app or
+                  Architecting an Enterprise app, our Developers are up for the
+                  challenges.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item">
+                <span class="icon feature_box_col_two p-2"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Mobile-App Projects</h6>
+                <p class="text-trans-none">
+                  We have expertise in creating Multi-Platform mobile app
+                  solutions for both Android and IOS devices. Using PhoneGap,
+                  Xamarin and React Native, we offer custom Mobile App that runs
+                  smoothly on Multiple Platforms.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item">
+                <span class="icon feature_box_col_three p-2"
+                  ><i class="fa fa-magic"></i
+                ></span>
+                <h6>Data Analytics Projects</h6>
+
+                <p class="text-black">
+                  The Project will include Visualizating of Data and the
+                  Rescanning. As per the Statistics and the giving space. This
+                </p>
+
+                <p class="text-trans-none">
+                  The project will include Visualizating of Data and Rescanning.
+                  As per the Statistics and the giving space. This type of data
+                  can be seen in Big Tech Companies & the graph structure optimize
+                  the visual.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+      <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+      <section class="counters">
+        <div class="container">
+          <div class="pointerBtn">
+            <i class="far fa-clock fa-4x"></i>
+            <div class="counter" data-target="24">24+</div>
+            <h3>Working Hours/Week</h3>
+          </div>
+          <div class="pointerBtn">
+            <i class="fas fa-gift fa-4x"></i>
+            <div class="counter" data-target="60">60+</div>
+            <h3>Projects Sold</h3>
+          </div>
+          <div class="pointerBtn">
+            <i class="fas fa-users fa-4x"></i>
+            <div class="counter" data-target="52">52+</div>
+            <h3>Happy Clients</h3>
+          </div>
+          <div class="pointerBtn">
+            <i class="fas fa-award fa-4x"></i>
+            <div class="counter" data-target="13">13+</div>
+            <h3>Awards Received</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h1 class="heading">If You Have to Order Other Projects</h1>
+        <h2 class="text-trans-none">
+          Submit the form and Leave a Brief Description for the Team
+        </h2>
+      </section>
+
+      <!-- Contact Us Form -->
+      <div class="contact-in">
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14886.873203334077!2d79.1199471!3d21.1237941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c76047f90e8f%3A0xbab3e39d03c3251c!2sPrecious!5e0!3m2!1sen!2sin!4v1687299954489!5m2!1sen!2sin"
+            width="100%"
+            height="auto"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+        <div class="contact-form">
+          <form action="" id="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              id="name"
+              class="contact-form-txt"
+              pattern="^[A-Za-z\- ']+$"
+              required />
+            <span id="name-error" class="error"></span>
+            <!-- Validation error message for Name -->
+            <input
+              type="number"
+              id="number"
+              name="phone"
+              pattern="[0-9]{10,12}"
+              required
+              placeholder="Contact Number"
+              minlength="10"
+              maxlength="12"
+              class="contact-form-phone" />
+            <span id="phone-error" class="error"></span>
+            <!-- Validation error message for Contact Number -->
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="mail"
+              class="contact-form-email"
+              required />
+            <span id="email-error" class="error"></span>
+            <!-- Validation error message for Email -->
+            <textarea
+              placeholder="Your Message"
+              id="message"
+              name="message"
+              class="contact-form-txtarea"
+              required></textarea>
+            <span id="message-error" class="error"></span>
+            <!-- Validation error message for Message -->
+            <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer-->
+      <footer>
+        <div class="row_f">
+          <div class="col">
+            <img src="./images/pngwing.com(5).png" class="logo_f" />
             <p class="text-trans-none">
-              We build robust and productive projects for you that help in your
-              placements and for sharpening your learning.
+              Get ready for your college project submission with PreciousServices.
+              We provide best solutions and projects that will help you gain more
+              knowledge. Subscribe to get latest updates.
             </p>
           </div>
-          <div class="col-lg-4 col-sm-6 pointerBtn">
-            <div class="item">
-              <span class="icon feature_box_col_one p-2"
-                ><i class="fa fa-laptop"></i
-              ></span>
-              <h6>Web-App Projects</h6>
-              <p class="text-trans-none">
-                Our custom Web Development Services include both Front-End and
-                Back-End development. Whether it is enhancing an Existing app or
-                Architecting an Enterprise app, our Developers are up for the
-                challenges.
-              </p>
-            </div>
+          <div class="col">
+            <h3>Office</h3>
+            <p>Nagpur, PIN 440024</p>
+            <p>Maharashtra, India</p>
+            <p class="email">
+              <a href="mailto:preciousitservices@gmai.com"
+                >preciousitservices@gmail.com</a
+              >
+            </p>
+            <h4><a href="tel:7218404903">+91 7218404903</a></h4>
           </div>
-          <div class="col-lg-4 col-sm-6 pointerBtn">
-            <div class="item">
-              <span class="icon feature_box_col_two p-2"
-                ><i class="fa fa-android"></i
-              ></span>
-              <h6>Mobile-App Projects</h6>
-              <p class="text-trans-none">
-                We have expertise in creating Multi-Platform mobile app
-                solutions for both Android and IOS devices. Using PhoneGap,
-                Xamarin and React Native, we offer custom Mobile App that runs
-                smoothly on Multiple Platforms.
-              </p>
-            </div>
+          <div class="col">
+            <h3>Useful Links</h3>
+            <ul>
+              <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
+              <!-- <li> <a href="#team">Team</a></li> -->
+              <li><a href="careers.html">careers</a></li>
+              <li><a href="tel:7218404903">Contact</a></li>
+              <!-- <li> <a href="#faq">FAQ</a></li> -->
+            </ul>
           </div>
-          <div class="col-lg-4 col-sm-6 pointerBtn">
-            <div class="item">
-              <span class="icon feature_box_col_three p-2"
-                ><i class="fa fa-magic"></i
-              ></span>
-              <h6>Data Analytics Projects</h6>
-
-              <p class="text-black">
-                The Project will include Visualizating of Data and the
-                Rescanning. As per the Statistics and the giving space. This
-              </p>
-
-              <p class="text-trans-none">
-                The project will include Visualizating of Data and Rescanning.
-                As per the Statistics and the giving space. This type of data
-                can be seen in Big Tech Companies & the graph structure optimize
-                the visual.
-              </p>
-            </div>
+          <div class="col">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./index2.html">Founder</a></li>
+              <!-- <li><a href="index.html#service">Reviews</a></li> -->
+              <!-- <li><a href="#">Terms & condition</a></li> -->
+              <!-- <li> <a href="#">Privacy policy</a></li> -->
+            </ul>
           </div>
+          <!-- <div class="col">
+          <h3>Newsletter</h3>
+          <form>
+            <i class="icon ion-md-mail"></i>
+            <input type="email" placeholder="Enter your e-mail id" required>
+            <button type="submit"><i class="icon ion-md-send"></i></button>
+          </form>
+        </div> -->
         </div>
-      </div>
-    </div>
+        <hr />
+        <p class="copyright">
+          PreciousITServices &copy; 2024 - All Rights Reserved
+        </p>
+      </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"></script>
-
-    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-
-    <section class="counters">
-      <div class="container">
-        <div class="pointerBtn">
-          <i class="far fa-clock fa-4x"></i>
-          <div class="counter" data-target="24">24+</div>
-          <h3>Working Hours/Week</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-gift fa-4x"></i>
-          <div class="counter" data-target="60">60+</div>
-          <h3>Projects Sold</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-users fa-4x"></i>
-          <div class="counter" data-target="52">52+</div>
-          <h3>Happy Clients</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-award fa-4x"></i>
-          <div class="counter" data-target="13">13+</div>
-          <h3>Awards Received</h3>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <h1 class="heading">If You Have to Order Other Projects</h1>
-      <h2 class="text-trans-none">
-        Submit the form and Leave a Brief Description for the Team
-      </h2>
-    </section>
-
-    <!-- Contact Us Form -->
-    <div class="contact-in">
-      <div class="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14886.873203334077!2d79.1199471!3d21.1237941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c76047f90e8f%3A0xbab3e39d03c3251c!2sPrecious!5e0!3m2!1sen!2sin!4v1687299954489!5m2!1sen!2sin"
-          width="100%"
-          height="auto"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"></iframe>
-      </div>
-      <div class="contact-form">
-        <form action="" id="contact-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            id="name"
-            class="contact-form-txt"
-            pattern="^[A-Za-z\- ']+$"
-            required />
-          <span id="name-error" class="error"></span>
-          <!-- Validation error message for Name -->
-          <input
-            type="number"
-            id="number"
-            name="phone"
-            pattern="[0-9]{10,12}"
-            required
-            placeholder="Contact Number"
-            minlength="10"
-            maxlength="12"
-            class="contact-form-phone" />
-          <span id="phone-error" class="error"></span>
-          <!-- Validation error message for Contact Number -->
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            id="mail"
-            class="contact-form-email"
-            required />
-          <span id="email-error" class="error"></span>
-          <!-- Validation error message for Email -->
-          <textarea
-            placeholder="Your Message"
-            id="message"
-            name="message"
-            class="contact-form-txtarea"
-            required></textarea>
-          <span id="message-error" class="error"></span>
-          <!-- Validation error message for Message -->
-          <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Footer-->
-    <footer>
-      <div class="row_f">
-        <div class="col">
-          <img src="./images/pngwing.com(5).png" class="logo_f" />
-          <p class="text-trans-none">
-            Get ready for your college project submission with PreciousServices.
-            We provide best solutions and projects that will help you gain more
-            knowledge. Subscribe to get latest updates.
-          </p>
-        </div>
-        <div class="col">
-          <h3>Office</h3>
-          <p>Nagpur, PIN 440024</p>
-          <p>Maharashtra, India</p>
-          <p class="email">
-            <a href="mailto:preciousitservices@gmai.com"
-              >preciousitservices@gmail.com</a
-            >
-          </p>
-          <h4><a href="tel:7218404903">+91 7218404903</a></h4>
-        </div>
-        <div class="col">
-          <h3>Useful Links</h3>
-          <ul>
-            <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
-            <!-- <li> <a href="#team">Team</a></li> -->
-            <li><a href="careers.html">careers</a></li>
-            <li><a href="tel:7218404903">Contact</a></li>
-            <!-- <li> <a href="#faq">FAQ</a></li> -->
-          </ul>
-        </div>
-        <div class="col">
-          <h3>About Us</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./index2.html">Founder</a></li>
-            <!-- <li><a href="index.html#service">Reviews</a></li> -->
-            <!-- <li><a href="#">Terms & condition</a></li> -->
-            <!-- <li> <a href="#">Privacy policy</a></li> -->
-          </ul>
-        </div>
-        <!-- <div class="col">
-        <h3>Newsletter</h3>
-        <form>
-          <i class="icon ion-md-mail"></i>
-          <input type="email" placeholder="Enter your e-mail id" required>
-          <button type="submit"><i class="icon ion-md-send"></i></button>
-        </form>
-      </div> -->
-      </div>
-      <hr />
-      <p class="copyright">
-        PreciousITServices &copy; 2024 - All Rights Reserved
-      </p>
-    </footer>
-
-    <!--   Chat Bot   -->
-    <button class="chatbot__button">
-      <span class="material-symbols-outlined">mode_comment</span>
-      <span class="material-symbols-outlined">close</span>
-    </button>
-    <div class="chatbot">
-      <div class="chatbot__header">
-        <h3 class="chatbox__title">Precious IT Services</h3>
+      <!--   Chat Bot   -->
+      <button class="chatbot__button">
+        <span class="material-symbols-outlined">mode_comment</span>
         <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="chatbot">
+        <div class="chatbot__header">
+          <h3 class="chatbox__title">Precious IT Services</h3>
+          <span class="material-symbols-outlined">close</span>
+        </div>
+        <ul class="chatbot__box">
+          <li class="chatbot__chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Hi there. How can I help you today?</p>
+          </li>
+          <li class="chatbot__chat outgoing">
+            <p>...</p>
+          </li>
+        </ul>
+        <div class="chatbot__input-box">
+          <textarea
+            class="chatbot__textarea"
+            placeholder="Enter a message..."
+            required></textarea>
+          <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
       </div>
-      <ul class="chatbot__box">
-        <li class="chatbot__chat incoming">
-          <span class="material-symbols-outlined">smart_toy</span>
-          <p>Hi there. How can I help you today?</p>
-        </li>
-        <li class="chatbot__chat outgoing">
-          <p>...</p>
-        </li>
-      </ul>
-      <div class="chatbot__input-box">
-        <textarea
-          class="chatbot__textarea"
-          placeholder="Enter a message..."
-          required></textarea>
-        <span id="send-btn" class="material-symbols-outlined">send</span>
-      </div>
-    </div>
-    <!--  chat bot finish  -->
+      <!--  chat bot finish  -->
 
-    <script src="./js/contact.js"></script>
-    <script src="./chatBot/script.js"></script>
-    <script src="./js/login.js"></script>
-    <script src="./main.js"></script>
-    <script src="./js/theme.js"></script>
-    <!-- 
-  <script>
-    alert("Under Maintenance, Please come again after sometime.")
-  </script> -->
-
+      <script src="./js/contact.js"></script>
+      <script src="./chatBot/script.js"></script>
+      <script src="./js/login.js"></script>
+      <script src="./main.js"></script>
+      <script src="./js/theme.js"></script>
+      <!-- 
     <script>
-      // Function to scroll to the top smoothly
-      function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      }
+      alert("Under Maintenance, Please come again after sometime.")
+    </script> -->
 
-      // Add an event listener to the "scroll to top" button
-      const backToTopButton = document.querySelector(".back-to-top");
-      backToTopButton.addEventListener("click", scrollToTop);
-
-      // Add an event listener to show/hide the button based on scroll position
-      window.addEventListener("scroll", () => {
-        if (document.documentElement.scrollTop > 100) {
-          backToTopButton.style.display = "block";
-        } else {
-          backToTopButton.style.display = "none";
+      <script>
+        // Function to scroll to the top smoothly
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
         }
-      });
-    </script>
+
+        // Add an event listener to the "scroll to top" button
+        const backToTopButton = document.querySelector(".back-to-top");
+        backToTopButton.addEventListener("click", scrollToTop);
+
+        // Add an event listener to show/hide the button based on scroll position
+        window.addEventListener("scroll", () => {
+          if (document.documentElement.scrollTop > 100) {
+            backToTopButton.style.display = "block";
+          } else {
+            backToTopButton.style.display = "none";
+          }
+        });
+      </script>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </div>        
   </body>
 </html>
