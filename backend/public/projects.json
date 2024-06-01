@@ -112,7 +112,7 @@
   "courseId": "Weight Converter Application",
     "name": "Weight Converter Application",
     "image": "img/WeightConverterlogo.png",
-    "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
+    "downloadLink": "https://drive.google.com/drive/folders/1C5EH502A5mKqbhWvrI1maKcTJvzTzG1w?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
@@ -204,5 +204,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/todolist1.jpg",
     "slide-img-2": "img/todolist2.png"
-  }
+  },
+
+  {
+    "courseId": "Age Calculator",
+      "name": "Age Calculator",
+      "image": "img/Age-calculator.jpg",
+      "downloadLink": "https://drive.google.com/drive/folders/1C5EH502A5mKqbhWvrI1maKcTJvzTzG1w?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/ag1.png",
+      "slide-img-2": "img/ag2.png"
+    }
 ]
