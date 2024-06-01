@@ -90,7 +90,7 @@
     "slide-img-2": "img/tic2.png"
   },
   {
-  "courseId": "Meme Generator",
+    "courseId": "Meme Generator",
     "name": "Meme Generator",
     "image": "img/meme.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=16557hFI5OSz85aJTuwuf-UoYV3xlU3PX",
@@ -99,45 +99,51 @@
     "slide-img-2": "img/meme2.png"
   },
   {
-  "courseId": "Frontend Shopping Website",
+    "courseId": "Frontend Shopping Website",
     "name": "Frontend Shopping Website",
     "image": "img/frontendComLogo.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/frontendCom.png",
     "slide-img-2": "img/frontendCom2.png"
-  }
-  ,
+  },
   {
-  "courseId": "Weight Converter Application",
+    "courseId": "Weight Converter Application",
     "name": "Weight Converter Application",
     "image": "img/WeightConverterlogo.png",
     "downloadLink": "https://drive.google.com/uc?export=download&id=1TBxurVCM6bC73hevxwlIhis5P2TCq2kk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
-  }
+  },
 
-   ,
   {
-  "courseId": "Twitter Clone",
+    "courseId": "Twitter Clone",
     "name": "Twitter Clone",
     "image": "img/twitterlogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1oZRMa21UwV4nMc7cJDLFVKR22Mgb75dQ?usp=sharing",
     "techstack": "HTML, CSS, JavaScript, Tailwind CSS",
     "slide-img-1": "img/twitter_clone.jpg",
     "slide-img-2": "img/twitter_clone.jpg"
-  }
+  },
 
-   ,
   {
-  "courseId": "Password Manager",
+    "courseId": "Password Manager",
     "name": "Password Manager",
     "image": "img/passwordlogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1asRpNxt_1G2XT5nXpYeh1GdJ6tHrSgUf?usp=sharing",
     "techstack": "Nodejs, Reactjs, MongoDB",
     "slide-img-1": "img/passwordmanager.png",
     "slide-img-2": "img/passwordmanager.png"
+  },
+  {
+    "courseId": "Color Mind Game",
+    "name": "Color Mind Game",
+    "image": "https://w7.pngwing.com/pngs/492/562/png-transparent-colorgod-mind-control-game-consciousness-unconscious-mind-mind-games-game-color-brainwashing-thumbnail.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1RNpTbTwMokL5kj9Q3wG1Qv8RjsuHb6cH?usp=drive_link",
+    "techstack": "HTML,CSS, JS",
+    "slide-img-1": "img/mindballGame.png",
+    "slide-img-2": "img/mindballGame.png"
   }
    ,
   {
@@ -187,6 +193,15 @@
     "slide-img-1": "img/Color_converter1.png",
     "slide-img-2": "img/Color_converter2.png"
   },
+  {
+    "courseId": "Codeacedymy Codeing Platform",
+      "name": "Codeacedymy Codeing Platform",
+      "image": "img/cclogo.webp",
+      "downloadLink": "https://drive.google.com/drive/folders/1qYBRP3WItjLMZJJ-nIq0N6WRIS8-PnYJ?usp=drive_link",
+      "techstack": "Ejs , Node-express, Postgres",
+      "slide-img-1": "img/cc1.png",
+      "slide-img-2": "img/cc2.png"
+    },
    {
   "courseId": "Email Validator App",
     "name": "Email Validator App",
@@ -195,6 +210,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/emailValidator.png",
     "slide-img-2": "img/emailValidator.png"
+  },
+  {
+    "courseId": "Online Stationery Shop",
+    "name": "Online Stationery Shop",
+    "image": "img/Stationery_Shop.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1OXKbKOvHRd3xLPZwBjzGhyTr4wsI9wZf?usp=sharing",
+    "techstack": "Python, Django, Sqlite",
+    "slide-img-1": "img/Stionery_Shop2.jpeg",
+    "slide-img-2": "img/Stionery_Shop3.jpeg"
   },
    {
   "courseId": "To-do List App",
@@ -214,4 +238,37 @@
    "slide-img-1": "img/YoutubeVideoDown.png",
    "slide-img-2": "img/YoutubeVideoDown.png"
  }
+<<<<<<< Updated upstream
+  },
+  {
+ "courseId": "Pac Man Game",
+   "name": "Pac Man Game",
+   "image": "img/Pacmanlogo.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/Pacman.png",
+   "slide-img-2": "img/Pacman.png"
+ }
+=======
+  }
+  ,
+   {
+  "courseId": "Password Generator",
+    "name": "Password Generator",
+    "image": "img/passwordgenLogo.jpeg",
+    "downloadLink": "https://drive.google.com/drive/folders/1C9PKmcOPiShpxZx62gmOfxPYDYcEExu8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/passwordgen.png",
+    "slide-img-2": "img/passwordgen.png"
+  }
+  ,{
+    "courseId": "Crossy Road",
+    "name": "Crossy Road",
+    "image": "img/Crossy_Road_logo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1tp9S8Nmf9iw8wgVBN4H8Wb0VDVzGNv1a",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Crossy_Road.png",
+    "slide-img-2": "img/Crossy_Road.png"
+  }
+>>>>>>> Stashed changes
 ]
