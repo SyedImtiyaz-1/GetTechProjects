@@ -227,7 +227,6 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
-<<<<<<< Updated upstream
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -253,30 +252,27 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
-=======
- "courseId": "Pac Man Game",
-   "name": "Pac Man Game",
-   "image": "img/Pacmanlogo.png",
-   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
-   "techstack": "HTML, CSS, JavaScript",
-   "slide-img-1": "img/Pacman.png",
-   "slide-img-2": "img/Pacman.png"
- },
-   {
-  "courseId": "Basic Calculator",
+  },
+  {
+    "courseId": "Pac Man Game",
+    "name": "Pac Man Game",
+    "image": "img/Pacmanlogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Pacman.png",
+    "slide-img-2": "img/Pacman.png"
+  },
+  {
+    "courseId": "Basic Calculator",
     "name": "Basic Calculator",
     "image": "img/calculatorLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1nf88VC9n9oHiIu46SHTE2JAfT-fgNI4I?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/calculator.png",
     "slide-img-2": "img/calculator.png"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-  }
- ,
-   {
-  "courseId": "Stone Paper Scissors Game",
+  },
+  {
+    "courseId": "Stone Paper Scissors Game",
     "name": "Stone Paper Scissors Game",
     "image": "img/stonepaperLogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1Rbe41OztGwmZS0PvMOwDvvmZ-fBRFFSP?usp=sharing",
@@ -284,14 +280,13 @@
     "slide-img-1": "img/stonepaper.png",
     "slide-img-2": "img/stonepaper.png"
   },
-   {
-  "courseId": "Weather App",
+  {
+    "courseId": "Weather App",
     "name": "Weather App",
     "image": "img/weatherLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/17z8yTw_5oN2cv4SrmOqicZ9TL6YNRYjL?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/weather.png",
     "slide-img-2": "img/weather.png"
->>>>>>> Stashed changes
   }
 ]
