@@ -242,8 +242,16 @@
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
+
 ### Name: [Nisarga G R](https://github.com/nisargaa20)
 
 📍 Place: Mandya, Karnataka, India.
 👩🏻‍💻 Bio: Student | Full Stack Developer, ML Enthusiast
 🚀 GitHub: [Nisarga G R](https://github.com/nisargaa20)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+
+- Place: Nagpur, Maharashtra, India
+- Bio: Student | Engineering
+- GitHub: [Damini Chachane](https://github.com/Damini2004)
+
