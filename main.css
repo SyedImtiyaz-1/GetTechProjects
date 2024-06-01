@@ -16,6 +16,18 @@ html {
   scroll-behavior: smooth;
 }
 
+.unload{
+  display: none;
+}
+
+.loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   overflow-x: hidden;
 }
