@@ -1,3 +1,13 @@
+// Smooth scrolling when clicking the Explore Projects button done by https://github.com/Mahimatestgithub
+document.querySelector('.explore-button').addEventListener('click', function (e) {
+  e.preventDefault();
+  const projectsSection = document.getElementById('projects');
+  projectsSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){

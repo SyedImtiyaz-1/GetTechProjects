@@ -4,6 +4,13 @@
 - Bio: Project Admin | Software Engineer
 - GitHub: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
+#### Name: [Manish Kumar](https://github.com/ManishBirthlia)
+
+- Place: Jaipur, Rajasthan, India
+- Bio: Engineering Student | Passionate Full-Stack Developer
+- GitHub: [ManishBirthlia](https://github.com/ManishBirthlia)
+- Linkedin [@manish-birthlia](https://www.linkedin.com/in/manish-birthlia)
+
 #### Name: [Ankit Matth](https://github.com/Ankit-Matth)
 
 - Place: Bhiwani, Haryana, India
@@ -221,3 +228,16 @@
 - Place: Bokaro Steel City, Jharkhand, India
 - Bio: College Student | Full Stack Developer
 - Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+### Name: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+- Place: Lucknow, Uttar Pradesh, India
+- Bio: College Student | Engineering
+- Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+
+### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+📍 Place: Aurangabad, Maharashtra, India.
+👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
+🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
