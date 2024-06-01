@@ -253,7 +253,15 @@
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
   },
-   {
+  {
+  "courseId": "Expense Tracker",
+    "name": "Expense Tracker",
+    "image": "img/Expense_Tracker.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Expense_Tracker.jpg",
+    "slide-img-2": "img/Expense_Tracker1.png"
+  }
   "courseId": "Basic Calculator",
     "name": "Basic Calculator",
     "image": "img/calculatorLogo.png",
