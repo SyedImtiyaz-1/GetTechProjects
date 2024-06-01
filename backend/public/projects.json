@@ -238,5 +238,15 @@
       "techstack": "HTML, CSS, JavaScript",
       "slide-img-1": "img/ag1.png",
       "slide-img-2": "img/ag2.png"
-    }
+    },
+
+  {
+ "courseId": "Pac Man Game",
+   "name": "Pac Man Game",
+   "image": "img/Pacmanlogo.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/Pacman.png",
+   "slide-img-2": "img/Pacman.png"
+ }
 ]
