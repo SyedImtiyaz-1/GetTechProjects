@@ -270,6 +270,28 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/calculator.png",
     "slide-img-2": "img/calculator.png"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+  }
+ ,
+   {
+  "courseId": "Stone Paper Scissors Game",
+    "name": "Stone Paper Scissors Game",
+    "image": "img/stonepaperLogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1Rbe41OztGwmZS0PvMOwDvvmZ-fBRFFSP?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/stonepaper.png",
+    "slide-img-2": "img/stonepaper.png"
+  },
+   {
+  "courseId": "Weather App",
+    "name": "Weather App",
+    "image": "img/weatherLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/17z8yTw_5oN2cv4SrmOqicZ9TL6YNRYjL?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/weather.png",
+    "slide-img-2": "img/weather.png"
 >>>>>>> Stashed changes
   }
 ]
