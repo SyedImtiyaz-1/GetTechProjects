@@ -8,7 +8,9 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
 
     <link rel="stylesheet" href="./main.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -53,9 +55,16 @@
   <body>
     <div class="loader">
       <div>
-        <lottie-player src="https://lottie.host/44df716f-6291-433b-99cc-500641e4d08b/gU8MVYG2VW.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay mode="normal"></lottie-player>
+        <lottie-player
+          src="https://lottie.host/44df716f-6291-433b-99cc-500641e4d08b/gU8MVYG2VW.json"
+          background="##FFFFFF"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+          mode="normal"></lottie-player>
       </div>
- </div>
+    </div>
 
     <div class="unload">
       <header class="header">
@@ -68,14 +77,16 @@
         <div class="fas fa-bars"></div>
         <nav class="navbar">
           <ul>
-            <i class='icons bx bxs-home' ></i>
-            <li style="margin-left: 1px;"><a href="#home">home</a></li>
+            <i class="icons bx bxs-home"></i>
+            <li style="margin-left: 1px"><a href="#home">home</a></li>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class='icons bx bx-laptop'></i>
-            <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
+            <i class="icons bx bx-laptop"></i>
+            <li style="margin-left: 1px">
+              <a href="./backend/public/index.html">Projects</a>
+            </li>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class='icons bx bxs-contact'></i>
-            <li style="margin-left: 1px;"><a href="#contact">contact</a></li>
+            <i class="icons bx bxs-contact"></i>
+            <li style="margin-left: 1px"><a href="#contact">contact</a></li>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button id="login">Log In</button>
             <h3 id="name"></h3>
@@ -96,54 +107,70 @@
         <h2>B.E / BCA/ MCA / BSC-IT / etc.</h2>
         <a href="#" class="explore-button" id="exBtn">Explore Projects</a>
         <script>
-          exBtn.addEventListener('click', function(){
+          exBtn.addEventListener("click", function () {
             window.location.href = "./backend/public/index.html";
-          })
+          });
         </script>
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
       </section>
 
-    <div class="pt-5 pb-5">
-      <div class="container">
+      <div class="pt-5 pb-5">
+        <div class="container">
           <div class="row">
-              <div class="section-head col-sm-12" id="projects">
-                  <h1>Projects</h1>
-                  <p class="text-trans-none">
-                    We build robust and productive projects that enhance your placements and sharpen your learning.
-                  </p>
+            <div class="section-head col-sm-12" id="projects">
+              <h1>Projects</h1>
+              <p class="text-trans-none">
+                We build robust and productive projects that enhance your
+                placements and sharpen your learning.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item feature_box">
+                <span class="icon feature_box_col_one p-2"
+                  ><i class="fa fa-laptop"></i
+                ></span>
+                <h6>Web-App Projects</h6>
+                <p class="text-trans-none">
+                  Our custom web development services cover both front-end and
+                  back-end development. Whether enhancing an existing app or
+                  architecting a new enterprise solution, our developers are
+                  ready to meet any challenge.
+                </p>
               </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_one p-2"><i class="fa fa-laptop"></i></span>
-                      <h6>Web-App Projects</h6>
-                      <p class="text-trans-none">
-                        Our custom web development services cover both front-end and back-end development. Whether enhancing an existing app or architecting a new enterprise solution, our developers are ready to meet any challenge.
-                      </p>
-                  </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item feature_box">
+                <span class="icon feature_box_col_two p-2"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Mobile-App Projects</h6>
+                <p class="text-trans-none">
+                  We specialize in creating multi-platform mobile app solutions
+                  for both Android and iOS devices. Using PhoneGap, Xamarin, and
+                  React Native, we develop custom mobile apps that run
+                  seamlessly on multiple platforms.
+                </p>
               </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_two p-2"><i class="fa fa-android"></i></span>
-                      <h6>Mobile-App Projects</h6>
-                      <p class="text-trans-none">
-                        We specialize in creating multi-platform mobile app solutions for both Android and iOS devices. Using PhoneGap, Xamarin, and React Native, we develop custom mobile apps that run seamlessly on multiple platforms.
-                      </p>
-                  </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 pointerBtn">
+              <div class="item feature_box">
+                <span class="icon feature_box_col_three p-2"
+                  ><i class="fa fa-magic"></i
+                ></span>
+                <h6>Data Analytics Projects</h6>
+                <p class="text-trans-none">
+                  The project will include data visualization and rescanning.
+                  Utilizing statistical methods and allocated space, this type
+                  of data is commonly used by big tech companies. The graph
+                  structure will optimize the visuals for better clarity.
+                </p>
               </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_three p-2"><i class="fa fa-magic"></i></span>
-                      <h6>Data Analytics Projects</h6>
-                      <p class="text-trans-none">
-                        The project will include data visualization and rescanning. Utilizing statistical methods and allocated space, this type of data is commonly used by big tech companies. The graph structure will optimize the visuals for better clarity.
-                      </p>
-                  </div>
-              </div>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
 
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -240,54 +267,56 @@
               required></textarea>
             <span id="message-error" class="error"></span>
             <!-- Validation error message for Message -->
-            <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
+            <button class="contact-form-btn" id="contact_sbmt_btn">
+              Submit
+            </button>
           </form>
         </div>
       </div>
 
-    <!-- Footer-->
-    <footer>
-      <div class="row_f">
-        <div class="col">
-          <img src="./images/pngwing.com(5).png" class="logo_f" />
-          <p class="text-trans-none">
-            Get ready for your college project submission with PreciousServices.
-            We provide best solutions and projects that will help you gain more
-            knowledge. Subscribe to get latest updates.
-          </p>
-        </div>
-        <div class="col">
-          <h3>Office</h3>
-          <p>Nagpur, PIN 440024</p>
-          <p>Maharashtra, India</p>
-          <p class="email">
-            <a href="mailto:preciousitservices@gmai.com"
-              >preciousitservices@gmail.com</a
-            >
-          </p>
-          <h4><a href="tel:7218404903">+91 7218404903</a></h4>
-        </div>
-        <div class="col">
-          <h3>Useful Links</h3>
-          <ul>
-            <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
-            <!-- <li> <a href="#team">Team</a></li> -->
-            <li><a href="careers.html">careers</a></li>
-            <li><a href="tel:7218404903">Contact</a></li>
-            <!-- <li> <a href="#faq">FAQ</a></li> -->
-          </ul>
-        </div>
-        <div class="col">
-          <h3>About Us</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./index2.html">Founder</a></li>
-            <!-- <li><a href="index.html#service">Reviews</a></li> -->
-            <!-- <li><a href="#">Terms & condition</a></li> -->
-            <!-- <li> <a href="#">Privacy policy</a></li> -->
-          </ul>
-        </div>
-        <!-- <div class="col">
+      <!-- Footer-->
+      <footer>
+        <div class="row_f">
+          <div class="col">
+            <img src="./images/pngwing.com(5).png" class="logo_f" />
+            <p class="text-trans-none">
+              Get ready for your college project submission with
+              PreciousServices. We provide best solutions and projects that will
+              help you gain more knowledge. Subscribe to get latest updates.
+            </p>
+          </div>
+          <div class="col">
+            <h3>Office</h3>
+            <p>Nagpur, PIN 440024</p>
+            <p>Maharashtra, India</p>
+            <p class="email">
+              <a href="mailto:preciousitservices@gmai.com"
+                >preciousitservices@gmail.com</a
+              >
+            </p>
+            <h4><a href="tel:7218404903">+91 7218404903</a></h4>
+          </div>
+          <div class="col">
+            <h3>Useful Links</h3>
+            <ul>
+              <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
+              <!-- <li> <a href="#team">Team</a></li> -->
+              <li><a href="careers.html">careers</a></li>
+              <li><a href="tel:7218404903">Contact</a></li>
+              <!-- <li> <a href="#faq">FAQ</a></li> -->
+            </ul>
+          </div>
+          <div class="col">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./index2.html">Founder</a></li>
+              <!-- <li><a href="index.html#service">Reviews</a></li> -->
+              <!-- <li><a href="#">Terms & condition</a></li> -->
+              <!-- <li> <a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+          <!-- <div class="col">
         <h3>Newsletter</h3>
         <form>
           <i class="icon ion-md-mail"></i>
@@ -295,41 +324,41 @@
           <button type="submit"><i class="icon ion-md-send"></i></button>
         </form>
       </div> -->
-      </div>
-      <hr />
-      <p class="copyright">
-        PreciousITServices &copy; 2024 - All Rights Reserved
-      </p>
-    </footer>
-    
-    <!--   Chat Bot   -->
-    <button class="chatbot__button">
-      <span class="material-symbols-outlined">mode_comment</span>
-      <span class="material-symbols-outlined">close</span>
-    </button>
-    <div class="chatbot">
-      <div class="chatbot__header">
-        <h3 class="chatbox__title">Precious IT Services</h3>
+        </div>
+        <hr />
+        <p class="copyright">
+          PreciousITServices &copy; 2024 - All Rights Reserved
+        </p>
+      </footer>
+
+      <!--   Chat Bot   -->
+      <button class="chatbot__button">
+        <span class="material-symbols-outlined">mode_comment</span>
         <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="chatbot">
+        <div class="chatbot__header">
+          <h3 class="chatbox__title">Precious IT Services</h3>
+          <span class="material-symbols-outlined">close</span>
+        </div>
+        <ul class="chatbot__box">
+          <li class="chatbot__chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Hi there. How can I help you today?</p>
+          </li>
+          <li class="chatbot__chat outgoing">
+            <p>...</p>
+          </li>
+        </ul>
+        <div class="chatbot__input-box">
+          <textarea
+            class="chatbot__textarea"
+            placeholder="Enter a message..."
+            required></textarea>
+          <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
       </div>
-      <ul class="chatbot__box">
-        <li class="chatbot__chat incoming">
-          <span class="material-symbols-outlined">smart_toy</span>
-          <p>Hi there. How can I help you today?</p>
-        </li>
-        <li class="chatbot__chat outgoing">
-          <p>...</p>
-        </li>
-      </ul>
-      <div class="chatbot__input-box">
-        <textarea
-          class="chatbot__textarea"
-          placeholder="Enter a message..."
-          required></textarea>
-        <span id="send-btn" class="material-symbols-outlined">send</span>
-      </div>
-    </div>
-    <!--  chat bot finish  -->
+      <!--  chat bot finish  -->
 
       <script src="./js/contact.js"></script>
       <script src="./chatBot/script.js"></script>
@@ -364,6 +393,6 @@
         });
       </script>
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    </div>        
+    </div>
   </body>
 </html>
