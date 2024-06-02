@@ -7,8 +7,8 @@ body {
   font-family: "Poppins", sans-serif;
   transition: 0.1s;
 }
- 
- .headingProjects {
+
+.headingProjects {
   background-image: url("./img/projects.jpg");
   height: 50vh;
   width: 100vw;
@@ -17,10 +17,13 @@ body {
   position: relative;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
 /*Hovering effect added by https://github.com/Mahimatestgithub*/
 .headingProjects:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  background-color: rgba(0, 0, 0, 0.5); /* Darkens the background on hover */
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Darkens the background on hover */
 }
 
 .headingProjects h2 {
@@ -35,8 +38,9 @@ body {
 }
 
 .headingProjects:hover h2 {
-  color: #ffeb3b; 
-  transform: scale(1.1); /* Slighted zoom effect on text */
+  color: #ffeb3b;
+  transform: scale(1.1);
+  /* Slighted zoom effect on text */
 }
 
 .headingProjects h2 span {
@@ -55,7 +59,8 @@ body {
 .headingProjects input[type="search"]:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #333;
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
 }
 
 
@@ -283,8 +288,8 @@ section {
   background: none;
   border: none;
   position: absolute;
-  
-  
+
+
   /* margin-top:auto; */
 
 }
@@ -637,6 +642,7 @@ body {
 }
 
 .header {
+
   display: flex;
   align-items: center;
   justify-content: space-between;

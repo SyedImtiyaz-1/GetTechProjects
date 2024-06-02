@@ -20,7 +20,7 @@
   {
     "courseId": "Apple Store",
     "name": "Apple Store clone",
-    "image": "img/Applestore1.jpg",
+    "image": "img/appleLogo.jpg",
     "downloadLink": "https://drive.google.com/file/d/19Fc0jqC4Os9fh-6bRN-QOZtBauGoF7Mo/view?usp=drivesdk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Applestore02.png",
@@ -236,6 +236,24 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
+    "courseId": "Facebook Login Clone",
+      "name": "Facebook Login Clone",
+      "image": "img/facebooklogin-logo.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1mUZbnzoiEl4zV49J6wtZN_txTPMBhEwC?usp=sharing",  
+      "techstack": "HTML, Tailwind CSS",
+      "slide-img-1": "img/facebooklogin1.png",
+      "slide-img-2": "img/facebooklogin2.png"
+  },
+{
+   "courseId": "Pac Man Game",
+   "name": "Pac Man Game",
+   "image": "img/Pacmanlogo.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/Pacman.png",
+   "slide-img-2": "img/Pacman.png"
+ },
+ {
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -292,7 +310,7 @@
   {
     "courseId": "Expense Tracker",
     "name": "Expense Tracker",
-    "image": "img/Expense_Tracker.png",
+    "image": "img/expenceLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
@@ -306,7 +324,26 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
-  }, {
+
+  {
+    "courseId": "Analog Clock",
+    "name": "Analog Clock",
+    "image": "img/analogClockLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1DsOT-FIsRKAiO4WrzJXlgDmAk8DOaG4v?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/analogclock.png",
+    "slide-img-2": "img/analogclock.png"
+  },
+  {
+    "courseId": "QR Code Generator",
+    "name": "QR Code Generator",
+    "image": "img/qrcodeLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/18fotdcU4IVJYqWvr2MSVESv1bFdOoSc8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/qrcode1.png",
+    "slide-img-2": "img/qrcode2.png"
+  },
+  {
     "courseId": "Zomato-Clone",
     "name": "Zomato-Clone",
     "image": "img/Zomato-Clone.png",
