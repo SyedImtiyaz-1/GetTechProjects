@@ -18,6 +18,15 @@
     "slide-img-2": "img/apna-store3.png"
   },
   {
+    "courseId": "Apple Store",
+    "name": "Apple Store clone",
+    "image": "img/Applestore1.jpg",
+    "downloadLink": "https://drive.google.com/file/d/19Fc0jqC4Os9fh-6bRN-QOZtBauGoF7Mo/view?usp=drivesdk",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Applestore02.png",
+    "slide-img-2": "img/Applestore03.png"
+  },
+  {
     "courseId": "Questify",
     "name": "Questify - Blogging Website",
     "image": "img/questify.png",
@@ -259,5 +268,41 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Tech_Quiz.png",
     "slide-img-2": "img/Tech_Quiz2.png"
+  },
+    "courseId": "Basic Calculator",
+    "name": "Basic Calculator",
+    "image": "img/calculatorLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1nf88VC9n9oHiIu46SHTE2JAfT-fgNI4I?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/calculator.png",
+    "slide-img-2": "img/calculator.png"
+
+  },
+  {
+    "courseId": "Stone Paper Scissors Game",
+    "name": "Stone Paper Scissors Game",
+    "image": "img/stonepaperLogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1Rbe41OztGwmZS0PvMOwDvvmZ-fBRFFSP?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/stonepaper.png",
+    "slide-img-2": "img/stonepaper.png"
+  },
+  {
+    "courseId": "Weather App",
+    "name": "Weather App",
+    "image": "img/weatherLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/17z8yTw_5oN2cv4SrmOqicZ9TL6YNRYjL?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/weather.png",
+    "slide-img-2": "img/weather.png"
+  },
+  {
+  "courseId": "Expense Tracker",
+    "name": "Expense Tracker",
+    "image": "img/Expense_Tracker.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Expense_Tracker.jpg",
+    "slide-img-2": "img/Expense_Tracker1.png"
   }
 ]
