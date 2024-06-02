@@ -1779,6 +1779,12 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
+
+/* swiper button */
+.swiper-button-next .swiper-button-prev{
+margin-top: auto;
+}
+
  /*Style https://github.com/Mahimatestgithub*/
 .explore-button {
   display: inline-block;
