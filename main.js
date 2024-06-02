@@ -1,3 +1,13 @@
+// Smooth scrolling when clicking the Explore Projects button done by https://github.com/Mahimatestgithub
+document.querySelector('.explore-button').addEventListener('click', function (e) {
+  e.preventDefault();
+  const projectsSection = document.getElementById('projects');
+  projectsSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){
@@ -24,20 +34,7 @@ $(document).ready(function(){
 
    (function ($) {
     "use strict";
-    
-    // $(".clients-carousel").owlCarousel({
-    //     autoplay: true,
-    //     dots: true,
-    //     loop: true,
-    //     responsive: { 0: {items: 2}, 768: {items: 4}, 900: {items: 6} }
-    // });
 
-    // $(".testimonials-carousel").owlCarousel({
-    //     autoplay: true,
-    //     dots: true,
-    //     loop: true,
-    //     responsive: { 0: {items: 1}, 576: {items: 2}, 768: {items: 3}, 992: {items: 4} }
-    // });
     
 })(jQuery);
 })
@@ -72,3 +69,15 @@ $(document).ready(function() {
     // Call the initCounters function when the document is ready
     initCounters();
   });
+
+  function effect(){
+    loader.style.display="none";
+    document.querySelector(".unload").style.display="block";
+  }
+
+
+
+    var loader=document.querySelector(".loader");
+    window.addEventListener('load',()=>{
+      let timout=setTimeout(effect,2000);
+    })
