@@ -1796,3 +1796,16 @@ input:checked+.slider:before {
 .explore-button:hover {
   background-color: grey;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1f3959, rgb(10, 21, 56));
+  border-radius: 10px;
+}
