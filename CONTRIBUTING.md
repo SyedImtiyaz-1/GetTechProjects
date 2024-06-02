@@ -49,6 +49,12 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
+#### Name: [Mohit](https://github.com/imohitpatel) 
+
+- Place: Madhya Pradesh, India
+- Bio: Webdev And Graphic Designer
+- Github: [imohitpatel](https://github.com/imohitpatel) 
+
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
 - Place: Gujarat, INDIA
@@ -222,28 +228,3 @@
 - 📍 Place: Gondia, Maharashtra, India
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
-
-### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
-
-- Place: Bokaro Steel City, Jharkhand, India
-- Bio: College Student | Full Stack Developer
-- Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
-
-### Name: [Aditi Bansal](https://github.com/Aditi22Bansal)
-
-- Place: Lucknow, Uttar Pradesh, India
-- Bio: College Student | Engineering
-- Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
-
-
-### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
-
-📍 Place: Aurangabad, Maharashtra, India.
-👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
-🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
-
-#### Name: [Damini Chachane](https://github.com/Damini2004)
-
-- Place: Nagpur, Maharashtra, India
-- Bio: Student | Engineering
-- GitHub: [Damini Chachane](https://github.com/Damini2004)
