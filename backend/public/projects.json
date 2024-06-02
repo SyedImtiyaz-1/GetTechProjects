@@ -298,5 +298,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
-  }
+  },
+  {
+    "courseId": "Chess Game",
+      "name": "Chess Game",
+      "image": "img/ChessIcon.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/Chessimg.png",
+      "slide-img-2": "img/Chessimg.png"
+    }
 ]
