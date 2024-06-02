@@ -8,7 +8,9 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
 
     <link rel="stylesheet" href="./main.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -51,6 +53,7 @@
   </head>
 
   <body>
+<<<<<<< Updated upstream
     <div class="loader">
       <div>
         <lottie-player src="https://lottie.host/44df716f-6291-433b-99cc-500641e4d08b/gU8MVYG2VW.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay mode="normal"></lottie-player>
@@ -104,46 +107,109 @@
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
       </section>
+=======
+    <header class="header">
+      <a href="#" class="logo"
+        ><img
+          src="./images/logomain.png"
+          alt=""
+          style="width: 100px; height: 70px"
+      /></a>
+      <div class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <i class="icons bx bxs-home"></i>
+          <li style="margin-left: 1px"><a href="#home">home</a></li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="icons bx bx-laptop"></i>
+          <li style="margin-left: 1px">
+            <a href="./backend/public/index.html">Projects</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="icons bx bxs-contact"></i>
+          <li style="margin-left: 1px"><a href="#contact">contact</a></li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button id="login">Log In</button>
+          <h3 id="name"></h3>
+          <img id="image" onclick="ProfileClicked()" />
+          <button onclick="logout()" id="logout">Logout</button>
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round" id="toggle"></div>
+          </label>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Button added by https://github.com/Mahimatestgithub-->
+    <section id="home" class="home">
+      <h1>Get IT Projects</h1>
+      <h2>for Under Graduation and Post Graduation Students.</h2>
+      <h2>B.E / BCA/ MCA / BSC-IT / etc.</h2>
+      <a href="./backend/public/index.html" class="explore-button"
+        >Explore Projects</a
+      >
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </section>
+>>>>>>> Stashed changes
 
     <div class="pt-5 pb-5">
       <div class="container">
-          <div class="row">
-              <div class="section-head col-sm-12" id="projects">
-                  <h1>Projects</h1>
-                  <p class="text-trans-none">
-                    We build robust and productive projects that enhance your placements and sharpen your learning.
-                  </p>
-              </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_one p-2"><i class="fa fa-laptop"></i></span>
-                      <h6>Web-App Projects</h6>
-                      <p class="text-trans-none">
-                        Our custom web development services cover both front-end and back-end development. Whether enhancing an existing app or architecting a new enterprise solution, our developers are ready to meet any challenge.
-                      </p>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_two p-2"><i class="fa fa-android"></i></span>
-                      <h6>Mobile-App Projects</h6>
-                      <p class="text-trans-none">
-                        We specialize in creating multi-platform mobile app solutions for both Android and iOS devices. Using PhoneGap, Xamarin, and React Native, we develop custom mobile apps that run seamlessly on multiple platforms.
-                      </p>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 pointerBtn">
-                  <div class="item feature_box">
-                      <span class="icon feature_box_col_three p-2"><i class="fa fa-magic"></i></span>
-                      <h6>Data Analytics Projects</h6>
-                      <p class="text-trans-none">
-                        The project will include data visualization and rescanning. Utilizing statistical methods and allocated space, this type of data is commonly used by big tech companies. The graph structure will optimize the visuals for better clarity.
-                      </p>
-                  </div>
-              </div>
+        <div class="row">
+          <div class="section-head col-sm-12" id="projects">
+            <h1>Projects</h1>
+            <p class="text-trans-none">
+              We build robust and productive projects that enhance your
+              placements and sharpen your learning.
+            </p>
           </div>
+          <div class="col-lg-4 col-sm-6 pointerBtn">
+            <div class="item feature_box">
+              <span class="icon feature_box_col_one p-2"
+                ><i class="fa fa-laptop"></i
+              ></span>
+              <h6>Web-App Projects</h6>
+              <p class="text-trans-none">
+                Our custom web development services cover both front-end and
+                back-end development. Whether enhancing an existing app or
+                architecting a new enterprise solution, our developers are ready
+                to meet any challenge.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 pointerBtn">
+            <div class="item feature_box">
+              <span class="icon feature_box_col_two p-2"
+                ><i class="fa fa-android"></i
+              ></span>
+              <h6>Mobile-App Projects</h6>
+              <p class="text-trans-none">
+                We specialize in creating multi-platform mobile app solutions
+                for both Android and iOS devices. Using PhoneGap, Xamarin, and
+                React Native, we develop custom mobile apps that run seamlessly
+                on multiple platforms.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 pointerBtn">
+            <div class="item feature_box">
+              <span class="icon feature_box_col_three p-2"
+                ><i class="fa fa-magic"></i
+              ></span>
+              <h6>Data Analytics Projects</h6>
+              <p class="text-trans-none">
+                The project will include data visualization and rescanning.
+                Utilizing statistical methods and allocated space, this type of
+                data is commonly used by big tech companies. The graph structure
+                will optimize the visuals for better clarity.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
 
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -301,7 +367,7 @@
         PreciousITServices &copy; 2024 - All Rights Reserved
       </p>
     </footer>
-    
+
     <!--   Chat Bot   -->
     <button class="chatbot__button">
       <span class="material-symbols-outlined">mode_comment</span>

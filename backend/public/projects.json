@@ -20,7 +20,7 @@
   {
     "courseId": "Apple Store",
     "name": "Apple Store clone",
-    "image": "img/Applestore1.jpg",
+    "image": "img/appleLogo.jpg",
     "downloadLink": "https://drive.google.com/file/d/19Fc0jqC4Os9fh-6bRN-QOZtBauGoF7Mo/view?usp=drivesdk",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Applestore02.png",
@@ -292,12 +292,11 @@
   {
     "courseId": "Expense Tracker",
     "name": "Expense Tracker",
-    "image": "img/Expense_Tracker.png",
+    "image": "img/expenceLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
-
   },
   {
     "courseId": "Landing Page Site",
@@ -307,7 +306,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
-
   },
   {
     "courseId": "Analog Clock",
@@ -317,7 +315,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/analogclock.png",
     "slide-img-2": "img/analogclock.png"
-
   },
   {
     "courseId": "QR Code Generator",
@@ -327,6 +324,5 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/qrcode1.png",
     "slide-img-2": "img/qrcode2.png"
-
   }
 ]
