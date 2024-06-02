@@ -1,215 +1,210 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="../../main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="icon" href="./images/image.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/b ootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet" />
+document.addEventListener("DOMContentLoaded", async () => {
+  const searchInput = document.getElementById("searchProjects");
+  const coursesContainer = document.querySelector(".courses");
+  const projectData = []; // Store project data for reference
 
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./chatBot/style.css" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>IT Projects | Find your best projects</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
-  </head>
+  // Fetch new projects data from the JSON file
+  const response = await fetch("./projects.json");
+  const newProjectsData = await response.json();
 
-  <body>
-    <header class="header" style="padding: 1.3em">
-      <a href="../../index.html" class="logo"
-        ><img
-          src="../../images/pngwing.com(5).png"
-          style="margin-top: 0.8em"
-          alt=""
-      /></a>
-      <div class="fas fa-bars"></div>
-      <nav class="navbar">
-        <ul style="padding-bottom: 5px">
-          <li><a href="../../index.html">home</a></li>
-          <li><a href="../public/index.html">Projects</a></li>
-          <!-- <li><a href="careers.html">career</a></li> -->
-          <li><a href="../../index.html#contact">contact</a></li>
-          <li><a href="../../index2.html">Founder</a></li>
-          <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox" />
-            <div class="slider round" id="toggle"></div>
-          </label>
-          <!-- <button id="login" style="cursor: pointer;">Login</button> -->
-          <!-- <h3 id="name"></h3> -->
-          <!-- <img id="image" onclick="ProfileClicked()" /> -->
-          <!-- <button onclick="logout()" id="logout">Logout</button> -->
-        </ul>
-      </nav>
-    </header>
+  newProjectsData.forEach((project) => {
+    const projectElement = addProjectToUI(project);
+    projectData.push({ element: projectElement, data: project });
+  });
 
-    <div class="headingProjects">
-      <h2><span>Latest Projects</span></h2>
-      <input
-        type="search"
-        id="searchProjects"
-        placeholder="🔍 Search projects" />
+  searchInput.addEventListener("input", function () {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+
+    projectData.forEach(({ element, data }) => {
+      const projectName = data.name.toLowerCase();
+
+      const matchesSearch = projectName.includes(searchTerm);
+
+      element.style.display = matchesSearch ? "block" : "none";
+    });
+  });
+
+  function addProjectToUI(project) {
+    const projectElement = document.createElement("div");
+    projectElement.classList.add("course");
+    projectElement.setAttribute("data-course-id", project.courseId);
+
+    projectElement.innerHTML = `
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href='../main.css'>
+      <div class="course-banner">
+        <img src="${project.image}" alt="${project.name}">
+      </div>
+      <div class="course-detail">
+        <h3 class="course-title">${project.name}</h3>
+        <button class="eye-button" style="cursor:pointer"><h6>Tap to see</h6><i class="fas fa-eye"></i></button>
+        <p>${project.techstack}</p>
+        <div class="course-info">
+          <button class="buy-button course" data-paid="false">Get Project</button>
+        </div>
+      </div>
+      <div class="popup" style="display: none;">
+      <div class="popup-content">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="${project["slide-img-1"]}" alt="${project.name}"></div>
+            <div class="swiper-slide"><img src="${project["slide-img-2"]}" alt="${project.name}"></div>
+            <!-- Add more images for the slider -->
+          </div>
+          <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+          <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+        </div>
+        <button class="close-button"><i class="fas fa-times"></i></button>
+      </div>
     </div>
+  `;
 
-    <!-- Latest Projects -->
-    <section class="container" style="margin-bottom: 35px">
-      <div class="courses">
-        <!-- Projects will be dynamically added here -->
-      </div>
-      <br />
-      <br />
-      <br />
+    coursesContainer.appendChild(projectElement);
 
-      <h3 style="display: flex; justify-content: center; align-items: center;">
-        Contact us on
-        <a href="tel:+91 7218404903" style="margin-left: 5px; margin-right: 10px; font-size: 2rem; font-weight: normal;">+91 7218404903</a>
-        for more projects.
-         <!-- <h4><a href="tel:7249545778">+91 7218404903</a></h4>-->
-        <!--<p href="tel:7249545778">&nbsp; 7218404903 &nbsp;</p>-->
-          <!--for more projects.-->
+    const buyButton = projectElement.querySelector(".buy-button");
+    const downloadLink = projectElement.querySelector(".download-link");
+    const eyeButton = projectElement.querySelector(".eye-button");
+    const popup = projectElement.querySelector(".popup");
+    const closeButton = projectElement.querySelector(".close-button");
+    const body = document.body;
 
-      <h3 style="display: flex; justify-content: center; align-items: center">
-        Contact us on
-        <a
-          href="tel:+91 7218404903"
-          style="
-            margin-left: 5px;
-            margin-right: 10px;
-            font-size: 2rem;
-            font-weight: normal;
-          "
-          >+91 7218404903</a
-        >
-        for more projects.
-        <!-- <h4><a href="tel:7249545778">+91 7218404903</a></h4>-->
-        <!--<p href="tel:7249545778">&nbsp; 7218404903 &nbsp;</p>-->
-        <!--for more projects.-->
+    eyeButton.addEventListener("click", () => {
+      popup.style.display = "block";
 
-      </h3>
-    </section>
-
-    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-
-    <!-- footer  -->
-
-    <footer>
-      <div class="row_f">
-        <div class="col">
-          <img src="../../images/pngwing.com(5).png" class="logo_f" />
-          <p>
-            Get ready for your college project submission with PreciousServices.
-            We Provide best solution and projects that will gain your knowledge.
-            Subscribe and get Latest Updates
-          </p>
-        </div>
-        <div class="col">
-          <h3>Office</h3>
-          <p>Nagpur, PIN 440001</p>
-          <p>Maharashtra, India</p>
-          <p class="email">PreciousItServices@gmail.com</p>
-        </div>
-        <div class="col">
-          <h3>Useful Links</h3>
-          <ul>
-            <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
-            <!-- <li> <a href="#team">Team</a></li> -->
-            <li><a href="../../careers.html">Careers</a></li>
-            <li><a href="tel:7249545778">Contact</a></li>
-            <!-- <li> <a href="#faq">FAQ</a></li> -->
-          </ul>
-        </div>
-        <div class="col">
-          <h3>About Us</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="../../index2.html">Founder</a></li>
-            <!-- <li><a href="index.html#service">Reviews</a></li> -->
-            <!-- <li><a href="#">Terms & condition</a></li> -->
-            <!-- <li> <a href="#">Privacy policy</a></li> -->
-          </ul>
-        </div>
-        <div class="col">
-          <h3>Newsletter</h3>
-          <form>
-            <i class="icon ion-md-mail"></i>
-            <input type="email" placeholder="Enter your e-mail id" required />
-            <button type="submit"><i class="icon ion-md-send"></i></button>
-          </form>
-        </div>
-      </div>
-      <hr />
-      <p class="copyright">
-        PreciousitServices &copy; 2023 - All Rights Reserved
-      </p>
-    </footer>
-
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    <script src="./payment.js"></script>
-    <script src="./projects.js"></script>
-    <script src="../../main.js"></script>
-    <!-- <script src="../../js/login.js"></script> -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="../../js/theme.js"></script>
-    <script>
-      // Function to scroll to the top smoothly
-      function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      }
-
-      // Add an event listener to the "scroll to top" button
-      const backToTopButton = document.querySelector(".back-to-top");
-      backToTopButton.addEventListener("click", scrollToTop);
-
-      // Add an event listener to show/hide the button based on scroll position
-      window.addEventListener("scroll", () => {
-        if (document.documentElement.scrollTop > 100) {
-          backToTopButton.style.display = "block";
-        } else {
-          backToTopButton.style.display = "none";
-        }
+      // Initialize the Swiper instance when the popup is displayed
+      const swiper = new Swiper(".swiper-container", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        initialSlide: 0, // Show the first image initially
       });
-    </script>
-  </body>
-</html>
+
+      // Hide the body content when the popup is displayed
+      body.style.overflow = "hidden";
+    });
+
+    // Add an event listener to close the popup when clicking outside
+    document.addEventListener("click", (event) => {
+      if (event.target === popup) {
+        popup.style.display = "none";
+        body.style.overflow = "auto"; // Restore body overflow
+      }
+    });
+
+    const closeButtons = document.querySelectorAll(".close-button");
+
+    closeButtons.forEach((closeButton) => {
+      closeButton.addEventListener("click", () => {
+        closeButton.closest(".popup").style.display = "none";
+        body.removeAttribute("style");
+      });
+    });
+
+    eyeButton.addEventListener("click", () => {
+      popup.style.display = "block";
+      // Initialize the Swiper instance when the popup is displayed
+      const swiper = new Swiper(".swiper-container", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    });
+
+    closeButton.addEventListener("click", () => {
+      popup.style.display = "none";
+      body.style.overflow = "auto"; // Restore body overflow
+    });
+
+    buyButton.addEventListener("click", async function (event) {
+      const courseId = project.courseId;
+      const paid = this.getAttribute("data-paid");
+
+      if (paid === "false") {
+        await handlePayment(courseId, downloadLink, buyButton);
+      } else {
+        alert(`You've already purchased the ${courseId} project.`);
+      }
+    });
+
+    return projectElement;
+  }
+});
+
+const sendEmailButton = document.getElementById("sendEmailButton");
+sendEmailButton.addEventListener("click", () => {
+  const userEmail = document.getElementById("userEmail").value;
+  if (userEmail.trim() === "") {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  // Make a request to fetch the project data from projects.json
+  fetch("./projects.json")
+    .then((response) => response.json())
+    .then((projectsData) => {
+      // Assuming you want to send the first project from the JSON file
+      const projectData = projectsData[0];
+
+      // Call the sendProjectByEmail function with the user's email and project data
+      sendProjectByEmail(userEmail, projectData);
+    })
+    .catch((error) => {
+      console.error("Error fetching project data:", error);
+      alert("Failed to fetch project data. Please try again later.");
+    });
+});
+
+async function sendProjectByEmail(userEmail, projectData) {
+  // Create a form data object to send the project data to the server
+  const formData = new FormData();
+  formData.append("userEmail", userEmail);
+  formData.append("projectData", JSON.stringify(projectData));
+
+  // Make a POST request to your server to send the email
+  try {
+    const response = await fetch("/sendProjectEmail", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (response.ok) {
+      alert("Email sent successfully!");
+    } else {
+      alert("Failed to send email. Please try again later.");
+    }
+  } catch (error) {
+    console.error("Error sending email:", error);
+    alert("An error occurred while sending the email. Please try again later.");
+  }
+}
+
+async function handlePayment(courseId, downloadLink, buyButton) {
+  // Simulate payment process using Razorpay
+  const options = {
+    // Replace with your actual Razorpay API key
+    key: "rzp_test_rmVf1ufuOltuLZ",
+    amount: 500, // Replace with the actual amount
+    currency: "INR", // Replace with the desired currency
+    name: "Project Store",
+    description: `Purchase of ${courseId} project`,
+    handler: async function (response) {
+      // Simulate successful payment
+      buyButton.textContent = "Purchased ✔️";
+      buyButton.setAttribute("data-paid", "true");
+      buyButton.classList.remove("course"); // Remove the course class
+      downloadLink.style.display = "block";
+      alert(`Payment successful! You've purchased the ${courseId} project.`);
+    },
+    prefill: {
+      email: "syedimtiyazali141@gmail.com",
+      contact: "7249545778",
+    },
+  };
+
+  const razorpayInstance = new Razorpay(options);
+  razorpayInstance.open();
+}
+
+// download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
