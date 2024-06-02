@@ -297,6 +297,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
+
   },
   {
     "courseId": "Landing Page Site",
@@ -306,8 +307,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
-<<<<<<< Updated upstream
-=======
+
   },
   {
     "courseId": "Analog Clock",
@@ -317,6 +317,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/analogclock.png",
     "slide-img-2": "img/analogclock.png"
+
   },
   {
     "courseId": "QR Code Generator",
@@ -326,6 +327,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/qrcode1.png",
     "slide-img-2": "img/qrcode2.png"
->>>>>>> Stashed changes
+
   }
 ]
