@@ -236,6 +236,24 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
+    "courseId": "Facebook Login Clone",
+      "name": "Facebook Login Clone",
+      "image": "img/facebooklogin-logo.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1mUZbnzoiEl4zV49J6wtZN_txTPMBhEwC?usp=sharing",  
+      "techstack": "HTML, Tailwind CSS",
+      "slide-img-1": "img/facebooklogin1.png",
+      "slide-img-2": "img/facebooklogin2.png"
+  },
+{
+   "courseId": "Pac Man Game",
+   "name": "Pac Man Game",
+   "image": "img/Pacmanlogo.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/Pacman.png",
+   "slide-img-2": "img/Pacman.png"
+ },
+ {
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -307,6 +325,7 @@
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
   },
+
   {
     "courseId": "Analog Clock",
     "name": "Analog Clock",
@@ -324,6 +343,33 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/qrcode1.png",
     "slide-img-2": "img/qrcode2.png"
+  },
+  {
+    "courseId": "Zomato-Clone",
+    "name": "Zomato-Clone",
+    "image": "img/Zomato-Clone.png",
+    "downloadLink": "https://drive.google.com/drive/folders/192wyvadN6rhLZFQ6unQ61M_wZz1c6OxE",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
+  },
+  {
+    "courseId": "WanderLust",
+    "name": "WanderLust",
+    "image": "img/WanderLust.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1e2dr_-wUTn32UFOEf0g2FBGB3tIED87R?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript, Bootstrap, EJS, Nodejs, Express, MongoDB",
+    "slide-img-1": "img/Wander-slide-1.png",
+    "slide-img-2": "img/Wander-slide-2.png"
+  },
+  {
+    "courseId": "Tower Block Game",
+    "name": "Tower Block Game ",
+    "image": "img/Tower Block.png",
+    "downloadLink": "",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tower_block_1.png",
+    "slide-img-2": "img/Tower Block.png"
   },
   {
     "courseId": "QR Code Generator",
