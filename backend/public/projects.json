@@ -155,6 +155,15 @@
     "slide-img-2": "img/mindballGame.png"
   },
   {
+    "courseId": "Color Mind Game",
+    "name": "Color Mind Game",
+    "image": "https://w7.pngwing.com/pngs/492/562/png-transparent-colorgod-mind-control-game-consciousness-unconscious-mind-mind-games-game-color-brainwashing-thumbnail.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1RNpTbTwMokL5kj9Q3wG1Qv8RjsuHb6cH?usp=drive_link",
+    "techstack": "HTML,CSS, JS",
+    "slide-img-1": "img/mindballGame.png",
+    "slide-img-2": "img/mindballGame.png"
+  },
+  {
     "courseId": "Currency Converter App",
     "name": "Currency Converter App",
     "image": "img/currencylogo.png",
@@ -315,5 +324,24 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
+  },
+  {
+    "courseId": "Analog Clock",
+    "name": "Analog Clock",
+    "image": "img/analogClockLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1DsOT-FIsRKAiO4WrzJXlgDmAk8DOaG4v?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/analogclock.png",
+    "slide-img-2": "img/analogclock.png"
+
+  },
+  {
+    "courseId": "QR Code Generator",
+    "name": "QR Code Generator",
+    "image": "img/qrcodeLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/18fotdcU4IVJYqWvr2MSVESv1bFdOoSc8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/qrcode1.png",
+    "slide-img-2": "img/qrcode2.png"
   }
 ]
