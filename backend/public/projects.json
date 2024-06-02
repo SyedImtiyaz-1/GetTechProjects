@@ -297,6 +297,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
+
   },
   {
     "courseId": "Landing Page Site",
@@ -306,6 +307,26 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
+  },
+
+  {
+    "courseId": "Analog Clock",
+    "name": "Analog Clock",
+    "image": "img/analogClockLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1DsOT-FIsRKAiO4WrzJXlgDmAk8DOaG4v?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/analogclock.png",
+    "slide-img-2": "img/analogclock.png"
+
+  },
+  {
+    "courseId": "QR Code Generator",
+    "name": "QR Code Generator",
+    "image": "img/qrcodeLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/18fotdcU4IVJYqWvr2MSVESv1bFdOoSc8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/qrcode1.png",
+    "slide-img-2": "img/qrcode2.png"
   },
   {
     "courseId": "Quantum Maze",
