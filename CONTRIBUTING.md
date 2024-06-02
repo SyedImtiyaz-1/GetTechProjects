@@ -49,11 +49,11 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
-#### Name: [Mohit](https://github.com/imohitpatel) 
+#### Name: [Mohit](https://github.com/imohitpatel)
 
 - Place: Madhya Pradesh, India
 - Bio: Webdev And Graphic Designer
-- Github: [imohitpatel](https://github.com/imohitpatel) 
+- Github: [imohitpatel](https://github.com/imohitpatel)
 
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
@@ -228,3 +228,9 @@
 - 📍 Place: Gondia, Maharashtra, India
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
+
+#### Name: [Hema Sree Vemulamada](https://github.com/Hemav009)
+
+- Place: Hyderabd, Telangana, India
+- Bio: Student | Coder | Frontend Developer
+- GitHub: [Hemav009](https://github.com/Hemav009)
