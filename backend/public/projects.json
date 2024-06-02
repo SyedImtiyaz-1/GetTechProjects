@@ -324,6 +324,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
+  },
 
   {
     "courseId": "Analog Clock",
@@ -351,7 +352,7 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
-  }
+  },
   {
     "courseId": "WanderLust",
     "name": "WanderLust",
@@ -360,6 +361,14 @@
     "techstack": "HTML, CSS, JavaScript, Bootstrap, EJS, Nodejs, Express, MongoDB",
     "slide-img-1": "img/Wander-slide-1.png",
     "slide-img-2": "img/Wander-slide-2.png"
-
+  },
+  {
+    "courseId": "Tower Block Game",
+    "name": "Tower Block Game ",
+    "image": "img/Tower Block.png",
+    "downloadLink": "",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tower_block_1.png",
+    "slide-img-2": "img/Tower Block.png"
   }
 ]
