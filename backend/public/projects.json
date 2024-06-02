@@ -394,7 +394,7 @@
     "name": "Indian Hand Sign Recognition",
     "image": "img/ihsr.png",
     "downloadLink": "https://drive.google.com/drive/folders/1DSvnAsZOkBpqxDV2tyOg842qTeDWE-1n?usp=sharing",
-    "techstack": "HTML, CSS, JavaScript",
+    "techstack": "Python,  numpy, pandas, tkinker",
     "slide-img-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9Lb6_xTRR54XFqyXodBIg2JTwje3XMSteA&s",
     "slide-img-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTz0RBjDDWkdp-5T3O81qWqS5HZnuciCsiHR3WlE7tVOiQGP2yIz6gaEPk4P7omrxdIgk&usqp=CAU"
   }
