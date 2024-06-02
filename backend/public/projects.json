@@ -298,5 +298,26 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
+<<<<<<< Updated upstream
+=======
+  },
+  {
+    "courseId": "Landing Page Site",
+    "name": "Landing Page Site",
+    "image": "img/landingLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/19oCeKPcSMWGBhmDpVX1DdY6KSjFzXHAB?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
+  },
+  {
+    "courseId": "Analog Clock",
+    "name": "Analog Clock",
+    "image": "img/analogClockLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1DsOT-FIsRKAiO4WrzJXlgDmAk8DOaG4v?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/analogclock.png",
+    "slide-img-2": "img/analogclock.png"
+>>>>>>> Stashed changes
   }
 ]
