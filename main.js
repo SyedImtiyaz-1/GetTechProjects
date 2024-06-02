@@ -1,3 +1,13 @@
+// Smooth scrolling when clicking the Explore Projects button done by https://github.com/Mahimatestgithub
+document.querySelector('.explore-button').addEventListener('click', function (e) {
+  e.preventDefault();
+  const projectsSection = document.getElementById('projects');
+  projectsSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){
@@ -72,3 +82,15 @@ $(document).ready(function() {
     // Call the initCounters function when the document is ready
     initCounters();
   });
+
+  function effect(){
+    loader.style.display="none";
+    document.querySelector(".unload").style.display="block";
+  }
+
+
+
+    var loader=document.querySelector(".loader");
+    window.addEventListener('load',()=>{
+      let timout=setTimeout(effect,2000);
+    })
