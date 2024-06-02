@@ -49,6 +49,12 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
+#### Name: [Mohit](https://github.com/imohitpatel) 
+
+- Place: Madhya Pradesh, India
+- Bio: Webdev And Graphic Designer
+- Github: [imohitpatel](https://github.com/imohitpatel) 
+
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
 - Place: Gujarat, INDIA
@@ -223,6 +229,7 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
 
+
 ### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
 
 - Place: Bokaro Steel City, Jharkhand, India
@@ -254,4 +261,5 @@
 - Place: Nagpur, Maharashtra, India
 - Bio: Student | Engineering
 - GitHub: [Damini Chachane](https://github.com/Damini2004)
+
 
