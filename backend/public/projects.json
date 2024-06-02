@@ -298,5 +298,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
+  },
+  {
+    "courseId": "Quantum Maze",
+    "name": "Quantum Maze",
+    "image": img/Quantum_Maze1.png",
+    "downloadlink": "https://drive.google.com/drive/folders/1dcURDIdjKTAkbtM33nxTexpen8sgq3gu?usp=sharing",
+    "techstack": "HTML,CSS,Javascript",
+    "slide-img-1": "img/Quantum_Maze.png",
+    "slide-img-2": "img/Quantum_Maze1.png"
   }
 ]
