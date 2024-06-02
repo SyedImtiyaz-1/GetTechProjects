@@ -329,4 +329,14 @@
     "slide-img-2": "img/qrcode2.png"
 
   }
+  {
+    "courseId": "WanderLust",
+    "name": "WanderLust",
+    "image": "img/WanderLust.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1e2dr_-wUTn32UFOEf0g2FBGB3tIED87R?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript, Bootstrap, EJS, Nodejs, Express, MongoDB",
+    "slide-img-1": "img/Wander-slide-1.png",
+    "slide-img-2": "img/Wander-slide-2.png"
+
+  }
 ]
