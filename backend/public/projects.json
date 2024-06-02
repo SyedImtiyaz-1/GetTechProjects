@@ -306,5 +306,13 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
+  }, {
+    "courseId": "Zomato-Clone",
+    "name": "Zomato-Clone",
+    "image": "img/Zomato-Clone.png",
+    "downloadLink": "https://drive.google.com/drive/folders/192wyvadN6rhLZFQ6unQ61M_wZz1c6OxE",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
   }
 ]
