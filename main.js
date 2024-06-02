@@ -82,3 +82,15 @@ $(document).ready(function() {
     // Call the initCounters function when the document is ready
     initCounters();
   });
+
+  function effect(){
+    loader.style.display="none";
+    document.querySelector(".unload").style.display="block";
+  }
+
+
+
+    var loader=document.querySelector(".loader");
+    window.addEventListener('load',()=>{
+      let timout=setTimeout(effect,2000);
+    })
