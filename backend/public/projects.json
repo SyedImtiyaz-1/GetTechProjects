@@ -227,8 +227,6 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
-
-
     "courseId": "Facebook Login Clone",
       "name": "Facebook Login Clone",
       "image": "img/facebooklogin-logo.png",
@@ -236,17 +234,17 @@
       "techstack": "HTML, Tailwind CSS",
       "slide-img-1": "img/facebooklogin1.png",
       "slide-img-2": "img/facebooklogin2.png"
-    }
-
- "courseId": "Pac Man Game",
+  },
+{
+   "courseId": "Pac Man Game",
    "name": "Pac Man Game",
    "image": "img/Pacmanlogo.png",
    "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
    "techstack": "HTML, CSS, JavaScript",
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
- }
-
+ },
+ {
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
