@@ -1022,9 +1022,8 @@ body.night {
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #666
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
 .contact-map {
   width: 100%;
   height: auto;
@@ -1801,4 +1800,17 @@ margin-top: auto;
 
 .explore-button:hover {
   background-color: grey;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1f3959, rgb(10, 21, 56));
+  border-radius: 10px;
 }

@@ -270,7 +270,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/calculator.png",
     "slide-img-2": "img/calculator.png"
-
   },
   {
     "courseId": "Stone Paper Scissors Game",
@@ -291,13 +290,22 @@
     "slide-img-2": "img/weather.png"
   },
   {
-  "courseId": "Expense Tracker",
+    "courseId": "Expense Tracker",
     "name": "Expense Tracker",
     "image": "img/Expense_Tracker.png",
     "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Expense_Tracker.jpg",
     "slide-img-2": "img/Expense_Tracker1.png"
+  },
+  {
+    "courseId": "Landing Page Site",
+    "name": "Landing Page Site",
+    "image": "img/landingLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/19oCeKPcSMWGBhmDpVX1DdY6KSjFzXHAB?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
   },
   {
     "courseId": "Chess Game",
