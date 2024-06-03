@@ -18,6 +18,15 @@
     "slide-img-2": "img/apna-store3.png"
   },
   {
+    "courseId": "Apple Store",
+    "name": "Apple Store clone",
+    "image": "img/appleLogo.jpg",
+    "downloadLink": "https://drive.google.com/file/d/19Fc0jqC4Os9fh-6bRN-QOZtBauGoF7Mo/view?usp=drivesdk",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Applestore02.png",
+    "slide-img-2": "img/Applestore03.png"
+  },
+  {
     "courseId": "Questify",
     "name": "Questify - Blogging Website",
     "image": "img/questify.png",
@@ -227,6 +236,15 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
+    "courseId": "Facebook Login Clone",
+    "name": "Facebook Login Clone",
+    "image": "img/facebooklogin-logo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1mUZbnzoiEl4zV49J6wtZN_txTPMBhEwC?usp=sharing",
+    "techstack": "HTML, Tailwind CSS",
+    "slide-img-1": "img/facebooklogin1.png",
+    "slide-img-2": "img/facebooklogin2.png"
+  },
+  {
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -252,6 +270,133 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Crossy_Road.png",
     "slide-img-2": "img/Crossy_Road.png"
+  },
+  {
+    "courseId": "Basic Calculator",
+    "name": "Basic Calculator",
+    "image": "img/calculatorLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1nf88VC9n9oHiIu46SHTE2JAfT-fgNI4I?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/calculator.png",
+    "slide-img-2": "img/calculator.png"
+  },
+  {
+    "courseId": "Stone Paper Scissors Game",
+    "name": "Stone Paper Scissors Game",
+    "image": "img/stonepaperLogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1Rbe41OztGwmZS0PvMOwDvvmZ-fBRFFSP?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/stonepaper.png",
+    "slide-img-2": "img/stonepaper.png"
+  },
+  {
+    "courseId": "Weather App",
+    "name": "Weather App",
+    "image": "img/weatherLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/17z8yTw_5oN2cv4SrmOqicZ9TL6YNRYjL?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/weather.png",
+    "slide-img-2": "img/weather.png"
+  },
+  {
+    "courseId": "Expense Tracker",
+    "name": "Expense Tracker",
+    "image": "img/expenceLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Expense_Tracker.jpg",
+    "slide-img-2": "img/Expense_Tracker1.png"
+  },
+  {
+    "courseId": "Landing Page Site",
+    "name": "Landing Page Site",
+    "image": "img/landingLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/19oCeKPcSMWGBhmDpVX1DdY6KSjFzXHAB?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
+  },
+
+  {
+    "courseId": "Analog Clock",
+    "name": "Analog Clock",
+    "image": "img/analogClockLogo.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1DsOT-FIsRKAiO4WrzJXlgDmAk8DOaG4v?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/analogclock.png",
+    "slide-img-2": "img/analogclock.png"
+  },
+  {
+    "courseId": "QR Code Generator",
+    "name": "QR Code Generator",
+    "image": "img/qrcodeLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/18fotdcU4IVJYqWvr2MSVESv1bFdOoSc8?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/qrcode1.png",
+    "slide-img-2": "img/qrcode2.png"
+  },
+  {
+    "courseId": "Zomato-Clone",
+    "name": "Zomato-Clone",
+    "image": "img/Zomato-Clone.png",
+    "downloadLink": "https://drive.google.com/drive/folders/192wyvadN6rhLZFQ6unQ61M_wZz1c6OxE",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/landingPage.png",
+    "slide-img-2": "img/landingPage.png"
+  },
+  {
+    "courseId": "WanderLust",
+    "name": "WanderLust",
+    "image": "img/WanderLust.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1e2dr_-wUTn32UFOEf0g2FBGB3tIED87R?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript, Bootstrap, EJS, Nodejs, Express, MongoDB",
+    "slide-img-1": "img/Wander-slide-1.png",
+    "slide-img-2": "img/Wander-slide-2.png"
+  },
+  {
+    "courseId": "Tower Block Game",
+    "name": "Tower Block Game ",
+    "image": "img/Tower Block.png",
+    "downloadLink": "",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/tower_block_1.png",
+    "slide-img-2": "img/Tower Block.png"
+  },
+  {
+    "courseId": "Stock Market Prediction App",
+    "name": "Stock Market Prediction App",
+    "image": "https://p.productioncrate.com/stock-hd/effects/footagecrate-4k-stock-market-icon-prev-full.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1qNMfJtrZ-de2XfBqb9elIOS23QTWs0aa?usp=sharing",
+    "techstack": "Python, Numpy, Pandas, Seaborn",
+    "slide-img-1": "https://img.freepik.com/free-vector/gradient-stock-market-concept-with-statistics_23-2149157696.jpg",
+    "slide-img-2": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "courseId": "Gym Website",
+    "name": "Gym Website ",
+    "image": "https://camo.githubusercontent.com/ab9c08272471f9012bc75d248974bde25c76739e3361c9116725c0c4a669f77b/687474703a2f2f696d616765732e616c6c2d667265652d646f776e6c6f61642e636f6d2f696d616765732f677261706869636c617267652f686f74656c5f69636f6e5f6861735f67796d5f3131353732392e6a7067",
+    "downloadLink": "https://drive.google.com/drive/folders/1LzuJVO4bCPJWh4PayLXlvGH5b85ewzpJ?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/gym1.png",
+    "slide-img-2": "img/gym2.png"
+  },
+  {
+    "courseId": "Indian Hand Sign Recognition",
+    "name": "Indian Hand Sign Recognition",
+    "image": "img/ihsr.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1DSvnAsZOkBpqxDV2tyOg842qTeDWE-1n?usp=sharing",
+    "techstack": "Python,  numpy, pandas, tkinker",
+    "slide-img-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9Lb6_xTRR54XFqyXodBIg2JTwje3XMSteA&s",
+    "slide-img-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTz0RBjDDWkdp-5T3O81qWqS5HZnuciCsiHR3WlE7tVOiQGP2yIz6gaEPk4P7omrxdIgk&usqp=CAU"
+  },
+   {
+    "courseId": "Quantum Maze",
+    "name": "Quantum Maze",
+    "image": "img/Quantum_Maze1.png",
+    "downloadlink": "https://drive.google.com/drive/folders/1dcURDIdjKTAkbtM33nxTexpen8sgq3gu?usp=sharing",
+    "techstack": "HTML,CSS,Javascript",
+    "slide-img-1": "img/Quantum_Maze.png",
+    "slide-img-2": "img/Quantum_Maze1.png"
   },
   {
     "courseId": "Tourism Website",
