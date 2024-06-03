@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     projectElement.innerHTML = `
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    // <link rel="stylesheet" href='../main.css'>
+     <link rel="stylesheet" href='../main.css'>
       <div class="course-banner">
         <img src="${project.image}" alt="${project.name}">
       </div>
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     closeButtons.forEach((closeButton) => {
       closeButton.addEventListener("click", () => {
         closeButton.closest(".popup").style.display = "none";
-        body.removeAttribute("style")
+        body.removeAttribute("style");
       });
     });
 
@@ -206,8 +206,5 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const razorpayInstance = new Razorpay(options);
   razorpayInstance.open();
 }
-
-
-
 
 // download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
