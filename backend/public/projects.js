@@ -250,5 +250,3 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   const razorpayInstance = new Razorpay(options);
   razorpayInstance.open();
 }
-
-// download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
