@@ -241,3 +241,10 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+
+### Name: [Ranjani Varsani](https://github.com/Varsani2520)
+
+📍 Place: Bhuj, Gujarat, India.
+👩🏻‍💻 Bio: Student | Full Stack web Developer .
+🚀 GitHub: [Ranjani Varsani](https://github.com/Varsani2520)

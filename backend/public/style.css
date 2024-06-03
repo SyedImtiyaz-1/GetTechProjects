@@ -2095,3 +2095,49 @@ body.night {
 .download-link.night {
   color: #fff;
 }
+/* Flexbox container for courses */
+
+#skeleton-cards{
+  display:none;
+}
+/* Skeleton card styles */
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 16px;
+  width: 400px;
+  height: 300px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-banner, .skeleton-detail {
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.skeleton-banner {
+  height: 150px;
+}
+
+.skeleton-title {
+  height: 20px;
+  width: 80%;
+}
+
+.skeleton-text {
+  height: 16px;
+  width: 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
