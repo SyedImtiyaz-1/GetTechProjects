@@ -316,6 +316,15 @@
     "slide-img-1": "img/landingPage.png",
     "slide-img-2": "img/landingPage.png"
   },
+  {
+    "courseId": "Youtube Video Downloader",
+      "name": "Youtube Video Downloader",
+      "image": "img/youtubeDownloaderlogo.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1Ik1s4-KY7hKGmui3z-ch_1ND9FPCyTeB?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript, node.js, express.js",
+      "slide-img-1": "img/YoutubeVideoDown.png",
+      "slide-img-2": "img/YoutubeVideoDown.png"
+  },
 
   {
     "courseId": "Analog Clock",
