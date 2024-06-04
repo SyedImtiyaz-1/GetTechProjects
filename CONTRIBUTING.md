@@ -236,6 +236,7 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
 
+
 ### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
 
 - Place: Bokaro Steel City, Jharkhand, India
@@ -256,6 +257,20 @@
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
 
+### Name: [Harsh Mishra](https://github.com/harshmishra19)
+
+📍 Place: Mumbai, Maharashtra, India.
+👩🏻‍💻 Bio: Student | MERN Stack Developer.
+🚀 GitHub: [Harsh Mishra](https://github.com/harshmishra19)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+
+- Place: Nagpur, Maharashtra, India
+- Bio: Student | Engineering
+- GitHub: [Damini Chachane](https://github.com/Damini2004)
+
+
+
 ### Name: [Ranjani Varsani](https://github.com/Varsani2520)
 
 📍 Place: Bhuj, Gujarat, India.
@@ -266,3 +281,4 @@
 - 📍 Place: City, State, Country
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
+
