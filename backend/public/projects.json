@@ -424,5 +424,16 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/tourism.png",
     "slide-img-2": "img/tourism1.png"
-  }
+  },
+  {
+    "courseId": "Wordle Game",
+      "name": "Wordle Game",
+      "image": "img/wordle_game.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1LQLBp37iVhse6kZ3uoStcwHZ-0ZXFrCN?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/wordle_game1.png",
+      "slide-img-2": "img/wordle_game.png"
+    }
+
+
 ]

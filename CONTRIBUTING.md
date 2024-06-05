@@ -266,3 +266,9 @@
 - 📍 Place: City, State, Country
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
+
+### Name: [Swetha S](https://github.com/swetha5157)
+
+- Place: Coimbatore, Tamil Nadu, India
+- Bio: College Student | Engineering
+- Github: [Swetha](https://github.com/swetha5157)
