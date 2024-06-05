@@ -1657,6 +1657,7 @@ hr {
 }
 
 .pointerBtn {
+  display: block;
   cursor: pointer;
 }
 
