@@ -18,6 +18,13 @@
 - GitHub: [Ankit-Matth](https://github.com/Ankit-Matth)
 - Linkedin [@ankit-matth](https://www.linkedin.com/in/ankit-matth)
 
+#### Name: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+
+- Place: Rampur, Uttar Pradesh, India
+- Bio: Engineering Student | Passionate Full-Stack Developer
+- GitHub: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+- Linkedin [@Ayushmaan-Agarwal](https://www.linkedin.com/in/ayushmaan-agarwal-8064a4258/)
+
 #### Name: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
 
 - Place: Ghaziabad, India
@@ -250,6 +257,7 @@
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
 
+
 ### Name: [Nisarga G R](https://github.com/nisargaa20)
 
 📍 Place: Mandya, Karnataka, India.
@@ -261,4 +269,15 @@
 - Place: Nagpur, Maharashtra, India
 - Bio: Student | Engineering
 - GitHub: [Damini Chachane](https://github.com/Damini2004)
+
+### Name: [Ranjani Varsani](https://github.com/Varsani2520)
+
+📍 Place: Bhuj, Gujarat, India.
+👩🏻‍💻 Bio: Student | Full Stack web Developer .
+🚀 GitHub: [Ranjani Varsani](https://github.com/Varsani2520)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+- 📍 Place: City, State, Country
+- ⏳ Bio: Student | Frontend Developer | Backend Developer
+- 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
 
