@@ -7,8 +7,8 @@ body {
   font-family: "Poppins", sans-serif;
   transition: 0.1s;
 }
- 
- .headingProjects {
+
+.headingProjects {
   background-image: url("./img/projects.jpg");
   height: 50vh;
   width: 100vw;
@@ -17,10 +17,13 @@ body {
   position: relative;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
 /*Hovering effect added by https://github.com/Mahimatestgithub*/
 .headingProjects:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  background-color: rgba(0, 0, 0, 0.5); /* Darkens the background on hover */
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Darkens the background on hover */
 }
 
 .headingProjects h2 {
@@ -35,8 +38,9 @@ body {
 }
 
 .headingProjects:hover h2 {
-  color: #ffeb3b; 
-  transform: scale(1.1); /* Slighted zoom effect on text */
+  color: #ffeb3b;
+  transform: scale(1.1);
+  /* Slighted zoom effect on text */
 }
 
 .headingProjects h2 span {
@@ -55,7 +59,8 @@ body {
 .headingProjects input[type="search"]:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #333;
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
 }
 
 
@@ -277,14 +282,16 @@ section {
 /* Style for the Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
-  font-size: 24px;
+  height: 5px;
   color: #333;
   cursor: pointer;
   background: none;
   border: none;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+
+
+  /* margin-top:auto; */
+
 }
 
 .swiper-button-next {
@@ -501,6 +508,13 @@ section {
   width: 100%;
   max-width: 400px;
 }
+#searchProjects {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+#searchProjects:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
 
 @media (max-width: 480px) {
   #searchProjects {
@@ -635,6 +649,7 @@ body {
 }
 
 .header {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2123,7 +2138,6 @@ body.night {
 .download-link.night {
   color: #fff;
 }
-
 /*---Styling for newsletter button----*/
 
 form button[type="submit"] {
@@ -2137,4 +2151,50 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
   background-color: darkblue;
+}
+/* Flexbox container for courses */
+
+#skeleton-cards{
+  display:none;
+}
+/* Skeleton card styles */
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 16px;
+  width: 400px;
+  height: 300px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-banner, .skeleton-detail {
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.skeleton-banner {
+  height: 150px;
+}
+
+.skeleton-title {
+  height: 20px;
+  width: 80%;
+}
+
+.skeleton-text {
+  height: 16px;
+  width: 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
 }
