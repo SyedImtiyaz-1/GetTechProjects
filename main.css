@@ -20,11 +20,11 @@ body {
   overflow-x: hidden;
 }
 
-.unload{
+.unload {
   display: none;
 }
 
-.loader{
+.loader {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +116,8 @@ body {
 .pointerBtn {
   display: flex;
   justify-content: center;
-  align-items: stretch;  /* Ensure all items stretch equally */
+  align-items: stretch;
+  /* Ensure all items stretch equally */
   margin-bottom: 20px;
 }
 
@@ -131,8 +132,10 @@ body {
   background-color: #fff;
   width: 100%;
   max-width: 300px;
-  flex-grow: 1;  /* Allow items to grow to the same height */
-  min-height: 400px;  /* Set a minimum height to ensure equal sizing */
+  flex-grow: 1;
+  /* Allow items to grow to the same height */
+  min-height: 400px;
+  /* Set a minimum height to ensure equal sizing */
 }
 
 .icon {
@@ -278,13 +281,14 @@ body.night {
   padding-top: 0.5rem;
   justify-content: space-around;
 
-  
+
 }
 
-.header .navbar ul .icons{
-  font-size:25px; 
-  color:white;
+.header .navbar ul .icons {
+  font-size: 25px;
+  color: white;
 }
+
 .header .navbar ul button {
   /* width: 4vw; */
   /* height: 4.3vh; */
@@ -1022,7 +1026,7 @@ body.night {
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #666
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .contact-map {
@@ -1037,6 +1041,7 @@ body.night {
   width: 100%;
   height: 100%;
 }
+
 /*changes done by https://github.com/Mahimatestgithub*/
 .contact-form {
   width: 100%;
@@ -1063,8 +1068,10 @@ body.night {
 .contact-form-email:hover,
 .contact-form-phone:hover,
 .contact-form-txtarea:hover {
-  border-color: grey; /* Change border color on hover */
-  box-shadow: 0 0 10px grey(0, 0, 255, 0.5); /* Add shadow effect on hover */
+  border-color: grey;
+  /* Change border color on hover */
+  box-shadow: 0 0 10px grey(0, 0, 255, 0.5);
+  /* Add shadow effect on hover */
 }
 
 .contact-form-txt::placeholder,
@@ -1422,8 +1429,9 @@ hr {
     color: grey;
     font-size: 2.4rem;
   }
-  .header .navbar ul .icons{
-    color:grey;
+
+  .header .navbar ul .icons {
+    color: grey;
   }
 
   .header .fa-times {
@@ -1649,6 +1657,7 @@ hr {
 }
 
 .pointerBtn {
+  display: block;
   cursor: pointer;
 }
 
@@ -1663,11 +1672,13 @@ hr {
 #talentin {
   cursor: pointer;
 }
+
 @media (max-width: 770px) {
   .contact-in {
     flex-direction: column;
   }
 }
+
 /* login media query */
 @media (max-width: 1080px) {
   .chatbot {
@@ -1779,7 +1790,13 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
- /*Style https://github.com/Mahimatestgithub*/
+
+/* swiper button */
+.swiper-button-next .swiper-button-prev {
+  margin-top: auto;
+}
+
+/*Style https://github.com/Mahimatestgithub*/
 .explore-button {
   display: inline-block;
   padding: 10px 20px;
@@ -1795,4 +1812,17 @@ input:checked+.slider:before {
 
 .explore-button:hover {
   background-color: grey;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1f3959, rgb(10, 21, 56));
+  border-radius: 10px;
 }
