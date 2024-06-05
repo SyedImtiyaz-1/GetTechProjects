@@ -424,5 +424,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/tourism.png",
     "slide-img-2": "img/tourism1.png"
-  }
+  },
+  {
+    "courseId": "Music Visualizer",
+    "name": "Music Visualizer",
+    "image": "img/Music_Visualizer1.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1DRJL_xjDf8JX2nJseMnxsxEBtgHhULrm?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Music_Visualizer.png",
+    "slide-img-2": "img/Music_Visualizer1.png"
+  }  
 ]
