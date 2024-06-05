@@ -20,6 +20,18 @@ body {
   overflow-x: hidden;
 }
 
+.unload {
+  display: none;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .heading,
 .clients .section-header h2,
 .section-head h1,
@@ -78,9 +90,91 @@ body {
 }
 
 
+.pt-5 {
+  padding-top: 3rem;
+}
+
+.pb-5 {
+  padding-bottom: 3rem;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pointerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /* Ensure all items stretch equally */
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 300px;
+  flex-grow: 1;
+  /* Allow items to grow to the same height */
+  min-height: 400px;
+  /* Set a minimum height to ensure equal sizing */
+}
+
+.icon {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
 .text-trans-none {
   text-transform: none;
 }
+
+.feature_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature_box_col_one {
+  color: #3498db;
+}
+
+.feature_box_col_two {
+  color: #e67e22;
+}
+
+.feature_box_col_three {
+  color: #9b59b6;
+}
+
+.text-black {
+  color: black;
+}
+
 
 /*------ s mode -----*/
 label {
@@ -187,13 +281,14 @@ body.night {
   padding-top: 0.5rem;
   justify-content: space-around;
 
-  
+
 }
 
-.header .navbar ul .icons{
-  font-size:25px; 
-  color:white;
+.header .navbar ul .icons {
+  font-size: 25px;
+  color: white;
 }
+
 .header .navbar ul button {
   /* width: 4vw; */
   /* height: 4.3vh; */
@@ -931,7 +1026,7 @@ body.night {
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px #666
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .contact-map {
@@ -947,6 +1042,7 @@ body.night {
   height: 100%;
 }
 
+/*changes done by https://github.com/Mahimatestgithub*/
 .contact-form {
   width: 100%;
   height: auto;
@@ -954,7 +1050,10 @@ body.night {
   text-align: left;
 }
 
-.contact-form-txt {
+.contact-form-txt,
+.contact-form-email,
+.contact-form-phone,
+.contact-form-txtarea {
   height: 40px;
   color: #000;
   border: 2px solid #bcbcbc;
@@ -962,25 +1061,23 @@ body.night {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-form-email {
-  height: 40px;
-  color: #000;
-  border: 2px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
-  text-transform: none;
+.contact-form-txt:hover,
+.contact-form-email:hover,
+.contact-form-phone:hover,
+.contact-form-txtarea:hover {
+  border-color: grey;
+  /* Change border color on hover */
+  box-shadow: 0 0 10px grey(0, 0, 255, 0.5);
+  /* Add shadow effect on hover */
 }
 
-.contact-form-txt::placeholder {
-  color: #aaa;
-  font-size: 1.5rem;
-}
-
-.contact-form-email::placeholder {
+.contact-form-txt::placeholder,
+.contact-form-email::placeholder,
+.contact-form-phone::placeholder,
+.contact-form-txtarea::placeholder {
   color: #aaa;
   font-size: 1.5rem;
 }
@@ -988,22 +1085,10 @@ body.night {
 .contact-form-txtarea {
   width: 90%;
   height: 130px;
-  color: #000;
-  border: 2px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
   font-family: "Poppins", sans-serif;
 }
 
-.contact-form-txtarea::placeholder {
-  color: #aaa;
-  font-size: 1.5rem;
-}
-
 .contact-form-btn {
-  /* margin-left: 59rem; */
   outline: none;
   border: none;
   border-radius: 1rem;
@@ -1015,6 +1100,7 @@ body.night {
   height: 4.5rem;
   width: 15rem;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-form-btn:hover {
@@ -1025,13 +1111,14 @@ body.night {
 }
 
 .contact-form-phone {
-    height: 40px;
-    color: #000;
-    border: 2px solid #bcbcbc;
-    border-radius: 10px;
-    outline: none;
-    margin-bottom: 20px;
-    padding: 15px;
+  height: 40px;
+  color: #000;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form-phone::placeholder {
@@ -1342,8 +1429,9 @@ hr {
     color: grey;
     font-size: 2.4rem;
   }
-  .header .navbar ul .icons{
-    color:grey;
+
+  .header .navbar ul .icons {
+    color: grey;
   }
 
   .header .fa-times {
@@ -1569,6 +1657,7 @@ hr {
 }
 
 .pointerBtn {
+  display: block;
   cursor: pointer;
 }
 
@@ -1583,11 +1672,13 @@ hr {
 #talentin {
   cursor: pointer;
 }
+
 @media (max-width: 770px) {
   .contact-in {
     flex-direction: column;
   }
 }
+
 /* login media query */
 @media (max-width: 1080px) {
   .chatbot {
@@ -1697,4 +1788,41 @@ input:checked+.slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+
+/* swiper button */
+.swiper-button-next .swiper-button-prev {
+  margin-top: auto;
+}
+
+/*Style https://github.com/Mahimatestgithub*/
+.explore-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: grey;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1f3959, rgb(10, 21, 56));
+  border-radius: 10px;
 }
