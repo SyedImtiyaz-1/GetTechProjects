@@ -2141,16 +2141,28 @@ body.night {
 /*---Styling for newsletter button----*/
 
 form button[type="submit"] {
-  background-color:#0654a8;
+  background: linear-gradient(to right, #041627, #331c1c);
   color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 12px 24px;
+  border: 2px solid #b1d0ee;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 form button[type="submit"]:hover {
-  background-color: darkblue;
+  background: linear-gradient(to right, #3b72c2, #b05858);
+  border-color: #3b72c2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 /* Flexbox container for courses */
 
