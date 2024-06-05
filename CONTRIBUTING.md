@@ -267,7 +267,7 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
 
-#### Name: [Shubham Chaudhari]([GitHub link](https://github.com/Winter262005))
+#### Name: ([Shubham Chaudhari](https://github.com/Winter262005))
 - Place: Indore, MP, India
 - Bio: First Year Engg Student | WebDev aspiring Full Stack
-- GitHub: [Winter262005]([GitHub link](https://github.com/Winter262005))
+- GitHub: ([Winter262005](https://github.com/Winter262005))
