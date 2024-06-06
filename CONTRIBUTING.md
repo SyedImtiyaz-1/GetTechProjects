@@ -56,11 +56,11 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
-#### Name: [Mohit](https://github.com/imohitpatel) 
+#### Name: [Mohit](https://github.com/imohitpatel)
 
 - Place: Madhya Pradesh, India
 - Bio: Webdev And Graphic Designer
-- Github: [imohitpatel](https://github.com/imohitpatel) 
+- Github: [imohitpatel](https://github.com/imohitpatel)
 
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
@@ -236,7 +236,6 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
 
-
 ### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
 
 - Place: Bokaro Steel City, Jharkhand, India
@@ -249,14 +248,11 @@
 - Bio: College Student | Engineering
 - Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
 
-
 ### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
-
-
 
 ### Name: [Nisarga G R](https://github.com/nisargaa20)
 
@@ -277,10 +273,10 @@
 🚀 GitHub: [Ranjani Varsani](https://github.com/Varsani2520)
 
 #### Name: [Damini Chachane](https://github.com/Damini2004)
+
 - 📍 Place: City, State, Country
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
-
 
 ### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
 
@@ -288,3 +284,8 @@
 - Bio: CS Undergrad | Passionate Front-end Developer
 - GitHub: [komal-agarwal5](https://github.com/komal-agarwal5)
 
+### Name: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CSE Undergrad | Passionate Full Stack Developer
+- GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
