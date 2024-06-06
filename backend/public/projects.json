@@ -513,6 +513,15 @@
     "techstack": "ReactJs, TailwindCSS, MovieAPI",
     "slide-img-1": "img/movie1.webp",
     "slide-img-2": "img/movie2.webp"
+  },
+  {
+    "courseId": "NewsWeb Website",
+    "name": "NewsWeb",
+    "image": "img/news.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1wAD5n8r9MFIrXrVC30n_mpINKiyL_yzY?usp=sharing",
+    "techstack": "HTML,Bootstrap,JS,NewsAPI",
+    "slide-img-1": "img/news1.png",
+    "slide-img-2": "img/news2.png"
   }
 
 ]
