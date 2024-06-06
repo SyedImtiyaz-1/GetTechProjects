@@ -236,6 +236,30 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
+
+
+
+    "courseId": "Estate Square App",
+      "name": "Estate Square App",
+      "image": "img/estate.png",
+      "downloadLink": "https://drive.google.com/file/d/1v2sXztsbys7voH4LC44kXRpfFf7od8ZG/view?usp=drivesdk",
+      "techstack": "MERN Stack",
+      "slide-img-1": "img/Real.png",
+      "slide-img-2": "img/Real-estate_3.png"
+     
+    }
+
+{
+
+    "courseId": "Extension-hub",
+    "name": "Extension-hub",
+    "image": "img/eh.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1G7YV4zg7UU0oenqMa7nQtU8KCotRE3Xg?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/eh1.jpg",
+    "slide-img-2": "img/eh2.png"
+  },{
+
     "courseId": "Facebook Login Clone",
     "name": "Facebook Login Clone",
     "image": "img/facebooklogin-logo.png",
@@ -243,8 +267,10 @@
     "techstack": "HTML, Tailwind CSS",
     "slide-img-1": "img/facebooklogin1.png",
     "slide-img-2": "img/facebooklogin2.png"
+
   },
   {
+
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -478,5 +504,25 @@
     "techstack": "JavaScript, HTML, CSS, Api, json, Rest api, Debounce",
     "slide-img-1": "img/pharmacy-store-2.png",
     "slide-img-2": "img/pharmacy-store-3.png"
+  },
+  {
+    "courseId": "Digital Clock",
+    "name": "Digital Clock",
+    "image": "img/digitalClockLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Oc_vh7rw-Rek9x-vI5Y7m3aDbeJq64hI?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/digitalclock.png",
+    "slide-img-2": "img/digitalclock.png"
+  },
+  {
+    "courseId": "Movie Recommender Website",
+    "name": "MovieLand",
+    "image": "img/movie1.webp",
+    "downloadLink": "https://drive.google.com/file/d/1AP0lvJYskOEeNJGJfF58URxgw3kfiigd/view?usp=sharing",
+    "techstack": "ReactJs, TailwindCSS, MovieAPI",
+    "slide-img-1": "img/movie1.webp",
+    "slide-img-2": "img/movie2.webp"
   }
+
 ]
+
