@@ -14,6 +14,16 @@ body {
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/*Hovering effect added by https://github.com/Mahimatestgithub*/
+.headingProjects:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Darkens the background on hover */
 }
 
 .headingProjects h2 {
@@ -24,12 +34,35 @@ body {
   margin: auto;
   align-items: center;
   font-size: 3em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.headingProjects:hover h2 {
+  color: #ffeb3b;
+  transform: scale(1.1);
+  /* Slighted zoom effect on text */
 }
 
 .headingProjects h2 span {
   background-color: rgba(74, 70, 70, 0.684);
   padding: 0.6em;
 }
+
+.headingProjects input[type="search"] {
+  padding: 0.5em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.headingProjects input[type="search"]:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+}
+
 
 
 section {
@@ -249,14 +282,16 @@ section {
 /* Style for the Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
-  font-size: 24px;
+  height: 5px;
   color: #333;
   cursor: pointer;
   background: none;
   border: none;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+
+
+  /* margin-top:auto; */
+
 }
 
 .swiper-button-next {
@@ -473,6 +508,13 @@ section {
   width: 100%;
   max-width: 400px;
 }
+#searchProjects {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+#searchProjects:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
 
 @media (max-width: 480px) {
   #searchProjects {
@@ -607,6 +649,7 @@ body {
 }
 
 .header {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2094,4 +2137,76 @@ body.night {
 
 .download-link.night {
   color: #fff;
+}
+/*---Styling for newsletter button----*/
+
+form button[type="submit"] {
+  background: linear-gradient(to right, #041627, #331c1c);
+  color: white;
+  padding: 12px 24px;
+  border: 2px solid #b1d0ee;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background: linear-gradient(to right, #3b72c2, #b05858);
+  border-color: #3b72c2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Flexbox container for courses */
+
+#skeleton-cards{
+  display:none;
+}
+/* Skeleton card styles */
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 16px;
+  width: 400px;
+  height: 300px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-banner, .skeleton-detail {
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.skeleton-banner {
+  height: 150px;
+}
+
+.skeleton-title {
+  height: 20px;
+  width: 80%;
+}
+
+.skeleton-text {
+  height: 16px;
+  width: 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
 }
