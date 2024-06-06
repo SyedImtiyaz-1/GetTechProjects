@@ -326,6 +326,15 @@
     "slide-img-2": "img/landingPage.png"
   },
   {
+    "courseId": "Guess_My_Number",
+    "name": "Guess_My_Number",
+    "image": "img/Guess_My_Numer.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1_dsHRq6QXmDCbIZILN23UZzEH9ntTZsr?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Guess_My_Number1.png",
+    "slide-img-2": "img/Guess_My_Number2.png"
+  },
+  {
     "courseId": "Youtube Video Downloader",
     "name": "Youtube Video Downloader",
     "image": "img/youtubeDownloaderlogo.png",
