@@ -387,13 +387,13 @@
   },
   {
     "courseId": "Chess Game",
-      "name": "Chess Game",
-      "image": "img/ChessIcon.png",
-      "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
-      "techstack": "HTML, CSS, JavaScript",
-      "slide-img-1": "img/Chessimg.png",
-      "slide-img-2": "img/Chessimg.png"
-    },
+    "name": "Chess Game",
+    "image": "img/ChessIcon.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Chessimg.png",
+    "slide-img-2": "img/Chessimg.png"
+  },
   {
     "courseId": "Gym Website",
     "name": "Gym Website ",
@@ -431,6 +431,15 @@
     "slide-img-2": "img/tourism1.png"
   },
   {
+    "courseId": "Dictionary App",
+    "name": "Dictionary App",
+    "image": "img/dictionarylogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1PowaMuHG-NnYfiZu0YnY6GI3ZlUlGYIa?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/dictionary.png",
+    "slide-img-2": "img/dictionary.png"
+  },
+  {
     "courseId": "Stop Watch",
     "name": "Stop Watch",
     "image": "img/stopwatchlogo.png",
@@ -439,8 +448,19 @@
     "slide-img-1": "img/stopwatch.png",
     "slide-img-2": "img/stopwatch.png"
 
+
   },
-   {
+  
+  {
+    "courseId": "Quote Generator",
+    "name": "Quote Generator",
+    "image": "img/quotelogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/112CCv3eP5QMTd38w7QeosQ-wfdFczBMp?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/quote.png",
+    "slide-img-2": "img/quote.png"
+  },
+     {
   "courseId": "News Blaze",
     "name": "News Blaze",
     "image": "img/NewsBlaze.PNG",
@@ -448,4 +468,7 @@
     "techstack": "HTML, CSS, JavaScript React Axios",
     "slide-img-1": "img/NewsBlaze.PNG",
     "slide-img-2": "img/NewsBlaze2.PNG"
+=======
+  }
+
 ]
