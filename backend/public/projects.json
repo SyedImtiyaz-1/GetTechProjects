@@ -252,6 +252,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Pacman.png",
     "slide-img-2": "img/Pacman.png"
+ },
+ {
+ "courseId": "Scientific Calculator",
+   "name": "Scientific Calculator",
+   "image": "img/calculator.jpeg",
+   "downloadLink": "https://drive.google.com/drive/folders/1Ayt5apVbnLHRqiNmj-NMvtCtn-367KrC?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/calculator.jpeg",
+   "slide-img-2": "img/calculator.jpeg"
   },
   {
     "courseId": "Password Generator",
@@ -390,6 +399,15 @@
     "slide-img-2": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D"
   },
   {
+    "courseId": "Chess Game",
+    "name": "Chess Game",
+    "image": "img/ChessIcon.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Chessimg.png",
+    "slide-img-2": "img/Chessimg.png"
+  },
+  {
     "courseId": "Gym Website",
     "name": "Gym Website ",
     "image": "https://camo.githubusercontent.com/ab9c08272471f9012bc75d248974bde25c76739e3361c9116725c0c4a669f77b/687474703a2f2f696d616765732e616c6c2d667265652d646f776e6c6f61642e636f6d2f696d616765732f677261706869636c617267652f686f74656c5f69636f6e5f6861735f67796d5f3131353732392e6a7067",
@@ -424,5 +442,32 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/tourism.png",
     "slide-img-2": "img/tourism1.png"
+  },
+  {
+    "courseId": "Dictionary App",
+    "name": "Dictionary App",
+    "image": "img/dictionarylogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1PowaMuHG-NnYfiZu0YnY6GI3ZlUlGYIa?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/dictionary.png",
+    "slide-img-2": "img/dictionary.png"
+  },
+  {
+    "courseId": "Stop Watch",
+    "name": "Stop Watch",
+    "image": "img/stopwatchlogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/11hc_-OxfVRLZk3A0ctTtVOmIL-FMjBtW?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/stopwatch.png",
+    "slide-img-2": "img/stopwatch.png"
+  },
+  {
+    "courseId": "Quote Generator",
+    "name": "Quote Generator",
+    "image": "img/quotelogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/112CCv3eP5QMTd38w7QeosQ-wfdFczBMp?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/quote.png",
+    "slide-img-2": "img/quote.png"
   }
 ]
