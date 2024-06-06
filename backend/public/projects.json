@@ -469,5 +469,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Myntra.png",
     "slide-img-2": "img/Myntra.png"
+  },
+  {
+    "courseId": "Digital Clock",
+    "name": "Digital Clock",
+    "image": "img/digitalClockLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Oc_vh7rw-Rek9x-vI5Y7m3aDbeJq64hI?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/digitalclock.png",
+    "slide-img-2": "img/digitalclock.png"
   }
 ]
