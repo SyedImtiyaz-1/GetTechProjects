@@ -194,8 +194,7 @@
     <h2 class="text-trans-none">
       Submit the form and Leave a Brief Description for the Team
     </h2>
-  </section>
-
+  
   <!-- Contact Us Form -->
   <div class="contact-in">
     <div class="contact-map">
@@ -224,6 +223,18 @@
       </form>
     </div>
   </div>
+    </section>
+
+<!-- Added this script -->
+<script>
+    // Function to handle form submission
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        // Prevent the default form submission
+        event.preventDefault();
+        // Show the alert message
+        alert("Submitted successfully!");
+    });
+</script>
 
   <!-- Footer-->
   <footer>

@@ -237,6 +237,7 @@
   },
   {
 
+
       "courseId": "Score Tracker App",
         "name": "Score Tracker App",
         "image": "img/scoretracker1.png",
@@ -254,6 +255,15 @@
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
  },{
+
+    "courseId": "Extension-hub",
+    "name": "Extension-hub",
+    "image": "img/eh.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1G7YV4zg7UU0oenqMa7nQtU8KCotRE3Xg?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/eh1.jpg",
+    "slide-img-2": "img/eh2.png"
+  },{
     "courseId": "Facebook Login Clone",
     "name": "Facebook Login Clone",
     "image": "img/facebooklogin-logo.png",
@@ -261,6 +271,7 @@
     "techstack": "HTML, Tailwind CSS",
     "slide-img-1": "img/facebooklogin1.png",
     "slide-img-2": "img/facebooklogin2.png"
+
   },
   {
     "courseId": "Pac Man Game",
@@ -270,6 +281,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Pacman.png",
     "slide-img-2": "img/Pacman.png"
+ },
+ {
+ "courseId": "Scientific Calculator",
+   "name": "Scientific Calculator",
+   "image": "img/calculator.jpeg",
+   "downloadLink": "https://drive.google.com/drive/folders/1Ayt5apVbnLHRqiNmj-NMvtCtn-367KrC?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/calculator.jpeg",
+   "slide-img-2": "img/calculator.jpeg"
   },
   {
     "courseId": "Password Generator",
@@ -400,13 +420,13 @@
   },
   {
     "courseId": "Chess Game",
-      "name": "Chess Game",
-      "image": "img/ChessIcon.png",
-      "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
-      "techstack": "HTML, CSS, JavaScript",
-      "slide-img-1": "img/Chessimg.png",
-      "slide-img-2": "img/Chessimg.png"
-    },
+    "name": "Chess Game",
+    "image": "img/ChessIcon.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Chessimg.png",
+    "slide-img-2": "img/Chessimg.png"
+  },
   {
     "courseId": "Gym Website",
     "name": "Gym Website ",
@@ -444,6 +464,15 @@
     "slide-img-2": "img/tourism1.png"
   },
   {
+    "courseId": "Dictionary App",
+    "name": "Dictionary App",
+    "image": "img/dictionarylogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1PowaMuHG-NnYfiZu0YnY6GI3ZlUlGYIa?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/dictionary.png",
+    "slide-img-2": "img/dictionary.png"
+  },
+  {
     "courseId": "Stop Watch",
     "name": "Stop Watch",
     "image": "img/stopwatchlogo.png",
@@ -451,6 +480,33 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/stopwatch.png",
     "slide-img-2": "img/stopwatch.png"
+  },
+  {
+    "courseId": "Quote Generator",
+    "name": "Quote Generator",
+    "image": "img/quotelogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/112CCv3eP5QMTd38w7QeosQ-wfdFczBMp?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/quote.png",
+    "slide-img-2": "img/quote.png"
+  },
+  {
+    "courseId": "Myntra Shopping App",
+    "name": "Myntra Shopping App",
+    "image": "img/myntralogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1QBsg5eQ-rRghXAGXKnMneGXLWTbCooQ9?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Myntra.png",
+    "slide-img-2": "img/Myntra.png"
+  },
+  {
+    "courseId": "Digital Clock",
+    "name": "Digital Clock",
+    "image": "img/digitalClockLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Oc_vh7rw-Rek9x-vI5Y7m3aDbeJq64hI?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/digitalclock.png",
+    "slide-img-2": "img/digitalclock.png"
   }
 ]
 

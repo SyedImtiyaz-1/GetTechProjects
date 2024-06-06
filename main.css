@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
   text-decoration: none;
   scroll-behavior: smooth;
@@ -1169,6 +1169,10 @@ footer {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
+  /* display: none; */
+  text-decoration: none; /* Removes the underline */
+  border: none;   
+  
 }
 
 ul li {
