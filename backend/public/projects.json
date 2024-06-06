@@ -460,5 +460,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/quote.png",
     "slide-img-2": "img/quote.png"
+  },
+  {
+    "courseId": "Myntra Shopping App",
+    "name": "Myntra Shopping App",
+    "image": "img/myntralogo.webp",
+    "downloadLink": "https://drive.google.com/drive/folders/1QBsg5eQ-rRghXAGXKnMneGXLWTbCooQ9?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Myntra.png",
+    "slide-img-2": "img/Myntra.png"
   }
 ]
