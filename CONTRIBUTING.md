@@ -289,3 +289,8 @@
 - Place: Kolkata, West Bengal, India.
 - Bio: CSE Undergrad | Passionate Full Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+#### Name: [Muhammad Rebaal](https://github.com/Muhammad-Rebaal)
+- Place: Karachi, Asia, Pakistan
+- Bio: FullStack Developer | Machine Learning Engineer
+- GitHub: [Muhammad-Rebaal](https://github.com/Muhammad-Rebaal)
