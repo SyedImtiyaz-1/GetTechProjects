@@ -318,12 +318,12 @@
   },
   {
     "courseId": "Youtube Video Downloader",
-      "name": "Youtube Video Downloader",
-      "image": "img/youtubeDownloaderlogo.png",
-      "downloadLink": "https://drive.google.com/drive/folders/1Ik1s4-KY7hKGmui3z-ch_1ND9FPCyTeB?usp=sharing",
-      "techstack": "HTML, CSS, JavaScript, node.js, express.js",
-      "slide-img-1": "img/YoutubeVideoDown.png",
-      "slide-img-2": "img/YoutubeVideoDown.png"
+    "name": "Youtube Video Downloader",
+    "image": "img/youtubeDownloaderlogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Ik1s4-KY7hKGmui3z-ch_1ND9FPCyTeB?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript, node.js, express.js",
+    "slide-img-1": "img/YoutubeVideoDown.png",
+    "slide-img-2": "img/YoutubeVideoDown.png"
   },
 
   {
@@ -382,13 +382,13 @@
   },
   {
     "courseId": "Chess Game",
-      "name": "Chess Game",
-      "image": "img/ChessIcon.png",
-      "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
-      "techstack": "HTML, CSS, JavaScript",
-      "slide-img-1": "img/Chessimg.png",
-      "slide-img-2": "img/Chessimg.png"
-    },
+    "name": "Chess Game",
+    "image": "img/ChessIcon.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Chessimg.png",
+    "slide-img-2": "img/Chessimg.png"
+  },
   {
     "courseId": "Gym Website",
     "name": "Gym Website ",
@@ -407,7 +407,7 @@
     "slide-img-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9Lb6_xTRR54XFqyXodBIg2JTwje3XMSteA&s",
     "slide-img-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTz0RBjDDWkdp-5T3O81qWqS5HZnuciCsiHR3WlE7tVOiQGP2yIz6gaEPk4P7omrxdIgk&usqp=CAU"
   },
-   {
+  {
     "courseId": "Quantum Maze",
     "name": "Quantum Maze",
     "image": "img/Quantum_Maze1.png",
@@ -424,8 +424,6 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/tourism.png",
     "slide-img-2": "img/tourism1.png"
-<<<<<<< Updated upstream
-=======
   },
   {
     "courseId": "Dictionary App",
@@ -462,6 +460,5 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Myntra.png",
     "slide-img-2": "img/Myntra.png"
->>>>>>> Stashed changes
   }
 ]
