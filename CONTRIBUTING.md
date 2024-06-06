@@ -281,3 +281,10 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
 
+
+### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CS Undergrad | Passionate Front-end Developer
+- GitHub: [komal-agarwal5](https://github.com/komal-agarwal5)
+
