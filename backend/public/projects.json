@@ -237,7 +237,6 @@
   },
   {
 
-
       "courseId": "Score Tracker App",
         "name": "Score Tracker App",
         "image": "img/scoretracker1.png",
@@ -256,6 +255,19 @@
    "slide-img-2": "img/Pacman.png"
  },{
 
+
+    "courseId": "Estate Square App",
+      "name": "Estate Square App",
+      "image": "img/estate.png",
+      "downloadLink": "https://drive.google.com/file/d/1v2sXztsbys7voH4LC44kXRpfFf7od8ZG/view?usp=drivesdk",
+      "techstack": "MERN Stack",
+      "slide-img-1": "img/Real.png",
+      "slide-img-2": "img/Real-estate_3.png"
+     
+    }
+
+
+
     "courseId": "Extension-hub",
     "name": "Extension-hub",
     "image": "img/eh.png",
@@ -264,6 +276,7 @@
     "slide-img-1": "img/eh1.jpg",
     "slide-img-2": "img/eh2.png"
   },{
+
     "courseId": "Facebook Login Clone",
     "name": "Facebook Login Clone",
     "image": "img/facebooklogin-logo.png",
@@ -274,6 +287,7 @@
 
   },
   {
+
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -508,6 +522,11 @@
     "slide-img-1": "img/digitalclock.png",
     "slide-img-2": "img/digitalclock.png"
   }
+
+
+
+
+
 ]
 
 

@@ -236,6 +236,7 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
 
+
 ### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
 
 - Place: Bokaro Steel City, Jharkhand, India
@@ -256,6 +257,19 @@
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
 
+
+### Name: [Nisarga G R](https://github.com/nisargaa20)
+
+📍 Place: Mandya, Karnataka, India.
+👩🏻‍💻 Bio: Student | Full Stack Developer, ML Enthusiast
+🚀 GitHub: [Nisarga G R](https://github.com/nisargaa20)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+
+- Place: Nagpur, Maharashtra, India
+- Bio: Student | Engineering
+- GitHub: [Damini Chachane](https://github.com/Damini2004)
+
 ### Name: [Ranjani Varsani](https://github.com/Varsani2520)
 
 📍 Place: Bhuj, Gujarat, India.
@@ -267,8 +281,10 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
 
+
 ### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
 
 - Place: Kolkata, West Bengal, India.
 - Bio: CS Undergrad | Passionate Front-end Developer
 - GitHub: [komal-agarwal5](https://github.com/komal-agarwal5)
+
