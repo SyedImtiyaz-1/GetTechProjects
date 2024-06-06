@@ -266,7 +266,7 @@
      
     }
 
-
+{
 
     "courseId": "Extension-hub",
     "name": "Extension-hub",
@@ -521,10 +521,16 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/digitalclock.png",
     "slide-img-2": "img/digitalclock.png"
+  },
+  {
+    "courseId": "Movie Recommender Website",
+    "name": "MovieLand",
+    "image": "img/movie1.webp",
+    "downloadLink": "https://drive.google.com/file/d/1AP0lvJYskOEeNJGJfF58URxgw3kfiigd/view?usp=sharing",
+    "techstack": "ReactJs, TailwindCSS, MovieAPI",
+    "slide-img-1": "img/movie1.webp",
+    "slide-img-2": "img/movie2.webp"
   }
-
-
-
 
 
 ]
