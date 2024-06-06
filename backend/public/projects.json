@@ -469,5 +469,14 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Myntra.png",
     "slide-img-2": "img/Myntra.png"
+  },
+  {
+    "courseId": "Online-Pharmacy-Store",
+    "name": "Online Pharmacy Store",
+    "image": "img/pharmacy-store-1.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1KRXLChsbK2ETq8dWabTUWHNDQ5Ylcylt?usp=sharing",
+    "techstack": "JavaScript, HTML, CSS, Api, json, Rest api, Debounce",
+    "slide-img-1": "img/pharmacy-store-2.png",
+    "slide-img-2": "img/pharmacy-store-3.png"
   }
 ]
