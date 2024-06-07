@@ -236,21 +236,15 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
-
-
-
     "courseId": "Estate Square App",
-      "name": "Estate Square App",
-      "image": "img/estate.png",
-      "downloadLink": "https://drive.google.com/file/d/1v2sXztsbys7voH4LC44kXRpfFf7od8ZG/view?usp=drivesdk",
-      "techstack": "MERN Stack",
-      "slide-img-1": "img/Real.png",
-      "slide-img-2": "img/Real-estate_3.png"
-     
-    }
-
-{
-
+    "name": "Estate Square App",
+    "image": "img/estate.png",
+    "downloadLink": "https://drive.google.com/file/d/1v2sXztsbys7voH4LC44kXRpfFf7od8ZG/view?usp=drivesdk",
+    "techstack": "MERN Stack",
+    "slide-img-1": "img/Real.png",
+    "slide-img-2": "img/Real-estate_3.png"
+  },
+  {
     "courseId": "Extension-hub",
     "name": "Extension-hub",
     "image": "img/eh.png",
@@ -258,8 +252,8 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/eh1.jpg",
     "slide-img-2": "img/eh2.png"
-  },{
-
+  },
+  {
     "courseId": "Facebook Login Clone",
     "name": "Facebook Login Clone",
     "image": "img/facebooklogin-logo.png",
@@ -267,10 +261,8 @@
     "techstack": "HTML, Tailwind CSS",
     "slide-img-1": "img/facebooklogin1.png",
     "slide-img-2": "img/facebooklogin2.png"
-
   },
   {
-
     "courseId": "Pac Man Game",
     "name": "Pac Man Game",
     "image": "img/Pacmanlogo.png",
@@ -278,15 +270,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Pacman.png",
     "slide-img-2": "img/Pacman.png"
- },
- {
- "courseId": "Scientific Calculator",
-   "name": "Scientific Calculator",
-   "image": "img/calculator.jpeg",
-   "downloadLink": "https://drive.google.com/drive/folders/1Ayt5apVbnLHRqiNmj-NMvtCtn-367KrC?usp=sharing",
-   "techstack": "HTML, CSS, JavaScript",
-   "slide-img-1": "img/calculator.jpeg",
-   "slide-img-2": "img/calculator.jpeg"
+  },
+  {
+    "courseId": "Scientific Calculator",
+    "name": "Scientific Calculator",
+    "image": "img/calculator.jpeg",
+    "downloadLink": "https://drive.google.com/drive/folders/1Ayt5apVbnLHRqiNmj-NMvtCtn-367KrC?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/calculator.jpeg",
+    "slide-img-2": "img/calculator.jpeg"
   },
   {
     "courseId": "Password Generator",
@@ -514,6 +506,4 @@
     "slide-img-1": "img/movie1.webp",
     "slide-img-2": "img/movie2.webp"
   }
-
 ]
-
