@@ -1,0 +1,27 @@
+/* style.css */
+
+.title {
+    font-size: 2em;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    padding: 8px 16px;
+}
+
+#out {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    font-family: monospace;
+    overflow-wrap: break-word;
+}
