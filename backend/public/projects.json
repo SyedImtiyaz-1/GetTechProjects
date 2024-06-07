@@ -299,6 +299,14 @@
     "slide-img-2": "img/Crossy_Road.png"
   },
   {
+    "courseId": "Car Racing",
+    "name": "Car Racing",
+    "image": "img/car-racing.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1BTcyiFaMzUjve2GRho4COszkrTu9zsXG?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/car-racing.jpg"
+  },
+  {
     "courseId": "Basic Calculator",
     "name": "Basic Calculator",
     "image": "img/calculatorLogo.png",
