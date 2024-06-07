@@ -374,11 +374,11 @@
   {
     "courseId": "Zomato-Clone",
     "name": "Zomato-Clone",
-    "image": "img/Zomato-Clone.png",
+    "image": "img/Zomato-logo.png",
     "downloadLink": "https://drive.google.com/drive/folders/192wyvadN6rhLZFQ6unQ61M_wZz1c6OxE",
     "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/landingPage.png",
-    "slide-img-2": "img/landingPage.png"
+    "slide-img-1": "img/Zomato-Clone.png",
+    "slide-img-2": "img/Zomato-Clone.png"
   },
   {
     "courseId": "WanderLust",
@@ -500,11 +500,11 @@
   {
     "courseId": "Movie Recommender Website",
     "name": "MovieLand",
-    "image": "img/movie1.webp",
+    "image": "img/movielandLogo.jpg",
     "downloadLink": "https://drive.google.com/file/d/1AP0lvJYskOEeNJGJfF58URxgw3kfiigd/view?usp=sharing",
     "techstack": "ReactJs, TailwindCSS, MovieAPI",
-    "slide-img-1": "img/movie1.webp",
-    "slide-img-2": "img/movie2.webp"
+    "slide-img-1": "img/movielandLogo.jpg",
+    "slide-img-2": "img/movielandLogo.jpg"
   },
   {
     "courseId": "NewsWeb Website",
@@ -515,6 +515,24 @@
     "slide-img-1": "img/news1.png",
     "slide-img-2": "img/news2.png"
 
+
+  }, {
+    "courseId": "Email Subscription with Google Form",
+    "name": "Email Subscription with Google Form",
+    "image": "img/Email-Subscription-with-google-sheet.png",
+    "downloadLink": "https://drive.google.com/drive/folders/18fImJiKEhYKWkwrrYvFlJAv6J16s669o?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
+    "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
+  },
+  {
+    "courseId": "Swiggy Clone",
+    "name": "Swiggy Clone",
+    "image": "img/SwiggyLogo.avif",
+    "downloadLink": "https://drive.google.com/drive/folders/1I_hGKaatgdsC7L6tf6Y819ysgs0NnxoG?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/swiggy.png",
+    "slide-img-2": "img/swiggy.png"
   }, {
     "courseId": "Email Subscription with Google Form",
     "name": "Email Subscription with Google Form",
