@@ -2138,3 +2138,75 @@ body.night {
 .download-link.night {
   color: #fff;
 }
+/*---Styling for newsletter button----*/
+
+form button[type="submit"] {
+  background: linear-gradient(to right, #041627, #331c1c);
+  color: white;
+  padding: 12px 24px;
+  border: 2px solid #b1d0ee;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background: linear-gradient(to right, #3b72c2, #b05858);
+  border-color: #3b72c2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Flexbox container for courses */
+
+#skeleton-cards{
+  display:none;
+}
+/* Skeleton card styles */
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 16px;
+  width: 400px;
+  height: 300px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-banner, .skeleton-detail {
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.skeleton-banner {
+  height: 150px;
+}
+
+.skeleton-title {
+  height: 20px;
+  width: 80%;
+}
+
+.skeleton-text {
+  height: 16px;
+  width: 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}

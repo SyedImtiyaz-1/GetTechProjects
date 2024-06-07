@@ -18,6 +18,13 @@
 - GitHub: [Ankit-Matth](https://github.com/Ankit-Matth)
 - Linkedin [@ankit-matth](https://www.linkedin.com/in/ankit-matth)
 
+#### Name: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+
+- Place: Rampur, Uttar Pradesh, India
+- Bio: Engineering Student | Passionate Full-Stack Developer
+- GitHub: [Ayushmaan Agarwal](https://github.com/Ayushmaanagarwal1211)
+- Linkedin [@Ayushmaan-Agarwal](https://www.linkedin.com/in/ayushmaan-agarwal-8064a4258/)
+
 #### Name: [Abhinav Srivastav](https://github.com/Abhinavrajsrivastav)
 
 - Place: Ghaziabad, India
@@ -49,11 +56,11 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
-#### Name: [Mohit](https://github.com/imohitpatel) 
+#### Name: [Mohit](https://github.com/imohitpatel)
 
 - Place: Madhya Pradesh, India
 - Bio: Webdev And Graphic Designer
-- Github: [imohitpatel](https://github.com/imohitpatel) 
+- Github: [imohitpatel](https://github.com/imohitpatel)
 
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
@@ -229,7 +236,56 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Chaitanya Lonarkar](https://github.com/ChaitanyaLonarkar)
 
+### Name: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+- Place: Bokaro Steel City, Jharkhand, India
+- Bio: College Student | Full Stack Developer
+- Github: [Sadaf Kausar](https://github.com/SadafKausar2025)
+
+### Name: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+- Place: Lucknow, Uttar Pradesh, India
+- Bio: College Student | Engineering
+- Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
+
+### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+📍 Place: Aurangabad, Maharashtra, India.
+👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
+🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+### Name: [Nisarga G R](https://github.com/nisargaa20)
+
+📍 Place: Mandya, Karnataka, India.
+👩🏻‍💻 Bio: Student | Full Stack Developer, ML Enthusiast
+🚀 GitHub: [Nisarga G R](https://github.com/nisargaa20)
+
 #### Name: [Damini Chachane](https://github.com/Damini2004)
+
+- Place: Nagpur, Maharashtra, India
+- Bio: Student | Engineering
+- GitHub: [Damini Chachane](https://github.com/Damini2004)
+
+### Name: [Ranjani Varsani](https://github.com/Varsani2520)
+
+📍 Place: Bhuj, Gujarat, India.
+👩🏻‍💻 Bio: Student | Full Stack web Developer .
+🚀 GitHub: [Ranjani Varsani](https://github.com/Varsani2520)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+
 - 📍 Place: City, State, Country
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
+
+### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CS Undergrad | Passionate Front-end Developer
+- GitHub: [komal-agarwal5](https://github.com/komal-agarwal5)
+
+### Name: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CSE Undergrad | Passionate Full Stack Developer
+- GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
