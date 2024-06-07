@@ -289,3 +289,9 @@
 - Place: Kolkata, West Bengal, India.
 - Bio: CSE Undergrad | Passionate Full Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+### Name: [Amruta Jayanti](https://github.com/AmrutaJayanti)
+
+- Place: Visakhapatnam, Andhra Pradesh, India.
+- Bio: CSE Undergrad
+- Github: [AmrutaJayanti](https://github.com/AmrutaJayanti)
