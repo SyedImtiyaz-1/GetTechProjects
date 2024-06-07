@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precious IT Services</title>
+    <link rel="stylesheet" href="./css/team.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/image.png" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D -->
+
+    <!-- Demo styles -->
+    <style>
+        .swiper-cards .swiper-slide {
+            overflow: visible;
+        }
+    </style>
+    <script src="./js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/team.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("oUbB-IqXyvbW5JlV9");
+        })();
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px" /></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./backend/public/index.html">Projects</a></li>
+                <li><a id="sadafContact" href="#">contact</a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="login">Log In</button>
+                <h3 id="name"></h3>
+                <img id="image" onclick="ProfileClicked()" />
+                <button onclick="logout()" id="logout">Logout</button>
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" style="opacity: 0" />
+                    <div class="slider round" id="toggle"></div>
+                </label>
+            </ul>
+        </nav>
+    </header>
+
+    <style>
+        /* logout btn */
+        #logout {
+            margin: 0.2em 1em 0.1em 1em;
+            display: none;
+        }
+    </style>
+
+    <script>
+        const scontact = document.getElementById("sadafContact");
+        scontact.addEventListener("click", function () {
+            window.open("index.html#contact");
+        });
+    </script>
+
+    <section id="" class="home">
+        <h2>FAQ's</h2>
+    </section>
+
+    <section id="career-heading" class="career-heading">
+        <h1 class="heading">Frequently Asked Questions</h1>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">What types of projects are available on this platform?
+
+                    ?</button>
+                <div class="accordion-content">
+                    <p>We offer a wide range of projects across various tech stacks, including web development, mobile
+                        app development, data science, machine learning, artificial intelligence, and more.
+                        .</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Are the projects customizable?</button>
+                <div class="accordion-content">
+                    <p>Yes, most of our projects are customizable to meet your specific requirements. You can contact
+                        the seller for any customizations you need.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How do I purchase a project?</button>
+                <div class="accordion-content">
+                    <p>To purchase a project, browse our catalog, select the project you are interested in, and click
+                        the 'Buy Now' button. You will be guided through the payment process and receive your project
+                        files upon completion.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">What payment methods do you accept?</button>
+                <div class="accordion-content">
+                    <p>We accept various payment methods, including credit/debit cards, PayPal, and other major online
+                        payment systems.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Can I get a refund if I am not satisfied with the project?</button>
+                <div class="accordion-content">
+                    <p>We offer a satisfaction guarantee. If you are not satisfied with the project, you can request a
+                        refund within 14 days of purchase. Please refer to our refund policy for more details.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How can I contact the project seller for support or questions?</button>
+                <div class="accordion-content">
+                    <p>Each project page has a 'Contact Seller' button. Use this to send a message directly to the
+                        seller for any inquiries or support you need.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Is there any support available after purchasing a project?</button>
+                <div class="accordion-content">
+                    <p>Yes, our sellers offer support for their projects. You can contact them for any issues or
+                        assistance you need post-purchase.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Can I see a demo of the project before purchasing?</button>
+                <div class="accordion-content">
+                    <p>Yes, most project listings include a demo or a preview. You can also request a demo from the
+                        seller if it is not available.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Are the projects peer-reviewed or verified?</button>
+                <div class="accordion-content">
+                    <p>Yes, all projects on our platform are reviewed and verified by our team of experts to ensure
+                        quality and reliability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="row_f">
+            <div class="col">
+                <img src="./images/pngwing.com(5).png" class="logo_f" />
+                <p>
+                    Get ready for your college project submission with PreciousServices.
+                    We Provide best solution and projects that will gain your knowledge.
+                    Subscribe and get Latest Updates
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office</h3>
+                <p>Nagpur, PIN 440001</p>
+                <p>Maharashtra, India</p>
+                <p class="email">PreciousItServices@gmail.com</p>
+            </div>
+            <div class="col">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href=".index.html#portfolio">Order</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="tel:7218404903">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="index.html#service">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter</h3>
+                <form>
+                    <i class="icon ion-md-mail"></i>
+                    <input type="email" placeholder="Enter your e-mail id" required />
+                    <button type="submit"><i class="icon ion-md-send"></i></button>
+                </form>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright">
+            PreciousitServices &copy; 2023 - All Rights Reserved
+        </p>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+    <script src="./js/carrers.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./login/login.js"></script>
+    <script src="./js/faq.js"></script>
+
+</body>
+
+</html>
