@@ -11,6 +11,27 @@
   scroll-behavior: smooth;
 }
 
+.circle {
+  z-index: 10000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: colors 5s infinite;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.circle::before {
+  content: "";
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -1181,7 +1202,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: white;
-/* }
+  /* }
 /* .newsletter {
   margin-bottom: 40px;
 }
@@ -1190,9 +1211,9 @@ ul li a {
   /* margin-bottom: 15px; */
   margin-bottom: 3rem;
   margin-top: -2rem;
-} */
+}
 
-.newsletter-form {
+*/ .newsletter-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1219,8 +1240,9 @@ ul li a {
 
 .newsletter-form button:hover {
   background-color: #0056b3;
-} */
-.newsletter form {
+}
+
+*/ .newsletter form {
   display: flex;
   flex-direction: column;
 }
