@@ -535,16 +535,6 @@
     "techstack": "HTML,Bootstrap,JS,NewsAPI",
     "slide-img-1": "img/news1.png",
     "slide-img-2": "img/news2.png"
-
-
-  }, {
-    "courseId": "Email Subscription with Google Form",
-    "name": "Email Subscription with Google Form",
-    "image": "img/Email-Subscription-with-google-sheet.png",
-    "downloadLink": "https://drive.google.com/drive/folders/18fImJiKEhYKWkwrrYvFlJAv6J16s669o?usp=sharing",
-    "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
-    "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
   },
   {
     "courseId": "Swiggy Clone",
@@ -554,10 +544,11 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/swiggy.png",
     "slide-img-2": "img/swiggy.png"
-  }, {
+  },
+  {
     "courseId": "Email Subscription with Google Form",
     "name": "Email Subscription with Google Form",
-    "image": "img/Email-Subscription-with-google-sheet.png",
+    "image": "img/emailsubscription.png",
     "downloadLink": "https://drive.google.com/drive/folders/18fImJiKEhYKWkwrrYvFlJAv6J16s669o?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
