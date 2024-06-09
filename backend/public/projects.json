@@ -532,5 +532,13 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
     "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
+  }, {
+    "courseId": "University website",
+    "name": "University website",
+    "image": "img/University-website.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1K7DIefnmuk9rsuMlkK8xZ2470XYF5Tn2?usp=sharing",
+    "techstack": "HTML, CSS",
+    "slide-img-1": "img/University-website2.png",
+    "slide-img-2": "img/University-website3.png"
   }
 ]
