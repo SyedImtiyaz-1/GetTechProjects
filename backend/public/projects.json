@@ -216,6 +216,11 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/emailValidator.png",
     "slide-img-2": "img/emailValidator.png"
+
+
+  },
+   
+=======
   },
   {
     "courseId": "Online Stationery Shop",
@@ -469,7 +474,10 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/stopwatch.png",
     "slide-img-2": "img/stopwatch.png"
+
+
   },
+  
   {
     "courseId": "Quote Generator",
     "name": "Quote Generator",
@@ -479,6 +487,19 @@
     "slide-img-1": "img/quote.png",
     "slide-img-2": "img/quote.png"
   },
+
+     {
+  "courseId": "News Blaze",
+    "name": "News Blaze",
+    "image": "img/NewsBlaze.PNG",
+    "downloadLink": "https://drive.google.com/drive/folders/1G8yx5OeP1RLGHrpg_IMBC1ShenNJNbxW?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript React Axios",
+    "slide-img-1": "img/NewsBlaze.PNG",
+    "slide-img-2": "img/NewsBlaze2.PNG"
+=======
+  }
+
+=======
   {
     "courseId": "Myntra Shopping App",
     "name": "Myntra Shopping App",
@@ -550,4 +571,5 @@
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
   }
+
 ]
