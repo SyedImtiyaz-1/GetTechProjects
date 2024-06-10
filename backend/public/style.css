@@ -305,11 +305,10 @@ section {
 /* Style for the Swiper slides */
 .swiper-slide img {
   width: 100%;
-  object-fit: contain; /* This will make sure the image retains its aspect ratio */
-  max-height: 60vh; /* This will make sure the image fits within the viewport */
+  object-fit: contain; 
+  max-height: 60vh;
 }
 
-/* Style for the Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
   height: 5px;
