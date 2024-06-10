@@ -58,7 +58,7 @@ The JavaScript file contains the game logic:
 
 ## Screenshots
 
-![Game Screenshot]assets\images\8_Puzzle.png
+![Game Screenshot]images\puzzle.png
 
 
 ## Credits
