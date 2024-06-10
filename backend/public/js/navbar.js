@@ -57,11 +57,14 @@ $(document).ready(function () {
 });
 
 function effect() {
-  loader.style.display = "none";
-  document.querySelector(".unload").style.display = "block";
+  if (loader) {
+    loader.style.display = "none";
+    document.querySelector(".unload").style.display = "block";
+  } 
 }
 
 var loader = document.querySelector(".loader");
 window.addEventListener("load", () => {
-  let timout = setTimeout(effect, 2000);
+  let timeout = setTimeout(effect, 2000);
 });
+
