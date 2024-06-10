@@ -56,11 +56,11 @@
 - Bio: College Student | Frontend Developer
 - Github: [Saifullah](https://github.com/Saifullah00)
 
-#### Name: [Mohit](https://github.com/imohitpatel) 
+#### Name: [Mohit](https://github.com/imohitpatel)
 
 - Place: Madhya Pradesh, India
 - Bio: Webdev And Graphic Designer
-- Github: [imohitpatel](https://github.com/imohitpatel) 
+- Github: [imohitpatel](https://github.com/imohitpatel)
 
 #### Name: [Mitesh Rathod](https://github.com/Mitesh2020)
 
@@ -248,13 +248,23 @@
 - Bio: College Student | Engineering
 - Github: [Aditi Bansal](https://github.com/Aditi22Bansal)
 
-
 ### Name: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
 
+### Name: [Nisarga G R](https://github.com/nisargaa20)
+
+📍 Place: Mandya, Karnataka, India.
+👩🏻‍💻 Bio: Student | Full Stack Developer, ML Enthusiast
+🚀 GitHub: [Nisarga G R](https://github.com/nisargaa20)
+
+#### Name: [Damini Chachane](https://github.com/Damini2004)
+
+- Place: Nagpur, Maharashtra, India
+- Bio: Student | Engineering
+- GitHub: [Damini Chachane](https://github.com/Damini2004)
 
 ### Name: [Ranjani Varsani](https://github.com/Varsani2520)
 
@@ -263,12 +273,33 @@
 🚀 GitHub: [Ranjani Varsani](https://github.com/Varsani2520)
 
 #### Name: [Damini Chachane](https://github.com/Damini2004)
+
 - 📍 Place: City, State, Country
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
+
 
 ### Name: [Swetha S](https://github.com/swetha5157)
 
 - Place: Coimbatore, Tamil Nadu, India
 - Bio: College Student | Engineering
 - Github: [Swetha](https://github.com/swetha5157)
+
+### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CS Undergrad | Passionate Front-end Developer
+- GitHub: [komal-agarwal5](https://github.com/komal-agarwal5)
+
+### Name: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+- Place: Kolkata, West Bengal, India.
+- Bio: CSE Undergrad | Passionate Full Stack Developer
+- GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+### Name: [Sambit Mondal](https://github.com/Sambit-Mondal)
+
+- Place: Durgapur, West Bengal, India.
+- Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
+- GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+

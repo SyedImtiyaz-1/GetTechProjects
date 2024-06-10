@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+
+.circle {
+    z-index: 10000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: colors 5s infinite;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.circle::before {
+    content: "";
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+    transform: translate(-30%, -30%);
+    border-radius: 50%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.header .navbar ul button {
+    /* width: 4vw; */
+    /* height: 4.3vh; */
+    flex-wrap: wrap;
+    /* background: transparent; */
+    color: rgb(255, 255, 255);
+    font-size: large;
+    /* border: 0.5px solid white; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    /* padding: 8em 5em; */
+    border-radius: 5px;
+    border: none;
+    background-color: #002e5f;
+    padding: 0.6em;
+}
+
+.header .navbar ul button:hover {
+    background-color: #227ebb;
+    transition: 0.2s;
+    transform: ease-in-out;
+}
+
+.header .logo img {
+    height: 37px;
+    width: 36px;
+    margin-left: 48px;
+    top: 0;
+    left: 0;
+}
+
+.header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .navbar ul li {
+    margin: 0 1.5rem;
+}
+
+.header .navbar ul li a {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header .navbar ul li a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+}
+
+.header .logo i {
+    padding: 0.5rem;
+}
+
+.header .fa-bars {
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    display: none;
+}
+
+.home {
+    min-height: 70vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden !important;
+}
+
+.home h2 {
+    color: #fff;
+    font-size: 5.5rem;
+}
+
+.career-heading {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 6rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #002e5f;
+    position: relative;
+    letter-spacing: 0.2rem;
+    margin: -2rem auto 2rem auto;
+}
+
+.career-heading p {
+    font-size: 2rem;
+    color: #333;
+}
+
+.heading::before,
+.heading::after {
+    content: "";
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-top: 0.4rem solid #002e5f;
+    border-left: 0.4rem solid #002e5f;
+}
+
+.heading::before {
+    top: 5.8rem;
+    left: -2rem;
+}
+
+.heading::after {
+    bottom: -0.5rem;
+    right: -2rem;
+    transform: rotate(180deg);
+}
+
+.career {
+    width: 80%;
+    height: auto;
+    margin: 5rem auto 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+
+.career-form {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: left;
+}
+
+.career-form-txt,
+.career-form-experience {
+    margin-left: 2rem;
+    width: 96.5%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.career-form-email {
+    margin-left: 2rem;
+    width: 96.5%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.career-form-txt::placeholder,
+.career-form-experience::placeholder {
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+.career-form-email::placeholder {
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+.radio-class {
+    margin-left: 1rem;
+    width: 110%;
+    margin-top: -2rem;
+    height: 40px;
+    color: #000;
+    margin-bottom: 5rem;
+    padding: 15px;
+}
+
+.radio {
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    margin-right: 9.5rem;
+}
+
+.career-form-txtarea {
+    margin-left: 2rem;
+    width: 96.5%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.career-form-txtarea::placeholder {
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+.file {
+    margin-left: 1rem;
+    width: 100%;
+    margin-top: -2.5rem;
+    height: 40px;
+    color: #000;
+    margin-bottom: 5rem;
+    padding: 15px;
+}
+
+.upload {
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.career-form-btn {
+    margin-left: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: white;
+    border-style: groove;
+    border-color: #002e5f;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 15rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+    margin-left: 134rem;
+}
+
+.career-form-btn:hover {
+    letter-spacing: 0.1rem;
+    opacity: 0.9;
+    color: white;
+    background: #002e5f;
+}
+
+.career-form-phone {
+    margin-left: 2rem;
+    width: 96.5%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.career-form-phone::placeholder {
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0px 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row_f {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo_f {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    text-transform: lowercase;
+}
+
+footer footer ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+footer form .ion-md-mail {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer form input {
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+footer form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+footer form button .ion-md-send {
+    font-size: 16px;
+    color: #ccc;
+}
+
+footer hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background-color: #002e5f;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 1;
+    font-size: 44px;
+    left: 15px;
+    bottom: 15px;
+    transition: background-color 0.3s;
+    /* Change 'background' to 'background-color' */
+    z-index: 9;
+}
+
+.back-to-top i {
+    color: #ffffff;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background-color: #002e5f;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 1;
+    font-size: 44px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.3s;
+    z-index: 9;
+}
+
+.back-to-top i {
+    color: #ffffff;
+}
+
+.back-to-top i:hover {
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .footer .credit {
+        text-align: right;
+    }
+
+    .footer .copyright {
+        text-align: left;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header .logo img {
+        width: 20%;
+        height: 3rem;
+        top: 0;
+        left: 0;
+        background-size: cover;
+    }
+
+    .header .fa-bars {
+        display: block;
+        color: white;
+    }
+
+    .header .fa-bars:hover {
+        color: #00bfff;
+    }
+
+    .header .navbar {
+        position: fixed;
+        top: -120%;
+        left: 0;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        z-index: 1000;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+    }
+
+    .header .navbar ul {
+        height: 100%;
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .header .navbar ul li {
+        margin: 1rem 0;
+    }
+
+    .header .navbar ul li a {
+        color: grey;
+        font-size: 2.4rem;
+    }
+
+    .header .fa-times {
+        transform: rotate(90deg);
+    }
+
+    .header .nav-toggle {
+        top: 5.8rem;
+    }
+
+    .home {
+        min-height: 60vh;
+    }
+
+    .home h2 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .back-to-top {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .career {
+        width: 80%;
+        height: auto;
+        margin: 5rem auto 5rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 0px 10px 0px #666;
+    }
+
+    .career-form {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: auto;
+        flex: 50%;
+        text-align: left;
+    }
+
+    .career-form-txt,
+    .career-form-experience {
+        margin-left: 1rem;
+        width: 96.5%;
+        height: 40px;
+        color: #000;
+        border: 1px solid #bcbcbc;
+        border-radius: 50px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .career-form-email {
+        margin-left: 1rem;
+        width: 96.5%;
+        height: 40px;
+        color: #000;
+        border: 1px solid #bcbcbc;
+        border-radius: 50px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .career-form-txt::placeholder,
+    .career-form-experience::placeholder {
+        color: #aaa;
+        font-size: 1.5rem;
+    }
+
+    .career-form-email::placeholder {
+        color: #aaa;
+        font-size: 1.5rem;
+    }
+
+    .radio-class {
+        margin-left: 0;
+        width: 110%;
+        margin-top: -2.5rem;
+        height: auto;
+        color: #000;
+        margin-bottom: auto;
+        padding: 15px;
+    }
+
+    .radio {
+        font-size: 1.5rem;
+        margin-right: 5rem;
+    }
+
+    .career-form-txtarea {
+        margin-left: 1rem;
+        width: 96.5%;
+        height: 130px;
+        color: #000;
+        border: 1px solid #bcbcbc;
+        border-radius: 10px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .career-form-txtarea::placeholder {
+        color: #aaa;
+        font-size: 1.5rem;
+    }
+
+    .file {
+        margin-left: 0;
+        width: 100%;
+        margin-top: -2.5rem;
+        height: 40px;
+        color: #000;
+        margin-bottom: 5rem;
+        padding: 15px;
+    }
+
+    .upload {
+        margin-top: 0.75rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .career-form-btn {
+        margin-left: 1rem;
+        outline: none;
+        border: none;
+        border-radius: 5rem;
+        background: white;
+        border-style: groove;
+        border-color: #002e5f;
+        font-size: 1.5rem;
+        cursor: pointer;
+        height: 3.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        width: 15rem;
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+    }
+
+    .career-form-btn:hover {
+        letter-spacing: 0.1rem;
+        opacity: 0.9;
+        color: white;
+        background: #002e5f;
+    }
+
+    .career-form-phone {
+        margin-left: 1rem;
+        width: 96.5%;
+        height: 40px;
+        color: #000;
+        border: 1px solid #bcbcbc;
+        border-radius: 50px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .career-form-phone::placeholder {
+        color: #aaa;
+        font-size: 1.5rem;
+    }
+}
+
+.accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+    margin-left: 37rem;
+    margin-top: 3rem;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 18px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.accordion-header:hover {
+    background-color: #e2e2e2;
+}
+
+.accordion-header.active {
+    background-color: #e2e2e2;
+}
+
+.accordion-content {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    /* Adjust the font size */
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+@media screen and (min-width: 1501px) {
+    .career-form-btn {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
