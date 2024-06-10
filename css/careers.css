@@ -10,6 +10,11 @@
   text-decoration: none;
 }
 
+.icons {
+  font-size: 25px;
+  color: white;
+}
+
 .circle {
   z-index: 10000;
   width: 20px;

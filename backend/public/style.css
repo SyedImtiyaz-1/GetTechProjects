@@ -84,6 +84,11 @@ body {
   /* Slight zoom effect on hover */
 }
 
+.icon {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
 
 
 section {

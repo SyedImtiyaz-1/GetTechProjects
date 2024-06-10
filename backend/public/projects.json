@@ -23,8 +23,8 @@
     "image": "img/appleLogo.jpg",
     "downloadLink": "https://drive.google.com/file/d/19Fc0jqC4Os9fh-6bRN-QOZtBauGoF7Mo/view?usp=drivesdk",
     "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/Applestore02.png",
-    "slide-img-2": "img/Applestore03.png"
+    "slide-img-1": "img/Applestore02.jpg",
+    "slide-img-2": "img/Applestore03.jpg"
   },
   {
     "courseId": "Questify",
@@ -65,7 +65,7 @@
   {
     "courseId": "E-Commerce Cloths Shopping",
     "name": "E-Commerce (CodeShop)",
-    "image": "img/e-commerce.png",
+    "image": "img/e-commerceLogo.jpg",
     "downloadLink": "https://drive.google.com/uc?export=download&id=108U9iF8vFEgVMSalcdWWD5Sp3aoBE00G",
     "techstack": "HTML, CSS, JavaScript, Swipper.JS",
     "slide-img-1": "img/codeshop1.png",
@@ -250,7 +250,7 @@
     "image": "img/eh.png",
     "downloadLink": "https://drive.google.com/drive/folders/1G7YV4zg7UU0oenqMa7nQtU8KCotRE3Xg?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/eh1.jpg",
+    "slide-img-1": "img/eh1.png",
     "slide-img-2": "img/eh2.png"
   },
   {
@@ -331,7 +331,7 @@
     "image": "img/expenceLogo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1oj0Ly7dBvQ5yn2kwZE7pu6t-U-XZdj1x?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/Expense_Tracker.jpg",
+    "slide-img-1": "img/Expense_Tracker.png",
     "slide-img-2": "img/Expense_Tracker1.png"
   },
   {
@@ -383,7 +383,7 @@
   {
     "courseId": "WanderLust",
     "name": "WanderLust",
-    "image": "img/WanderLust.png",
+    "image": "img/wanderlustLogo.jpg",
     "downloadLink": "https://drive.google.com/drive/folders/1e2dr_-wUTn32UFOEf0g2FBGB3tIED87R?usp=sharing",
     "techstack": "HTML, CSS, JavaScript, Bootstrap, EJS, Nodejs, Express, MongoDB",
     "slide-img-1": "img/Wander-slide-1.png",
@@ -392,7 +392,7 @@
   {
     "courseId": "Tower Block Game",
     "name": "Tower Block Game ",
-    "image": "img/Tower Block.png",
+    "image": "img/towerblockLogo.jpg",
     "downloadLink": "",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/tower_block_1.png",
@@ -410,7 +410,7 @@
   {
     "courseId": "Chess Game",
     "name": "Chess Game",
-    "image": "img/ChessIcon.png",
+    "image": "img/chessLogo.webp",
     "downloadLink": "https://drive.google.com/drive/folders/1OssEh975_OuWjiHLuV3S8x026nHOj7if?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Chessimg.png",
@@ -437,7 +437,7 @@
   {
     "courseId": "Quantum Maze",
     "name": "Quantum Maze",
-    "image": "img/Quantum_Maze1.png",
+    "image": "img/quantummazeLogo.jpg",
     "downloadlink": "https://drive.google.com/drive/folders/1dcURDIdjKTAkbtM33nxTexpen8sgq3gu?usp=sharing",
     "techstack": "HTML,CSS,Javascript",
     "slide-img-1": "img/Quantum_Maze.png",
@@ -532,13 +532,23 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
     "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
-  }, {
+  },
+  {
     "courseId": "University website",
     "name": "University website",
-    "image": "img/University-website.png",
+    "image": "img/university logo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1K7DIefnmuk9rsuMlkK8xZ2470XYF5Tn2?usp=sharing",
     "techstack": "HTML, CSS",
     "slide-img-1": "img/University-website2.png",
     "slide-img-2": "img/University-website3.png"
+  },
+  {
+    "courseId": "Monopoly_Game",
+    "name": "Monopoly_Game",
+    "image": "img/Monopoly_Game.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS",
+    "slide-img-1": "img/Monopoly_Game.png",
+    "slide-img-2": "img/Monopoly_Game.png"
   }
 ]
