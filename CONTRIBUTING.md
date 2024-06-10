@@ -289,3 +289,9 @@
 - Place: Kolkata, West Bengal, India.
 - Bio: CSE Undergrad | Passionate Full Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
+
+### Name: [Sambit Mondal](https://github.com/Sambit-Mondal)
+
+- Place: Durgapur, West Bengal, India.
+- Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
+- GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)

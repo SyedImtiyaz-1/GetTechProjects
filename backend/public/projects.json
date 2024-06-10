@@ -514,16 +514,6 @@
     "techstack": "HTML,Bootstrap,JS,NewsAPI",
     "slide-img-1": "img/news1.png",
     "slide-img-2": "img/news2.png"
-
-
-  }, {
-    "courseId": "Email Subscription with Google Form",
-    "name": "Email Subscription with Google Form",
-    "image": "img/Email-Subscription-with-google-sheet.png",
-    "downloadLink": "https://drive.google.com/drive/folders/18fImJiKEhYKWkwrrYvFlJAv6J16s669o?usp=sharing",
-    "techstack": "HTML, CSS, JavaScript",
-    "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
-    "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
   },
   {
     "courseId": "Swiggy Clone",
@@ -533,14 +523,33 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/swiggy.png",
     "slide-img-2": "img/swiggy.png"
-  }, {
+  },
+  {
     "courseId": "Email Subscription with Google Form",
     "name": "Email Subscription with Google Form",
-    "image": "img/Email-Subscription-with-google-sheet.png",
+    "image": "img/emailsubscription.png",
     "downloadLink": "https://drive.google.com/drive/folders/18fImJiKEhYKWkwrrYvFlJAv6J16s669o?usp=sharing",
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
     "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
+ },
+ {
+    "courseId": "University website",
+    "name": "University website",
+    "image": "img/University-website.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1K7DIefnmuk9rsuMlkK8xZ2470XYF5Tn2?usp=sharing",
+    "techstack": "HTML, CSS",
+    "slide-img-1": "img/University-website2.png",
+    "slide-img-2": "img/University-website3.png"
+  },
+  {
+    "courseId": "Monopoly_Game",
+    "name": "Monopoly_Game",
+    "image": "img/Monopoly_Game.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS",
+    "slide-img-1": "img/Monopoly_Game.png",
+    "slide-img-2": "img/Monopoly_Game.png"
   },
   {
     "courseId": "Music Visualizer",
