@@ -1,0 +1,509 @@
+/*=================================================== Globlly =================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto&family=Ubuntu:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+  font-family: 'Ubuntu', sans-serif;
+ 
+}
+
+.backgroundDark{
+ background-color: #160133;
+  
+}
+
+.backgroundLight{
+ background-color: white;
+}
+
+.darkText{
+  color: #160133;
+}
+
+.lightText{
+  color: white;
+}
+
+.fa-copy:hover {
+  transform: scale(1.1);
+}
+
+.copy-popup {
+  position: absolute;
+  top: -25px;
+  right: 75px;
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 1;
+  font-size: 14px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.copy-popup.show {
+  display: block;
+  opacity: 1; /* Show the tooltip with full opacity */
+}
+
+/*=================================================== Navbar =================================================*/
+
+/* Default styles (for small screens) */
+.nav-brand h1 {
+  font-size: 20px;
+  font-weight: 700;
+  background-image: url(https://img.freepik.com/premium-photo/rainbow-flag-using-bits-binary-code-style-internet-culture_921860-8636.jpg?size=626&ext=jpg&ga=GA1.1.1378312870.1687680026&semt=ais);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.nav-brand a {
+  text-decoration: none;
+}
+
+.nav-brand {
+  padding-bottom: 25px;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#root > div > nav > div > div.category > ul > li.nav-link.mx-3 {
+  text-align: center;
+  align-self: center;
+}
+
+.category .btn i{
+  font-size: 10px;
+}
+
+.category .btn {
+  margin: 5px auto; /* Center the buttons horizontally */
+  border-radius: 30px;
+  border: 2px solid #ff6608;
+  color: #ff6608 !important;
+  font-size: 12px;
+  padding: 3px 0;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.category .btn:hover {
+  border: 2px solid #ff6608;
+  outline: none;
+  color: #ff6608;
+}
+
+.category img {
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* Medium screens and larger */
+@media (min-width: 501px) {
+  .nav-brand h1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .category .btn {
+    margin: 0 35px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+  .category .btn i{
+    font-size: 20px;
+  }
+
+  .category img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar .simple-text {
+    font-size: 30px;
+    text-decoration: 5px solid #ff6608 underline;
+  }
+
+  .navbar .special-text {
+    font-size: 30px;
+    color: #ff6608;
+  }
+}
+
+/* Large screens and larger */
+@media (min-width: 769px) {
+  .category .btn {
+    margin: 0 35px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+  .category img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .category .btn i{
+    font-size: 30px;
+  }
+  
+  .category ul li i {
+    font-size: 15px;
+  }
+
+  .navbar .simple-text {
+    font-size: 30px;
+    text-decoration: 5px solid #ff6608 underline;
+  }
+
+  .navbar .special-text {
+    font-size: 30px;
+    color: #ff6608;
+  }
+}
+
+
+/*=================================================== HomePage =================================================*/
+
+.home h1 {
+  font-size: 70px !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 40px !important;
+  }
+}
+.simple-text {
+  text-decoration: 10px solid #ff6608 underline;
+}
+.special-text {
+  color: #ff6608;
+  
+}
+
+.home p{
+  text-align: justify;
+}
+
+.homepagebtn button{
+background: transparent;
+border: 2px solid #ff6608;
+border-top-right-radius: 6px;
+border-bottom-left-radius: 12px;
+color: #ff6608;
+padding: 0 10px;
+font-size: 20px;
+}
+
+.homepagebtn button:hover{
+  border: 2px dashed #ff6608;
+   }
+
+   @media(max-width: 768px){
+    .homepagebtn button{
+      background: transparent;
+      border: 2px solid #ff6608;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 12px;
+      color: #ff6608;
+      padding: 0 6px;
+      font-size: 10px;
+      }
+   }
+   .typing-text{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6608;
+
+   }
+
+
+   /*=================================================== Modal =================================================*/
+
+   .modal-content{
+    border: 2px solid #ff6608;
+    border-radius: 10px;
+   }
+
+   .modal-body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   }
+   .modal-body ul{
+    padding: 0;
+   }
+   .modal-body ul li{
+    margin: 20px 0;
+    font-size: 25px;
+   
+  
+   }
+  .modal-options {
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+    /* left: 38%; */
+    
+  }
+  
+  .modal-options::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #ff6608;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+  .modal-options:hover::after{
+    transform: scaleX(1);
+
+  }
+
+  
+
+  .fa-solid{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+ /*=================================================== Styled Modal =================================================*/
+  .styled-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 150;
+    overflow: auto;
+  }
+
+  .styled-modal .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: #fff; */
+    width: 100%;
+    min-width: 20rem;
+    max-width: 30rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+
+  .styled-modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+  }
+
+  .styled-modal .title {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .styled-modal .title h4 {
+    margin: 0;
+  }
+
+  .styled-modal .body {
+    padding: 10px 0;
+  }
+
+  /* Add transition for smoother effect */
+  .styled-modal .content,
+  .styled-modal .close,
+  .styled-modal .title {
+    transition: 0.3s;
+  }
+
+  /* Hover effect for close button */
+  .styled-modal .close:hover {
+    color: #000;
+  }
+  .styled-modal .closeLight:hover {
+      color: #fff;
+  }
+  .styled-modal .footer {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .styled-modal .footer button{
+    padding: 1%;
+    border-radius: 1rem;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+  }
+
+  /*=================================================== Footer =================================================*/
+
+
+  .github-icon i{
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .footerText{
+    font-size: 20px;
+    
+    
+  }
+
+  .ourname{
+    cursor: pointer;
+    text-decoration: underline 1px #ff6608 solid;
+    color: #ff6608;
+  }
+
+   /*=================================================== CourseCard =================================================*/
+
+ .card{
+  border: none;
+  border-radius: 4px;
+  border: 1px dashed #ff6608;
+ }
+   .card img{
+ height: 250px;
+}
+.card-body .btn{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0px; 
+}
+.card-description{
+  max-height: 10rem;
+}
+.sitesbtn .btn{
+  background-color: #ff6608;
+  color: white;
+ height: 35px;
+  border: none;
+  border-radius: 4px;
+}
+
+.sitesbtn .btn:hover{
+  background-color: transparent;
+  border: 2px dashed #ff6608 ;
+  color: #ff6608;
+}
+
+   /*=================================================== LinksCard =================================================*/
+
+.link-card{
+  border: 2px dashed #ff6608;
+  border-radius: 4px;
+  height: 200px;
+}
+.link-card .name{
+/* font-size: 1.5rem; */
+color: #ff6608;
+}
+.link-card button{
+  background-color: #ff6608;
+  color: white;
+ height: 35px;
+  border: none;
+  border-radius: 4px;
+  /* margin-top: 35px; */
+}
+
+.link-card button:hover{
+background-color: transparent;
+border: 2px dashed #ff6608 ;
+color: #ff6608;
+}
+
+
+
+.link-card i{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.link-card button i{
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+ /*=================================================== Search =================================================*/
+ .search-input{
+  border: 2px solid #ff6608;
+  border-radius: 10px;
+ }
+
+ .search-input input {
+  border: none;
+  background-color: transparent;
+  color: #ff6608;
+
+}
+
+.search-input input:focus {
+  background-color: transparent; /* or any other color you prefer */
+}
+.search-input input::placeholder{
+  color: #ff6608;
+}
+
+ 
+
+ .search-input i{
+  margin: 4px;
+  padding: 3px;
+  color: #ff6608;
+  border-left: 2px solid #ff6608;
+  cursor: pointer;
+  font-size: 25px;
+ }
+
+ .dropdown{
+  background-color: #160133;
+  color: #ff6608;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+ }
+
+ .dropdown-row{
+  cursor: pointer;
+  text-align: start;
+  margin: 10px 20px;
+ }
