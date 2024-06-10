@@ -136,9 +136,9 @@ section {
   text-align: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
-  background-color: #a0d8f0;
-  box-shadow: 0 4px 8px 0 #a3cbf5,
-    0 6px 20px 0 #a3cbf5;
+  background-color: #dfe6e9;
+  box-shadow: 0 4px 8px 0 #c0c4c6,
+    0 6px 20px 0 #c0c4c6;
 
   /* width: 15vw;
     height: 30vh; */
@@ -149,10 +149,9 @@ section {
 
 }
 
-.course:hover {
-  border: .2px solid #093074;
-  background-color: #5c93f2;
-}
+/* .course:hover {
+  border:2px solid #093074;
+} */
 
 .course[data-paid="false"]:hover {
   /* Your hover effect styles */
@@ -162,6 +161,7 @@ section {
 .course .course-banner img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 
 .course-author:hover {
@@ -181,6 +181,7 @@ section {
 
 .course-title {
   margin-top: .5em;
+  color: black;
 }
 
 .btn-7c {
@@ -407,6 +408,7 @@ section {
 .course-detail p {
   font-size: 1.3em;
   background-color: rgba(255, 0, 0, 0.357);
+  border-radius: 1rem;
   width: fit-content;
   padding: 0.1em 0.5em;
   margin: 0.8vh auto;
@@ -446,7 +448,7 @@ section {
 .buy-button {
   padding: 0.7em;
   width: 10em;
-  color: black;
+  color: white;
   background-color: #0654a8;
   font-size: 1.2em;
   border: none;
@@ -461,7 +463,14 @@ section {
   background: #093074;
   color: white;
 }
-
+.eye-button:hover{
+  /* color: white; */
+  font-weight: bold;
+}
+.eye-button:focus{
+outline: none;
+border: none;
+}
 .buy-button[data-paid="true"] {
   /* Button styles when purchased */
   background-color: none;
@@ -532,6 +541,7 @@ section {
   outline: none;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
+  margin-top: 2rem;
   max-width: 400px;
 }
 
