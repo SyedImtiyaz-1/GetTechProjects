@@ -295,3 +295,8 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+
+### Name: [Sai Pradyumna Goud](https://github.com/Saipradyumnagoud)
+- Place : Warangal,Telangana,India
+- Bio : CSE undergrad | Aspiring Full Stack Developer
+- Github : [Sai Pradyumna Goud](https://github.com/Saipradyumnagoud)
