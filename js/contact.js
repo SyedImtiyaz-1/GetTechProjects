@@ -89,12 +89,14 @@ document.addEventListener("DOMContentLoaded", function() {
     
     let subscribe = document.getElementById("subs");
     let tval = document.getElementById("tval");
-    subscribe.addEventListener("click", () => {
-      if (tval.value === "") {
-        tval.value = "Please enter your valid email!";
-      } else {
-        alert("Thank you! We'll share you updates on time.");
-        tval.value = "";
-      }
-    });
+    if (subscribe) {
+        subscribe.addEventListener("click", () => {
+            if (tval.value === "") {
+                tval.value = "Please enter your valid email!";
+            } else {
+                alert("Thank you! We'll share you updates on time.");
+                tval.value = "";
+            }
+        });
+    }
 });
