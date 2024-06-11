@@ -41,10 +41,11 @@ body {
   overflow-x: hidden;
 }
 select{
-  padding: 5px;
+  padding: 1px;
   background-color: #002e5f;
   color: white;
- height: 4.3vh;
+ height: 5vh;
+ width: 17vh;
 }
 option{
   background-color: #002e5f;
@@ -54,6 +55,7 @@ option{
 .VIpgJd-ZVi9od-l4eHX-hSRGPd{
   display: none !important;
 }
+
 .VIpgJd-ZVi9od-ORHb{
   display: none !important;
   background: none !important;
@@ -655,7 +657,18 @@ body.night {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
   }
-
+  select{
+    padding: 1px;
+    background-color: #00093c;
+    color: white;
+   /* height: 50vh; */
+   width: 12vh;
+   border: 1px solid black;
+  }
+  option{
+    background-color: #00093c;
+    color: white;
+  }
   .header .navbar ul button:hover {
     text-decoration: underline;
     background: none;
@@ -1794,7 +1807,18 @@ hr {
     height: 65%;
     border-radius: 10px !important;
   }
-
+  /* select{
+    padding: 1px;
+    background-color: white;
+    color: black;
+   height: auto;
+   width: 12vh;
+   border: 1px solid black;
+  }
+  option{
+    background-color: white;
+    color: black;
+  } */
   .chatbot__box {
     height: 100%;
     padding: 0.5em;
