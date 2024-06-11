@@ -295,3 +295,10 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+
+### Name: [Kevin Sangani](https://github.com/Kevin0403)
+
+- Place: Surat, Gujarat, India.
+- Bio: IT Undergred | Passionate Full Stack Developer
+- Github: [Kevin0403](https://github.com/Kevin0403)
+- linkedIn: [Kevin Sangani](https://www.linkedin.com/in/kevin-sangani-8160b2230/)
