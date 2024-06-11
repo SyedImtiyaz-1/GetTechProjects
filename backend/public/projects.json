@@ -549,5 +549,14 @@
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
+  },
+  {
+  "courseId": "Morse _code_Generator",
+    "name": "Morse _code_Generator",
+    "image": "backend/public/img/Morse_Code_Generator.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1xH078jilDUQJN4hfov9AgEPbATklZV5_?usp=sharing",
+    "techstack": "HTML, CSS,Java Script",
+    "slide-img-1": "backend/public/img/Morse_Code_Generator.png",
+    "slide-img-2": "backend/public/img/Morse_Code_Generator.png"
   }
 ]
