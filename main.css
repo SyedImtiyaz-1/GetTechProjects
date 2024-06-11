@@ -51,20 +51,18 @@ option{
   background-color: #002e5f;
   color: white;
 }
-
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+  display: none;
+}
 .VIpgJd-ZVi9od-l4eHX-hSRGPd{
-  display: none !important;
-}
+  display: none;
+}  
+.skiptranslate{
+  font-size: 0;
 
-.VIpgJd-ZVi9od-ORHb{
-  display: none !important;
-  background: none !important;
-  text:none;
 }
-.VIpgJd-ZVi9od-ORHb-OEVmcd .skiptranslate{
-  display: none !important;
-  background: none !important;
-  visibility: hidden !important;
+body {
+  top: 0px !important; 
 }
 
 .loader {
