@@ -278,6 +278,13 @@
 - ⏳ Bio: Student | Frontend Developer | Backend Developer
 - 🚀 GitHub: [Damini Chachane](https://github.com/Damini2004)
 
+
+### Name: [Swetha S](https://github.com/swetha5157)
+
+- Place: Coimbatore, Tamil Nadu, India
+- Bio: College Student | Engineering
+- Github: [Swetha](https://github.com/swetha5157)
+
 ### Name: [Komal Agarwal](https://github.com/komal-agarwal5)
 
 - Place: Kolkata, West Bengal, India.
@@ -295,3 +302,4 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+
