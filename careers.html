@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="./css/team.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/careers.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="icon" href="./images/image.png" />
@@ -102,10 +103,19 @@
     <div class="fas fa-bars"></div>
     <nav class="navbar">
       <ul>
-        <li><a href="./index.html">home</a></li>
-        <li><a href="./backend/public/index.html">Projects</a></li>
-        <li><a id="sadafContact" href="#">contact</a></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="icons bx bxs-home"></i>
+          <li style="margin-left: 1px">
+            <a href="../../index.html">home</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         <i class='icons bx bx-laptop'></i>
+        <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i class='icons bx bxs-contact'></i>
+        <li style="margin-left: 1px;"><a id="sadafContact" href="#">contact</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button id="login">Log In</button>
         <h3 id="name"></h3>
         <img id="image" onclick="ProfileClicked()" />
@@ -199,13 +209,15 @@
         </p>
       </div>
       <div class="col">
-        <h3>Office</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=30605&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;">Office</h3>
         <p>Nagpur, PIN 440001</p>
         <p>Maharashtra, India</p>
         <p class="email">PreciousItServices@gmail.com</p>
       </div>
       <div class="col">
-        <h3>Useful Links</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=xi9J4k2OgrkM&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;"> Useful Links</h3>
         <ul>
           <li><a href=".index.html#portfolio">Order</a></li>
           <li><a href="careers.html">Careers</a></li>
@@ -215,7 +227,8 @@
         </ul>
       </div>
       <div class="col">
-        <h3>About Us</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=WX8XgeDAB2Bh&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;"> About Us</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="Team.html">Team</a></li>
@@ -223,7 +236,8 @@
         </ul>
       </div>
       <div class="col">
-        <h3>Newsletter</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=bqI4gOgp4z1f&format=png&color=000000" alt="Newsletter"
+              style="width: 40px; height: 40px;">Newsletter</h3>
         <form>
           <i class="icon ion-md-mail"></i>
           <input type="email" placeholder="Enter your e-mail id" required />
