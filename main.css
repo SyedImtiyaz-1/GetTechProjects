@@ -40,9 +40,29 @@ html {
 body {
   overflow-x: hidden;
 }
+select{
+  padding: 5px;
+  background-color: #002e5f;
+  color: white;
+ height: 4.3vh;
+}
+option{
+  background-color: #002e5f;
+  color: white;
+}
 
-.unload {
-  display: none;
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+  display: none !important;
+}
+.VIpgJd-ZVi9od-ORHb{
+  display: none !important;
+  background: none !important;
+  text:none;
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd .skiptranslate{
+  display: none !important;
+  background: none !important;
+  visibility: hidden !important;
 }
 
 .loader {
