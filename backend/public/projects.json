@@ -236,6 +236,23 @@
     "slide-img-2": "img/todolist2.png"
   },
   {
+      "courseId": "Score Tracker App",
+        "name": "Score Tracker App",
+        "image": "img/scoretracker1.png",
+        "downloadLink": "https://drive.google.com/drive/folders/1m33j71DbQ3bDo6gengSog3Szs4iLB7BX?usp=drive_link",
+        "techstack": "HTML, CSS, JavaScript",
+        "slide-img-1": "img/scoretracker2.png",
+        "slide-img-2": "img/scoretracker3.png"
+  },
+  {
+ "courseId": "Pac Man Game",
+   "name": "Pac Man Game",
+   "image": "img/Pacmanlogo.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/Pacman.png",
+   "slide-img-2": "img/Pacman.png"
+ },{
     "courseId": "Estate Square App",
     "name": "Estate Square App",
     "image": "img/estate.png",
@@ -352,7 +369,6 @@
     "slide-img-1": "img/YoutubeVideoDown.png",
     "slide-img-2": "img/YoutubeVideoDown.png"
   },
-
   {
     "courseId": "Analog Clock",
     "name": "Analog Clock",
@@ -552,3 +568,4 @@
     "slide-img-2": "img/Monopoly_Game.png"
   }
 ]
+
