@@ -543,12 +543,75 @@
     "slide-img-2": "img/University-website3.png"
   },
   {
-    "courseId": "Monopoly_Game",
-    "name": "Monopoly_Game",
-    "image": "img/Monopoly_Game.png",
+    "courseId": "Student Portal System",
+    "name": "Student_Portal",
+    "image": "img/portal.png",
     "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
-    "techstack": "HTML, CSS",
-    "slide-img-1": "img/Monopoly_Game.png",
-    "slide-img-2": "img/Monopoly_Game.png"
+    "techstack": "ReactJs, TailwindCSS, Chakraui",
+    "slide-img-1": "img/portal.png",
+    "slide-img-2": "img/portal.png"
+  },
+  {
+    "courseId": "AALA- Insurance Website",
+    "name": "AALA",
+    "image": "img/aala.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "next.js,reactjs,tailwind,nodejs",
+    "slide-img-1": "img/aala.png",
+    "slide-img-2": "img/aala.png"
+  },
+  {
+    "courseId": "Background Hue Change",
+    "name": "Background Hue Change",
+    "image": "img/bg.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS,JS",
+    "slide-img-1": "img/bg.png",
+    "slide-img-2": "img/bg.png"
+  },
+  {
+    "courseId": "happymart",
+    "name": "happymart",
+    "image": "img/happymart.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS,JS",
+    "slide-img-1": "img/happymart.png",
+    "slide-img-2": "img/happymart.png"
+  },
+  {
+    "courseId": "Swaad Guru",
+    "name": "Swaad Guru",
+    "image": "img/hotel.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS, JS",
+    "slide-img-1": "img/hotel.png",
+    "slide-img-2": "img/hotel.png"
+  },
+  {
+    "courseId": "Key Checker",
+    "name": "Key Checker",
+    "image": "img/key.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS,JS",
+    "slide-img-1": "img/key.png",
+    "slide-img-2": "img/key.png"
+  },
+  {
+    "courseId": "Myster Number Challenge",
+    "name": "Myster Number Challenge",
+    "image": "img/number.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS,JS",
+    "slide-img-1": "img/number.png",
+    "slide-img-2": "img/number.png"
+  },
+  {
+    "courseId": "Note It Down",
+    "name": "Note It Down",
+    "image": "img/todo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
+    "techstack": "HTML, CSS, JS",
+    "slide-img-1": "img/todo.png",
+    "slide-img-2": "img/todo.png"
   }
 ]
