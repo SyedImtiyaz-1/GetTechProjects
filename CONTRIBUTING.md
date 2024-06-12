@@ -295,3 +295,9 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+
+### Name: [Arif Pirxada](https://github.com/arifpirxada)
+
+- Place: J&K, India.
+- Bio: MERN Stack Developer
+- GitHub: [Arif Pirxada](https://github.com/arifpirxada)
