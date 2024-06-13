@@ -6,8 +6,8 @@
 body {
   font-family: "Poppins", sans-serif;
   transition: 0.1s;
-  /* Enables the scrolling throughout the entire body */
-  overflow: auto !important;  
+  /* Fixing the scroll bug by providing the scroll property to the body */
+  overflow: auto !important;
 }
 
 .circle {

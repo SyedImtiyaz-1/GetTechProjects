@@ -1,3 +1,10 @@
+#### Name: [Avinash Kumar Sinha](https://github.com/AVINASH-X2)
+ 
+ -Place: Coimbatore, Tamilnadu, India
+ -Bio: College Student | MERN Stack Developer
+ -GitHub: [Avinash Kumar](https://github.com/AVINASH-X2)
+ -Linkedin: [Avinash Kumar Sinha](https://www.linkedin.com/in/avinash-kumar-sinha-54304325a/)
+
 #### Name: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
 - Place: Nagpur, Maharashtra, India
