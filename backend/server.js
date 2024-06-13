@@ -1,27 +1,29 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const path = require('path');
-const nodemailer = require('nodemailer');
-const fs = require('fs');
+const path = require("path");
+const nodemailer = require("nodemailer");
+const fs = require("fs");
 
 const PORT = process.env.PORT || 4000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Create a transporter for sending emails
 const transporter = nodemailer.createTransport({
-  service: 'EmailJS', // Use the EmailJS service
+  service: "EmailJS", // Use the EmailJS service
   auth: {
-    user: 'oUbB-IqXyvbW5JlV9', // Replace with your EmailJS user ID
-    pass: 'dzDVVi2bCYjXw4BNN5Wec', // Replace with your EmailJS secret
+    user: "oUbB-IqXyvbW5JlV9", // Replace with your EmailJS user ID
+    pass: "dzDVVi2bCYjXw4BNN5Wec", // Replace with your EmailJS secret
   },
 });
 
 // Read project data from the JSON file
-const projectsData = JSON.parse(fs.readFileSync('public/projects.json', 'utf8'));
+const projectsData = JSON.parse(
+  fs.readFileSync("./backend/public/projects.json", "utf8")
+);
 
 // Define the route to handle the purchase form submission
-app.post('/purchase', (req, res) => {
+app.post("/purchase", (req, res) => {
   const { name, email, projectId } = req.body;
 
   // Assuming you have a database connection and model defined
@@ -33,18 +35,20 @@ app.post('/purchase', (req, res) => {
   })
     .then(() => {
       // Find the selected project data based on the projectId
-      const selectedProject = projectsData.find(project => project.projectId === projectId);
+      const selectedProject = projectsData.find(
+        (project) => project.projectId === projectId
+      );
 
       if (selectedProject) {
         // Send the project to the user's email
         sendProjectByEmail(email, selectedProject);
-        res.redirect('/purchase-confirmation');
+        res.redirect("/purchase-confirmation");
       } else {
-        res.status(404).json({ error: 'Project not found' });
+        res.status(404).json({ error: "Project not found" });
       }
     })
-    .catch(err => {
-      res.status(500).json({ error: 'An error occurred' });
+    .catch((err) => {
+      res.status(500).json({ error: "An error occurred" });
     });
 });
 
@@ -52,10 +56,10 @@ app.post('/purchase', (req, res) => {
 async function sendProjectByEmail(userEmail, projectData) {
   try {
     const mailOptions = {
-      from: 'syedimtiyazali141@gmail.com',
+      from: "syedimtiyazali141@gmail.com",
       to: userEmail,
-      subject: 'Your Project',
-      text: 'Please find your attached project.',
+      subject: "Your Project",
+      text: "Please find your attached project.",
       attachments: [
         {
           filename: projectData.name,
@@ -65,9 +69,9 @@ async function sendProjectByEmail(userEmail, projectData) {
     };
 
     const info = await transporter.sendMail(mailOptions);
-    console.log('Email sent: ' + info.response);
+    console.log("Email sent: " + info.response);
   } catch (error) {
-    console.error('Error sending email: ' + error);
+    console.error("Error sending email: " + error);
   }
 }
 

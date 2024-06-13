@@ -34,14 +34,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.log("Inside try block");
      // Debugging statement
     const response = await fetch("./projects.json");
-    console.log("Response received: ", response); // Log the response
+// Log the response
+    console.log("Response received: ", response); 
 
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
     const newProjectsData = await response.json();
-    console.log("Parsed JSON: ", newProjectsData); // Log the parsed JSON data
+     // Log the parsed JSON data
+    console.log("Parsed JSON: ", newProjectsData);
+   
 
     // Remove skeleton cards after fetching data
     removeSkeletons();
@@ -228,7 +231,7 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   // Simulate payment process using Razorpay
   const options = {
     // Replace with your actual Razorpay API key
-    key: "rzp_test_rmVf1ufuOltuLZ",
+    key: "rzp_test_RoaPlZhNjNdbIV",
     amount: 500, // Replace with the actual amount
     currency: "INR", // Replace with the desired currency
     name: "Project Store",
@@ -242,8 +245,9 @@ async function handlePayment(courseId, downloadLink, buyButton) {
       alert(`Payment successful! You've purchased the ${courseId} project.`);
     },
     prefill: {
-      email: "syedimtiyazali141@gmail.com",
-      contact: "7249545778",
+      //Change it with your credentials...
+      email: "akff7739@gmail.com",
+      contact: "7488071990",
     },
   };
 
