@@ -125,7 +125,6 @@
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
   },
-
   {
     "courseId": "Twitter Clone",
     "name": "Twitter Clone",
@@ -135,7 +134,6 @@
     "slide-img-1": "img/twitter_clone.jpg",
     "slide-img-2": "img/twitter_clone.jpg"
   },
-
   {
     "courseId": "Password Manager",
     "name": "Password Manager",
@@ -360,7 +358,6 @@
     "slide-img-1": "img/YoutubeVideoDown.png",
     "slide-img-2": "img/YoutubeVideoDown.png"
   },
-
   {
     "courseId": "Analog Clock",
     "name": "Analog Clock",
@@ -549,6 +546,15 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Email-Subscription-with-google-sheet.png",
     "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
+  },
+  {
+    "courseId": "8_puzzle",
+    "name": "8_puzzle",
+    "image": "img/puzzle.png",
+    "downloadLink": "https://drive.google.com/file/d/1a2B3cD4EfGHIJ5klMnoPQRstuVWxyz/view?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/puzzle.png",
+    "slide-img-2": "img/puzzle2.png"
   },
   {
     "courseId": "University website",
