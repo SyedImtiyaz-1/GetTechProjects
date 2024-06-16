@@ -1,6 +1,8 @@
+import {useSelector} from "react-redux";
 const BagSummary=({})=>{
+  const bagItems=useSelector((state)=>state.bag);
   const bagSummary={
-    totalItem:3,
+    totalItem:bagItems.length,
     totalMRP:2345,
     totalDiscount:999,
     finalPayment:1346
