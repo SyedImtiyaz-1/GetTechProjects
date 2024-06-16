@@ -290,13 +290,14 @@
 - Bio: CSE Undergrad | Passionate Full Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
 
+### Name: [Nikita Saini](https://github.com/katarianikita2003)
+
+- Place: Hisar, Haryana, India.
+- Bio: B.Tech from NIT Kurukshetra | Passionate Full Stack Developer
+- GitHub: [@katarianikita2003](https://github.com/katarianikita2003)
+
 ### Name: [Sambit Mondal](https://github.com/Sambit-Mondal)
 
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
-- GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
 
-- #### Name: [Ridhima Jain](https://github.com/Ridhima10)
-- Place: Mohali,Chandigarh, India
-- Bio: College Student | Full Stack Web Developer
-- GitHub: [Ridhima Jain](https://github.com/Ridhima10)
