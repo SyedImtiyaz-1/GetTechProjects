@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Project-Name":"She APP",
   "Description":" a seamless and supportive shopping experience with FemCare, the ultimate e-commerce app designed with the needs of women and children in mind. Built using React, FemCare offers a wide range of essential products and features to make your life easier.",
@@ -8,3 +9,15 @@
 },
 "Google drive Link":"https://drive.google.com/drive/folders/1TypTGnkPh_sSML_lPJD426xNYTRSodH2?usp=drive_link"
 }
+=======
+{
+  "Project-Name":"She APP",
+  "Description":" a seamless and supportive shopping experience with FemCare, the ultimate e-commerce app designed with the needs of women and children in mind. Built using React, FemCare offers a wide range of essential products and features to make your life easier.",
+  "Key Features":{
+    "Extensive Product Range":" a carefully curated selection of products for women and children, including pads, tampons, diapers, V wash, and more",
+    "Period Calculator":" Stay informed and prepared with our intuitive period calculator. Simply input your details, and the calculator will provide an estimate of your next period date, helping you plan ahead with ease.",
+    "User-Friendly Interface":"Enjoy a smooth and intuitive shopping experience with our React-powered interface. Easily navigate through categories, add items to your cart, and check out in just a few clicks."
+},
+"Google drive Link":"https://drive.google.com/drive/folders/1TypTGnkPh_sSML_lPJD426xNYTRSodH2?usp=drive_link"
+}
+>>>>>>> 77b7b700519bc31ec012f8143a228c1ec148d33d
