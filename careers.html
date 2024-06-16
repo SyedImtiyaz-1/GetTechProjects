@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="./css/team.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/careers.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="icon" href="./images/image.png" />
@@ -77,15 +78,44 @@
 </head>
 
 <body>
+
+  <!-- Animated Cursor Code -->
+
+    <div class="circle-container">
+    <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 1;"></div>
+    <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 0.95;"></div>
+    <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 0.9;"></div>
+    <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 0.9;"></div>
+    <div class="circle" style="background-color: #3fbcc0c6; left: 504px; top: 59px; scale: 0.85;"></div>
+    <div class="circle" style="background-color: #3fbcc0c6; left: 504px; top: 59px; scale: 0.85;"></div>
+    <div class="circle" style="background-color: #3fbcc0c6; left: 504px; top: 59px; scale: 0.85;"></div>
+    <div class="circle" style="background-color: #3fbcc0c6; left: 504px; top: 59px; scale: 0.85;"></div>
+    <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
+    <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
+    <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
+    <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
+</div>
+
+  <!-- Animated cursor code end -->
+   
   <header class="header">
     <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px" /></a>
     <div class="fas fa-bars"></div>
     <nav class="navbar">
       <ul>
-        <li><a href="./index.html">home</a></li>
-        <li><a href="./backend/public/index.html">Projects</a></li>
-        <li><a id="sadafContact" href="#">contact</a></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="icons bx bxs-home"></i>
+          <li style="margin-left: 1px">
+            <a href="../../index.html">home</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         <i class='icons bx bx-laptop'></i>
+        <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i class='icons bx bxs-contact'></i>
+        <li style="margin-left: 1px;"><a id="sadafContact" href="#">contact</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <button id="login">Log In</button>
         <h3 id="name"></h3>
         <img id="image" onclick="ProfileClicked()" />
@@ -179,13 +209,15 @@
         </p>
       </div>
       <div class="col">
-        <h3>Office</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=30605&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;">Office</h3>
         <p>Nagpur, PIN 440001</p>
         <p>Maharashtra, India</p>
         <p class="email">PreciousItServices@gmail.com</p>
       </div>
       <div class="col">
-        <h3>Useful Links</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=xi9J4k2OgrkM&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;"> Useful Links</h3>
         <ul>
           <li><a href=".index.html#portfolio">Order</a></li>
           <li><a href="careers.html">Careers</a></li>
@@ -195,7 +227,8 @@
         </ul>
       </div>
       <div class="col">
-        <h3>About Us</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=WX8XgeDAB2Bh&format=png&color=000000" alt=""
+              style="width: 40px; height: 40px;"> About Us</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="Team.html">Team</a></li>
@@ -203,7 +236,8 @@
         </ul>
       </div>
       <div class="col">
-        <h3>Newsletter</h3>
+        <h3><img src="https://img.icons8.com/?size=100&id=bqI4gOgp4z1f&format=png&color=000000" alt="Newsletter"
+              style="width: 40px; height: 40px;">Newsletter</h3>
         <form>
           <i class="icon ion-md-mail"></i>
           <input type="email" placeholder="Enter your e-mail id" required />
@@ -221,6 +255,136 @@
   <script src="./js/carrers.js"></script>
   <script src="./js/contact.js"></script>
   <script src="./login/login.js"></script>
+
+  <script>
+    //Custom Cursor
+
+const coords = { x: 0, y: 0 };
+const circles = document.querySelectorAll(".circle");
+
+const colors = [
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#55a5ea",
+  "#3fbcc0c6",
+  "#3fbcc0c6",
+  "#3fbcc0c6",
+  "#3fbcc0c6",
+  "#3fbcc0c6",
+  "#3fbcc0c6",
+  "fff",
+  "fff",
+  "fff",
+  "fff",
+  "fff",
+  "fff",
+  "fff",
+];
+
+circles.forEach(function (circle, index) {
+  circle.x = 0;
+  circle.y = 0;
+  circle.style.backgroundColor = colors[index % colors.length];
+});
+
+window.addEventListener("mousemove", function (e) {
+  coords.x = e.clientX;
+  coords.y = e.clientY;
+});
+
+function animateCircles() {
+  let x = coords.x;
+  let y = coords.y;
+
+  circles.forEach(function (circle, index) {
+    circle.style.left = x - 12 + "px";
+    circle.style.top = y - 12 + "px";
+
+    circle.style.scale = (circles.length - index) / circles.length;
+
+    circle.x = x;
+    circle.y = y;
+
+    const nextCircle = circles[index + 1] || circles[0];
+    x += (nextCircle.x - x) * 0.3;
+    y += (nextCircle.y - y) * 0.3;
+  });
+
+  requestAnimationFrame(animateCircles);
+}
+
+animateCircles();
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+  const isDarkMode = isDarkModePreferred();
+  setDarkModePreference(!isDarkMode);
+  applyDarkModePreference();
+}
+
+// Function to apply dark mode preference
+function applyDarkModePreference() {
+  const isDarkMode = isDarkModePreferred();
+  if (isDarkMode) {
+    document.body.classList.add("dark-mode");
+    document.getElementById("theme-icon").src = "assets/images/icons8-sun.svg";
+  } else {
+    document.body.classList.remove("dark-mode");
+    document.getElementById("theme-icon").src = "assets/images/moon_solid.svg";
+  }
+}
+
+// Function to set dark mode preference
+document.addEventListener("DOMContentLoaded", () => {
+  const currentTheme = localStorage.getItem("theme");
+  const switchCheckbox = document.getElementById("switch"); // Define switchCheckbox here
+  const starRating = document.querySelector(".star_rating");
+  const thankYouMessage = document.querySelector(".thank_you_message");
+  if (switchCheckbox) {
+    // Check if switchCheckbox is not null
+    function applyDarkModeStyles() {
+      document.body.classList.remove("light-mode");
+      document.body.classList.add("dark-mode");
+      starRating.style.backgroundColor = "#2d2828";
+      thankYouMessage.style.backgroundColor = "#2d2828";
+    }
+
+    function applyLightModeStyles() {
+      document.body.classList.remove("dark-mode");
+      document.body.classList.add("light-mode");
+      starRating.style.backgroundColor = "white";
+      thankYouMessage.style.backgroundColor = "white";
+    }
+
+    if (currentTheme) {
+      if (currentTheme === "dark-mode") {
+        applyDarkModeStyles();
+        switchCheckbox.checked = true;
+      } else {
+        applyLightModeStyles();
+      }
+    }
+
+    switchCheckbox.addEventListener("change", () => {
+      if (switchCheckbox.checked) {
+        applyDarkModeStyles();
+        localStorage.setItem("theme", "dark-mode");
+      } else {
+        applyLightModeStyles();
+        localStorage.setItem("theme", "light-mode");
+      }
+    });
+  } else {
+    console.error("Switch checkbox not found!"); // Log an error if switchCheckbox is null
+  }
+});
+
+  </script>
 </body>
 
 </html>
