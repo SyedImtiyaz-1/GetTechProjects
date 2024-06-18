@@ -295,3 +295,15 @@
 - Place: Visakhapatnam, Andhra Pradesh, India.
 - Bio: CSE Undergrad
 - Github: [AmrutaJayanti](https://github.com/AmrutaJayanti)
+=======
+### Name: [Nikita Saini](https://github.com/katarianikita2003)
+
+- Place: Hisar, Haryana, India.
+- Bio: B.Tech from NIT Kurukshetra | Passionate Full Stack Developer
+- GitHub: [@katarianikita2003](https://github.com/katarianikita2003)
+
+### Name: [Sambit Mondal](https://github.com/Sambit-Mondal)
+
+- Place: Durgapur, West Bengal, India.
+- Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
+- GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)
