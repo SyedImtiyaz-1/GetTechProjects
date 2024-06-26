@@ -583,5 +583,14 @@
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
+  },
+  {
+    "courseId": "Age Calculator",
+    "name": "Age Calculator",
+    "image": "img/agecalc.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1ftpLlmUkapDN9kkK8EWM1CAQyuw20mgu?usp=sharing",
+    "techstack": "React Js",
+    "slide-img-1": "img/agecalc.png",
+    "slide-img-2": "img/agecalc.png"
   }
 ]
