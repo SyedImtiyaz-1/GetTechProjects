@@ -1,3 +1,10 @@
+#### Name: [Avinash Kumar Sinha](https://github.com/AVINASH-X2)
+ 
+ -Place: Coimbatore, Tamilnadu, India
+ -Bio: College Student | MERN Stack Developer
+ -GitHub: [Avinash Kumar](https://github.com/AVINASH-X2)
+ -Linkedin: [Avinash Kumar Sinha](https://www.linkedin.com/in/avinash-kumar-sinha-54304325a/)
+
 #### Name: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
 - Place: Nagpur, Maharashtra, India
@@ -290,8 +297,14 @@
 - Bio: CSE Undergrad | Passionate Full Stack Developer
 - GitHub: [Parna Roy Chowdhury](https://github.com/ParnaRoyChowdhury777)
 
+### Name: [Nikita Saini](https://github.com/katarianikita2003)
+
+- Place: Hisar, Haryana, India.
+- Bio: B.Tech from NIT Kurukshetra | Passionate Full Stack Developer
+- GitHub: [@katarianikita2003](https://github.com/katarianikita2003)
+
 ### Name: [Sambit Mondal](https://github.com/Sambit-Mondal)
 
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
-- GitHub: [Parna Roy Chowdhury](https://github.com/Sambit-Mondal)
+- GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)

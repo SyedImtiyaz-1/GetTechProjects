@@ -1,5 +1,14 @@
 [
   {
+    "courseId": "Gemini_Clone",
+    "name": "Google Gemini Clone",
+    "image": "img/gemini.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Wov4IXuYPh8oAadu-qjDH8vGxBP9xW3M?usp=sharing",
+    "techstack": "React.js, Node.js, Express",
+    "slide-img-1": "img/gemini.png",
+    "slide-img-2": "img/gemini.png"
+  },
+  {
     "courseId": "E-Commerce Website",
     "name": "Shopping Website",
     "image": "img/ecom-logo.jpg",
@@ -8,6 +17,7 @@
     "slide-img-1": "img/apna-store2.png",
     "slide-img-2": "img/apna-store3.png"
   },
+
   {
     "courseId": "Apna Store",
     "name": "International Shopping Website",
@@ -125,7 +135,6 @@
     "slide-img-1": "img/ss1.png",
     "slide-img-2": "img/ss2.png"
   },
-
   {
     "courseId": "Twitter Clone",
     "name": "Twitter Clone",
@@ -135,7 +144,6 @@
     "slide-img-1": "img/twitter_clone.jpg",
     "slide-img-2": "img/twitter_clone.jpg"
   },
-
   {
     "courseId": "Password Manager",
     "name": "Password Manager",
@@ -299,6 +307,14 @@
     "slide-img-2": "img/Crossy_Road.png"
   },
   {
+    "courseId": "Car Racing",
+    "name": "Car Racing",
+    "image": "img/car-racing.jpg",
+    "downloadLink": "https://drive.google.com/drive/folders/1BTcyiFaMzUjve2GRho4COszkrTu9zsXG?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/car-racing.jpg"
+  },
+  {
     "courseId": "Basic Calculator",
     "name": "Basic Calculator",
     "image": "img/calculatorLogo.png",
@@ -352,7 +368,6 @@
     "slide-img-1": "img/YoutubeVideoDown.png",
     "slide-img-2": "img/YoutubeVideoDown.png"
   },
-
   {
     "courseId": "Analog Clock",
     "name": "Analog Clock",
@@ -489,6 +504,15 @@
     "slide-img-2": "img/Myntra.png"
   },
   {
+    "courseId": "Online-Pharmacy-Store",
+    "name": "Online Pharmacy Store",
+    "image": "img/pharmacy-store-1.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1KRXLChsbK2ETq8dWabTUWHNDQ5Ylcylt?usp=sharing",
+    "techstack": "JavaScript, HTML, CSS, Api, json, Rest api, Debounce",
+    "slide-img-1": "img/pharmacy-store-2.png",
+    "slide-img-2": "img/pharmacy-store-3.png"
+  },
+  {
     "courseId": "Digital Clock",
     "name": "Digital Clock",
     "image": "img/digitalClockLogo.png",
@@ -534,6 +558,15 @@
     "slide-img-2": "img/Email-Subscription-with-google-sheet.png"
   },
   {
+    "courseId": "8_puzzle",
+    "name": "8_puzzle",
+    "image": "img/puzzle.png",
+    "downloadLink": "https://drive.google.com/file/d/1a2B3cD4EfGHIJ5klMnoPQRstuVWxyz/view?usp=sharing",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/puzzle.png",
+    "slide-img-2": "img/puzzle2.png"
+  },
+  {
     "courseId": "University website",
     "name": "University website",
     "image": "img/university logo.png",
@@ -543,9 +576,12 @@
     "slide-img-2": "img/University-website3.png"
   },
   {
+
     "courseId": "Student Portal System",
     "name": "Student_Portal",
     "image": "img/portal.png",
+
+  
     "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
     "techstack": "ReactJs, TailwindCSS, Chakraui",
     "slide-img-1": "img/portal.png",
