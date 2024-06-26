@@ -1,5 +1,14 @@
 [
   {
+    "courseId": "Gemini_Clone",
+    "name": "Google Gemini Clone",
+    "image": "img/gemini.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Wov4IXuYPh8oAadu-qjDH8vGxBP9xW3M?usp=sharing",
+    "techstack": "React.js, Node.js, Express",
+    "slide-img-1": "img/gemini.png",
+    "slide-img-2": "img/gemini.png"
+  },
+  {
     "courseId": "E-Commerce Website",
     "name": "Shopping Website",
     "image": "img/ecom-logo.jpg",
@@ -8,6 +17,7 @@
     "slide-img-1": "img/apna-store2.png",
     "slide-img-2": "img/apna-store3.png"
   },
+
   {
     "courseId": "Apna Store",
     "name": "International Shopping Website",
@@ -568,7 +578,7 @@
   {
     "courseId": "Monopoly_Game",
     "name": "Monopoly_Game",
-    "image": "img/Monopoly_Game.png",
+    "image": "img/Monopoly-Logo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
