@@ -350,7 +350,6 @@
     "slide-img-1": "img/Expense_Tracker.png",
     "slide-img-2": "img/Expense_Tracker1.png"
   },
-  {
     "courseId": "Landing Page Site",
     "name": "Landing Page Site",
     "image": "img/landingLogo.jpg",
@@ -583,5 +582,14 @@
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
-  }
+  },
+{
+  "courseId": "Tech Quiz",
+    "name": "Tech Quiz",
+    "image": "img/TechQuizLogo.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1C5ohMNFoudnVV9R0yZu2cFshV60l5L0k?usp=drive_link",
+    "techstack": "HTML, CSS, JavaScript",
+    "slide-img-1": "img/Tech_Quiz.png",
+    "slide-img-2": "img/Tech_Quiz2.png"
+}
 ]
