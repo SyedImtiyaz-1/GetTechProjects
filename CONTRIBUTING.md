@@ -308,3 +308,9 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)
+
+### Name: [Aastha Ojha](https://github.com/Aastha-ojha-20)
+
+-Place: Lucknow,Uttar Pradesh,India.
+-Bio:Pre-Final Year| Btech in Information Technology from IIIT Allahabad
+-Github: [Aastha-ojha-20](https://github.com/Aastha-ojha-20)
