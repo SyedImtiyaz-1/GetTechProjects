@@ -5,10 +5,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
   text-decoration: none;
   scroll-behavior: smooth;
+}
+
+.circle {
+  z-index: 10000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: colors 5s infinite;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.circle::before {
+  content: "";
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
 }
 
 html {
@@ -20,11 +41,11 @@ body {
   overflow-x: hidden;
 }
 
-.unload{
+.unload {
   display: none;
 }
 
-.loader{
+.loader {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +137,8 @@ body {
 .pointerBtn {
   display: flex;
   justify-content: center;
-  align-items: stretch;  /* Ensure all items stretch equally */
+  align-items: stretch;
+  /* Ensure all items stretch equally */
   margin-bottom: 20px;
 }
 
@@ -131,8 +153,10 @@ body {
   background-color: #fff;
   width: 100%;
   max-width: 300px;
-  flex-grow: 1;  /* Allow items to grow to the same height */
-  min-height: 400px;  /* Set a minimum height to ensure equal sizing */
+  flex-grow: 1;
+  /* Allow items to grow to the same height */
+  min-height: 400px;
+  /* Set a minimum height to ensure equal sizing */
 }
 
 .icon {
@@ -278,13 +302,14 @@ body.night {
   padding-top: 0.5rem;
   justify-content: space-around;
 
-  
+
 }
 
-.header .navbar ul .icons{
-  font-size:25px; 
-  color:white;
+.header .navbar ul .icons {
+  font-size: 25px;
+  color: white;
 }
+
 .header .navbar ul button {
   /* width: 4vw; */
   /* height: 4.3vh; */
@@ -1024,6 +1049,7 @@ body.night {
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .contact-map {
   width: 100%;
   height: auto;
@@ -1036,6 +1062,7 @@ body.night {
   width: 100%;
   height: 100%;
 }
+
 /*changes done by https://github.com/Mahimatestgithub*/
 .contact-form {
   width: 100%;
@@ -1062,8 +1089,10 @@ body.night {
 .contact-form-email:hover,
 .contact-form-phone:hover,
 .contact-form-txtarea:hover {
-  border-color: grey; /* Change border color on hover */
-  box-shadow: 0 0 10px grey(0, 0, 255, 0.5); /* Add shadow effect on hover */
+  border-color: grey;
+  /* Change border color on hover */
+  box-shadow: 0 0 10px grey(0, 0, 255, 0.5);
+  /* Add shadow effect on hover */
 }
 
 .contact-form-txt::placeholder,
@@ -1161,6 +1190,8 @@ footer {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
+  text-decoration: none;
+  border: none;
 }
 
 ul li {
@@ -1171,6 +1202,69 @@ ul li {
 ul li a {
   text-decoration: none;
   color: white;
+  /* }
+/* .newsletter {
+  margin-bottom: 40px;
+}
+
+.newsletter h4 {
+  /* margin-bottom: 15px; */
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+*/ .newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+.newsletter-form input,
+.newsletter-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.newsletter-form button:hover {
+  background-color: #0056b3;
+}
+
+*/ .newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #0056b3;
 }
 
 form {
@@ -1421,8 +1515,9 @@ hr {
     color: grey;
     font-size: 2.4rem;
   }
-  .header .navbar ul .icons{
-    color:grey;
+
+  .header .navbar ul .icons {
+    color: grey;
   }
 
   .header .fa-times {
@@ -1648,6 +1743,7 @@ hr {
 }
 
 .pointerBtn {
+  display: block;
   cursor: pointer;
 }
 
@@ -1662,11 +1758,13 @@ hr {
 #talentin {
   cursor: pointer;
 }
+
 @media (max-width: 770px) {
   .contact-in {
     flex-direction: column;
   }
 }
+
 /* login media query */
 @media (max-width: 1080px) {
   .chatbot {
@@ -1780,11 +1878,11 @@ input:checked+.slider:before {
 
 
 /* swiper button */
-.swiper-button-next .swiper-button-prev{
-margin-top: auto;
+.swiper-button-next .swiper-button-prev {
+  margin-top: auto;
 }
 
- /*Style https://github.com/Mahimatestgithub*/
+/*Style https://github.com/Mahimatestgithub*/
 .explore-button {
   display: inline-block;
   padding: 10px 20px;

@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="../../main.css" />
+    <title>IT Projects | Find your best projects</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <script src="../public/projects.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -42,11 +48,112 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>IT Projects | Find your best projects</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
   </head>
 
   <body>
+    <!-- Animated Cursor Code -->
+
+    <div class="circle-container">
+      <div
+        class="circle"
+        style="
+          background-color: #55a5ea;
+          left: 504px;
+          top: 59px;
+          scale: 1;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #55a5ea;
+          left: 504px;
+          top: 59px;
+          scale: 0.95;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #55a5ea;
+          left: 504px;
+          top: 59px;
+          scale: 0.9;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #55a5ea;
+          left: 504px;
+          top: 59px;
+          scale: 0.9;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #3fbcc0c6;
+          left: 504px;
+          top: 59px;
+          scale: 0.85;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #3fbcc0c6;
+          left: 504px;
+          top: 59px;
+          scale: 0.85;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #3fbcc0c6;
+          left: 504px;
+          top: 59px;
+          scale: 0.85;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #3fbcc0c6;
+          left: 504px;
+          top: 59px;
+          scale: 0.85;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #fff;
+          left: 504px;
+          top: 59px;
+          scale: 0.8;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #fff;
+          left: 504px;
+          top: 59px;
+          scale: 0.8;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #fff;
+          left: 504px;
+          top: 59px;
+          scale: 0.8;
+        "></div>
+      <div
+        class="circle"
+        style="
+          background-color: #fff;
+          left: 504px;
+          top: 59px;
+          scale: 0.8;
+        "></div>
+    </div>
+
+    <!-- Animated cursor code end -->
+
     <header class="header" style="padding: 1.3em">
       <a href="../../index.html" class="logo"
         ><img
@@ -54,14 +161,32 @@
           style="margin-top: 0.8em"
           alt=""
       /></a>
-      <div class="fas fa-bars"></div>
+      <div onclick=menuClick() class="fas fa-bars"></div>
       <nav class="navbar">
         <ul style="padding-bottom: 5px">
-          <li><a href="../../index.html">home</a></li>
-          <li><a href="../public/index.html">Projects</a></li>
+          <i class="icons bx bxs-home"></i>
+          <li style="margin-left: 1px">
+            <a href="../../index.html">home</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="icons bx bx-laptop"></i>
+          <li style="margin-left: 1px">
+            <a href="/index.html">Projects</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <!-- <li><a href="careers.html">career</a></li> -->
-          <li><a href="../../index.html#contact">contact</a></li>
-          <li><a href="../../index2.html">Founder</a></li>
+          <i class="icons bx bxs-contact"></i>
+          <li style="margin-left: 1px">
+            <a href="../../index.html#contact">contact</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <i class="icons bx bxs-user-circle"></i>
+          <li style="margin-left: 1px">
+            <a href="../../index2.html">Founder</a>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
           <label class="theme-switch" for="checkbox">
             <input type="checkbox" id="checkbox" />
             <div class="slider round" id="toggle"></div>
@@ -85,18 +210,36 @@
     <!-- Latest Projects -->
     <section class="container" style="margin-bottom: 35px">
       <div class="courses">
+        <!-- Skeleton cards will be added here initially -->
+        <div id="skeleton-cards">
+          <div class="skeleton-card">
+            <div class="skeleton-banner"></div>
+            <div class="skeleton-detail skeleton-title"></div>
+            <div class="skeleton-detail skeleton-text"></div>
+            <div class="skeleton-detail skeleton-text"></div>
+          </div>
+        </div>
         <!-- Projects will be dynamically added here -->
       </div>
       <br />
       <br />
       <br />
-      <h3 style="display: flex; justify-content: center; align-items: center;">
+      <h3 style="display: flex; justify-content: center; align-items: center">
         Contact us on
-        <a href="tel:+91 7218404903" style="margin-left: 5px; margin-right: 10px; font-size: 2rem; font-weight: normal;">+91 7218404903</a>
+        <a
+          href="tel:+91 7218404903"
+          style="
+            margin-left: 5px;
+            margin-right: 10px;
+            font-size: 2rem;
+            font-weight: normal;
+          "
+          >+91 7218404903</a
+        >
         for more projects.
-         <!-- <h4><a href="tel:7249545778">+91 7218404903</a></h4>-->
+        <!-- <h4><a href="tel:7249545778">+91 7218404903</a></h4>-->
         <!--<p href="tel:7249545778">&nbsp; 7218404903 &nbsp;</p>-->
-          <!--for more projects.-->
+        <!--for more projects.-->
       </h3>
     </section>
 
@@ -115,13 +258,23 @@
           </p>
         </div>
         <div class="col">
-          <h3>Office</h3>
+          <h3>
+            <img
+              src="https://img.icons8.com/?size=100&id=30605&format=png&color=000000"
+              alt=""
+              style="width: 40px; height: 40px" />Office
+          </h3>
           <p>Nagpur, PIN 440001</p>
           <p>Maharashtra, India</p>
           <p class="email">PreciousItServices@gmail.com</p>
         </div>
         <div class="col">
-          <h3>Useful Links</h3>
+          <h3>
+            <img
+              src="https://img.icons8.com/?size=100&id=xi9J4k2OgrkM&format=png&color=000000"
+              alt=""
+              style="width: 40px; height: 40px" />Useful Links
+          </h3>
           <ul>
             <!-- <li><a href=".index.html#portfolio">Order</a></li> -->
             <!-- <li> <a href="#team">Team</a></li> -->
@@ -131,21 +284,34 @@
           </ul>
         </div>
         <div class="col">
-          <h3>About Us</h3>
+          <h3>
+            <img
+              src="https://img.icons8.com/?size=100&id=WX8XgeDAB2Bh&format=png&color=000000"
+              alt=""
+              style="width: 40px; height: 40px" />About Us
+          </h3>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="../../index2.html">Founder</a></li>
+            <li><a href="../../FAQ.html" target="_blank">FAQ</a></li>
             <!-- <li><a href="index.html#service">Reviews</a></li> -->
             <!-- <li><a href="#">Terms & condition</a></li> -->
             <!-- <li> <a href="#">Privacy policy</a></li> -->
           </ul>
         </div>
         <div class="col">
-          <h3>Newsletter</h3>
+          <h3>
+            <img
+              src="https://img.icons8.com/?size=100&id=bqI4gOgp4z1f&format=png&color=000000"
+              alt="Newsletter"
+              style="width: 40px; height: 40px" />Newsletter
+          </h3>
           <form>
             <i class="icon ion-md-mail"></i>
             <input type="email" placeholder="Enter your e-mail id" required />
-            <button type="submit"><i class="icon ion-md-send"></i></button>
+            <button type="submit">
+              <i class="icon ion-md-send">Submit</i>
+            </button>
           </form>
         </div>
       </div>
@@ -158,7 +324,7 @@
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script src="./payment.js"></script>
     <script src="./projects.js"></script>
-    <script src="../../main.js"></script>
+    <script src="../public/js/navbar.js"></script>
     <!-- <script src="../../js/login.js"></script> -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -175,7 +341,7 @@
       function scrollToTop() {
         window.scrollTo({
           top: 0,
-          behavior: "smooth",
+          behavior: "instant",
         });
       }
 
@@ -191,6 +357,144 @@
           backToTopButton.style.display = "none";
         }
       });
+    </script>
+
+    <script>
+      //Custom Cursor
+
+      const coords = { x: 0, y: 0 };
+      const circles = document.querySelectorAll(".circle");
+
+      const colors = [
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#55a5ea",
+        "#3fbcc0c6",
+        "#3fbcc0c6",
+        "#3fbcc0c6",
+        "#3fbcc0c6",
+        "#3fbcc0c6",
+        "#3fbcc0c6",
+        "fff",
+        "fff",
+        "fff",
+        "fff",
+        "fff",
+        "fff",
+        "fff",
+      ];
+
+      circles.forEach(function (circle, index) {
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = colors[index % colors.length];
+      });
+
+      window.addEventListener("mousemove", function (e) {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+      });
+
+      function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+
+        circles.forEach(function (circle, index) {
+          circle.style.left = x - 12 + "px";
+          circle.style.top = y - 12 + "px";
+
+          circle.style.scale = (circles.length - index) / circles.length;
+
+          circle.x = x;
+          circle.y = y;
+
+          const nextCircle = circles[index + 1] || circles[0];
+          x += (nextCircle.x - x) * 0.3;
+          y += (nextCircle.y - y) * 0.3;
+        });
+
+        requestAnimationFrame(animateCircles);
+      }
+
+      animateCircles();
+
+      // Function to toggle dark mode
+      function toggleDarkMode() {
+        const isDarkMode = isDarkModePreferred();
+        setDarkModePreference(!isDarkMode);
+        applyDarkModePreference();
+      }
+
+      // Function to apply dark mode preference
+      function applyDarkModePreference() {
+        const isDarkMode = isDarkModePreferred();
+        if (isDarkMode) {
+          document.body.classList.add("dark-mode");
+          document.getElementById("theme-icon").src =
+            "assets/images/icons8-sun.svg";
+        } else {
+          document.body.classList.remove("dark-mode");
+          document.getElementById("theme-icon").src =
+            "assets/images/moon_solid.svg";
+        }
+      }
+
+      // Function to set dark mode preference
+      document.addEventListener("DOMContentLoaded", () => {
+        const currentTheme = localStorage.getItem("theme");
+        const switchCheckbox = document.getElementById("switch"); // Define switchCheckbox here
+        const starRating = document.querySelector(".star_rating");
+        const thankYouMessage = document.querySelector(".thank_you_message");
+        if (switchCheckbox) {
+          // Check if switchCheckbox is not null
+          function applyDarkModeStyles() {
+            document.body.classList.remove("light-mode");
+            document.body.classList.add("dark-mode");
+            starRating.style.backgroundColor = "#2d2828";
+            thankYouMessage.style.backgroundColor = "#2d2828";
+          }
+
+          function applyLightModeStyles() {
+            document.body.classList.remove("dark-mode");
+            document.body.classList.add("light-mode");
+            starRating.style.backgroundColor = "white";
+            thankYouMessage.style.backgroundColor = "white";
+          }
+
+          if (currentTheme) {
+            if (currentTheme === "dark-mode") {
+              applyDarkModeStyles();
+              switchCheckbox.checked = true;
+            } else {
+              applyLightModeStyles();
+            }
+          }
+
+          switchCheckbox.addEventListener("change", () => {
+            if (switchCheckbox.checked) {
+              applyDarkModeStyles();
+              localStorage.setItem("theme", "dark-mode");
+            } else {
+              applyLightModeStyles();
+              localStorage.setItem("theme", "light-mode");
+            }
+          });
+        } else {
+          console.error("Switch checkbox not found!"); // Log an error if switchCheckbox is null
+        }
+      });
+
+
+      //My Changes...
+
+      function menuClick(){
+        console.log("Menu is clicked....");
+      }
     </script>
   </body>
 </html>

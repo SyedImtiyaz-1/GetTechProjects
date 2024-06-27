@@ -1,18 +1,65 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const searchInput = document.getElementById("searchProjects");
   const coursesContainer = document.querySelector(".courses");
+  const searchInput = document.getElementById("searchProjects");
+  const skeletonCardsContainer = document.getElementById("skeleton-cards");
   const projectData = []; // Store project data for reference
 
+  // Function to display skeleton cards
+  function displaySkeletons(count) {
+    skeletonCardsContainer.style.display='flex';
+    for (let i = 0; i < count; i++) {
+      const skeletonCard = document.createElement("div");
+      skeletonCard.classList.add("skeleton-card");
+
+      skeletonCard.innerHTML = `
+        <div class="skeleton-banner"></div>
+        <div class="skeleton-detail skeleton-text"></div>
+      `;
+      skeletonCardsContainer.appendChild(skeletonCard);
+    }
+  }
+
+  // Remove skeleton cards
+  function removeSkeletons() {
+    skeletonCardsContainer.innerHTML = "";
+    skeletonCardsContainer.style.display='none';
+
+  }
+
+  // Display skeleton cards before fetching data
+  displaySkeletons(2); // Display 3 skeleton cards
+
   // Fetch new projects data from the JSON file
-  const response = await fetch("./projects.json");
-  const newProjectsData = await response.json();
+  try {
+    console.log("Inside try block");
+     // Debugging statement
+    const response = await fetch("./projects.json");
+// Log the response
+    console.log("Response received: ", response); 
 
-  newProjectsData.forEach((project) => {
-    const projectElement = addProjectToUI(project);
-    projectData.push({ element: projectElement, data: project });
-  });
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
 
-  searchInput.addEventListener("input", function () {
+    const newProjectsData = await response.json();
+     // Log the parsed JSON data
+    console.log("Parsed JSON: ", newProjectsData);
+   
+
+    // Remove skeleton cards after fetching data
+    removeSkeletons();
+
+    newProjectsData.forEach((project) => {
+      const projectElement = addProjectToUI(project);
+      projectData.push({ element: projectElement, data: project });
+    });
+    
+
+  } catch (error) {
+    console.error("Error fetching projects data: ", error); // Log any errors
+  }
+
+   searchInput.addEventListener("input", function () {
     const searchTerm = searchInput.value.trim().toLowerCase();
 
     projectData.forEach(({ element, data }) => {
@@ -31,7 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     projectElement.innerHTML = `
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    // <link rel="stylesheet" href='../main.css'>
+     <link rel="stylesheet" href='../main.css'>
       <div class="course-banner">
         <img src="${project.image}" alt="${project.name}">
       </div>
@@ -97,7 +144,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     closeButtons.forEach((closeButton) => {
       closeButton.addEventListener("click", () => {
         closeButton.closest(".popup").style.display = "none";
-        body.removeAttribute("style")
+        body.removeAttribute("style");
       });
     });
 
@@ -184,7 +231,7 @@ async function handlePayment(courseId, downloadLink, buyButton) {
   // Simulate payment process using Razorpay
   const options = {
     // Replace with your actual Razorpay API key
-    key: "rzp_test_rmVf1ufuOltuLZ",
+    key: "rzp_test_RoaPlZhNjNdbIV",
     amount: 500, // Replace with the actual amount
     currency: "INR", // Replace with the desired currency
     name: "Project Store",
@@ -198,16 +245,12 @@ async function handlePayment(courseId, downloadLink, buyButton) {
       alert(`Payment successful! You've purchased the ${courseId} project.`);
     },
     prefill: {
-      email: "syedimtiyazali141@gmail.com",
-      contact: "7249545778",
+      //Change it with your credentials...
+      email: "akff7739@gmail.com",
+      contact: "7488071990",
     },
   };
 
   const razorpayInstance = new Razorpay(options);
   razorpayInstance.open();
 }
-
-
-
-
-// download btn : <a class="download-link buy-button course" href="${project.downloadLink}" download style="display:; text-decoration:none;">Download Project <i class="fa fa-download"></i></a>
