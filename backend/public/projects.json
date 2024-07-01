@@ -414,6 +414,15 @@
     "slide-img-2": "img/Tower Block.png"
   },
   {
+    "courseId": "URL Shortener",
+      "name": "URL Shortener",
+      "image": "img/urlshort.jpg",
+      "downloadLink": "https://drive.google.com/drive/folders/15SSDDyIwJLo5It3nFzIMcPGgSbOopbsR?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/urlshortex.png",
+      "slide-img-2": "img/urlshortex.png"
+    },
+  {
     "courseId": "Stock Market Prediction App",
     "name": "Stock Market Prediction App",
     "image": "https://p.productioncrate.com/stock-hd/effects/footagecrate-4k-stock-market-icon-prev-full.png",
