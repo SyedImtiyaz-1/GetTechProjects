@@ -371,12 +371,12 @@ body.night {
 }
 
 .header .navbar ul li a:hover {
-  color: #2d5c6b;
+  color: white;
   text-decoration: underline;
 }
 
 .header .logo i {
-  padding: 0.5rem;
+  padding:  0.5rem;
 }
 
 .header .fa-bars {
@@ -387,9 +387,9 @@ body.night {
 }
 
 .home {
-  min-height: 100vh;
+  min-height:  100vh;
   width: 100vw;
-  background-image: url(./images/img1.jpg);
+  background-image:  url(./images/img1.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -402,7 +402,7 @@ body.night {
 }
 
 .home h1 {
-  color: #fff;
+  color: #fff ;
   font-size: 5.5rem;
 }
 
