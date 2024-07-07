@@ -1,4 +1,4 @@
-#  Get IT Projects 🚀
+#  Get Tech Projects 🚀
 
 **THIS REPO IS READY FOR Girlscript Summer of Code 2024 You can start contributing !!!**
 
