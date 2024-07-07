@@ -9,7 +9,7 @@ const App = () => {
   const handleTranslate=()=>{
     if(input.length>0){
       if(checker.inputLanguage && checker.outputLanguage && checker.inputLanguage!==checker.outputLanguage ){
-         const tran=TranslateLanuage()
+         const tran=TranslateLanuage(checker)
          setChecker(pre=>({...pre,output:tran.Text})) 
       }else{console.log(false)}
     }
