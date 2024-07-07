@@ -1,4 +1,6 @@
-const url = 'https://microsoft-translator-text.p.rapidapi.com/translate?api-version=3.0&profanityAction=NoAction&textType=plain';
+
+const TranslateLanuage=async(checker)=>{
+    const url =`https://microsoft-translator-text.p.rapidapi.com/translate?api-version=3.0&profanityAction=NoAction&textType=plain`;
 const options = {
 	method: 'POST',
 	headers: {
@@ -8,11 +10,12 @@ const options = {
 	},
 	body: [
 		{
-			Text: 'I would really like to drive your car around the block a few times.'
+			Text: checker.output,
+                        From:checker.inputLanguage,
+                        To:checker.outputLanguage,
 		}
 	]
 };
-const TranslateLanuage=async()=>{
 try {
 	const response = await fetch(url, options);
 	const result = await response.text();
