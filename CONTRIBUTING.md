@@ -308,3 +308,9 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)
+  
+### Name: [Kalpana Bharti](https://github.com/Kalpana-18)
+
+- Place: Lucknow, Uttar Pradesh, India.
+- Bio: CSE Undergrad |  Passionate Front-end Developer
+- GitHub: [Kalpana Bharti](https://github.com/Kalpana-18)
