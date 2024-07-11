@@ -371,12 +371,12 @@ body.night {
 }
 
 .header .navbar ul li a:hover {
-  color: #2d5c6b;
+  color: white;
   text-decoration: underline;
 }
 
 .header .logo i {
-  padding: 0.5rem;
+  padding:  0.5rem;
 }
 
 .header .fa-bars {
@@ -387,9 +387,9 @@ body.night {
 }
 
 .home {
-  min-height: 100vh;
+  min-height:  100vh;
   width: 100vw;
-  background-image: url(./images/img1.jpg);
+  background-image:  url(./images/img1.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -402,7 +402,7 @@ body.night {
 }
 
 .home h1 {
-  color: #fff;
+  color: #fff ;
   font-size: 5.5rem;
 }
 
@@ -688,7 +688,7 @@ body.night {
 }
 
 .item:hover {
-  background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+  background-image: linear-gradient(to bottom right, #4f77e4 0%, #c4daf7 100%);
   background-position: right;
   transition: background-position 3s;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
