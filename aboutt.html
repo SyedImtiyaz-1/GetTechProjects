@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Precious IT Services | The best services for projects</title>
+  <title>About Us</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+  <link rel="stylesheet" href="css\about.css">
 
   <link rel="stylesheet" href="./main.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -20,13 +21,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Precious IT Services</title>
-    <link rel="stylesheet" href="./main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -46,12 +42,9 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js\about.js"> </script>
 
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("oUbB-IqXyvbW5JlV9");
-      })();
-    </script>
+    
   </head>
 
 <body>
@@ -91,6 +84,7 @@
         <h3 id="name"></h3>
         <img id="image" onclick="ProfileClicked()" />
         <button onclick="logout()" id="logout">Logout</button>
+        
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round" id="toggle"></div>
@@ -101,136 +95,47 @@
 
   <section id="home" class="home">
     <h1>Get IT Projects</h1>
-    <h2>for Under Graduation and Post Graduation Students.</h2>
-    <h2>B.E / BCA/ MCA / BSC-IT / etc.</h2>
+    <h2>Empowering Students, Bridging Gaps, Innovating Futures</h2>
+    
     <div class="wave wave1"></div>
     <div class="wave wave2"></div>
     <div class="wave wave3"></div>
   </section>
-
-  <div class="pt-5 pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="section-head col-sm-12" id="projects">
-          <h1>Projects</h1>
-          <p class="text-trans-none">
-            We build robust and productive projects for you that help in your
-            placements and for sharpening your learning.
-          </p>
-        </div>
-        <div class="col-lg-4 col-sm-6 pointerBtn">
-          <div class="item">
-            <span class="icon feature_box_col_one p-2"><i class="fa fa-laptop"></i></span>
-            <h6>Web-App Projects</h6>
-            <p class="text-trans-none">
-              Our custom Web Development Services include both Front-End and
-              Back-End development. Whether it is enhancing an Existing app or
-              Architecting an Enterprise app, our Developers are up for the
-              challenges.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 pointerBtn">
-          <div class="item">
-            <span class="icon feature_box_col_two p-2"><i class="fa fa-android"></i></span>
-            <h6>Mobile-App Projects</h6>
-            <p class="text-trans-none">
-              We have expertise in creating Multi-Platform mobile app
-              solutions for both Android and IOS devices. Using PhoneGap,
-              Xamarin and React Native, we offer custom Mobile App that runs
-              smoothly on Multiple Platforms.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 pointerBtn">
-          <div class="item">
-            <span class="icon feature_box_col_three p-2"><i class="fa fa-magic"></i></span>
-            <h6>Data Analytics Projects</h6>
-
-            <p class="text-black">
-              The Project will include Visualizating of Data and the
-              Rescanning. As per the Statistics and the giving space. This
-            </p>
-
-            <p class="text-trans-none">
-              The project will include Visualizating of Data and Rescanning.
-              As per the Statistics and the giving space.
-            </p>
-          </div>
-        </div>
-      </div>
+  <div class="grid-container">
+    <div class="content" id="what-we-do">
+        <h2>What We Do</h2>
+        <p>We provide a wide range of projects tailored to various technical fields. Our services include:</p>
+        <ul>
+            <li>Ready-made project ideas</li>
+            <li>Step-by-step project guides</li>
+            <li>One-on-one mentorship</li>
+            <li>Resource materials and tutorials</li>
+        </ul>
+        <p>What sets us apart is our commitment to quality and our focus on the latest industry trends, ensuring that our projects are relevant and impactful.</p>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"></script>
+    <div class="content" id="our-values">
+        <h2>Our Values</h2>
+        <p>Integrity, innovation, and student success are at the core of everything we do. We believe in providing transparent, high-quality support to help students thrive. Students work in teams, simulating development environments. This fosters essential soft skills like teamwork, communication, and project management. Collaborative projects also prepare students for the collaborative nature of most professional IT roles, where teamwork and effective communication are key.</p>
+    </div>
+    
 
-    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-
-    <section class="counters">
-      <div class="container">
-        <div class="pointerBtn">
-          <i class="far fa-clock fa-4x"></i>
-          <div class="counter" data-target="24">24+</div>
-          <h3>Working Hours/Week</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-gift fa-4x"></i>
-          <div class="counter" data-target="60">60+</div>
-          <h3>Projects Sold</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-users fa-4x"></i>
-          <div class="counter" data-target="52">52+</div>
-          <h3>Happy Clients</h3>
-        </div>
-        <div class="pointerBtn">
-          <i class="fas fa-award fa-4x"></i>
-          <div class="counter" data-target="13">13+</div>
-          <h3>Awards Received</h3>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <h1 class="heading">If You Have to Order Other Projects</h1>
-      <h2 class="text-trans-none">
-        Submit the form and Leave a Brief Description for the Team
-      </h2>
-    </section>
-
-    <!-- Contact Us Form -->
-    <div class="contact-in">
-      <div class="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14886.873203334077!2d79.1199471!3d21.1237941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c76047f90e8f%3A0xbab3e39d03c3251c!2sPrecious!5e0!3m2!1sen!2sin!4v1687299954489!5m2!1sen!2sin"
-          width="100%" height="auto" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-      <div class="contact-form">
-        <form action="" id="contact-form">
-          <input type="text" name="name" placeholder="Name" id="name" class="contact-form-txt" pattern="^[A-Za-z\- ']+$"
-            required />
-          <span id="name-error" class="error"></span>
-          <!-- Validation error message for Name -->
-          <input type="number" id="number" name="phone" pattern="[0-9]{10,12}" required placeholder="Contact Number"
-            minlength="10" maxlength="12" class="contact-form-phone" />
-          <span id="phone-error" class="error"></span>
-          <!-- Validation error message for Contact Number -->
-          <input type="email" name="email" placeholder="Email" id="mail" class="contact-form-email" required />
-          <span id="email-error" class="error"></span>
-          <!-- Validation error message for Email -->
-          <textarea placeholder="Your Message" id="message" name="message" class="contact-form-txtarea"
-            required></textarea>
-          <span id="message-error" class="error"></span>
-          <!-- Validation error message for Message -->
-          <button class="contact-form-btn" id="contact_sbmt_btn">Submit</button>
-        </form>
-      </div>
+    <div class="content" id="future-plans">
+        <h2>Future Plans</h2>
+        <p>We are constantly evolving to meet the needs of our students. Our upcoming features include advanced project templates, AI-driven project suggestions, and more interactive mentorship sessions.</p>
     </div>
 
+    <div class="content" id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Join us on our mission to make placement success achievable for every student. Whether you are a student looking for projects, a mentor willing to share your expertise, or a partner wanting to collaborate, we would love to hear from you.</p>
+        <button onclick="showContactInfo()">Contact Us</button>
+        <div id="contact-info" style="display:none;">
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Follow us on <a href="https://www.socialmedia.com">social media</a>.</p>
+        </div>
+    </div>
+</div>
+ 
 
     <!-- Footer-->
     <footer>
