@@ -592,5 +592,16 @@
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
+  },
+  {
+    "courseId": "ISS",
+    "name": "ISS",
+    "image": "https://drive.google.com/file/d/1Bu1R-hYt0h0hS64-AT2ymlXqfRitavG4/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/drive/folders/1iZgI2FEw5928qPQhJvXmaLxgyyXw7dPk?usp=sharing",
+    "techstack": "Python,API's",
+    "slide-img-1": "https://drive.google.com/file/d/12F1G3LHv0PK80-sxMBYAWSsbFmnwwgAY/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/13WHLhvckVb1uQk1R70wCpAVBgmW9ik4S/view?usp=sharing",
+    "slide-img-3": "https://drive.google.com/file/d/1sOCxt2mQnQ2ZbVrhKILozURFFhr3ePcc/view?usp=sharing"
   }
+  
 ]
