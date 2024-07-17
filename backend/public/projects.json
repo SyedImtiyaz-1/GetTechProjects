@@ -594,7 +594,7 @@
     "slide-img-2": "img/Monopoly_Game.png"
   },
   {
-    "courseId": "INTERNATIONAL SPACE STATION Tracke",
+    "courseId": "INTERNATIONAL SPACE STATION Tracker",
     "name": "ISS",
     "description":"Real Time INTERNATIONAL SPACE STATION Tracker with Astronaut On Board: Developed a real- time International Space Station tracker",
     "feature 1":"Displayed ISS location dynamically on a world map using graphical modules.",
