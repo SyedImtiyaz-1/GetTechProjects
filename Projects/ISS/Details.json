@@ -1,0 +1,9 @@
+{
+    "Project-Name":"Real Time ISS Tracker with Astronaut On Board",
+    "Description":"Developed a real- time International Space Station tracker in Python, integrating two API for location (OpenNotify API) and astronaut data.",
+    "Key Features":
+    {
+    "Feature 1":"Displayed ISS location dynamically on a world map using graphical modules.",
+
+    "Feature 2":"Enhanced the tracker with live updates on astronauts currently aboard the ISS, including their names."
+    }
