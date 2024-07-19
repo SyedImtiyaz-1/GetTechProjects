@@ -308,3 +308,8 @@
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
 - GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)
+
+#### Name: [Prerna Dikondwar] (https://github.com/Prernadikondwar)
+- Place: Nagpur, Maharashtra, Country
+- Bio: I am a software developer from vellore institute of technology
+- GitHub: [Prerna Dikondwar](https://github.com/Prernadikondwar)
