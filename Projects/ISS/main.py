@@ -20,11 +20,11 @@ def track_iss():
     display = turtle.Screen()
     display.setup(1280, 720)
     display.setworldcoordinates(-180, -90, 180, 90)
-    display.bgpic("map.gif")
-    display.register_shape("iss.gif")
+    display.bgpic("map.gif") # display.bgpic("ADD PATH OF map.gif AS PER YOUR DIRECTORY")
+    display.register_shape("iss.gif") # display.register_shape("ADD PATH OF iss.gif AS PER YOUR DIRECTORY")
 
     iss = turtle.Turtle()
-    iss.shape("iss.gif")
+    iss.shape("iss.gif") # iss.shape("ADD PATH OF iss.gif AS PER YOUR DIRECTORY")
     iss.penup()
 
     try:

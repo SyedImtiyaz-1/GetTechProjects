@@ -593,16 +593,14 @@
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
   },
-    "courseId": "ISS",
+  {
+    "courseId": "INTERNATIONAL SPACE STATION Tracker",
     "name": "ISS",
-    "description":"Real Time INTERNATIONAL SPACE STATION Tracker with Astronaut On Board: Developed a real- time International Space Station tracker",
-    "feature 1":"Displayed ISS location dynamically on a world map using graphical modules.",
-    "feature 2":"Enhanced the tracker with live updates on astronauts currently aboard the ISS, including their names.",
-    "image": "https://drive.google.com/file/d/1Bu1R-hYt0h0hS64-AT2ymlXqfRitavG4/view?usp=sharing",
-    "downloadLink": "https://drive.google.com/drive/folders/1iZgI2FEw5928qPQhJvXmaLxgyyXw7dPk?usp=sharing",
+    "image": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
     "techstack": "Python,API's",
-    "slide-img-1": "https://drive.google.com/file/d/12F1G3LHv0PK80-sxMBYAWSsbFmnwwgAY/view?usp=sharing",
-    "slide-img-2": "https://drive.google.com/file/d/13WHLhvckVb1uQk1R70wCpAVBgmW9ik4S/view?usp=sharing",
+    "slide-img-1": "https://drive.google.com/file/d/1Bu1R-hYt0h0hS64-AT2ymlXqfRitavG4/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/12F1G3LHv0PK80-sxMBYAWSsbFmnwwgAY/view?usp=sharing",
     "slide-img-3": "https://drive.google.com/file/d/1sOCxt2mQnQ2ZbVrhKILozURFFhr3ePcc/view?usp=sharing"
   },
   {
@@ -622,5 +620,5 @@
     "techstack": "HTML, CSS, JavaScript",
     "slide-img-1": "img/Music_Visualizer.png",
     "slide-img-2": "img/Music_Visualizer1.png"
-  } 
+  }
 ]
