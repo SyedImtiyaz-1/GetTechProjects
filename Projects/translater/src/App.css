@@ -1,0 +1,36 @@
+ main,main section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+ main{min-height: 100vh;flex-direction: column;}
+ main h1{
+  font-size: 1.5rem;
+  font-family: monospace;
+ }
+ main section{gap: 2rem;flex-wrap: wrap;}
+ main section div{display: flex;flex-direction: column;gap: 1.5rem;width: 90%;flex: 1 0 25rem;}
+ main section div:first-child{align-items: flex-end;}
+ main section div:last-child{align-items: flex-start;}
+ main section div select{padding: 0.5rem 0.4rem;width: 150px;}
+ main section div textarea{padding: 1rem 2rem;min-height: 300px;max-width: 500px;min-width: 50%;line-height: 1.3rem;}
+ main button{
+  margin-top: 1.5rem;
+  padding: 1em 2.5rem;
+  background-color: black;
+  border:2px solid;
+  color: white;
+  border-radius: 0.6rem;
+  font-family: monospace;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+ }
+ main button:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+ }
+ @media (max-width:850px) {
+  main section div:last-child, main section div:first-child{justify-content: center;align-items: center;}
+ }
