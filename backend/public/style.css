@@ -6,6 +6,8 @@
 body {
   font-family: "Poppins", sans-serif;
   transition: 0.1s;
+  /* Fixing the scroll bug by providing the scroll property to the body */
+  overflow: auto !important;
 }
 
 .circle {
@@ -295,18 +297,21 @@ section {
 /* Style for the Swiper container */
 .swiper-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 768px;
   margin: 0 auto;
-  max-height: 60vh;
+}
+
+.swiper-slide{
+  padding: 25px;
 }
 
 /* Style for the Swiper slides */
 .swiper-slide img {
-  width: 50%;
-  height: auto;
+  width: 100%;
+  object-fit: contain; 
+  max-height: 60vh;
 }
 
-/* Style for the Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
   height: 5px;
@@ -315,10 +320,6 @@ section {
   background: none;
   border: none;
   position: absolute;
-
-
-  /* margin-top:auto; */
-
 }
 
 .swiper-button-next {

@@ -1,5 +1,14 @@
 [
   {
+    "courseId": "Gemini_Clone",
+    "name": "Google Gemini Clone",
+    "image": "img/gemini.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1Wov4IXuYPh8oAadu-qjDH8vGxBP9xW3M?usp=sharing",
+    "techstack": "React.js, Node.js, Express",
+    "slide-img-1": "img/gemini.png",
+    "slide-img-2": "img/gemini.png"
+  },
+  {
     "courseId": "E-Commerce Website",
     "name": "Shopping Website",
     "image": "img/ecom-logo.jpg",
@@ -8,6 +17,7 @@
     "slide-img-1": "img/apna-store2.png",
     "slide-img-2": "img/apna-store3.png"
   },
+
   {
     "courseId": "Apna Store",
     "name": "International Shopping Website",
@@ -404,6 +414,15 @@
     "slide-img-2": "img/Tower Block.png"
   },
   {
+    "courseId": "URL Shortener",
+      "name": "URL Shortener",
+      "image": "img/urlshort.jpg",
+      "downloadLink": "https://drive.google.com/drive/folders/15SSDDyIwJLo5It3nFzIMcPGgSbOopbsR?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/urlshortex.png",
+      "slide-img-2": "img/urlshortex.png"
+    },
+  {
     "courseId": "Stock Market Prediction App",
     "name": "Stock Market Prediction App",
     "image": "https://p.productioncrate.com/stock-hd/effects/footagecrate-4k-stock-market-icon-prev-full.png",
@@ -568,10 +587,31 @@
   {
     "courseId": "Monopoly_Game",
     "name": "Monopoly_Game",
-    "image": "img/Monopoly_Game.png",
+    "image": "img/Monopoly-Logo.png",
     "downloadLink": "https://drive.google.com/drive/folders/1bnhuH0FVQHjZLbq2fhwxdD63DzwdG07O?usp=sharing",
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
+  },
+  {
+    "courseId": "INTERNATIONAL SPACE STATION Tracker",
+    "name": "ISS",
+    "image": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
+    "techstack": "Python,API's",
+    "slide-img-1": "https://drive.google.com/file/d/1Bu1R-hYt0h0hS64-AT2ymlXqfRitavG4/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/12F1G3LHv0PK80-sxMBYAWSsbFmnwwgAY/view?usp=sharing",
+    "slide-img-3": "https://drive.google.com/file/d/1sOCxt2mQnQ2ZbVrhKILozURFFhr3ePcc/view?usp=sharing"
+  },
+  {
+    "courseId": "NASA APOD",
+    "name": "NASA APOD",
+    "image": "https://drive.google.com/file/d/1JcpzJuCttf5qUgU67dVn6GZBKG2Mgjp4/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/drive/folders/1nMVXddm9URWSatdluVwlQztqum7C2fYe?usp=sharing",
+    "techstack": "Python, API: NASA APOD API",
+    "slide-img-1": "https://drive.google.com/file/d/1mi82pixWjvS8hRwtR4WpzM4uKjNcrXRC/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/155evsijSunghiAu04GBCtJcJC7AIXouj/view?usp=sharing"
   }
+  
+  
 ]
