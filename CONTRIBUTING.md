@@ -11,6 +11,13 @@
 - Bio: Project Admin | Software Engineer
 - GitHub: [Syed Imtiyaz Ali](https://github.com/SyedImtiyaz-1/)
 
+#### Name: [Karishma Seth](https://github.com/karishmaaa101/)
+
+- Place: Kolkata, West Bengal, India
+- Bio: Final Year Engineering Student | Developer
+- GitHub: [Karishma Seth](https://github.com/karishmaaa101/)
+- Linkedin [@karishmaaa101](www.linkedin.com/in/karishmaaa101)
+
 #### Name: [Manish Kumar](https://github.com/ManishBirthlia)
 
 - Place: Jaipur, Rajasthan, India
