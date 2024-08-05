@@ -1,11 +1,13 @@
 import { IoRemoveCircle } from "react-icons/io5";
 import { useDispatch } from "react-redux";
 import { bagActions } from "../store/bagSlice copy";
-const BagItems=({item})=>{
 
+const BagItems=({item})=>{
+ 
   const dispatch=useDispatch();
   const handleRemoveItem=()=>{
-    dispatch(bagActions.removeFromBag(item.id))
+    dispatch(bagActions.removeFromBag(item.id));
+    
   }
   return(
     
@@ -30,9 +32,11 @@ const BagItems=({item})=>{
       </div>
     </div>
 
-    <div className="remove-from-cart" onclick={handleRemoveItem}><IoRemoveCircle /></div>
+    <div className="remove-from-cart" onClick={handleRemoveItem}>
+      <IoRemoveCircle />
+      </div>
   </div>
    
-  )
+  );
 }
 export default BagItems;
