@@ -592,5 +592,26 @@
     "techstack": "HTML, CSS",
     "slide-img-1": "img/Monopoly_Game.png",
     "slide-img-2": "img/Monopoly_Game.png"
+  },
+  {
+    "courseId": "INTERNATIONAL SPACE STATION Tracker",
+    "name": "ISS",
+    "image": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
+    "techstack": "Python,API's",
+    "slide-img-1": "https://drive.google.com/file/d/1Bu1R-hYt0h0hS64-AT2ymlXqfRitavG4/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/12F1G3LHv0PK80-sxMBYAWSsbFmnwwgAY/view?usp=sharing",
+    "slide-img-3": "https://drive.google.com/file/d/1sOCxt2mQnQ2ZbVrhKILozURFFhr3ePcc/view?usp=sharing"
+  },
+  {
+    "courseId": "NASA APOD",
+    "name": "NASA APOD",
+    "image": "https://drive.google.com/file/d/1JcpzJuCttf5qUgU67dVn6GZBKG2Mgjp4/view?usp=sharing",
+    "downloadLink": "https://drive.google.com/drive/folders/1nMVXddm9URWSatdluVwlQztqum7C2fYe?usp=sharing",
+    "techstack": "Python, API: NASA APOD API",
+    "slide-img-1": "https://drive.google.com/file/d/1mi82pixWjvS8hRwtR4WpzM4uKjNcrXRC/view?usp=sharing",
+    "slide-img-2": "https://drive.google.com/file/d/155evsijSunghiAu04GBCtJcJC7AIXouj/view?usp=sharing"
   }
+  
+  
 ]
