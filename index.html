@@ -446,25 +446,26 @@ function applyDarkModePreference() {
 // Function to set dark mode preference
 document.addEventListener("DOMContentLoaded", () => {
   const currentTheme = localStorage.getItem("theme");
-  const switchCheckbox = document.getElementById("switch"); // Define switchCheckbox here
+  const switchCheckbox = document.getElementById("checkbox"); // Changed to "checkbox"
   const starRating = document.querySelector(".star_rating");
   const thankYouMessage = document.querySelector(".thank_you_message");
+
   if (switchCheckbox) {
-    // Check if switchCheckbox is not null
     function applyDarkModeStyles() {
       document.body.classList.remove("light-mode");
       document.body.classList.add("dark-mode");
-      starRating.style.backgroundColor = "#2d2828";
-      thankYouMessage.style.backgroundColor = "#2d2828";
+      if (starRating) starRating.style.backgroundColor = "#2d2828";
+      if (thankYouMessage) thankYouMessage.style.backgroundColor = "#2d2828";
     }
 
     function applyLightModeStyles() {
       document.body.classList.remove("dark-mode");
       document.body.classList.add("light-mode");
-      starRating.style.backgroundColor = "white";
-      thankYouMessage.style.backgroundColor = "white";
+      if (starRating) starRating.style.backgroundColor = "white";
+      if (thankYouMessage) thankYouMessage.style.backgroundColor = "white";
     }
 
+    // Apply current theme
     if (currentTheme) {
       if (currentTheme === "dark-mode") {
         applyDarkModeStyles();
@@ -474,6 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
+    // Toggle theme on switch change
     switchCheckbox.addEventListener("change", () => {
       if (switchCheckbox.checked) {
         applyDarkModeStyles();
@@ -484,9 +486,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   } else {
-    console.error("Switch checkbox not found!"); // Log an error if switchCheckbox is null
+    console.error("Switch checkbox not found!"); // Log error if checkbox is missing
   }
 });
+
 
     </script>
 </body>

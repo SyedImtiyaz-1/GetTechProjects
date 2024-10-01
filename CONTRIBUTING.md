@@ -313,3 +313,8 @@
 - Place: Bangalore, Karnataka, India.
 - Bio: Undergrad from BIT, Bangalore | Dedicated and enthusiastic learner for software development and technology
 - GitHub: [Nirbheek Kumar](https://github.com/NirbheekKumar)
+
+#### Name: Nishant Rana (https://github.com/NishantRana07)
+- Place: Yamunanagar, Haryana, India.
+- Bio: College student, GSSoC contributor
+- GitHub: [Nishant Rana](https://github.com/NishantRana07)

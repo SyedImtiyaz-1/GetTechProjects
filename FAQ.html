@@ -169,28 +169,21 @@
       <div class="fas fa-bars"></div>
       <nav class="navbar">
         <ul>
-          <i class="icons bx bxs-home"></i>
-          <li style="margin-left: 1px"><a href="./index.html">home</a></li>
+          <i class='icons bx bxs-home'></i>
+          <li style="margin-left: 1px;"><a href="#home">home</a></li>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-          <i class="icons bx bx-laptop"></i>
-          <li style="margin-left: 1px">
-            <a href="./backend/public/index.html">Projects</a>
-          </li>
+          <i class='icons bx bx-laptop'></i>
+          <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-          <i class="icons bx bxs-contact"></i>
-          <li style="margin-left: 1px">
-            <a id="sadafContact" href="#">contact</a>
-          </li>
+          <i class='icons bx bxs-contact'></i>
+          <li style="margin-left: 1px;"><a href="#contact">contact</a></li>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
           <button id="login">Log In</button>
           <h3 id="name"></h3>
           <img id="image" onclick="ProfileClicked()" />
           <button onclick="logout()" id="logout">Logout</button>
-          <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox" style="opacity: 0" />
+          <label class="theme-switch abcd" for="checkbox">
+            <input type="checkbox" id="checkbox" />
             <div class="slider round" id="toggle"></div>
           </label>
         </ul>
@@ -465,70 +458,69 @@
       animateCircles();
 
       // Function to toggle dark mode
-      function toggleDarkMode() {
-        const isDarkMode = isDarkModePreferred();
-        setDarkModePreference(!isDarkMode);
-        applyDarkModePreference();
-      }
+function toggleDarkMode() {
+  const isDarkMode = isDarkModePreferred();
+  setDarkModePreference(!isDarkMode);
+  applyDarkModePreference();
+}
 
-      // Function to apply dark mode preference
-      function applyDarkModePreference() {
-        const isDarkMode = isDarkModePreferred();
-        if (isDarkMode) {
+// Check if dark mode is preferred from local storage
+function isDarkModePreferred() {
+  return localStorage.getItem("theme") === "dark-mode";
+}
+
+// Function to apply dark mode preference
+function applyDarkModePreference() {
+  const isDarkMode = isDarkModePreferred();
+  if (isDarkMode) {
+      document.body.classList.add("dark-mode");
+      document.getElementById("theme-icon").src = "assets/images/icons8-sun.svg"; // Optional icon change
+  } else {
+      document.body.classList.remove("dark-mode");
+      document.getElementById("theme-icon").src = "assets/images/moon_solid.svg"; // Optional icon change
+  }
+}
+
+// Event listener to toggle dark mode and set preference
+document.addEventListener("DOMContentLoaded", () => {
+  const currentTheme = localStorage.getItem("theme");
+  const switchCheckbox = document.getElementById("checkbox"); // Changed to "checkbox"
+  
+  if (switchCheckbox) {
+      function applyDarkModeStyles() {
+          document.body.classList.remove("light-mode");
           document.body.classList.add("dark-mode");
-          document.getElementById("theme-icon").src =
-            "assets/images/icons8-sun.svg";
-        } else {
-          document.body.classList.remove("dark-mode");
-          document.getElementById("theme-icon").src =
-            "assets/images/moon_solid.svg";
-        }
       }
 
-      // Function to set dark mode preference
-      document.addEventListener("DOMContentLoaded", () => {
-        const currentTheme = localStorage.getItem("theme");
-        const switchCheckbox = document.getElementById("switch"); // Define switchCheckbox here
-        const starRating = document.querySelector(".star_rating");
-        const thankYouMessage = document.querySelector(".thank_you_message");
-        if (switchCheckbox) {
-          // Check if switchCheckbox is not null
-          function applyDarkModeStyles() {
-            document.body.classList.remove("light-mode");
-            document.body.classList.add("dark-mode");
-            starRating.style.backgroundColor = "#2d2828";
-            thankYouMessage.style.backgroundColor = "#2d2828";
-          }
+      function applyLightModeStyles() {
+          document.body.classList.remove("dark-mode");
+          document.body.classList.add("light-mode");
+      }
 
-          function applyLightModeStyles() {
-            document.body.classList.remove("dark-mode");
-            document.body.classList.add("light-mode");
-            starRating.style.backgroundColor = "white";
-            thankYouMessage.style.backgroundColor = "white";
-          }
+      // Apply current theme
+      if (currentTheme === "dark-mode") {
+          applyDarkModeStyles();
+          switchCheckbox.checked = true;
+      } else {
+          applyLightModeStyles();
+      }
 
-          if (currentTheme) {
-            if (currentTheme === "dark-mode") {
-              applyDarkModeStyles();
-              switchCheckbox.checked = true;
-            } else {
-              applyLightModeStyles();
-            }
-          }
-
-          switchCheckbox.addEventListener("change", () => {
-            if (switchCheckbox.checked) {
+      // Listen for toggle change
+      switchCheckbox.addEventListener("change", () => {
+          if (switchCheckbox.checked) {
               applyDarkModeStyles();
               localStorage.setItem("theme", "dark-mode");
-            } else {
+          } else {
               applyLightModeStyles();
               localStorage.setItem("theme", "light-mode");
-            }
-          });
-        } else {
-          console.error("Switch checkbox not found!"); // Log an error if switchCheckbox is null
-        }
+          }
       });
+  } else {
+      console.error("Switch checkbox not found!"); // Log error if checkbox is missing
+  }
+});
+
+      
     </script>
   </body>
 </html>
