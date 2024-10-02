@@ -313,3 +313,9 @@
 - Place: Bangalore, Karnataka, India.
 - Bio: Undergrad from BIT, Bangalore | Dedicated and enthusiastic learner for software development and technology
 - GitHub: [Nirbheek Kumar](https://github.com/NirbheekKumar)
+
+### Name: [Anchal Chaturvedi](https://github.com/anchalchaturvedi08)
+
+- Place: Rewa, Madhya Pradesh, India.
+- Bio: CSE Undergrad | Tech Enthusiast | Passionate MERN Stack Developer and DSA Learner
+- GitHub: [Anchal Chaturvedi](https://github.com/anchalchaturvedi08)
