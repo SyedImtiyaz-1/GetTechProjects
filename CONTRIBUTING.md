@@ -313,3 +313,8 @@
 - Place: Bangalore, Karnataka, India.
 - Bio: Undergrad from BIT, Bangalore | Dedicated and enthusiastic learner for software development and technology
 - GitHub: [Nirbheek Kumar](https://github.com/NirbheekKumar)
+
+- ### Name: [satyam gupta]_(https://github.com/universe3).
+- place: New Delhi, Delhi, India.
+- Bio:  sophomore student at YMCA |CSE AIML | frontend developer | AIML ENTHUSIAST
+- GITHUB: [satyam gupta](https://github.com/universe3).
