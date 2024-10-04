@@ -70,31 +70,40 @@
     <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
 </div>
 
-  <header class="header">
-    <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px" /></a>
-    <div class="fas fa-bars"></div>
-    <nav class="navbar">
-      <ul>
+<header class="header">
+  <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px" /></a>
+  <div class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
+      <li>
         <i class='icons bx bxs-home'></i>
-        <li style="margin-left: 1px;"><a href="#home">home</a></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#home">Home</a>
+      </li>
+      <li>
         <i class='icons bx bx-laptop'></i>
-        <li style="margin-left: 1px;"><a href="./backend/public/index.html">Projects</a></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./backend/public/index.html">Projects</a>
+      </li>
+      <li>
         <i class='icons bx bxs-contact'></i>
-        <li style="margin-left: 1px;"><a href="#contact">contact</a></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
         <button id="login">Log In</button>
+      </li>
+      <li>
         <h3 id="name"></h3>
         <img id="image" onclick="ProfileClicked()" />
         <button onclick="logout()" id="logout">Logout</button>
+      </li>
+      <li>
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round" id="toggle"></div>
         </label>
-      </ul>
-    </nav>
-  </header>
+      </li>
+    </ul>
+  </nav>
+</header>
 
   <section id="home" class="home">
     <h1>Get IT Projects</h1>
