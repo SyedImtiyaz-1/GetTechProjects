@@ -52,10 +52,15 @@
         emailjs.init("oUbB-IqXyvbW5JlV9");
       })();
     </script>
+<!-- github - mayanksaininh -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
+<!-- github- mayanksaininh-->
   </head>
 
 <body>
-  <div class="circle-container">
+  <!-- <div class="circle-container">
     <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 1;"></div>
     <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 0.95;"></div>
     <div class="circle" style="background-color: #55a5ea; left: 504px; top: 59px; scale: 0.9;"></div>
@@ -68,7 +73,7 @@
     <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
     <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
     <div class="circle" style="background-color: #fff; left: 504px; top: 59px; scale: 0.8;"></div>
-</div>
+</div> -->
 
   <header class="header">
     <a href="#" class="logo"><img src="./images/logomain.png" alt="" style="width: 100px; height: 70px" /></a>
@@ -212,8 +217,8 @@
             required />
           <span id="name-error" class="error"></span>
           <!-- Validation error message for Name -->
-          <input type="number" id="number" name="phone" pattern="[0-9]{10,12}" required placeholder="Contact Number"
-            minlength="10" maxlength="12" class="contact-form-phone" />
+          <input type="tel" id="phoneInput" class = "contact-form-phone" name="phone" pattern="[0-9]{10,12}" required placeholder="Contact Number"
+            minlength="10" maxlength="12" class="contact-form-phone"  min = "0"/>
           <span id="phone-error" class="error"></span>
           <!-- Validation error message for Contact Number -->
           <input type="email" name="email" placeholder="Email" id="mail" class="contact-form-email" required />

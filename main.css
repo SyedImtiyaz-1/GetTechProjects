@@ -1073,8 +1073,9 @@ body.night {
 
 .contact-form-txt,
 .contact-form-email,
-.contact-form-phone,
-.contact-form-txtarea {
+
+.contact-form-txtarea 
+{
   height: 40px;
   color: #000;
   border: 2px solid #bcbcbc;
@@ -1911,4 +1912,15 @@ input:checked+.slider:before {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(#1f3959, rgb(10, 21, 56));
   border-radius: 10px;
+}
+.contact-form-phone{
+  height: 40px;
+  width: 75rem;
+  color: #000;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
