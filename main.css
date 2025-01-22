@@ -1861,7 +1861,7 @@ hr {
 }
 
 input:checked+.slider {
-  background-color: #202125;
+  background-color: #4e4a4a;
 }
 
 input:checked+.slider:before {
