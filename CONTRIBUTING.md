@@ -1,3 +1,10 @@
+#### Name: [Anshuman Tiwari](https://github.com/Anshuman-Tiwari-2002)
+
+- Place: Mangalore, Karnataka, India
+- Bio: College Student | Passionate Frontend developer
+- GitHub: [Anshuman-Tiwari-2002](https://github.com/Anshuman-Tiwari-2002)
+- Linkedin [Anshuman Tiwari](https://www.linkedin.com/in/anshuman-tiwari-713a04206)
+
 #### Name: [Avinash Kumar Sinha](https://github.com/AVINASH-X2)
  
  -Place: Coimbatore, Tamilnadu, India

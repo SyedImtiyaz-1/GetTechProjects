@@ -1314,9 +1314,32 @@ hr {
   border-bottom: 1px solid #ccc;
   margin: 20px auto;
 }
+/* changes done by https://github.com/Anshuman-Tiwari-2002 */
+.copyright {
+  font-size: 14px;
+  color: hsl(0, 8%, 97%);
+  white-space: nowrap; /* Keeps text on one line */
+  overflow: hidden; /* Ensures content outside the container is hidden */
+  display: block;
+  width: 100%; /* Full width of the container */
+  position: relative;
+}
+
+.copyright::before {
+  content: '';
+}
 
 .copyright {
-  text-align: center;
+  animation: moveText 10s linear infinite; /* Adjust 10s for speed */
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%); /* Start off the right side */
+  }
+  100% {
+    transform: translateX(-100%); /* End off the left side */
+  }
 }
 
 .back-to-top {
