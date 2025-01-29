@@ -363,6 +363,7 @@ body.night {
 
 .header .navbar ul li {
   margin: 0 1.5rem;
+  position: relative; /* This allows us to use the adjacent sibling selector */
 }
 
 .header .navbar ul li a {
@@ -370,6 +371,10 @@ body.night {
   color: #fff;
 }
 
+/* Reset icon color when not hovering over li */
+.header .navbar ul li:hover .icons {
+  color: #2d5c6b;
+}
 .header .navbar ul li a:hover {
   color: #2d5c6b;
   text-decoration: underline;
