@@ -313,3 +313,10 @@
 - Place: Bangalore, Karnataka, India.
 - Bio: Undergrad from BIT, Bangalore | Dedicated and enthusiastic learner for software development and technology
 - GitHub: [Nirbheek Kumar](https://github.com/NirbheekKumar)
+
+ ### Name: [Rugved Junghare](https://github.com/rugved0102)
+
+- Place: Amravati, India.
+- Bio: College Student | Passionate Software Engineer
+- GitHub: [Rugved Junghare](https://github.com/rugved0102)
+
