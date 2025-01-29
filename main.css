@@ -61,7 +61,7 @@ body {
   margin: 2rem;
   padding-top: 6rem;
   display: inline-block;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   color: #002e5f;
   position: relative;
   letter-spacing: 0.2rem;
@@ -217,7 +217,7 @@ label:before {
   top: 1px;
   border-radius: 50%;
   cursor: pointer;
-  background: #000;
+  background: transparent;
   transition: 0.4s;
 }
 
@@ -299,8 +299,8 @@ body.night {
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding-top: 0.5rem;
-  justify-content: space-around;
+  
+  justify-content: space-evenly;
 
 
 }
@@ -361,9 +361,7 @@ body.night {
   background-color: #2d0b00;
 } */
 
-.header .navbar ul li {
-  margin: 0 1.5rem;
-}
+
 
 .header .navbar ul li a {
   font-size: 2rem;
@@ -1196,7 +1194,13 @@ footer {
 
 ul li {
   list-style: none;
-  margin-bottom: 12px;
+  margin-right: 30px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  
 }
 
 ul li a {
@@ -1209,8 +1213,7 @@ ul li a {
 
 .newsletter h4 {
   /* margin-bottom: 15px; */
-  margin-bottom: 3rem;
-  margin-top: -2rem;
+  
 }
 
 */ .newsletter-form {
