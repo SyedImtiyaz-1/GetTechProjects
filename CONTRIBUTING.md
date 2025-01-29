@@ -307,9 +307,11 @@
 
 - Place: Durgapur, West Bengal, India.
 - Bio: CSE Undergrad | Sophomore @KIIT, Bhubaneswar | Passionate MERN Stack Developer
+
 - GitHub: [Sambit Mondal](https://github.com/Sambit-Mondal)
   
 ### #### Name: [Nirbheek Kumar](https://github.com/NirbheekKumar)
 - Place: Bangalore, Karnataka, India.
 - Bio: Undergrad from BIT, Bangalore | Dedicated and enthusiastic learner for software development and technology
 - GitHub: [Nirbheek Kumar](https://github.com/NirbheekKumar)
+
