@@ -504,6 +504,15 @@
     "slide-img-2": "img/quote.png"
   },
   {
+    "courseId": "2048 Game",
+      "name": "2048 Game",
+      "image": "img/2048logo.png",
+      "downloadLink": "https://drive.google.com/drive/folders/1SWI-ntHDSq0jB7vS7scYBbj7cPzv3vNE?usp=sharing",
+      "techstack": "HTML, CSS, JavaScript",
+      "slide-img-1": "img/2048.png",
+      "slide-img-2": "img/2048.png"
+    },
+  {
     "courseId": "Myntra Shopping App",
     "name": "Myntra Shopping App",
     "image": "img/myntralogo.webp",
