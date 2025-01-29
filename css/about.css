@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.content {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.content:hover{
+    background-color: rgb(0, 46, 95);
+}
+
+.content h2 {
+    color:rgb(0, 46, 95);
+    margin-top: 0;
+    display: flex;
+    align-items: center; 
+    transition: color 0.3s ease-in-out;
+}
+
+.content p {
+    margin: 0.5rem 0;
+    color: #666;
+    font-size: medium;
+    transition: color 0.3s ease-in-out;
+}
+.content:hover {
+    transform: scale(1.02);
+}
+
+.content:hover h2 {
+    color: #ffffff; 
+    
+}
+.content h2 i {
+    margin-left: 100px; 
+}
+.content:hover p {
+    color: #ffffff; 
+}
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: medium;
+    color: #227ebb;
+}
+.content:hover ul{
+    color: #fff;
+}
+button {
+    background-color: rgb(0, 46, 95);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #227ebb
+}
+
+#contact-info {
+    margin-top: 1rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.header-image:hover{
+    color: white;
+}
+.bi--info-square-fill {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.93 4.588l-2.29.287l-.082.38l.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319c.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246c-.275 0-.375-.193-.304-.533zM8 5.5a1 1 0 1 0 0-2a1 1 0 0 0 0 2'/%3E%3C/svg%3E");
+    background-color: white;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    padding: 10px;
+  }
