@@ -594,6 +594,15 @@
     "slide-img-2": "img/Monopoly_Game.png"
   },
   {
+
+  "courseId": "Morse _code_Generator",
+    "name": "Morse _code_Generator",
+    "image": "backend/public/img/Morse_Code_Generator.png",
+    "downloadLink": "https://drive.google.com/drive/folders/1xH078jilDUQJN4hfov9AgEPbATklZV5_?usp=sharing",
+    "techstack": "HTML, CSS,Java Script",
+    "slide-img-1": "backend/public/img/Morse_Code_Generator.png",
+    "slide-img-2": "backend/public/img/Morse_Code_Generator.png"
+
     "courseId": "INTERNATIONAL SPACE STATION Tracker",
     "name": "ISS",
     "image": "https://drive.google.com/file/d/1QeD_V5t_fmgLHFEDZ8Qd6_B7yQoS4yMa/view?usp=sharing",
@@ -611,6 +620,7 @@
     "techstack": "Python, API: NASA APOD API",
     "slide-img-1": "https://drive.google.com/file/d/1mi82pixWjvS8hRwtR4WpzM4uKjNcrXRC/view?usp=sharing",
     "slide-img-2": "https://drive.google.com/file/d/155evsijSunghiAu04GBCtJcJC7AIXouj/view?usp=sharing"
+
   }
   
   
