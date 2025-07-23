@@ -1,0 +1,32 @@
+const languages = [
+    { key: 'en', value: 'English' },
+    { key: 'ar', value: 'Arabic' },
+    { key: 'az', value: 'Azerbaijani' },
+    { key: 'zh', value: 'Chinese' },
+    { key: 'cs', value: 'Czech' },
+    { key: 'nl', value: 'Dutch' },
+    { key: 'eo', value: 'Esperanto' },
+    { key: 'fi', value: 'Finnish' },
+    { key: 'fr', value: 'French' },
+    { key: 'de', value: 'German' },
+    { key: 'el', value: 'Greek' },
+    { key: 'hi', value: 'Hindi' },
+    { key: 'hu', value: 'Hungarian' },
+    { key: 'id', value: 'Indonesian' },
+    { key: 'ga', value: 'Irish' },
+    { key: 'it', value: 'Italian' },
+    { key: 'ja', value: 'Japanese' },
+    { key: 'ko', value: 'Korean' },
+    { key: 'fa', value: 'Persian' },
+    { key: 'pl', value: 'Polish' },
+    { key: 'pt', value: 'Portuguese' },
+    { key: 'ru', value: 'Russian' },
+    { key: 'sk', value: 'Slovak' },
+    { key: 'es', value: 'Spanish' },
+    { key: 'sv', value: 'Swedish' },
+    { key: 'tr', value: 'Turkish' },
+    { key: 'uk', value: 'Ukranian' },
+    { key: 'vi', value: 'Vietnamese' }
+];
+
+export default languages
